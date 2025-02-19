@@ -1,0 +1,44 @@
+# Use CUDA-enabled Python image
+FROM pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime
+
+# Set working directory
+WORKDIR /app
+
+# Install git and other dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements file
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install Hugging Face CLI for model download
+RUN pip install --no-cache-dir huggingface-hub
+
+# Set up Hugging Face credentials (you'll need to pass token at build time)
+ARG HF_TOKEN
+RUN huggingface-cli login --token $HF_TOKEN
+
+# Download Llama 2 model and sentence transformer model
+RUN python -c "from huggingface_hub import snapshot_download; \
+    snapshot_download('meta-llama/Llama-2-7b-chat-hf', ignore_patterns=['*.md', '*.txt']); \
+    snapshot_download('sentence-transformers/all-mpnet-base-v2')"
+
+# Copy application code
+COPY . .
+
+# Create directory for ChromaDB
+RUN mkdir -p /app/chroma_db
+
+# Expose port
+EXPOSE 8000
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+
+# Run the application
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

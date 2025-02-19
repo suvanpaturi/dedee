@@ -1,3 +1,18 @@
+# requirements.txt
+langchain==0.1.0
+chromadb==0.4.18
+fastapi==0.104.1
+uvicorn==0.24.0
+python-dotenv==1.0.0
+tiktoken==0.5.1
+python-multipart==0.0.6
+pydantic==2.4.2
+transformers==4.36.0
+torch==2.1.0
+accelerate==0.25.0
+bitsandbytes==0.41.0
+sentenceformers==2.2.2
+
 # main.py
 from fastapi import FastAPI, UploadFile, File
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -95,9 +110,7 @@ async def upload_document(file: UploadFile = File(...)):
 async def query(question: str):
     if not vector_store:
         return {"error": "No documents have been uploaded yet"}
-    '''Query processing layer'''
-    '''Retrieval RAG agent to pull over information'''
-    '''Infer Knowledge Graph'''
+    
     # Create QA chain
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
@@ -108,7 +121,6 @@ async def query(question: str):
     # Get response
     response = qa_chain.run(question)
     
-    '''Retreival RAG agent to persist responses to RAG retrieval table'''
     return {"answer": response}
 
 if __name__ == "__main__":

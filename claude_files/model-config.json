@@ -1,0 +1,52 @@
+{
+  "models": {
+    "llama2": {
+      "config": {
+        "context_length": 4096,
+        "num_gpu": 1,
+        "num_thread": 8,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1
+      }
+    },
+    "codellama": {
+      "config": {
+        "context_length": 8192,
+        "num_gpu": 1,
+        "num_thread": 8,
+        "temperature": 0.5,
+        "top_p": 0.95,
+        "repeat_penalty": 1.05
+      }
+    },
+    "mistral": {
+      "config": {
+        "context_length": 4096,
+        "num_gpu": 1,
+        "num_thread": 8,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1
+      }
+    },
+    "orca-mini": {
+      "config": {
+        "context_length": 2048,
+        "num_thread": 4,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1
+      }
+    },
+    "mistral-tiny": {
+      "config": {
+        "context_length": 2048,
+        "num_thread": 4,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1
+      }
+    }
+  }
+}

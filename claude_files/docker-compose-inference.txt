@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  ollama-inference:
+    build:
+      context: .
+      dockerfile: Dockerfile.preinstalled
+    ports:
+      - "8000:8000"  # FastAPI service
+      - "11434:11434"  # Ollama API
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all  # Remove for CPU-only
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  ollama_models:

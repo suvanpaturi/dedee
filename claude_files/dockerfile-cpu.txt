@@ -1,0 +1,32 @@
+FROM ubuntu:22.04
+
+# Install required dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    python3 \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Ollama
+RUN curl -L https://ollama.ai/install.sh | sh
+
+# Install Python packages for management script
+RUN pip3 install requests pyyaml
+
+# Create directory for models
+RUN mkdir -p /root/.ollama
+
+# Copy management scripts and configurations
+COPY start.sh /start.sh
+COPY manage_models.py /manage_models.py
+RUN chmod +x /start.sh
+
+# Environment variable for CPU-only mode
+ENV OLLAMA_HOST=cpu
+
+# Expose Ollama port
+EXPOSE 11434
+
+# Run the start script
+CMD ["/start.sh"]

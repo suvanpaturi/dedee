@@ -1,0 +1,40 @@
+# Use CUDA-enabled Python image
+FROM pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime
+
+# Set working directory
+WORKDIR /app
+
+# Install git and other dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements file
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install Hugging Face CLI for model download
+RUN pip install --no-cache-dir huggingface-hub
+
+# Download TinyLlama model and sentence transformer model
+RUN python -c "from huggingface_hub import snapshot_download; \
+    snapshot_download('TinyLlama/TinyLlama-1.1B-Chat-v1.0'); \
+    snapshot_download('sentence-transformers/all-MiniLM-L6-v2')"
+
+# Copy application code
+COPY . .
+
+# Create directory for ChromaDB
+RUN mkdir -p /app/chroma_db
+
+# Expose port
+EXPOSE 8000
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+
+# Run the application
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

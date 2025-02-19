@@ -1,0 +1,27 @@
+# Use Ubuntu as base image
+FROM ubuntu:22.04
+
+# Install required dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Ollama
+RUN curl -L https://ollama.ai/install.sh | sh
+
+# Create directory for models
+RUN mkdir -p /root/.ollama
+
+# Expose Ollama port
+EXPOSE 11434
+
+# Script to pull model and start Ollama
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
+# Set environment variable for the model
+ENV MODEL=llama2
+
+# Run the start script
+CMD ["/start.sh"]
