@@ -1,5 +1,0 @@
-transformers==4.31.0
-langchain==0.0.305
-fastapi==0.95.2
-langserve==0.0.3
-torch==2.0.1

@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  ollama:
+    build: .
+    container_name: ollama_server
+    restart: always
+    ports:
+      - "11434:11434"
+    environment:
+      - OLLAMA_MODELS=/app/models
+
+  api:
+    build: .
+    container_name: ollama_api
+    restart: always
+    depends_on:
+      - ollama
+    ports:
+      - "8000:8000"
