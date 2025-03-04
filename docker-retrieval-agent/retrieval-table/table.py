@@ -31,7 +31,7 @@ class RetrievalTable:
             )
         
         self.max_items = max_items
-        self.semilarity_threshold = similarity_threshold
+        self.similarity_threshold = similarity_threshold
 
     def hash_query(self, query: str) -> str:
         return hashlib.sha256(query.encode()).hexdigest()
@@ -68,7 +68,7 @@ class RetrievalTable:
         if similar_results["ids"] and similar_results["ids"][0]:
             distance = similar_results["distances"][0][0]
             similarity = 1.0 - min(distance, 1.0)
-                
+            print(similarity)
             if similarity >= self.similarity_threshold:
                 similar_id = similar_results["ids"][0][0]
                     
