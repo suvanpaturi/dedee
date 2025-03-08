@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: retrieval-agent-{{REGION}}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: retrieval-agent
+  template:
+    metadata:
+      labels:
+        app: retrieval-agent
+    spec:
+      containers:
+      - name: chromadb
+        image: dedeeregistry.azurecr.io/chromadb:v2.4
+        ports:
+        - containerPort: 8000
+      - name: retrieval-table
+        image: dedeeregistry.azurecr.io/retrieval-table:v2.3
+        ports:
+        - containerPort: 5001
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: retrieval-agent-{{REGION}}
+spec:
+  selector:
+    app: retrieval-agent
+  ports:
+    - name: chromadb
+      protocol: TCP
+      port: 8000
+      targetPort: 8000
+    - name: retrieval-table
+      protocol: TCP
+      port: 5001
+      targetPort: 5001
+  type: LoadBalancer
