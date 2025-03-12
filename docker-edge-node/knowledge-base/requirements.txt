@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+chromadb
+numpy
+scipy
+scikit-learn
+sentence-transformers
+neo4j

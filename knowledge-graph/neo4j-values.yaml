@@ -1,0 +1,31 @@
+neo4j:
+  name: neo4j-retrieval-agent-westeurope
+  password: "dedee-knowledge-graph!"
+  acceptLicenseAgreement: "yes"
+  edition: enterprise
+  resources:
+    requests:
+        memory: "2Gi"
+        cpu: "500m"
+    limits:
+        memory: "3Gi"
+        cpu: "1"
+  storage:
+    storageClassName: "managed-premium"
+    volumeSize: "100Gi"
+
+volumes:
+  data:
+    mode: defaultStorageClass
+
+cluster:
+  mode: readReplica
+  minimumClusterSize: 1
+
+readReplica:
+  primaryServer: "neo4j://128.203.120.208:7687"
+
+services:
+  neo4j:
+    enabled: true
+    type: LoadBalancer
