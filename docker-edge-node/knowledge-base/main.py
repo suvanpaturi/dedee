@@ -2,12 +2,13 @@ from fastapi import FastAPI, Body
 from pydantic import BaseModel
 from knowledge_base import Knowledge, KnowledgeBase
 from typing_extensions import Annotated
-from sync import send_to_kgraph
+from sync import sync_manager
 
 app = FastAPI()
 
 collection_name = "knowledge-base"
 kb = KnowledgeBase(collection_name=collection_name)
+sm = sync_manager.GraphSyncManager()
 
 class Query(BaseModel):
     query: str
@@ -21,7 +22,7 @@ async def update_knowledge(
                     Body(description="List of knowledge items to update")
                     ]):
     added_data = kb.update(data.items)
-    send_to_kgraph(added_data)
+    await sm.insert_parallel(added_data)
     return {"message": "Data successfully updated and send to global graph"}
 
 @app.get("/get/")
