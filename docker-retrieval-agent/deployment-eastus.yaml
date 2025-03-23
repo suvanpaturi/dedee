@@ -18,7 +18,7 @@ spec:
         ports:
         - containerPort: 8000
       - name: retrieval-table
-        image: dedeeregistry.azurecr.io/retrieval-table:v2.3
+        image: dedeeregistry.azurecr.io/retrieval-table:v2.5
         ports:
         - containerPort: 5001
 ---

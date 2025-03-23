@@ -18,7 +18,7 @@ spec:
         ports:
         - containerPort: 8000
       - name: knowledge-base
-        image: dedeeregistry.azurecr.io/knowledge-base:v1
+        image: dedeeregistry.azurecr.io/knowledge-base:v1.1
         ports:
         - containerPort: 5001
 ---
@@ -32,7 +32,7 @@ spec:
   ports:
     - name: chromadb
       protocol: TCP
-      port: 80
+      port: 8000
       targetPort: 8000
     - name: knowledge-base
       protocol: TCP

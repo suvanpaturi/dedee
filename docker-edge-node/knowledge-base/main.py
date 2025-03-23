@@ -21,16 +21,25 @@ async def update_knowledge(
     data: Annotated[KnowledgeBatch, 
                     Body(description="List of knowledge items to update")
                     ]):
-    added_data = kb.update(data.items)
-    await sm.insert_parallel(added_data)
-    return {"message": "Data successfully updated and send to global graph"}
+    try:
+        added_data = kb.update(data.items)
+        await sm.insert_parallel(added_data)
+        return {"message": "Data successfully updated and send to global graph"}
+    except Exception as e:
+        return {'Error has occured': str(e)}
 
 @app.get("/get/")
 async def get(input: Query):
-    data = kb.get(query=input.query)
-    return {"data": data}
+    try:
+        data = kb.get(query=input.query)
+        return {"data": data}
+    except Exception as e:
+        return {'Error has occured': str(e)}
 
-@app.get("/clear_kb/")
+@app.post("/clear_kb/")
 async def handle_clear_kb():
-    kb.clear_kb()
-    return {"message": "Knowledge Base cleared"}
+    try:
+        kb.clear_kb()
+        return {"message": "Knowledge Base cleared"}
+    except Exception as e:
+        return {'Error has occured': str(e)}

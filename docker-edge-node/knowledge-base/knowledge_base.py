@@ -1,8 +1,9 @@
 import chromadb
+from pydantic import BaseModel
 from embedder import Embedder
 import hashlib
 
-class Knowledge:
+class Knowledge(BaseModel):
     def __init__(self, query, response, source):
         self.query = query
         self.response = response
@@ -76,6 +77,8 @@ class KnowledgeBase:
         return knowledge_items
     
     def clear_kb(self):
-        self.collection.delete_all()
+        ids = self.collection.get()["ids"]
+        if ids:
+            self.collection.delete(ids=ids)
 
     
