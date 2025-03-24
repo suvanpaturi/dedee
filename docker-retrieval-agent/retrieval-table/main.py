@@ -14,7 +14,7 @@ class QueryResponse(BaseModel):
     query: str
     response: str
 
-@app.get("/query/")
+@app.post("/query/")
 async def handle_query(input: Query):
     try:
         response = None
@@ -23,7 +23,7 @@ async def handle_query(input: Query):
             response = results["response"]
         return {"query": input.query, "response": response}
     except Exception as e:
-        return {'Error has occured': str(e)}
+        return {'Error has occurred': str(e)}
 
 @app.post("/put/")
 async def handle_put(input: QueryResponse):
@@ -31,12 +31,16 @@ async def handle_put(input: QueryResponse):
         table.put(query=input.query, response=input.response)
         return {"query": input.query, "response": input.response}
     except Exception as e:
-        return {'Error has occured': str(e)}
+        return {'Error has occurred': str(e)}
     
 @app.post("/clear_table/")
 async def handle_clear_table():
-        try:
-            table.clear_table()
-            return {"message": "Table cleared"}
-        except Exception as e:
-            return {'Error has occured': str(e)}
+    try:
+        table.clear_table()
+        return {"message": "Table cleared"}
+    except Exception as e:
+        return {'Error has occurred': str(e)}
+
+@app.get("/ping/")
+async def ping():
+    return {"status": "ok"}
