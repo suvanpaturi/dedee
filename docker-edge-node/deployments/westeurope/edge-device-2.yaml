@@ -18,9 +18,14 @@ spec:
         ports:
         - containerPort: 8000
       - name: knowledge-base
-        image: dedeeregistry.azurecr.io/knowledge-base:v1.1
+        image: dedeeregistry.azurecr.io/knowledge-base:v1.2
         ports:
         - containerPort: 5001
+        env:
+        - name: EDGE_ID
+          value: "2"
+        - name: EDGE_REGION
+          value: "westeurope"
 ---
 apiVersion: v1
 kind: Service

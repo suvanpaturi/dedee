@@ -4,11 +4,10 @@ from embedder import Embedder
 import hashlib
 
 class Knowledge(BaseModel):
-    def __init__(self, query, response, source):
-        self.query = query
-        self.response = response
-        self.source = source
-    
+    query: str
+    response: str
+    source: str
+        
 class KnowledgeBase:
     def __init__(self, 
             collection_name: str = "knowledge-base", 
@@ -70,9 +69,9 @@ class KnowledgeBase:
     def update(self, knowledge_items: list[Knowledge]):
 
         self.collection.add(
-            ids=[self.hash_query(item["query"]) for item in knowledge_items],
-            documents=[item["query"] for item in knowledge_items],
-            metadatas=[{"response": item["response"], "source": item["source"]} for item in knowledge_items]
+            ids=[self.hash_query(item.query) for item in knowledge_items],
+            documents=[item.query for item in knowledge_items],
+            metadatas=[{"response": item.response, "source": item.source} for item in knowledge_items]
         )
         return knowledge_items
     
