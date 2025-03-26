@@ -21,9 +21,9 @@ def insert_knowledge(tx, record):
         source=record["source"]
     )
 # Push Data to Neo4j
-send_to_kgraph
-with driver.session() as session:
-    for record in :
-        session.write_transaction(send_to_neo4j, record)
+def send_to_kgraph
+    with driver.session() as session:
+        for record in :
+            session.write_transaction(send_to_neo4j, record)
 
 print("Data successfully sent to Neo4j.")

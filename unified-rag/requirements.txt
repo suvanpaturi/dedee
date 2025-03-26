@@ -1,0 +1,6 @@
+fastapi==0.95.1
+uvicorn==0.22.0
+neo4j==5.8.1
+sentence-transformers==2.2.2
+requests==2.30.0
+pydantic==1.10.7

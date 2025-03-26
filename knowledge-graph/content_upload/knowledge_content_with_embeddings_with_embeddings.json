@@ -1,0 +1,392 @@
+{
+  "devices": [
+    {
+      "id": "laptop",
+      "queries": [
+        {
+          "query": {
+            "text": "How do I troubleshoot Kubernetes pod crashes?",
+            "embedding": [
+              -0.3548861242524602,
+              0.5231623153653616,
+              0.3484342125232998,
+              -0.1812115936762544,
+              -0.0756845619366396,
+              0.466201819304381,
+              -0.13557585159557542,
+              0.45239350976896264
+            ]
+          },
+          "answer": {
+            "text": "To troubleshoot Kubernetes pod crashes, first check pod status with 'kubectl get pods' and examine logs with 'kubectl logs <pod-name>'. Use 'kubectl describe pod <pod-name>' to see events and conditions. Check for resource constraints, configuration issues, or application errors. Examine container health checks, verify image versions, and review any recent changes to deployments or infrastructure.",
+            "embedding": [
+              -0.42235734389407936,
+              0.5711463847812617,
+              -0.38280324182161785,
+              -0.44423559185717143,
+              0.27753692674891717,
+              0.24543395375777247,
+              -0.057415710778473135,
+              -0.10469652801119181
+            ]
+          },
+          "metadata": {
+            "source": "kubernetes_docs",
+            "region": "us-west"
+          },
+          "id": "laptop_eba250a9"
+        },
+        {
+          "query": {
+            "text": "What are the best practices for securing Kubernetes clusters?",
+            "embedding": [
+              -0.28212148887335253,
+              -0.541982398775132,
+              -0.24459638863275035,
+              -0.34248575304714907,
+              -0.13548518466411283,
+              -0.553571698053632,
+              -0.07281471632829482,
+              -0.34559921512925956
+            ]
+          },
+          "answer": {
+            "text": "Best practices for securing Kubernetes clusters include enabling Role-Based Access Control (RBAC), using namespaces for isolation, enabling network policies, scanning container images for vulnerabilities, limiting pod privileges, and enabling audit logging. Also, consider implementing secrets management solutions and enforcing security policies with tools like Open Policy Agent (OPA).",
+            "embedding": [
+              0.6079212905564017,
+              0.2621358025562521,
+              0.3044791987261692,
+              0.14786844375694816,
+              -0.03278951735573931,
+              0.46071601928032824,
+              0.13218619485142816,
+              0.4651196334397882
+            ]
+          },
+          "metadata": {
+            "source": "security_best_practices",
+            "region": "us-west"
+          },
+          "id": "laptop_c84ec455"
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "queries": [
+        {
+          "query": {
+            "text": "What are the components of a service mesh?",
+            "embedding": [
+              0.31565849251699446,
+              -0.5827703433867535,
+              -0.04430307184151149,
+              0.3763820407777912,
+              0.06606486810990746,
+              0.1873176402017347,
+              -0.3210508711938601,
+              -0.5240096498659852
+            ]
+          },
+          "answer": {
+            "text": "A service mesh consists of several key components: a data plane of proxies (like Envoy) deployed alongside each service instance; a control plane that configures the proxies and implements policies; an API gateway for external traffic; service discovery to locate service instances; and telemetry collection for monitoring. Together, these components manage service-to-service communication, security, and observability.",
+            "embedding": [
+              -0.09527055233790166,
+              0.6981232224416763,
+              0.45420518762142,
+              -0.027855163749864038,
+              0.12279360314629541,
+              0.21268757995255452,
+              0.2673646087157515,
+              -0.4057968899605919
+            ]
+          },
+          "metadata": {
+            "source": "cloud_architecture_guide",
+            "region": "eu-central"
+          },
+          "id": "server_c8d2a624"
+        },
+        {
+          "query": {
+            "text": "How does Neo4j handle large-scale graph queries?",
+            "embedding": [
+              -0.33615648451302504,
+              0.7371793016587613,
+              -0.25452920051200084,
+              0.2690632409736748,
+              0.21317982265231178,
+              -0.03156900477200106,
+              -0.22612777544129103,
+              -0.3298626136663818
+            ]
+          },
+          "answer": {
+            "text": "Neo4j handles large-scale graph queries through several optimizations: index-free adjacency for constant-time traversals regardless of graph size; query planning and optimization to determine efficient execution paths; intelligent caching of nodes and relationships; parallel execution of certain operations; and memory-optimized storage. For extremely large graphs, Neo4j offers horizontal scaling through sharding in Enterprise Edition and causal clustering for high availability.",
+            "embedding": [
+              -0.4451593074505578,
+              -0.1612656246849184,
+              0.7960284443981877,
+              0.10805817039807813,
+              0.10229038059362616,
+              -0.22260267681331275,
+              0.13584887606840493,
+              0.2280757461652915
+            ]
+          },
+          "metadata": {
+            "source": "neo4j_docs",
+            "region": "eu-west"
+          },
+          "id": "server_b957acb7"
+        },
+        {
+          "query": {
+            "text": "What are the benefits of using Infrastructure as Code (IaC)?",
+            "embedding": [
+              -0.07988891185001702,
+              0.3175663707169693,
+              -0.549190330787373,
+              -0.3030451190683227,
+              -0.1994870310147185,
+              0.0350779420564641,
+              -0.554661692148809,
+              -0.3881338274773673
+            ]
+          },
+          "answer": {
+            "text": "Infrastructure as Code (IaC) offers several benefits, including consistency in infrastructure deployment, easier rollback and version control, automation of provisioning, improved collaboration through code reviews, and reduced manual configuration errors. Popular IaC tools include Terraform, AWS CloudFormation, and Ansible.",
+            "embedding": [
+              -0.0402711135440288,
+              0.5297022330825024,
+              0.24170907694851132,
+              0.7387366651488639,
+              0.18168687262176855,
+              0.1487429730226734,
+              -0.1992614928077254,
+              -0.1371091140081593
+            ]
+          },
+          "metadata": {
+            "source": "devops_handbook",
+            "region": "eu-central"
+          },
+          "id": "server_63b657e1"
+        }
+      ]
+    },
+    {
+      "id": "desktop",
+      "queries": [
+        {
+          "query": {
+            "text": "How do I implement blue-green deployments?",
+            "embedding": [
+              -0.20800386760458847,
+              0.3889979071262459,
+              -0.02162032936552688,
+              -0.20985744517859503,
+              -0.8627712110737807,
+              -0.08888609134510876,
+              -0.09276873035276245,
+              -0.005147441168142851
+            ]
+          },
+          "answer": {
+            "text": "To implement blue-green deployments: 1) Create a parallel 'green' environment identical to your production 'blue' environment. 2) Deploy your new version to the green environment. 3) Test the green environment thoroughly. 4) Switch traffic from blue to green by updating a load balancer or DNS. 5) Monitor for issues; if problems arise, revert traffic back to blue. 6) Once confirmed stable, decommission the old blue environment or keep it for the next deployment cycle.",
+            "embedding": [
+              -0.6253546599844169,
+              0.09970886613024213,
+              -0.3945511868640113,
+              0.13346048686819492,
+              0.45773695597585556,
+              -0.3681433543668376,
+              0.24301531015433778,
+              0.14628143915063888
+            ]
+          },
+          "metadata": {
+            "source": "deployment_handbook",
+            "region": "ap-south"
+          },
+          "id": "desktop_f1b93f09"
+        },
+        {
+          "query": {
+            "text": "What are the differences between monolithic and microservices architectures?",
+            "embedding": [
+              0.4224864621201489,
+              -0.5291871938103565,
+              -0.2900572429290619,
+              -0.567825671433591,
+              -0.08699101383919895,
+              0.27227561355156327,
+              -0.037406129123467476,
+              0.22760984424679281
+            ]
+          },
+          "answer": {
+            "text": "Monolithic architectures are single-unit applications where all components are tightly coupled, making them easier to develop but harder to scale and maintain. Microservices architectures break applications into independent, loosely coupled services that communicate over APIs. While microservices offer scalability, fault isolation, and flexibility, they also introduce complexity in deployment, monitoring, and inter-service communication.",
+            "embedding": [
+              0.47194555294702606,
+              -0.2130121911561701,
+              0.24845623981278991,
+              -0.6020301929260838,
+              0.06776676491125,
+              0.04442366439011512,
+              -0.43579091137641274,
+              0.33353085367500607
+            ]
+          },
+          "metadata": {
+            "source": "software_architecture_guide",
+            "region": "ap-south"
+          },
+          "id": "desktop_28ccb613"
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "queries": [
+        {
+          "query": {
+            "text": "What's the difference between stateful and stateless applications?",
+            "embedding": [
+              0.5788560457256453,
+              -0.01335902443755779,
+              -0.0730939545568063,
+              -0.15782631201076994,
+              0.4087418066680798,
+              -0.040483357135659336,
+              -0.3283781069561194,
+              -0.5982929015005352
+            ]
+          },
+          "answer": {
+            "text": "Stateful applications maintain data about client sessions and transactions between requests. They rely on persistent storage and require special handling for scaling and failover. Examples include databases and file systems. Stateless applications don't store client state between requests, with each request containing all information needed for processing. They're easier to scale horizontally and deploy. Examples include web servers and API gateways.",
+            "embedding": [
+              0.316435156968473,
+              0.03543702804776033,
+              -0.5395286244629819,
+              -0.5248546147902943,
+              0.026451875085507476,
+              -0.506272409904059,
+              0.11802182788003304,
+              0.24720214120057166
+            ]
+          },
+          "metadata": {
+            "source": "system_design_patterns",
+            "region": "us-east"
+          },
+          "id": "tablet_4c940ba0"
+        },
+        {
+          "query": {
+            "text": "How do API gateways enhance microservices security?",
+            "embedding": [
+              0.3224927756954411,
+              0.20495072202448794,
+              0.5064022087384497,
+              0.42526628173901165,
+              -0.06189116686609368,
+              0.624533832958779,
+              0.15074776867616574,
+              -0.010054300548164793
+            ]
+          },
+          "answer": {
+            "text": "API gateways enhance microservices security by providing authentication and authorization mechanisms, enforcing rate limiting and throttling, enabling request validation, encrypting traffic, and logging API access. They also help in mitigating DDoS attacks by filtering and routing traffic efficiently.",
+            "embedding": [
+              -0.6480322027317565,
+              0.2572670049520619,
+              -0.36218678299823315,
+              0.5384738123191113,
+              0.14076100274831368,
+              -0.14549672318925003,
+              0.19764997536233375,
+              0.11263290344870648
+            ]
+          },
+          "metadata": {
+            "source": "api_security_handbook",
+            "region": "us-east"
+          },
+          "id": "tablet_81343842"
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "queries": [
+        {
+          "query": {
+            "text": "What is the difference between native and hybrid mobile app development?",
+            "embedding": [
+              0.30895176510695743,
+              -0.027589614361182988,
+              -0.013186029321238062,
+              0.16368845877789534,
+              0.4986963980532224,
+              0.5089177377220867,
+              0.45109298580323165,
+              -0.40698844463946904
+            ]
+          },
+          "answer": {
+            "text": "Native mobile apps are built specifically for a platform (iOS or Android) using platform-specific languages like Swift or Kotlin. They offer high performance and better access to device features. Hybrid apps, built using web technologies (HTML, CSS, JavaScript) and frameworks like React Native or Flutter, can run on multiple platforms but may have performance limitations compared to native apps.",
+            "embedding": [
+              0.331902387185571,
+              0.24925709030209758,
+              -0.01612158589103074,
+              0.5935754238425595,
+              0.3872162788997157,
+              0.5322215809470919,
+              -0.027357985720908033,
+              0.20291698238359798
+            ]
+          },
+          "metadata": {
+            "source": "mobile_dev_guide",
+            "region": "global"
+          },
+          "id": "mobile_41d25f66"
+        },
+        {
+          "query": {
+            "text": "How do progressive web apps (PWAs) compare to native mobile apps?",
+            "embedding": [
+              -0.3368319951867876,
+              0.06588812322711789,
+              0.2615487703487409,
+              0.680124747561059,
+              0.2134934840799317,
+              -0.40881235717278436,
+              -0.2901995251516404,
+              0.23302951572744954
+            ]
+          },
+          "answer": {
+            "text": "Progressive Web Apps (PWAs) are web applications that use modern web technologies to deliver an app-like experience. They work across platforms, support offline functionality, and require no installation. However, they lack deep integration with device hardware and may have performance limitations compared to native mobile apps.",
+            "embedding": [
+              -0.22671743458402038,
+              -0.18689964688482325,
+              -0.2328190174643604,
+              0.28639654471485426,
+              -0.35983950296841805,
+              0.4220199717404041,
+              -0.0895048398469727,
+              -0.6795907668089152
+            ]
+          },
+          "metadata": {
+            "source": "pwa_reference",
+            "region": "global"
+          },
+          "id": "mobile_73a1a5d2"
+        }
+      ]
+    }
+  ]
+}

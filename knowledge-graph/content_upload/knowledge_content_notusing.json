@@ -1,0 +1,166 @@
+{
+    "documents": [
+      {
+        "id": "kubernetes_overview",
+        "title": "Kubernetes Overview",
+        "text": "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.",
+        "source": "kubernetes_docs",
+        "metadata": {
+          "category": "overview",
+          "importance": "high",
+          "tags": ["kubernetes", "orchestration", "containers"]
+        },
+        "entities": [
+          {"name": "Kubernetes", "type": "Platform"},
+          {"name": "Container", "type": "Technology"},
+          {"name": "Orchestration", "type": "Concept"}
+        ]
+      },
+      {
+        "id": "kubernetes_pod",
+        "title": "Kubernetes Pod",
+        "text": "A Pod is the smallest deployable unit in Kubernetes and represents a single instance of a running process in a cluster. Pods contain one or more containers, storage resources, a unique network IP, and options that govern how the container(s) should run.",
+        "source": "kubernetes_docs",
+        "metadata": {
+          "category": "components",
+          "importance": "high",
+          "tags": ["kubernetes", "pod", "containers"]
+        },
+        "entities": [
+          {"name": "Pod", "type": "Resource"},
+          {"name": "Container", "type": "Technology"},
+          {"name": "Kubernetes", "type": "Platform"}
+        ]
+      },
+      {
+        "id": "kubernetes_service",
+        "title": "Kubernetes Service",
+        "text": "A Kubernetes Service is an abstraction which defines a logical set of Pods and a policy by which to access them. Services enable a loose coupling between dependent Pods and can be exposed internally or externally to the cluster.",
+        "source": "kubernetes_docs",
+        "metadata": {
+          "category": "components",
+          "importance": "high",
+          "tags": ["kubernetes", "service", "networking"]
+        },
+        "entities": [
+          {"name": "Service", "type": "Resource"},
+          {"name": "Pod", "type": "Resource"},
+          {"name": "Kubernetes", "type": "Platform"}
+        ]
+      },
+      {
+        "id": "kubernetes_deployment",
+        "title": "Kubernetes Deployment",
+        "text": "A Deployment in Kubernetes provides declarative updates for Pods and ReplicaSets. You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate.",
+        "source": "kubernetes_docs",
+        "metadata": {
+          "category": "components",
+          "importance": "high",
+          "tags": ["kubernetes", "deployment", "replicaset"]
+        },
+        "entities": [
+          {"name": "Deployment", "type": "Resource"},
+          {"name": "Pod", "type": "Resource"},
+          {"name": "ReplicaSet", "type": "Resource"},
+          {"name": "Kubernetes", "type": "Platform"}
+        ]
+      },
+      {
+        "id": "kubernetes_daemonset",
+        "title": "Kubernetes DaemonSet",
+        "text": "A DaemonSet ensures that all (or some) Nodes run a copy of a Pod. As nodes are added to the cluster, Pods are added to them. As nodes are removed from the cluster, those Pods are garbage collected. Deleting a DaemonSet will clean up the Pods it created.",
+        "source": "kubernetes_docs",
+        "metadata": {
+          "category": "components",
+          "importance": "medium",
+          "tags": ["kubernetes", "daemonset", "pods"]
+        },
+        "entities": [
+          {"name": "DaemonSet", "type": "Resource"},
+          {"name": "Node", "type": "Resource"},
+          {"name": "Pod", "type": "Resource"},
+          {"name": "Kubernetes", "type": "Platform"}
+        ]
+      },
+      {
+        "id": "neo4j_overview",
+        "title": "Neo4j Overview",
+        "text": "Neo4j is a graph database management system that stores data in nodes connected by relationships, both of which can have properties. Neo4j provides a powerful query language called Cypher for traversing and querying the graph.",
+        "source": "neo4j_docs",
+        "metadata": {
+          "category": "overview",
+          "importance": "high",
+          "tags": ["database", "graph", "neo4j"]
+        },
+        "entities": [
+          {"name": "Neo4j", "type": "Database"},
+          {"name": "Graph Database", "type": "Technology"},
+          {"name": "Cypher", "type": "Query Language"}
+        ]
+      },
+      {
+        "id": "chromadb_overview",
+        "title": "ChromaDB Overview",
+        "text": "ChromaDB is an open-source embedding database designed for building AI applications with embeddings. It allows you to store, search, and retrieve embeddings efficiently, enabling semantic search and retrieval capabilities.",
+        "source": "chromadb_docs",
+        "metadata": {
+          "category": "overview",
+          "importance": "high",
+          "tags": ["database", "vector", "embeddings"]
+        },
+        "entities": [
+          {"name": "ChromaDB", "type": "Database"},
+          {"name": "Embedding", "type": "Concept"},
+          {"name": "Vector Database", "type": "Technology"}
+        ]
+      },
+      {
+        "id": "retrieval_agent",
+        "title": "Retrieval Agent",
+        "text": "A retrieval agent is a component that fetches relevant information from a knowledge base in response to queries. It typically uses semantic search techniques to find documents or passages that best match the query's intent.",
+        "source": "system_docs",
+        "metadata": {
+          "category": "components",
+          "importance": "high",
+          "tags": ["retrieval", "agent", "search"]
+        },
+        "entities": [
+          {"name": "Retrieval Agent", "type": "Component"},
+          {"name": "Knowledge Base", "type": "System"},
+          {"name": "Semantic Search", "type": "Technology"}
+        ]
+      },
+      {
+        "id": "knowledge_base",
+        "title": "Knowledge Base",
+        "text": "A knowledge base is a centralized repository that stores structured and unstructured information. It provides a means for information to be collected, organized, shared, searched, and utilized. In AI systems, knowledge bases serve as a source of facts and information for reasoning and retrieval.",
+        "source": "system_docs",
+        "metadata": {
+          "category": "concepts",
+          "importance": "high",
+          "tags": ["knowledge", "database", "information"]
+        },
+        "entities": [
+          {"name": "Knowledge Base", "type": "System"},
+          {"name": "Information", "type": "Concept"},
+          {"name": "AI System", "type": "Technology"}
+        ]
+      },
+      {
+        "id": "knowledge_graph",
+        "title": "Knowledge Graph",
+        "text": "A knowledge graph is a network of entities, their semantic types, properties, and relationships. Knowledge graphs integrate information from multiple sources and help systems understand the connections between different pieces of information, enabling more intelligent responses and insights.",
+        "source": "system_docs",
+        "metadata": {
+          "category": "concepts",
+          "importance": "high",
+          "tags": ["knowledge", "graph", "entities"]
+        },
+        "entities": [
+          {"name": "Knowledge Graph", "type": "System"},
+          {"name": "Entity", "type": "Concept"},
+          {"name": "Relationship", "type": "Concept"}
+        ]
+      }
+    ]
+  }
