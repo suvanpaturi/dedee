@@ -5,9 +5,7 @@ import os
 import time
 from typing import List, Dict, Any, Optional
 import requests
-from neo4j import GraphDatabase
 
-# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -126,13 +124,75 @@ class OpenAIEmbeddingGenerator:
         
         return embeddings
     
-    def process_file(self, input_file: str, output_file: str = None) -> Dict[str, Any]:
+    def transform_edge_data(self, input_data: List[Dict[str, Any]], device_id: str = "edge-device-1") -> Dict[str, Any]:
+        """
+        Transform edge device data format to Neo4j uploader format and add embeddings.
+        
+        Args:
+            input_data: List of items from edge device
+            device_id: ID of the edge device
+            
+        Returns:
+            Transformed data in Neo4j format with embeddings
+        """
+        # Prepare transformed data structure
+        transformed_data = {
+            "devices": [
+                {
+                    "id": device_id,
+                    "queries": []
+                }
+            ]
+        }
+        
+        # Process each item
+        for item in input_data:
+            # Skip invalid items
+            if not ('query' in item and 'response' in item):
+                logger.warning(f"Skipping invalid item, missing query or response: {item}")
+                continue
+                
+            try:
+                # Generate embeddings
+                query_embedding = self._get_embedding(item["query"])
+                response_embedding = self._get_embedding(item["response"])
+                
+                # Create query object in expected format
+                query_obj = {
+                    "query": {
+                        "text": item["query"],
+                        "embedding": query_embedding
+                    },
+                    "answer": {
+                        "text": item["response"],
+                        "embedding": response_embedding
+                    },
+                    "metadata": {
+                        "source": item.get("source", "unknown"),
+                    }
+                }
+                
+                # Add ID if available
+                if "id" in item:
+                    query_obj["id"] = item["id"]
+                
+                # Add to devices array
+                transformed_data["devices"][0]["queries"].append(query_obj)
+                logger.info(f"Processed item: {item['query'][:50]}...")
+                
+            except Exception as e:
+                logger.error(f"Error processing item: {str(e)}")
+        
+        return transformed_data
+    
+    def process_file(self, input_file: str, output_file: str = None, device_id: str = None) -> Dict[str, Any]:
         """
         Process a JSON file and add embeddings.
         
         Args:
             input_file: Path to input JSON file
             output_file: Path to output JSON file (if None, will modify the input file)
+            device_id: ID of the edge device (if None, will use default)
             
         Returns:
             The processed data with embeddings
@@ -142,88 +202,73 @@ class OpenAIEmbeddingGenerator:
             with open(input_file, 'r') as f:
                 data = json.load(f)
             
-            # Check if it has the expected format
-            if 'devices' not in data:
-                logger.error("Input file does not have the expected format with 'devices' key")
-                return None
-            
-            # Collect all queries and answers that need embeddings
-            query_texts = []
-            answer_texts = []
-            device_queries = []
-            
-            for device in data['devices']:
-                for query_data in device['queries']:
-                    # Check if query needs embedding
-                    if 'query' in query_data and 'text' in query_data['query']:
-                        query_text = query_data['query']['text']
-                        if 'embedding' not in query_data['query'] or not query_data['query']['embedding']:
-                            query_texts.append(query_text)
-                            device_queries.append((device['id'], query_data))
-                    
-                    # Check if answer needs embedding
-                    if 'answer' in query_data and 'text' in query_data['answer']:
-                        answer_text = query_data['answer']['text']
-                        if 'embedding' not in query_data['answer'] or not query_data['answer']['embedding']:
-                            answer_texts.append(answer_text)
-            
-            # Get embeddings for queries
-            if query_texts:
-                logger.info(f"Generating embeddings for {len(query_texts)} queries")
-                query_embeddings = self.batch_process_embeddings(query_texts)
+            # Handle both list and dict formats
+            if isinstance(data, list):
+                # Simple list format from edge device
+                device_id = device_id or "edge-device-1"
+                transformed_data = self.transform_edge_data(data, device_id)
                 
-                # Update query data with embeddings
-                for i, (device_id, query_data) in enumerate(device_queries):
-                    if i < len(query_embeddings):
-                        query_data['query']['embedding'] = query_embeddings[i]
-                    
-                    # Generate ID if not present
-                    if 'id' not in query_data:
-                        import hashlib
-                        hash_object = hashlib.md5(query_data['query']['text'].encode())
-                        query_data['id'] = f"{device_id}_{hash_object.hexdigest()[:8]}"
-            
-            # Get embeddings for answers
-            if answer_texts:
-                logger.info(f"Generating embeddings for {len(answer_texts)} answers")
-                answer_embeddings = self.batch_process_embeddings(answer_texts)
+            elif isinstance(data, dict) and 'devices' in data:
+                # Already in Neo4j format, just add embeddings
+                transformed_data = data
                 
-                # Update answer data with embeddings
-                i = 0
-                for device in data['devices']:
+                # Collect all queries and answers that need embeddings
+                for device in transformed_data['devices']:
                     for query_data in device['queries']:
+                        # Check if query needs embedding
+                        if 'query' in query_data and 'text' in query_data['query']:
+                            query_text = query_data['query']['text']
+                            if 'embedding' not in query_data['query'] or not query_data['query']['embedding']:
+                                query_data['query']['embedding'] = self._get_embedding(query_text)
+                        
+                        # Check if answer needs embedding
                         if 'answer' in query_data and 'text' in query_data['answer']:
+                            answer_text = query_data['answer']['text']
                             if 'embedding' not in query_data['answer'] or not query_data['answer']['embedding']:
-                                if i < len(answer_embeddings):
-                                    query_data['answer']['embedding'] = answer_embeddings[i]
-                                    i += 1
+                                query_data['answer']['embedding'] = self._get_embedding(answer_text)
+            else:
+                logger.error("Input file format not recognized")
+                return None
             
             # Write the updated data to the output file
             output_path = output_file or input_file
             with open(output_path, 'w') as f:
-                json.dump(data, f, indent=2)
+                json.dump(transformed_data, f, indent=2)
             
-            logger.info(f"Generated {len(query_texts)} query embeddings and {len(answer_texts)} answer embeddings")
-            logger.info(f"Saved updated data to {output_path}")
+            logger.info(f"Processed data and saved to {output_path}")
             
-            return data
+            return transformed_data
         
         except Exception as e:
             logger.error(f"Error processing file: {str(e)}")
             raise
 
 def main():
-
-    api_key = ""
+    # Get API key from environment variable or .env file
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    
+    # Load from .env file if not in environment
+    if not api_key:
+        try:
+            from dotenv import load_dotenv
+            load_dotenv()
+            api_key = os.environ.get("OPENAI_API_KEY", "")
+        except ImportError:
+            pass
+    
+    # Check if API key is available
+    if not api_key:
+        logger.error("OpenAI API key not found. Set OPENAI_API_KEY environment variable or create a .env file.")
+        return
 
     parser = argparse.ArgumentParser(description="Generate OpenAI embeddings for query-answer pairs")
     parser.add_argument("--input", required=True, help="Input JSON file")
     parser.add_argument("--output", help="Output JSON file (defaults to overwriting input)")
+    parser.add_argument("--device", help="Device ID to use")
     parser.add_argument("--model", default="text-embedding-3-small", help="OpenAI embedding model name")
     parser.add_argument("--batch-size", type=int, default=10, help="Batch size for API requests")
     
     args = parser.parse_args()
-    
     
     generator = OpenAIEmbeddingGenerator(
         api_key=api_key,
@@ -231,7 +276,7 @@ def main():
     )
     
     try:
-        generator.process_file(args.input, args.output)
+        generator.process_file(args.input, args.output, args.device)
         logger.info("Embedding generation complete")
     except Exception as e:
         logger.error(f"Failed to generate embeddings: {str(e)}")

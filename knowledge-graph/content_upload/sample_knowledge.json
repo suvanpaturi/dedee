@@ -1,0 +1,24 @@
+{
+    "items": [
+      {
+        "query": "How do I troubleshoot pod crashes in Kubernetes?",
+        "response": "To troubleshoot Kubernetes pod crashes, first check pod status with 'kubectl get pods' and examine logs with 'kubectl logs <pod-name>'. Use 'kubectl describe pod <pod-name>' to see events and conditions. Check for resource constraints, configuration issues, or application errors. Examine container health checks, verify image versions, and review any recent changes to deployments or infrastructure."
+      },
+      {
+        "query": "What are the components of a service mesh?",
+        "response": "A service mesh consists of several key components: a data plane of proxies (like Envoy) deployed alongside each service instance; a control plane that configures the proxies and implements policies; an API gateway for external traffic; service discovery to locate service instances; and telemetry collection for monitoring. Together, these components manage service-to-service communication, security, and observability."
+      },
+      {
+        "query": "How does Neo4j handle large-scale graph queries?",
+        "response": "Neo4j handles large-scale graph queries through several optimizations: index-free adjacency for constant-time traversals regardless of graph size; query planning and optimization to determine efficient execution paths; intelligent caching of nodes and relationships; parallel execution of certain operations; and memory-optimized storage. For extremely large graphs, Neo4j offers horizontal scaling through sharding in Enterprise Edition and causal clustering for high availability."
+      },
+      {
+        "query": "How do I implement blue-green deployments?",
+        "response": "To implement blue-green deployments: 1) Create a parallel 'green' environment identical to your production 'blue' environment. 2) Deploy your new version to the green environment. 3) Test the green environment thoroughly. 4) Switch traffic from blue to green by updating a load balancer or DNS. 5) Monitor for issues; if problems arise, revert traffic back to blue. 6) Once confirmed stable, decommission the old blue environment or keep it for the next deployment cycle."
+      },
+      {
+        "query": "What's the difference between stateful and stateless applications?",
+        "response": "Stateful applications maintain data about client sessions and transactions between requests. They rely on persistent storage and require special handling for scaling and failover. Examples include databases and file systems. Stateless applications don't store client state between requests, with each request containing all information needed for processing. They're easier to scale horizontally and deploy. Examples include web servers and API gateways."
+      }
+    ]
+  }

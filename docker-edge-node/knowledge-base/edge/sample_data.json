@@ -1,0 +1,22 @@
+[
+    {
+      "id": "55d30aa3cffae0ce1429ef4a6a646dfae7f17c47df3c1a06d9a2207a03afaf20",
+      "query": "If all other buttons on a computer require the computer to be on to do work, how does pressing the power button turn the computer on in the first place?",
+      "response": "Most power buttons close the circuit allowing the power from the wall go to the starter part",
+      "source": "sentence-transformers/eli5"
+    },
+    {
+      "id": "4f6bafd438c4106cf4df33da5fb6c6b79678f8fe6ef0453cdbc1f41689cf523d",
+      "query": "Could a State of the USA leave the Union and become an independent country?",
+      "response": "Only if the federal government let it. See: American Civil War",
+      "source": "sentence-transformers/eli5"
+    },
+    {
+      "id": "c52153052d341e715dd80926a3779d9f89df0f97aee919c69129cd92eca13a03",
+      "query": "What did steppe nomads do to children with Down Syndrome or similar diseases?",
+      "response": "People in the ancient world generally frowned on any sort of physical disability even if it was injury from war. Exposure was a common practice not only for Spartans in the movie 300, but most ancient and many primitive societies. It's very likely that steppe nomads would have engaged in similar practices if children appeared physically disabled or deformed, as they did not have the resources to support extra people that, at least in their view, could not contribute like a \"normal\" man or woman.",
+      "source": "sentence-transformers/eli5"
+    }
+  ]
+
+  
