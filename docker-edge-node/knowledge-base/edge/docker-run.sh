@@ -9,7 +9,7 @@ docker build -t knowledge-base .
 # Run the container with sleep infinity to keep it alive
 docker run -d \
   -p 5001:5001 \
-  -e OPENAI_API_KEY="sk-proj-IYXxFiUbWs0CYZ31caQlT3BlbkFJQp03evB1IVRb1zbDHKoj" \
+  -e OPENAI_API_KEY="" \
   -e NEO4J_URI="neo4j://128.203.120.208:7687" \
   -e NEO4J_USERNAME="neo4j" \
   -e NEO4J_PASSWORD="dedee-knowledge-graph!" \
