@@ -1,7 +1,9 @@
 import chromadb
+from typing import List, Dict
 from pydantic import BaseModel
 from embedder import Embedder
 import hashlib
+from tqdm import tqdm
 
 class Knowledge(BaseModel):
     query: str
@@ -41,8 +43,19 @@ class KnowledgeBase:
     def hash_query(self, query: str) -> str:
         return hashlib.sha256(query.encode()).hexdigest()
     
-    def get(self, query: str) -> str:
-                
+    def peek(self, n):
+        results = []
+        peeked_results = self.collection.get(limit=n)
+        for i in range(len(peeked_results["ids"])):
+            results.append({
+                "id": peeked_results["ids"][i],
+                "query": peeked_results["documents"][i],
+                "response": peeked_results["metadatas"][i]["response"],
+                "source": peeked_results["metadatas"][i]["source"]
+            })
+        return results
+        
+    def get(self, query: str):
         similar_results = self.collection.query(
             query_texts=[query],
             n_results=self.max_results,
@@ -66,14 +79,28 @@ class KnowledgeBase:
                     
         return sorted(results, key=lambda x: x["similarity"], reverse=True)
     
-    def update(self, knowledge_items: list[Knowledge]):
-
-        self.collection.add(
-            ids=[self.hash_query(item.query) for item in knowledge_items],
-            documents=[item.query for item in knowledge_items],
-            metadatas=[{"response": item.response, "source": item.source} for item in knowledge_items]
-        )
-        return knowledge_items
+    def update(self, knowledge_items: list[Knowledge]) -> List[Dict[str, str]]:
+        all_results = []
+        for i in tqdm(range(0, len(knowledge_items), 1000), desc="Adding to ChromaDB"):
+            batch = knowledge_items[i:i + 1000]
+            ids = [self.hash_query(item.query) for item in batch]
+            self.collection.add(
+                ids=ids,
+                documents=[item.query for item in batch],
+                metadatas=[{"response": item.response, "source": item.source} for item in batch]
+            )
+            results =  [
+                {
+                    "id": id_,
+                    "query": item.query,
+                    "response": item.response,
+                    "source": item.source
+                }
+                for id_, item in zip(ids, batch)
+            ]
+            all_results.extend(results)
+        print(f"Total queries in collection: {self.collection.count()}")
+        return all_results
     
     def clear_kb(self):
         ids = self.collection.get()["ids"]
