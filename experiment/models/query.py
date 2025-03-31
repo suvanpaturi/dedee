@@ -10,9 +10,3 @@ class UserQuery:
     def process(self, query):
         clean_query = self.handle_attack(query.lower().strip()[:self.max_tokens])
         return clean_query
-    
-    def handle_attack(self, query):
-        # Handle adversarial questions
-        return query
-
-            
