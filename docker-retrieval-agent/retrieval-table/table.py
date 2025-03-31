@@ -139,4 +139,6 @@ class RetrievalTable:
                 self.collection.delete(ids=evict_items)
 
     def clear_table(self):
-        self.collection.delete_all()
+        ids = self.collection.get()["ids"]
+        if ids:
+            self.collection.delete(ids=ids)

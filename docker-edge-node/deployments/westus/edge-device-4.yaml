@@ -1,40 +1,45 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: retrieval-agent-{{REGION}}
+  name: edge-device-westus-4
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: retrieval-agent
+      app: edge-device-westus-4
   template:
     metadata:
       labels:
-        app: retrieval-agent
+        app: edge-device-westus-4
     spec:
       containers:
       - name: chromadb
         image: dedeeregistry.azurecr.io/chromadb:v2.4
         ports:
         - containerPort: 8000
-      - name: retrieval-table
-        image: dedeeregistry.azurecr.io/retrieval-table:v2.5
+      - name: knowledge-base
+        image: dedeeregistry.azurecr.io/knowledge-base:v1.3
         ports:
         - containerPort: 5001
+        env:
+        - name: EDGE_ID
+          value: "4"
+        - name: EDGE_REGION
+          value: "westus"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: retrieval-agent-{{REGION}}
+  name: edge-device-westus-4-service
 spec:
   selector:
-    app: retrieval-agent
+    app: edge-device-westus-4
   ports:
     - name: chromadb
       protocol: TCP
       port: 8000
       targetPort: 8000
-    - name: retrieval-table
+    - name: knowledge-base
       protocol: TCP
       port: 5001
       targetPort: 5001
