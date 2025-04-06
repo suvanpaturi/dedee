@@ -25,11 +25,11 @@ spec:
         - containerPort: 11434
         resources:
           limits:
-            cpu: "2"
-            memory: "4Gi"
+            cpu: "300m"
+            memory: "1.5Gi"
           requests:
-            cpu: "1"
-            memory: "3Gi"
+            cpu: "500m"
+            memory: "2Gi"
         env:
         - name: REDIS_HOST
           value: "shared-parent-memory.redis.cache.windows.net"

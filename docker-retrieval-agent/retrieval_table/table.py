@@ -144,7 +144,7 @@
 #             self.collection.delete(ids=ids)
 
 import chromadb
-from .embedder import Embedder
+from embedder import Embedder
 import time
 import hashlib
 
