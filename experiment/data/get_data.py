@@ -16,7 +16,7 @@ def eli5_to_csv():
     eli5_dataset = load_dataset(eli5, "pair")['train']
     data = pd.DataFrame(eli5_dataset)
     data['source'] = eli5
-    data.to_csv('./experiment/data/eli5.csv', index=False)
+    data.to_csv('./experiment/data/extracted/eli5.csv', index=False)
     
 def squad_to_csv():
     data = []
@@ -26,7 +26,7 @@ def squad_to_csv():
         data.append({'question': s['question'], 'answer': s['answers']['text'][0]})
     data = pd.DataFrame(data)
     data['source'] = squad
-    data.to_csv('./experiment/data/squad.csv', index=False)
+    data.to_csv('./experiment/data/extracted/squad.csv', index=False)
     
 def hotpotqa_to_csv():
     data = []
@@ -36,7 +36,7 @@ def hotpotqa_to_csv():
         data.append({'question': h['question'], 'answer': h['answer']})
     data = pd.DataFrame(data)
     data['source'] = hotpotqa
-    data.to_csv('./experiment/data/hotpotqa.csv', index=False)
+    data.to_csv('./experiment/data/extracted/hotpotqa.csv', index=False)
 
 #------RUN-------
 #eli5_to_csv()
