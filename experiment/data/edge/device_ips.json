@@ -1,0 +1,14 @@
+{
+    "edge-device-eastus-1-service": "51.8.248.191",
+    "edge-device-eastus-2-service": "74.179.238.112",
+    "edge-device-eastus-3-service": "74.179.243.91",
+    "edge-device-eastus-4-service": "57.151.36.91",
+    "edge-device-westus-1-service": "104.40.55.193",
+    "edge-device-westus-2-service": "168.61.70.166",
+    "edge-device-westus-3-service": "40.112.137.220",
+    "edge-device-westus-4-service": "168.61.70.221",
+    "edge-device-westeurope-1-service": "50.85.48.48",
+    "edge-device-westeurope-2-service": "50.85.54.210",
+    "edge-device-westeurope-3-service": "135.236.28.145",
+    "edge-device-westeurope-4-service": "135.236.30.85"
+}
