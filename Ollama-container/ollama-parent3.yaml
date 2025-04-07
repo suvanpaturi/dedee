@@ -1,0 +1,90 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: parent-ollama
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: parent-ollama
+  template:
+    metadata:
+      labels:
+        app: parent-ollama
+    spec:
+      containers:
+      - name: ollama
+        image: ollama/ollama:latest
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            set -e
+            echo "Starting Ollama server...";
+            ollama serve
+        ports:
+        - containerPort: 11434
+        resources:
+          limits:
+            cpu: "1"
+            memory: "4Gi"
+          requests:
+            cpu: "0.5"
+            memory: "2Gi"
+        env:
+        - name: REDIS_HOST
+          value: "shared-parent-memory.redis.cache.windows.net"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: REDIS_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: redis-secret
+              key: password
+        volumeMounts:
+        - mountPath: "/ollama"
+          name: ollama-storage
+      - name: debate
+        image: aashidutt3/debate-parent:latest
+        imagePullPolicy: Always
+        workingDir: /app
+        command: ["python", "-u", "debate.py"]
+        env:
+        - name: REDIS_HOST
+          value: "shared-parent-memory.redis.cache.windows.net"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: REDIS_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: redis-secret
+              key: password
+        - name: PARENT_ID
+          value: "Parent-WestEurope"
+        - name: OLLAMA_MODEL
+          value: "qwen:0.5b"
+
+        volumeMounts:
+        - mountPath: /app
+          name: debate-code
+
+      volumes:
+      - name: ollama-storage
+        emptyDir: {}
+      - name: debate-code
+        configMap:
+          name: debate-script
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: parent-ollama-service
+spec:
+  selector:
+    app: parent-ollama
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 11434
+  type: LoadBalancer
+
