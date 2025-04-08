@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: judge-ollama
+  name: parent-ollama
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: judge-ollama
+      app: parent-ollama
   template:
     metadata:
       labels:
-        app: judge-ollama
+        app: parent-ollama
     spec:
       containers:
       - name: ollama
@@ -25,11 +25,11 @@ spec:
         - containerPort: 11434
         resources:
           limits:
-            cpu: "750m"
+            cpu: "300m"
             memory: "1.5Gi"
           requests:
-            cpu: "300m"
-            memory: "1Gi"
+            cpu: "500m"
+            memory: "2Gi"
         env:
         - name: REDIS_HOST
           value: "shared-parent-memory.redis.cache.windows.net"
@@ -43,14 +43,11 @@ spec:
         volumeMounts:
         - mountPath: "/ollama"
           name: ollama-storage
-
-      - name: judge
-        image: aashidutt3/debate-parent:latest
+      - name: parent
+        image: dedeeregistry.azurecr.io/parent:v1
         imagePullPolicy: Always
-        command: ["python", "-u", "judge.py"]
-        workingDir: /app
         ports:
-          - containerPort: 5001
+        - containerPort: 5001
         env:
         - name: REDIS_HOST
           value: "shared-parent-memory.redis.cache.windows.net"
@@ -62,16 +59,10 @@ spec:
               name: redis-secret
               key: password
         - name: PARENT_ID
-          value: "Judge-EastUS"
+          value: "Parent-EastUS"
         - name: OLLAMA_MODEL
-          value: "tinyllama"
-        resources:
-          limits:
-            cpu: "500m"
-            memory: "1Gi"
-          requests:
-            cpu: "250m"
-            memory: "512Mi"
+          value: "gemma:2b"
+
         volumeMounts:
         - mountPath: /app
           name: debate-code
@@ -82,3 +73,23 @@ spec:
       - name: debate-code
         configMap:
           name: debate-script
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: parent-ollama-service
+spec:
+  selector:
+    app: parent-ollama
+  ports:
+  - name: ollama
+    protocol: TCP
+    port: 80
+    targetPort: 11434
+  - name: parent
+    protocol: TCP
+    port: 5001       
+    targetPort: 5001
+  type: LoadBalancer
+
