@@ -45,10 +45,8 @@ spec:
           name: ollama-storage
 
       - name: judge
-        image: aashidutt3/debate-parent:latest
+        image: dedeeregistry.azurecr.io/judge:v1
         imagePullPolicy: Always
-        command: ["python", "-u", "judge.py"]
-        workingDir: /app
         ports:
           - containerPort: 5001
         env:

@@ -17,11 +17,13 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress:
     end_time = time.perf_counter()
 
     progress.stop_task(task)
-    latency = end_time - start_time
+    overall_latency = end_time - start_time
     return {
         "query": query, 
         "response": result.get('response', "No Response"),
-        "latency": latency}
+        "latency": result.get('latency', {}),
+        "overall_latency": overall_latency
+        }
 
 async def main():
     
@@ -58,7 +60,8 @@ async def main():
             "predicted_response": r["response"],
             "actual_response": data_dict[query]["response"],
             "source": data_dict[query]["source"],
-            "latency": r["latency"]
+            "latency": r["latency"],
+            "overall_latency": r["overall_latency"]
         })
       
     with open('./experiment/response/query_results.json', 'w', encoding='utf-8') as f:

@@ -38,7 +38,7 @@ prompt = """
     Reword the following question in a different way, keeping the same meaning and expected answer. 
     Be concise and avoid adding extra information. Return only the reworded question. Do not lose helpful context
     in rewording.
-
+   
     Ex. What is the capital of France? -> Which city is France's capital?
     
     Given question: {question}
