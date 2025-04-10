@@ -24,10 +24,10 @@ for file in os.listdir(edge_data_path):
             
 
 edge_data = np.array(edge_data)
-test_data = np.random.choice(edge_data, size=500, replace=False)
+test_data = np.random.choice(edge_data, size=300, replace=False)
 np.random.shuffle(test_data)
 
-split_index = int(len(test_data) * 0.7)
+split_index = int(len(test_data) * 0.3)
 exact_test_data = test_data[:split_index]
 altered_test_data = test_data[split_index:]
 
@@ -38,7 +38,7 @@ prompt = """
     Reword the following question in a different way, keeping the same meaning and expected answer. 
     Be concise and avoid adding extra information. Return only the reworded question. Do not lose helpful context
     in rewording.
-
+   
     Ex. What is the capital of France? -> Which city is France's capital?
     
     Given question: {question}

@@ -49,6 +49,8 @@ spec:
         imagePullPolicy: Always
         command: ["python", "-u", "judge.py"]
         workingDir: /app
+        ports:
+          - containerPort: 5001
         env:
         - name: REDIS_HOST
           value: "shared-parent-memory.redis.cache.windows.net"

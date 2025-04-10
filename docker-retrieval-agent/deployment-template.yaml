@@ -18,9 +18,17 @@ spec:
         ports:
         - containerPort: 8000
       - name: retrieval-table
-        image: dedeeregistry.azurecr.io/retrieval-table:v2.5
+        image: dedeeregistry.azurecr.io/retrieval-table:v3.5
         ports:
         - containerPort: 5001
+        env:
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: openai-secret
+              key: OPENAI_API_KEY
+        - name: RETRIEVAL_ID
+          value: "{{REGION}}"
 ---
 apiVersion: v1
 kind: Service

@@ -48,6 +48,8 @@ spec:
         imagePullPolicy: Always
         workingDir: /app
         command: ["python", "-u", "debate.py"]
+        ports:
+        - containerPort: 5001
         env:
         - name: REDIS_HOST
           value: "shared-parent-memory.redis.cache.windows.net"
@@ -83,8 +85,13 @@ spec:
   selector:
     app: parent-ollama
   ports:
-  - protocol: TCP
+  - name: ollama
+    protocol: TCP
     port: 80
     targetPort: 11434
+  - name: debate
+    protocol: TCP
+    port: 5001       
+    targetPort: 5001
   type: LoadBalancer
 

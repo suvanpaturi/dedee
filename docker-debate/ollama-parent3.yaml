@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: parent-ollama
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: parent-ollama
+  template:
+    metadata:
+      labels:
+        app: parent-ollama
+    spec:
+      containers:
+      - name: ollama
+        image: ollama/ollama:latest
+        command: ["ollama", "serve"]
+        ports:
+        - containerPort: 11434
+
+      - name: parent
+        image: dedeeregistry.azurecr.io/parent:v2.5
+        ports:
+        - containerPort: 5001
+        env:
+        - name: PARENT_ID
+          value: "westeurope"
+        - name: OLLAMA_MODEL
+          value: "gemma:2b"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: parent-ollama
+spec:
+  selector:
+    app: parent-ollama
+  ports:
+    - name: ollama
+      port: 11434
+      targetPort: 11434
+    - name: parent
+      port: 5001
+      targetPort: 5001
+  type: LoadBalancer

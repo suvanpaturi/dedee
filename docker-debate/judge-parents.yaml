@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: judge-ollama
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: judge-ollama
+  template:
+    metadata:
+      labels:
+        app: judge-ollama
+    spec:
+      containers:
+      - name: ollama
+        image: ollama/ollama:latest
+        command: ["ollama", "serve"]
+        ports:
+        - containerPort: 11434
+
+      - name: judge
+        image: dedeeregistry.azurecr.io/judge:v2.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5001
+        env:
+        - name: OLLAMA_MODEL
+          value: "gemma:2b"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: judge-ollama
+spec:
+  selector:
+    app: judge-ollama
+  ports:
+    - name: ollama
+      port: 11434
+      targetPort: 11434
+    - name: judge
+      port: 5001
+      targetPort: 5001
+  type: LoadBalancer

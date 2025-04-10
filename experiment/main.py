@@ -5,6 +5,7 @@ import httpx
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
 BASE_URL = "http://retrieval-agent-traffic.trafficmanager.net:5001"
+#BASE_URL = "http://localhost:5001"
 
 async def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress: Progress):
     """Send a query to the retrieval agent and measure the latency."""
@@ -17,11 +18,13 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress:
     end_time = time.perf_counter()
 
     progress.stop_task(task)
-    latency = end_time - start_time
+    overall_latency = end_time - start_time
     return {
         "query": query, 
         "response": result.get('response', "No Response"),
-        "latency": latency}
+        "latency": result.get('latency', {}),
+        "overall_latency": overall_latency
+        }
 
 async def main():
     
@@ -30,26 +33,33 @@ async def main():
         data = json.load(f, ensure_ascii=False, indent=4)
     '''
     
+    ''''
     data = [
         {
-            "query": "In which city was the composer of \"Prima la musica e poi le parole\" born?",
-            "response": "Legnago",
-            "source": "hotpot_qa"
-        },
-        {
-            "query": "I Am Your Gummy Bear is the debut album by what German multilingual character?",
-            "response": "Gummibär",
+            "query": "What is the name of the widow of Lee Harvey Oswald who used to live with Ruth Paine at the time of the JFK assassination? ",
+            "response": "Marina Nikolayevna Oswald Porter",
             "source": "hotpot_qa"
         }
     ]
+    '''
     
+    data = [
+        {
+            "query": "Who is Lee Harvey Oswald's widow?",
+            "response": "Marina Nikolayevna Oswald Porter",
+            "source": "hotpot_qa"
+        }
+    ]
     data_dict = {d["query"]: d for d in data} #store test data in dict
     
-    async with httpx.AsyncClient() as client:
+    timeout = httpx.Timeout(180.0)
+    
+    async with httpx.AsyncClient(timeout=timeout) as client:
         with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}")) as progress:
             tasks = [query_retrieval_agent(client, item["query"], progress) for item in data]
             results = await asyncio.gather(*tasks)
     
+    print(results)
     query_results = []
     for r in results:
         query = r["query"]
@@ -58,7 +68,8 @@ async def main():
             "predicted_response": r["response"],
             "actual_response": data_dict[query]["response"],
             "source": data_dict[query]["source"],
-            "latency": r["latency"]
+            "latency": r["latency"],
+            "overall_latency": r["overall_latency"]
         })
       
     with open('./experiment/response/query_results.json', 'w', encoding='utf-8') as f:

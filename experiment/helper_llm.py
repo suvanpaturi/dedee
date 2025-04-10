@@ -2,8 +2,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain.callbacks import get_openai_callback
+import os
 
-OPENAI_KEY = "<open-api-key>"
+api_key = os.environ.get("OPENAI_API_KEY")
 
 class HelperLLM:
     def __init__(self):
@@ -11,7 +12,7 @@ class HelperLLM:
             model="gpt-4o",
             temperature=0.2,
             max_tokens=20,
-            api_key=OPENAI_KEY
+            api_key=api_key
         )
         self.chain = None
         self.prompt_type=None

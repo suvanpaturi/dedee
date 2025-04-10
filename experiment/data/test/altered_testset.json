@@ -1,902 +1,1262 @@
 [
     {
-        "query": "What plant is part of the mustard family, Callisia or Orychophragmus?",
-        "response": "Orychophragmus",
+        "query": "The Big Green, is a 1995 family sports comedy film, by Walt Disney Pictures starring which English-American actress, singer and songwriter?",
+        "response": "Olivia Jane d'Abo",
         "source": "hotpot_qa",
-        "modified_query": "Which plant belongs to the mustard family, Callisia or Orychophragmus?"
+        "modified_query": "Who is the English-American actress, singer, and songwriter starring in the 1995 Disney family sports"
+    },
+    {
+        "query": "Max Rée, was a Danish costume designer, and art director, he won an Academy Award for Best Art Direction, for which 1931 Pre-Code Western film? ",
+        "response": "Cimarron",
+        "source": "hotpot_qa",
+        "modified_query": "For which 1931 Pre-Code Western film did Danish costume designer and art director Max Rée win"
+    },
+    {
+        "query": "Who was born first, Carol Kane or Andy Kaufman?",
+        "response": "Andy Kaufman",
+        "source": "hotpot_qa",
+        "modified_query": "Who is older, Carol Kane or Andy Kaufman?"
+    },
+    {
+        "query": "Cat's Eye is a Japanese pop group, MAX's 32nd single is a cover of Anri's 1983 which Japan musical genre classic of the same name?",
+        "response": "J-pop",
+        "source": "hotpot_qa",
+        "modified_query": "Which Japanese music genre classic from 1983 by Anri did MAX cover for their 32nd"
+    },
+    {
+        "query": "Which actor had a role in both the movies \"Bridesmaids\" and \"Alice in Wonderland\"?",
+        "response": "Matt Lucas",
+        "source": "hotpot_qa",
+        "modified_query": "Who appeared in both \"Bridesmaids\" and \"Alice in Wonderland\"?"
+    },
+    {
+        "query": "When was  Italian industrialist who was  Umberto Agnelli father born ",
+        "response": "2 January 1892",
+        "source": "hotpot_qa",
+        "modified_query": "What is the birth year of Umberto Agnelli's father, the Italian industrialist?"
+    },
+    {
+        "query": "What is the former name of the building across from the Rockefeller Building?",
+        "response": "Cleveland Union Terminal",
+        "source": "hotpot_qa",
+        "modified_query": "What was the previous name of the building opposite the Rockefeller Building?"
+    },
+    {
+        "query": "Where does the the Trinity College Quirks sung with a collegiate a cappella singing group established at Yale University?",
+        "response": "Infinity Hall",
+        "source": "hotpot_qa",
+        "modified_query": "At which institution did the Trinity College Quirks perform with a collegiate a cappella group founded at"
+    },
+    {
+        "query": "At which university did the notable psychoanalyst associated with the University of Chicago serve most of his career as a professor of psychiatry?",
+        "response": "University of New York Upstate",
+        "source": "hotpot_qa",
+        "modified_query": "Where did the renowned psychoanalyst linked to the University of Chicago primarily work as a psychiatry professor"
+    },
+    {
+        "query": "What island is home to the Southwest Harbor Public Library?",
+        "response": "Mount Desert Island",
+        "source": "hotpot_qa",
+        "modified_query": "On which island is the Southwest Harbor Public Library located?"
+    },
+    {
+        "query": "What stadium is named after Darrell Royal, past coach of the 1976 Texas Longhorns football team?",
+        "response": "Darrell K Royal – Texas Memorial Stadium",
+        "source": "hotpot_qa",
+        "modified_query": "Which stadium is named in honor of Darrell Royal, the former coach of the 1976 Texas"
+    },
+    {
+        "query": "What is the seating capacity of the stadium that is the home of the baseball team owned by Drew Weber?",
+        "response": "4,000",
+        "source": "hotpot_qa",
+        "modified_query": "What is the seating capacity of the stadium where Drew Weber's baseball team plays?"
+    },
+    {
+        "query": "\"Different for Girls\" is a song by Dierks Bentley that features an American singer who released her debut album on what date?",
+        "response": "February 17, 2015",
+        "source": "hotpot_qa",
+        "modified_query": "On what date did the American singer featured in Dierks Bentley's song \"Different for Girls\""
+    },
+    {
+        "query": "Who was the founding lead guitarist in the band whose single was used with \"Bridge over Troubled Water\" to create the charity single \"A Bridge over You\"?",
+        "response": "Jonny Buckland",
+        "source": "hotpot_qa",
+        "modified_query": "Who was the original lead guitarist of the band whose song was combined with \"Bridge over Troubled Water"
+    },
+    {
+        "query": "How many original games are there in the tactical role-playing video game franchise developed by the same Japanese company who developed the \"Wars\" series of games?",
+        "response": "twelve",
+        "source": "hotpot_qa",
+        "modified_query": "How many original games exist in the tactical RPG franchise created by the Japanese company behind the \"Wars\""
+    },
+    {
+        "query": "On VH1's Top 40 Videos of the Year, since 2002 twelve videos have been named Video of the Year, including what \"Bleeding Love\" singer, who was born and raised in the London Borough of Islington, London, where she attended the BRIT School for Performing Arts and Technology?",
+        "response": "Leona Lewis",
+        "source": "hotpot_qa",
+        "modified_query": "Which \"Bleeding Love\" singer, born in Islington, London, and a BRIT School"
+    },
+    {
+        "query": " Ted Sharks and Carlos Reygadas both worked in what industry?",
+        "response": "film",
+        "source": "hotpot_qa",
+        "modified_query": "In which industry did both Ted Sharks and Carlos Reygadas work?"
+    },
+    {
+        "query": "Which system is most likely to have impacted current computer technology, Atari or Comx-35?",
+        "response": "Atari",
+        "source": "hotpot_qa",
+        "modified_query": "Which system, Atari or Comx-35, has probably influenced modern computer technology the most?"
+    },
+    {
+        "query": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "response": "sovereignty",
+        "source": "hotpot_qa",
+        "modified_query": "What did Ethiopia gain from the battle where Giuseppe Arimondi was killed?"
+    },
+    {
+        "query": "Are Bidens and Browningia both types of barbed plants?",
+        "response": "yes",
+        "source": "hotpot_qa",
+        "modified_query": "Are both Bidens and Browningia considered barbed plants?"
+    },
+    {
+        "query": "How many participants did the person who shot Adrian Pracon kill at a summer camp?",
+        "response": "69",
+        "source": "hotpot_qa",
+        "modified_query": "How many people did the shooter of Adrian Pracon kill at the summer camp?"
+    },
+    {
+        "query": "What is the third album from the band who released \"Songs for a Tailor\" as their debut album?",
+        "response": "Wheels of Fire",
+        "source": "hotpot_qa",
+        "modified_query": "Which album is the third release by the band whose debut was \"Songs for a Tailor\"?"
+    },
+    {
+        "query": "Buffalo Springfield recorded a song in 1966 released on what record label?",
+        "response": "Atco Records",
+        "source": "hotpot_qa",
+        "modified_query": "On which record label did Buffalo Springfield release a song recorded in 1966?"
+    },
+    {
+        "query": "Which documentary was released first, The Life of Birds or Genghis Blues?",
+        "response": "The Life of Birds",
+        "source": "hotpot_qa",
+        "modified_query": "Which documentary came out earlier, The Life of Birds or Genghis Blues?"
+    },
+    {
+        "query": "Which American cinematographer is best know  for his work in a 1998 American romantic comedy-drama film directed by Nora Ephron?",
+        "response": "John Warwick Lindley",
+        "source": "hotpot_qa",
+        "modified_query": "Who is the American cinematographer renowned for his work on a 1998 romantic comedy-drama directed"
+    },
+    {
+        "query": "What is the profession of the daughter of the founder of Tesco",
+        "response": "politician",
+        "source": "hotpot_qa",
+        "modified_query": "What does the daughter of Tesco's founder do for a living?"
+    },
+    {
+        "query": "La princesse de Navarre had music by which French composer?",
+        "response": "Jean-Philippe Rameau",
+        "source": "hotpot_qa",
+        "modified_query": "Which French composer wrote the music for La princesse de Navarre?"
+    },
+    {
+        "query": "What defensive midfielder/center back was contracted by the same man who contracted Carlos Tevez?",
+        "response": "Javier Mascherano",
+        "source": "hotpot_qa",
+        "modified_query": "Which defensive midfielder or center back was signed by the same person who signed Carlos Tevez?"
+    },
+    {
+        "query": "Are Delta–Mendota Canal and Union Canal both US-based canals?",
+        "response": "yes",
+        "source": "hotpot_qa",
+        "modified_query": "Are both the Delta–Mendota Canal and Union Canal located in the US?"
+    },
+    {
+        "query": "Baz Luhrmann created the 2008 film starring which actress?",
+        "response": "Nicole Kidman",
+        "source": "hotpot_qa",
+        "modified_query": "Which actress starred in the 2008 film directed by Baz Luhrmann?"
+    },
+    {
+        "query": "What rapper featured in Hot 100 song on the album released by Beyonce during the Destiny's Child hiatus?",
+        "response": "Jay-Z",
+        "source": "hotpot_qa",
+        "modified_query": "Which rapper was featured on a Hot 100 track from the album Beyonce released during Destiny's Child's"
+    },
+    {
+        "query": "What band that Mike Peters worked with was formed in Dunfermline, Fife, in 1981?",
+        "response": "Big Country",
+        "source": "hotpot_qa",
+        "modified_query": "Which band, associated with Mike Peters, was established in Dunfermline, Fife, in "
+    },
+    {
+        "query": "Which star of The Hurricane Heist also appeared in Fantastic Four in 2015?",
+        "response": "Toby Kebbell",
+        "source": "hotpot_qa",
+        "modified_query": "Who from The Hurricane Heist cast was also in the 2015 Fantastic Four?"
+    },
+    {
+        "query": "What does Dunn's Famous Deli and Steakhouse serve is a raw meat is brined, partially dried, seasoned with herbs and spices, then smoked and steamed?",
+        "response": "Pastrami",
+        "source": "hotpot_qa",
+        "modified_query": "What dish does Dunn's Famous Deli and Steakhouse offer that involves brining, partially drying,"
+    },
+    {
+        "query": "Are Pete Loeffler and Chris Robinson both singers in American rock bands?",
+        "response": "yes",
+        "source": "hotpot_qa",
+        "modified_query": "Do both Pete Loeffler and Chris Robinson sing in American rock bands?"
+    },
+    {
+        "query": "Where does the team Bill Fennelly coaches play their home games?",
+        "response": "Hilton Coliseum",
+        "source": "hotpot_qa",
+        "modified_query": "At which venue does Bill Fennelly's team host their home games?"
+    },
+    {
+        "query": "which town in Rensselaer County, New York, United States did  Valley Falls, New York village lies on the boundary",
+        "response": "Schaghticoke",
+        "source": "hotpot_qa",
+        "modified_query": "In which town in Rensselaer County, New York, is the village of Valley Falls"
+    },
+    {
+        "query": "Adam Smith University was founded by Dr. Donald Grunewald, who was president of what college in Dobbs Ferry, New York?",
+        "response": "Mercy College",
+        "source": "hotpot_qa",
+        "modified_query": "Which college in Dobbs Ferry, New York, did Dr. Donald Grunewald preside"
+    },
+    {
+        "query": "What type of submarine was the non-nuclear U-32?",
+        "response": "German Type 212 class",
+        "source": "hotpot_qa",
+        "modified_query": "What class of submarine was the non-nuclear U-32?"
+    },
+    {
+        "query": "The Rydal Water sits along side this village known as a tourist destination.",
+        "response": "Grasmere",
+        "source": "hotpot_qa",
+        "modified_query": "Which village, known as a tourist spot, is located next to Rydal Water?"
+    },
+    {
+        "query": "Which role did Imogen Poots play in the 2007 British science fiction horror film 28 Weeks Later?",
+        "response": "Tammy",
+        "source": "hotpot_qa",
+        "modified_query": "What character did Imogen Poots portray in the 2007 British sci-fi horror movie "
+    },
+    {
+        "query": "Phillip Ferdinand \"Phil\" Mahre had a  total of 27 World Cup race wins is fourth among Americans, only behind Lindsey Vonn, Bode Miller, and Mikaela Shiffrin, an American World Cup alpine ski racer who specialized  in what?",
+        "response": "slalom and giant slalom",
+        "source": "hotpot_qa",
+        "modified_query": "In which discipline did American World Cup alpine ski racer Mikaela Shiffrin specialize?"
+    },
+    {
+        "query": "Which political power nominated Adbul Rashid Dostum?",
+        "response": "the President",
+        "source": "hotpot_qa",
+        "modified_query": "Who nominated Abdul Rashid Dostum politically?"
+    },
+    {
+        "query": "Which game allows the most players to participate, Mad Gab or Blokus?",
+        "response": "Mad Gab",
+        "source": "hotpot_qa",
+        "modified_query": "Between Mad Gab and Blokus, which game supports more players?"
+    },
+    {
+        "query": "War All the Time is an album released by a band formed in which city?",
+        "response": "New Brunswick",
+        "source": "hotpot_qa",
+        "modified_query": "In which city was the band that released the album War All the Time formed?"
+    },
+    {
+        "query": "What Actor whose birth name was Charles Dennis Buchinsky, was part of the Leslie Nielsen comedy?",
+        "response": "Charles Bronson",
+        "source": "hotpot_qa",
+        "modified_query": "Which actor, originally named Charles Dennis Buchinsky, appeared in a Leslie Nielsen comedy?"
+    },
+    {
+        "query": "What kind of bands are The Golden Seals and Galaxie 500?",
+        "response": "rock band",
+        "source": "hotpot_qa",
+        "modified_query": "What type of bands are The Golden Seals and Galaxie 500?"
+    },
+    {
+        "query": "Which of Darren Aronofsky's movies is based on a Russian ballet?",
+        "response": "Swan Lake",
+        "source": "hotpot_qa",
+        "modified_query": "Which Darren Aronofsky film is inspired by a Russian ballet?"
+    },
+    {
+        "query": "What was the position in the Wehrmacht of the deputy head of the counter-espionage bureau in the Abwehr who worked with Otto Armster?",
+        "response": "general",
+        "source": "hotpot_qa",
+        "modified_query": "What role did the deputy head of the Abwehr's counter-espionage bureau, who collaborated"
+    },
+    {
+        "query": "What was the code name for this Allied operation in WWII, also known as D-Day?",
+        "response": "Operation Overlord",
+        "source": "hotpot_qa",
+        "modified_query": "What was the code name for the Allied operation on D-Day during WWII?"
+    },
+    {
+        "query": "Wavves and Jimmy Eat World, are American bands of what type music?",
+        "response": "rock",
+        "source": "hotpot_qa",
+        "modified_query": "What genre of music do the American bands Wavves and Jimmy Eat World play?"
+    },
+    {
+        "query": "Thomas DeCarlo Callaway was on a song with Ludacris and Trick daddy, Produced by who?",
+        "response": "Mike Caren",
+        "source": "hotpot_qa",
+        "modified_query": "Who produced the song featuring Thomas DeCarlo Callaway, Ludacris, and Trick Daddy?"
+    },
+    {
+        "query": "Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?",
+        "response": "The Seven Days Battles",
+        "source": "hotpot_qa",
+        "modified_query": "Which occurred first in our nation's history, the Seven Days Battles or the Battle of Manila?"
+    },
+    {
+        "query": "Who owns the media company that described Kim Swift as one of the most recognized women in the industry?",
+        "response": "Dennis Publishing",
+        "source": "hotpot_qa",
+        "modified_query": "Which media company's owner described Kim Swift as one of the industry's most recognized women?"
+    },
+    {
+        "query": "Great Palace Mosaic Museum and Hirami Ahmet Pasha Mosque, have which city in common?",
+        "response": "Constantinople",
+        "source": "hotpot_qa",
+        "modified_query": "In which city are both the Great Palace Mosaic Museum and Hirami Ahmet Pasha Mosque located?"
+    },
+    {
+        "query": "The television series on which Will Mellor starred as Steve Connolly premiered on what date?",
+        "response": "4 March 2013",
+        "source": "hotpot_qa",
+        "modified_query": "On what date did the TV series featuring Will Mellor as Steve Connolly first air?"
+    },
+    {
+        "query": "What is the birthdate of this longtime companion of Adolf Hitler and, for fewer than 40 hours, his wife, whose dogs were taken care of byb Fritz Tomow?",
+        "response": "6 February 1912",
+        "source": "hotpot_qa",
+        "modified_query": "When was the longtime companion of Adolf Hitler, who became his wife for less than 40 hours and"
+    },
+    {
+        "query": "Which film was released first, The Saved or Grey Gardens?",
+        "response": "Grey Gardens",
+        "source": "hotpot_qa",
+        "modified_query": "Which movie came out earlier, The Saved or Grey Gardens?"
+    },
+    {
+        "query": "To Catch a Predator was devoted to impersonating people below the age of consent for which in North America varies by what?",
+        "response": "jurisdiction",
+        "source": "hotpot_qa",
+        "modified_query": "To Catch a Predator focused on impersonating individuals under the age of consent, which varies based on what"
+    },
+    {
+        "query": "What is the present role of the man Claude Mongeau succeeded as President and Chief Executive Officer of Canadian National Railway ?",
+        "response": "CEO of CSX",
+        "source": "hotpot_qa",
+        "modified_query": "What position does the person Claude Mongeau replaced as President and CEO of Canadian National Railway currently hold"
+    },
+    {
+        "query": "Back Home is a children's historical novel adapted into a TV drama starring what English actress born in 1946?",
+        "response": "Hayley Catherine Rose Vivien Mills",
+        "source": "hotpot_qa",
+        "modified_query": "Which English actress, born in 1946, starred in the TV adaptation of the children's historical novel"
+    },
+    {
+        "query": "Which gulf touches both Anna Maria Island and Anna Maria the city?",
+        "response": "Gulf of Mexico",
+        "source": "hotpot_qa",
+        "modified_query": "Which gulf borders both Anna Maria Island and the city of Anna Maria?"
+    },
+    {
+        "query": "The music video of \"Palat – Tera Hero Idhar Hai\" features the assistant director to Karan Johar on what 2010 drama?",
+        "response": "My Name Is Khan",
+        "source": "hotpot_qa",
+        "modified_query": "In which 2010 drama did the assistant director to Karan Johar, featured in the \""
+    },
+    {
+        "query": "An analog board was used in which third model of the Macintosh line?",
+        "response": "Macintosh Plus",
+        "source": "hotpot_qa",
+        "modified_query": "In which third Macintosh model was an analog board utilized?"
+    },
+    {
+        "query": "This English actor who starred in the CBS drama \"Eleventh Hour\" appeared in this 1998 American-Australian Neo-noir science fiction film directed by Alex Proyas?",
+        "response": "Dark City",
+        "source": "hotpot_qa",
+        "modified_query": "Which 1998 American-Australian Neo-noir sci-fi film directed by Alex Proyas featured"
+    },
+    {
+        "query": "What is the name of the artist who recorded the song \"Give it 2 U in which rapper Kendrick Lamar makes a guest appearance?",
+        "response": "Robin Thicke",
+        "source": "hotpot_qa",
+        "modified_query": "Who is the artist behind the song \"Give it 2 U\" featuring rapper Kendrick Lamar?"
+    },
+    {
+        "query": "What television show brought together director Coky Giedroyc and executive producer John Logan?",
+        "response": "Penny Dreadful",
+        "source": "hotpot_qa",
+        "modified_query": "Which TV series united director Coky Giedroyc with executive producer John Logan?"
+    },
+    {
+        "query": "Which movie features a song from Beaucoup Fish's fifth album and stars Arnold Schwarzenegger?",
+        "response": "Batman & Robin",
+        "source": "hotpot_qa",
+        "modified_query": "In which film does a song from Beaucoup Fish's fifth album appear, featuring Arnold Schwarzenegger?"
+    },
+    {
+        "query": "The College of Engineering at the University of Illinois at Urbana–Champaign was first established in 1868,  Engineering at Illinois consistently ranks amongst the top five such engineering colleges in the United States by which American media company that publishes news, opinion, consumer advice, rankings, and analysis, founded as a newsweekly magazine in 1933?",
+        "response": "U.S. News & World Report",
+        "source": "hotpot_qa",
+        "modified_query": "Which American media company, founded as a newsweekly magazine in 1933, consistently ranks the College"
+    },
+    {
+        "query": "Roy Black, is a civil and criminal defense trial attorney, other celebrities whom Black has represented include Joe Francis, creator of what?",
+        "response": "Girls Gone Wild",
+        "source": "hotpot_qa",
+        "modified_query": "Which creation is Joe Francis, one of the celebrities represented by attorney Roy Black, known for?"
+    },
+    {
+        "query": "What is the nationality of the author of the book in which Eeyore is a character?",
+        "response": "English",
+        "source": "hotpot_qa",
+        "modified_query": "What is the author's nationality of the book featuring Eeyore?"
+    },
+    {
+        "query": "What is the population according to the 2007 population census of the city in which the National Archives and Library of Ethiopia is located?",
+        "response": "3,384,569",
+        "source": "hotpot_qa",
+        "modified_query": "What was the population of the city housing the National Archives and Library of Ethiopia according to the 200"
+    },
+    {
+        "query": "Andre Melendez was a member of a club along with his murderer, what was the name of the club?",
+        "response": "Club Kids",
+        "source": "hotpot_qa",
+        "modified_query": "What was the club that Andre Melendez and his killer were both members of?"
+    },
+    {
+        "query": "The High Deeds of Finn MacCool is a story that is closer to the type that typically has origins in which tradition?",
+        "response": "European tradition",
+        "source": "hotpot_qa",
+        "modified_query": "The High Deeds of Finn MacCool is a tale that usually originates from which tradition?"
+    },
+    {
+        "query": "Which captain commanded the Dutchman in a film produced by Jerry Bruckheimer?",
+        "response": "Davy Jones",
+        "source": "hotpot_qa",
+        "modified_query": "Who was the captain of the Dutchman in a Jerry Bruckheimer film?"
+    },
+    {
+        "query": "Which three-time Olivier Award winning English actress starred in the 1981 BBC television serial, Sons and Lovers?",
+        "response": "Dame Eileen June Atkins",
+        "source": "hotpot_qa",
+        "modified_query": "Which English actress, a three-time Olivier Award winner, starred in the 1981 BBC series Sons"
+    },
+    {
+        "query": "Are both Rafael Nadal and Kimberly Po known for playing tennis? ",
+        "response": "yes",
+        "source": "hotpot_qa",
+        "modified_query": "Is tennis the sport associated with both Rafael Nadal and Kimberly Po?"
+    },
+    {
+        "query": "What date was Hunter Greene drafted into Major League Baseball?",
+        "response": "June 12, 2017",
+        "source": "hotpot_qa",
+        "modified_query": "On what date was Hunter Greene selected in the MLB draft?"
+    },
+    {
+        "query": "How many times was the subject of Sal Paolantonio's best known work for ESPN selected for the Pro Bowl",
+        "response": "six-time",
+        "source": "hotpot_qa",
+        "modified_query": "How often was the main figure in Sal Paolantonio's most famous ESPN work chosen for the"
+    },
+    {
+        "query": "Who has a wider scope of profession,  José Echegaray or Graham Swift?",
+        "response": "José Echegaray",
+        "source": "hotpot_qa",
+        "modified_query": "Whose professional scope is broader, José Echegaray or Graham Swift?"
+    },
+    {
+        "query": "Which political ideology was the premise of The National Action Party?",
+        "response": "Nationalism",
+        "source": "hotpot_qa",
+        "modified_query": "What political ideology underpins The National Action Party?"
+    },
+    {
+        "query": "Which film came out first Dumbo or The Country Bears ?",
+        "response": "Dumbo",
+        "source": "hotpot_qa",
+        "modified_query": "Which movie was released earlier, Dumbo or The Country Bears?"
+    },
+    {
+        "query": "What Bulgarian Airline took over Hemus Air?",
+        "response": "Bulgaria Air",
+        "source": "hotpot_qa",
+        "modified_query": "Which airline in Bulgaria acquired Hemus Air?"
+    },
+    {
+        "query": "Horrorween starred which actor and stuntman?",
+        "response": "Thomas Vincent Savini",
+        "source": "hotpot_qa",
+        "modified_query": "Who was the actor and stuntman featured in Horrorween?"
+    },
+    {
+        "query": "Which company produced both Toby Tyler and Honey, I Shrunk the Kids?",
+        "response": "Walt Disney Productions",
+        "source": "hotpot_qa",
+        "modified_query": "Which company was responsible for producing both Toby Tyler and Honey, I Shrunk the Kids?"
+    },
+    {
+        "query": "In what state does the largest power station in Australia, Eraring Power Station, and fueled by the overland conveyor system of Myuna Colliery reside?",
+        "response": "New South Wales",
+        "source": "hotpot_qa",
+        "modified_query": "In which state is Australia's largest power station, Eraring Power Station, located, which is supplied by"
+    },
+    {
+        "query": "Where was the main campus of university to which Excel Engineering College was affiliated located? ",
+        "response": "Guindy, Chennai",
+        "source": "hotpot_qa",
+        "modified_query": "In which city was the main campus of the university affiliated with Excel Engineering College situated?"
+    },
+    {
+        "query": "Sterling Archer is the titular character and main protagonist of the American animated comedy series \"Archer\", Archer was created by Adam Reed, who began working on the character shortly after the conclusion of which American animated cartoon series created by Adam Reed and Matt Thompson for Adult Swim?",
+        "response": "Frisky Dingo",
+        "source": "hotpot_qa",
+        "modified_query": "After which American animated series created by Adam Reed and Matt Thompson for Adult Swim did Adam Reed begin developing"
+    },
+    {
+        "query": "Wayne A. Cauthen graduated from what college that is also a member-school of the Thurgood Marshall College Fund?",
+        "response": "Central State University",
+        "source": "hotpot_qa",
+        "modified_query": "From which college, affiliated with the Thurgood Marshall College Fund, did Wayne A. Cauth"
+    },
+    {
+        "query": "Are both John Korty and Charley Chase known for comedies?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Is comedy a genre associated with both John Korty and Charley Chase?"
+    },
+    {
+        "query": "Who was the starting quarterback for Penn State Nittany Lions football team who resulted in Terrelle Pryor being benched?",
+        "response": "Matt McGloin",
+        "source": "hotpot_qa",
+        "modified_query": "Which Penn State Nittany Lions quarterback led to Terrelle Pryor being benched?"
+    },
+    {
+        "query": "Who was the other decathletes that Dan & Dave was meant to generate excitement and support for other than the decathlete native of Montana?",
+        "response": "Dan O'Brien",
+        "source": "hotpot_qa",
+        "modified_query": "Who was the other decathlete, besides the one from Montana, that Dan & Dave were supposed"
+    },
+    {
+        "query": "What type of forum did a former Soviet statesman initiate?",
+        "response": "Organizations could come together to address global issues",
+        "source": "hotpot_qa",
+        "modified_query": "What kind of forum was launched by a former Soviet leader?"
+    },
+    {
+        "query": "Comet is a wooden roller coaster at Hersheypark built by a company that was established in what year?",
+        "response": "1904",
+        "source": "hotpot_qa",
+        "modified_query": "In what year was the company that built the Comet wooden roller coaster at Hersheypark founded?"
+    },
+    {
+        "query": "Which 18th-century frontier fort at the current site of Cumberland, Maryland, USA was an important military and economic center during the war, 1756-63, that pitted the colonies of British America against those of New FranceFrance?",
+        "response": "Fort Cumberland",
+        "source": "hotpot_qa",
+        "modified_query": "What 18th-century frontier fort located at today's Cumberland, Maryland, USA, served as a key"
+    },
+    {
+        "query": "Which premiered first, the TV series Eden of the East or the movie Mary and Max?",
+        "response": "Mary and Max",
+        "source": "hotpot_qa",
+        "modified_query": "Which was released earlier, the TV series Eden of the East or the film Mary and Max?"
+    },
+    {
+        "query": "Which film was filmed first, Mysterious Castles of Clay or London Can Take It!?",
+        "response": "London Can Take It!",
+        "source": "hotpot_qa",
+        "modified_query": "Which movie was shot earlier, Mysterious Castles of Clay or London Can Take It!?"
+    },
+    {
+        "query": "Daniel Negusie, claimed he was forced to assist in the mistreatment of prisoners in a country that has an area of how many square Kilometers ?",
+        "response": "117600 km2",
+        "source": "hotpot_qa",
+        "modified_query": "What is the land area in square kilometers of the country where Daniel Negusie alleged he was compelled"
+    },
+    {
+        "query": "Are both The Darling Buds and Shinedown from the same country?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Do The Darling Buds and Shinedown originate from the same country?"
+    },
+    {
+        "query": "What is the name of the son of the chemist who received the highest Hirsch index rating of all living chemists in 2011?",
+        "response": "Ben Whitesides",
+        "source": "hotpot_qa",
+        "modified_query": "Who is the son of the chemist with the highest Hirsch index among living chemists in 201"
+    },
+    {
+        "query": "The Wometco Home Theater (WHT) was an early pay television service in the New York City area, that was owned by Miami-based Wometco Enterprises, the signals were broadcast beginning in August 1977, and later on WSNL-TV (channel 67) out of Smithtown, a town in Suffolk County, New York, in which country?",
+        "response": "United States",
+        "source": "hotpot_qa",
+        "modified_query": "In which country was the Wometco Home Theater (WHT) pay television service, owned by"
+    },
+    {
+        "query": "What star of the 1994 film Krantiveer was born January 1, 1951?",
+        "response": "Nana Patekar",
+        "source": "hotpot_qa",
+        "modified_query": "Who was born on January 1, 1951, and starred in the 1994 movie"
+    },
+    {
+        "query": "Who was the American business executive and the eighth Secretary of Defense, who surrounded himself with the group of experts called Whiz Kids?",
+        "response": "Robert McNamara",
+        "source": "hotpot_qa",
+        "modified_query": "Which American business executive served as the eighth Secretary of Defense and was known for assembling the Whiz Kids"
+    },
+    {
+        "query": "Which two professional hock teams did both Ray Ferraro and Pat Verbeek play for?",
+        "response": "Hartford Whalers, New York Rangers",
+        "source": "hotpot_qa",
+        "modified_query": "For which two professional hockey teams did both Ray Ferraro and Pat Verbeek play?"
+    },
+    {
+        "query": "A British officer of the Royal Navy best known for his 1791-95 expedition first charted what in 1793?",
+        "response": "Cascade Inlet",
+        "source": "hotpot_qa",
+        "modified_query": "What did a British Royal Navy officer famously chart during his 1791-95 expedition in 179"
+    },
+    {
+        "query": "Frou Frou and Portishead, are electronic bands?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Are Frou Frou and Portishead considered electronic bands?"
+    },
+    {
+        "query": "Steve Brodie was an American stage, film and television actor from El Dorado in Butler County, who starred in the war film Home of the Brave from what year?",
+        "response": "1949",
+        "source": "hotpot_qa",
+        "modified_query": "In which year did Steve Brodie, an actor from El Dorado in Butler County, star in"
+    },
+    {
+        "query": "Who founded the team that Brandon Siler played for after the Chargers?",
+        "response": "Lamar Hunt",
+        "source": "hotpot_qa",
+        "modified_query": "Who established the team Brandon Siler joined following his time with the Chargers?"
+    },
+    {
+        "query": "The 2009 Montana Grizzlies were coached by what current special teams coach for San Diego State?",
+        "response": "Robert Lawrence Hauck",
+        "source": "hotpot_qa",
+        "modified_query": "Who is the current special teams coach for San Diego State who coached the 2009 Montana Grizz"
+    },
+    {
+        "query": "Who was Germany's large-scale, low strength fortification unit, disbanded in 1919, named after? ",
+        "response": "Menges",
+        "source": "hotpot_qa",
+        "modified_query": "What was the namesake of Germany's large-scale, low-strength fortification unit disbanded in"
+    },
+    {
+        "query": "Where is the manufacturer who manufactures the brand formerly known as the Old Oscar Pepper Distillery based?",
+        "response": "Louisville, Kentucky",
+        "source": "hotpot_qa",
+        "modified_query": "Where is the company that produces the brand once called the Old Oscar Pepper Distillery located?"
+    },
+    {
+        "query": "Arena Bowl XII included what team coached by current head coach of the Washington Redskins?",
+        "response": "Orlando Predators",
+        "source": "hotpot_qa",
+        "modified_query": "Which team, coached by the current head coach of the Washington Redskins, participated in Arena Bowl XII?"
+    },
+    {
+        "query": "The 2014 Oklahoma Sooners football team represented the University of Oklahoma in the 2014 NCAA Division I FBS football season, the team was led by two-time Walter Camp Coach of the Year Award winner, Bob Stoops, a former American college football coach, and is the former head football coach at which university?",
+        "response": "University of Oklahoma",
+        "source": "hotpot_qa",
+        "modified_query": "Which university did Bob Stoops formerly head as a football coach?"
+    },
+    {
+        "query": "Troy McClure first appeared in what 13th episode of The Simpsons second season?",
+        "response": "Homer vs. Lisa and the 8th Commandment",
+        "source": "hotpot_qa",
+        "modified_query": "In which 13th episode of The Simpsons' second season did Troy McClure make his first"
+    },
+    {
+        "query": "Heathrow Terminal 3 is the base for an airline established in what year?",
+        "response": "1984",
+        "source": "hotpot_qa",
+        "modified_query": "In which year was the airline based at Heathrow Terminal 3 founded?"
+    },
+    {
+        "query": "The building at the end of Pennsylvania Route 3 was built in what year?",
+        "response": "1901",
+        "source": "hotpot_qa",
+        "modified_query": "In which year was the building located at the end of Pennsylvania Route 3 constructed?"
+    },
+    {
+        "query": "Jon Kortajarena has modeled for the fashion designer who launched his luxury brand in what year?",
+        "response": "2006",
+        "source": "hotpot_qa",
+        "modified_query": "In which year did the fashion designer, for whom Jon Kortajarena has modeled, launch their luxury"
+    },
+    {
+        "query": "Who created a sculpture two miles from Horse Thief Lake?",
+        "response": "Gutzon Borglum",
+        "source": "hotpot_qa",
+        "modified_query": "Who is the artist behind the sculpture located two miles from Horse Thief Lake?"
+    },
+    {
+        "query": "Who directed the comedy film that starred an American actress who played Erin Hannon in \"The Office\"?",
+        "response": "Jake Kasdan",
+        "source": "hotpot_qa",
+        "modified_query": "Who directed the comedy movie featuring the American actress known for playing Erin Hannon in \"The Office\"?"
+    },
+    {
+        "query": "The company that has held the distributorship of Polo and Ralph Lauren products in Asia is chaired by a businessman that controls 40.13% of the voting capital of DCIL through what?",
+        "response": "trusts",
+        "source": "hotpot_qa",
+        "modified_query": "Through what does the businessman, who chairs the company distributing Polo and Ralph Lauren products in Asia, control"
+    },
+    {
+        "query": "What is the name of the novel writen by Lucia St. Clair Robson that includes the second wife of General Benedict Arnold in the story?",
+        "response": "Shadow Patriots",
+        "source": "hotpot_qa",
+        "modified_query": "What novel by Lucia St. Clair Robson features General Benedict Arnold's second wife?"
+    },
+    {
+        "query": "Which of the following women was the first woman promoted to Master Chief Petty Officer in the US Navy: Anna Der-Vartanian or Eve Beglarian?",
+        "response": "Anna Der-Vartanian",
+        "source": "hotpot_qa",
+        "modified_query": "Who was the first woman to be promoted to Master Chief Petty Officer in the US Navy: Anna"
+    },
+    {
+        "query": "What English dancer, judge, and coach was featured as a judge on Strictly Come Dancing on season 14 with Bruno Tonioli, Craig Revel Horwood and Darcey Bussell?",
+        "response": "Leonard Gordon Goodman",
+        "source": "hotpot_qa",
+        "modified_query": "Which English dancer, judge, and coach joined Bruno Tonioli, Craig Revel Horwood, and Dar"
+    },
+    {
+        "query": "In 1983, who was best known for producing A Christmas Story?",
+        "response": "Bob Clark",
+        "source": "hotpot_qa",
+        "modified_query": "Who was the producer most recognized for A Christmas Story in 1983?"
+    },
+    {
+        "query": "Baz's Culture Clash was a television series presented by which \"50 Ways to Kill Your Mammy\" radio and tv personality?",
+        "response": "Bazil Ashmawy",
+        "source": "hotpot_qa",
+        "modified_query": "Who is the \"50 Ways to Kill Your Mammy\" radio and TV personality who presented Baz's"
+    },
+    {
+        "query": "Which band, \"VHS or Beta\" or \"Knuckle Puck,\" is originally from a city that is further west?",
+        "response": "Knuckle Puck",
+        "source": "hotpot_qa",
+        "modified_query": "Which band, \"VHS or Beta\" or \"Knuckle Puck,\" hails from a"
+    },
+    {
+        "query": "In what year was the music director for Garrett Borns born?",
+        "response": "1976",
+        "source": "hotpot_qa",
+        "modified_query": "What year was Garrett Borns' music director born?"
+    },
+    {
+        "query": "Jenny Wiley Theatre alumnus who won the Tony Award  for Best Featured Actor in a Musical won it for playing what role?",
+        "response": "John Wilkes Booth",
+        "source": "hotpot_qa",
+        "modified_query": "For which role did a Jenny Wiley Theatre alumnus win the Tony Award for Best Featured Actor in a"
+    },
+    {
+        "query": "Between Co-Ro Food and Pocari Sweat, which is manufactured in Asia?",
+        "response": "Pocari Sweat",
+        "source": "hotpot_qa",
+        "modified_query": "Which of Co-Ro Food or Pocari Sweat is produced in Asia?"
+    },
+    {
+        "query": "How many candidates were run by the political party tasked solely with stopping the relocation of South Australia's largest hospital?",
+        "response": "11",
+        "source": "hotpot_qa",
+        "modified_query": "How many candidates did the political party focused on halting the relocation of South Australia's largest hospital field?"
+    },
+    {
+        "query": "Were both Ernst Messerschmid and Reinhold Ewald ESA astronauts?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Were Ernst Messerschmid and Reinhold Ewald both astronauts for the ESA?"
+    },
+    {
+        "query": "Faye Elaine Marsay is an English actress who had a notible role in a series directed by who?",
+        "response": "James Hawes",
+        "source": "hotpot_qa",
+        "modified_query": "In which series did Faye Elaine Marsay play a notable role, and who directed it?"
+    },
+    {
+        "query": "The British sitcom starring Sharon Horgan and Rob Delaney is produced by a man known for his collaborations with who?",
+        "response": "Armando Iannucci",
+        "source": "hotpot_qa",
+        "modified_query": "The British sitcom featuring Sharon Horgan and Rob Delaney is produced by a man famous for working with"
+    },
+    {
+        "query": "Alec Baldwin guest starred in which 2004 \"The Fairly Oddparents\" television film? ",
+        "response": "Channel Chasers",
+        "source": "hotpot_qa",
+        "modified_query": "In which 2004 \"The Fairly Oddparents\" TV movie did Alec Baldwin guest star?"
+    },
+    {
+        "query": "How did The President of Uganda from 1971 to 1979, who was known as strongman, die?",
+        "response": "a helicopter crash",
+        "source": "hotpot_qa",
+        "modified_query": "What was the cause of death for Uganda's President from 1971 to 1979, known"
+    },
+    {
+        "query": " Heathcliff Andrew Ledger was an Australian actor whose work included a fantasy film directed by who?",
+        "response": "Terry Gilliam",
+        "source": "hotpot_qa",
+        "modified_query": "Who directed the fantasy film featuring Australian actor Heathcliff Andrew Ledger?"
+    },
+    {
+        "query": "The Butte is a census-designated place (CDP) in Matanuska-Susitna Borough, Alaska, it is part of the Anchorage, Alaska Metropolitan Statistical Area, in which country?",
+        "response": "United States",
+        "source": "hotpot_qa",
+        "modified_query": "In which country is The Butte, a CDP in Matanuska-Susitna"
+    },
+    {
+        "query": "Kris Zimmerman Salter, is an American voice and casting director in the animation and video game industry, her major works include which action-adventure stealth video game produced by Konami Computer Entertainment Japan and released for the PlayStation in 1998?",
+        "response": "Metal Gear Solid",
+        "source": "hotpot_qa",
+        "modified_query": "Which action-adventure stealth video game, released by Konami Computer Entertainment Japan for the PlayStation in"
+    },
+    {
+        "query": "which  southern region of Asia did  Indian whiting inhabits its  east and west coasts",
+        "response": "The Indian subcontinent",
+        "source": "hotpot_qa",
+        "modified_query": "In which southern Asian region does the Indian whiting inhabit both the east and west coasts?"
+    },
+    {
+        "query": "The Cooper is a comic opera, in two acts, by which English composer?",
+        "response": "Thomas Augustine Arne",
+        "source": "hotpot_qa",
+        "modified_query": "Who composed the comic opera \"The Cooper,\" which is in two acts?"
+    },
+    {
+        "query": "What do Bob Marley and Timo Kotipelto have in common?",
+        "response": "singer-songwriter",
+        "source": "hotpot_qa",
+        "modified_query": "What is the commonality between Bob Marley and Timo Kotipelto?"
+    },
+    {
+        "query": "What is the birthdate of the co-assistant coach of the team Mikel Arteta plays for?",
+        "response": "29 May 1949",
+        "source": "hotpot_qa",
+        "modified_query": "When was the co-assistant coach of Mikel Arteta's team born?"
+    },
+    {
+        "query": "Say Say Say, released in 1983, was written and performed by which two artists?",
+        "response": "Paul McCartney and Michael Jackson",
+        "source": "hotpot_qa",
+        "modified_query": "Which two artists wrote and performed \"Say Say Say\" in 1983?"
+    },
+    {
+        "query": "The company that owns Mount Keith Mine was founded in what year?",
+        "response": "1885",
+        "source": "hotpot_qa",
+        "modified_query": "In what year was the company that owns Mount Keith Mine established?"
+    },
+    {
+        "query": "Les Patterson Saves the World was a comedy film starring the author of which autobiography?",
+        "response": "My Gorgeous Life",
+        "source": "hotpot_qa",
+        "modified_query": "Which autobiography's author starred in the comedy film Les Patterson Saves the World?"
+    },
+    {
+        "query": "Which English former professional footballer played non-league football for the Gainsborough Trinity Football Club?",
+        "response": "Ian Robert Bennyworth",
+        "source": "hotpot_qa",
+        "modified_query": "Which ex-professional English footballer played for Gainsborough Trinity in non-league football?"
+    },
+    {
+        "query": "Which region did this son of Marion Kozak and British politician who was Leader of the Labour Party and Leader of the Opposition in the 2010s, represent as Member of Parliament in 2005?",
+        "response": "Doncaster North",
+        "source": "hotpot_qa",
+        "modified_query": "Which constituency did the son of Marion Kozak, a British politician and former Labour Party Leader in the"
+    },
+    {
+        "query": "What year was the mvoie Three Violent People made?",
+        "response": "1957",
+        "source": "hotpot_qa",
+        "modified_query": "In what year was the film Three Violent People produced?"
+    },
+    {
+        "query": "The Sisters stars a Canadian-American actor who is known for his role as Will Truman in what sitcom?",
+        "response": "Will & Grace",
+        "source": "hotpot_qa",
+        "modified_query": "In which sitcom is the Canadian-American actor known for playing Will Truman featured?"
+    },
+    {
+        "query": "In what year was director of the 2015 drama film, \"We Are Your Friends,\" born?",
+        "response": "1982",
+        "source": "hotpot_qa",
+        "modified_query": "What year was the director of the 2015 drama film \"We Are Your Friends\" born?"
+    },
+    {
+        "query": "SW8 (\"Secret Weapon 8\") is the code name for a wooden roller coaster currently under construction at Alton Towers in Staffordshire, United Kingdom, the attraction is set to be the park's first roller coaster constructed from wood and is to be manufactured by which Sunbury, Pennsylvania-based roller coaster manufacturer which has created several award-winning rides since its formation in 1994?",
+        "response": "Great Coasters International, Inc.",
+        "source": "hotpot_qa",
+        "modified_query": "Which Sunbury, Pennsylvania-based manufacturer, known for award-winning rides since 1994, is building"
+    },
+    {
+        "query": "\"Need You\" is a 1967 single by Sonny James, James Hugh Loden, known professionally as Sonny James, was an American country music singer and songwriter best known for his hit, \"Young Love\", released in which year?",
+        "response": "1957",
+        "source": "hotpot_qa",
+        "modified_query": "In what year was Sonny James's hit \"Young Love\" released?"
+    },
+    {
+        "query": "What type of category does Acantholimon and Podranea have in common?",
+        "response": "genus",
+        "source": "hotpot_qa",
+        "modified_query": "What category do Acantholimon and Podranea share?"
+    },
+    {
+        "query": "What type of media does The Santa Clause 3: The Escape Clause and The Castaway Cowboy have in common?",
+        "response": "film",
+        "source": "hotpot_qa",
+        "modified_query": "What kind of media format is shared by The Santa Clause 3: The Escape Clause and The Cast"
+    },
+    {
+        "query": "Which large mammal that appears in the engraving for the Wildebeest Kuil Rock Art Centre, is one of any five extant species of odd-toed ungulates in the family Rhinocerotidae?",
+        "response": "rhinoceros",
+        "source": "hotpot_qa",
+        "modified_query": "What large mammal depicted in the Wildebeest Kuil Rock Art Centre engraving belongs to the five"
+    },
+    {
+        "query": "Bangalore Naatkal starred which actor and photographer?",
+        "response": "Ramanaidu Daggubati",
+        "source": "hotpot_qa",
+        "modified_query": "Which actor and photographer starred in Bangalore Naatkal?"
+    },
+    {
+        "query": "What team did Boom Boom captain in 2016?",
+        "response": "Peshawar Zalmi",
+        "source": "hotpot_qa",
+        "modified_query": "Which team was led by Boom Boom as captain in 2016?"
+    },
+    {
+        "query": "Choi Ri (born June 29, 1995) is a South Korean actress, she won the New Rising Award, for her role debut in which 2016, South Korean period drama film written and directed by Cho Jung-rae?",
+        "response": "Spirits’ Homecoming",
+        "source": "hotpot_qa",
+        "modified_query": "In which 2016 South Korean period drama film, written and directed by Cho Jung-rae,"
+    },
+    {
+        "query": "Ross Pople worked with which English composer known for his opera \"The Midsummer Marriage\"?",
+        "response": "Michael Tippett",
+        "source": "hotpot_qa",
+        "modified_query": "Which English composer, famous for the opera \"The Midsummer Marriage,\" collaborated with Ross Pople"
+    },
+    {
+        "query": "Are Flax and Calamus in the same family?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Do Flax and Calamus belong to the same family?"
+    },
+    {
+        "query": "What does the brewery that is located in the home of Neuhaus produce?",
+        "response": "lambics",
+        "source": "hotpot_qa",
+        "modified_query": "What does the brewery in Neuhaus's hometown make?"
+    },
+    {
+        "query": "Blue Dream Media is know for following what American basic cable, internet and satellite business?",
+        "response": "CNBC",
+        "source": "hotpot_qa",
+        "modified_query": "Which American basic cable, internet, and satellite company is Blue Dream Media associated with?"
+    },
+    {
+        "query": "What do Presbyterian University College and Baylor University have in common",
+        "response": "partially private & public university",
+        "source": "hotpot_qa",
+        "modified_query": "What is shared between Presbyterian University College and Baylor University?"
+    },
+    {
+        "query": "In addition to writing, what was the author of the text to Lord of All Being, Throned Afar formally trained in?",
+        "response": "law",
+        "source": "hotpot_qa",
+        "modified_query": "Besides writing, in what field was the author of the text to Lord of All Being, Thron"
+    },
+    {
+        "query": "How high on the US \"Billboard\" Hot 100 chart did Dan Smith's song reach in 2013?",
+        "response": "number 5",
+        "source": "hotpot_qa",
+        "modified_query": "What position did Dan Smith's song achieve on the US \"Billboard\" Hot 100 chart in"
+    },
+    {
+        "query": "Who was the founder of the company that Harry Crook had worked as a sales representative for?",
+        "response": "Alfred Fuller",
+        "source": "hotpot_qa",
+        "modified_query": "Who established the company where Harry Crook worked as a sales representative?"
+    },
+    {
+        "query": "The Williams FW33 was a Formula One racing car developed by Williams F1, it was driven by  rookie driver Pastor Maldonado, a Venezuelan professional racing driver, who competed in which sports organization?",
+        "response": "Formula One",
+        "source": "hotpot_qa",
+        "modified_query": "In which sports organization did rookie driver Pastor Maldonado compete with the Williams FW33?"
+    },
+    {
+        "query": "Which animation programming block did the series American Dad premier inn?",
+        "response": "Animation Domination",
+        "source": "hotpot_qa",
+        "modified_query": "On which animation programming block did American Dad first air?"
+    },
+    {
+        "query": "Do Onyx and Game For Fame follow the same genre?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Are Onyx and Game For Fame in the same genre?"
+    },
+    {
+        "query": "Which magazine is published more frequently, Donna Moderna or Kotiliesi?",
+        "response": "Donna Moderna",
+        "source": "hotpot_qa",
+        "modified_query": "Which magazine has a higher publication frequency, Donna Moderna or Kotiliesi?"
+    },
+    {
+        "query": "Under which Roman Emperor's effective conquest of Britain was it possible that Jews visited Scotland?",
+        "response": "Emperor Claudius",
+        "source": "hotpot_qa",
+        "modified_query": "During the reign of which Roman Emperor, whose conquest of Britain was effective, might Jews have visited Scotland"
+    },
+    {
+        "query": "Consider the band formed in 2015 by JYP Entertainment through the reality show \"Sixteen\". How many tracks are on the reissue of their third album?",
+        "response": "13",
+        "source": "hotpot_qa",
+        "modified_query": "How many songs are included in the reissue of the third album by the band created in 201"
+    },
+    {
+        "query": "What is the historical name of the acid that dissolves phenazine?",
+        "response": "oil of vitriol",
+        "source": "hotpot_qa",
+        "modified_query": "What was the traditional name for the acid that dissolves phenazine?"
+    },
+    {
+        "query": "Are Fremontodendron and Mitella both native to the southwestern United States and northwest Mexico?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Are both Fremontodendron and Mitella indigenous to the southwestern U.S. and northwest Mexico?"
+    },
+    {
+        "query": "What year was the magazine, which featured \"A Sound of Thunder\" in 1952, founded?",
+        "response": "1888",
+        "source": "hotpot_qa",
+        "modified_query": "In what year was the magazine that published \"A Sound of Thunder\" in 1952 established?"
+    },
+    {
+        "query": "\"Pacify Her\" is a song by a singer that was raised in which city ?",
+        "response": "Baldwin, New York",
+        "source": "hotpot_qa",
+        "modified_query": "In which city was the singer of \"Pacify Her\" raised?"
     },
     {
         "query": "Which capitol city is also the second largest city in the United States by area?",
         "response": "Juneau",
         "source": "hotpot_qa",
-        "modified_query": "What is the second largest U.S. city by area that is also a state capital?"
+        "modified_query": "What is the second largest city by area in the United States that is also a capital city?"
     },
     {
-        "query": "Bryan Greenberg was in the 2011 comedy film directed by whom?",
-        "response": "Will Gluck",
+        "query": "Which person, William Blake Herron or John Carpenter, held more diverse roles in the movie industry?",
+        "response": "musician, editor and composer.",
         "source": "hotpot_qa",
-        "modified_query": "Who directed the 2011 comedy film featuring Bryan Greenberg?"
+        "modified_query": "Who had a wider range of roles in the film industry, William Blake Herron or John Carpenter?"
     },
     {
-        "query": "Which Canadian-based company originated both the Aurora Engine and went on to create successful franchises such as Baldur's Gate, Mass Effect, and Dragon Age?",
-        "response": "BioWare",
+        "query": "In the 2016 NHL Entry Draft, the second overall pick was selected by which team?",
+        "response": "Winnipeg Jets",
         "source": "hotpot_qa",
-        "modified_query": "Which Canadian company developed the Aurora Engine and created the Baldur's Gate, Mass Effect, and Dragon"
+        "modified_query": "Which team chose the second overall pick in the 2016 NHL Entry Draft?"
     },
     {
-        "query": "The New York City Board of Transportation was commission and operating of what complex infrastructural system?",
-        "response": "transportation system of New York City",
+        "query": "When was the American comedy film released which was written by Herschel Alan Weingrod with  Murray Salem?",
+        "response": "December 21, 1990",
         "source": "hotpot_qa",
-        "modified_query": "What complex infrastructure system was managed and operated by the New York City Board of Transportation?"
+        "modified_query": "When did the American comedy film, co-written by Herschel Alan Weingrod and Murray Salem,"
     },
     {
-        "query": " Rangers also made moves to acquire an American-born Mexican professional baseball infielder born in what year?",
-        "response": "1982",
+        "query": "The Cribs and Julian Cope, is of which nationality?",
+        "response": "English",
         "source": "hotpot_qa",
-        "modified_query": "In which year was the American-born Mexican professional baseball infielder, acquired by the Rangers, born?"
+        "modified_query": "What nationality are The Cribs and Julian Cope?"
     },
     {
-        "query": "Are Crepis and Bouteloua both a genus of plants?",
+        "query": "Fred: The Movie included the professional wrestler and actor currently signed to what wrestling company?",
+        "response": "WWE",
+        "source": "hotpot_qa",
+        "modified_query": "Fred: The Movie featured a professional wrestler and actor who is currently with which wrestling organization?"
+    },
+    {
+        "query": "What city was the location of a a 1990 horror comedy film directed by Claudio Fragasso (under the pseudonym Drake Floyd) and starring Michael Stephenson, George Hardy, Margo Prey, Connie McFarland, Deborah Reed and Jason Wright?",
+        "response": "Morgan",
+        "source": "hotpot_qa",
+        "modified_query": "In which city was the 1990 horror comedy film directed by Claudio Fragasso (as Drake Floyd"
+    },
+    {
+        "query": "Have Fat Mike and Shim Eun-jin collaborated on music previously?",
+        "response": "no",
+        "source": "hotpot_qa",
+        "modified_query": "Have Shim Eun-jin and Fat Mike worked together on music before?"
+    },
+    {
+        "query": "Ben Grosse produced an album for what band formed in 2004 in Orlando, Florida?",
+        "response": "Alter Bridge",
+        "source": "hotpot_qa",
+        "modified_query": "Which band, formed in 2004 in Orlando, Florida, had an album produced by Ben G"
+    },
+    {
+        "query": "What engine designed to power medium duty trucks and heavy cars was also used in Chevy's intermediate and pony car?",
+        "response": "The Chevrolet \"Big Block\"",
+        "source": "hotpot_qa",
+        "modified_query": "Which engine, originally intended for medium duty trucks and heavy cars, was also used in Chevy's intermediate"
+    },
+    {
+        "query": "Which Irish band's name is a play on a hit song by Dire Straits?",
+        "response": "The Sultans of Ping FC",
+        "source": "hotpot_qa",
+        "modified_query": "What Irish band is named after a Dire Straits hit song?"
+    },
+    {
+        "query": "Chronicon terrae Prussiae, is a chronicle of the Teutonic Knights, by Peter of Dusburg, finished in 1326, the  manuscript was completed some 100 years after which titled series of 13th-century campaigns of Roman Catholic crusaders, primarily led by the Teutonic Knights, to Christianize the pagan Old Prussians?",
+        "response": "Prussian Crusade",
+        "source": "hotpot_qa",
+        "modified_query": "The Chronicon terrae Prussiae by Peter of Dusburg, completed in 1326,"
+    },
+    {
+        "query": "who played Thomas Andrews in Titanic",
+        "response": "Victor Joseph Garber",
+        "source": "hotpot_qa",
+        "modified_query": "Who portrayed Thomas Andrews in the movie Titanic?"
+    },
+    {
+        "query": "Are Alice in Chains and Skin Yard both bands that formed in Seattle?",
         "response": "yes",
         "source": "hotpot_qa",
-        "modified_query": "Is it true that Crepis and Bouteloua are both plant genera?"
+        "modified_query": "Did both Alice in Chains and Skin Yard originate as bands in Seattle?"
     },
     {
-        "query": "Which of the four US Presidents who have been assinated was shot on the grounds of the Pan-American Exposition at the Temple of Music in Buffalo, New York?",
-        "response": "William McKinley",
+        "query": "What party did the author of \"The Great Illusion\" belong to?",
+        "response": "Labour Party",
         "source": "hotpot_qa",
-        "modified_query": "Which of the four assassinated US Presidents was shot at the Temple of Music during the Pan-American Ex"
+        "modified_query": "Which political party was the author of \"The Great Illusion\" affiliated with?"
     },
     {
-        "query": "How many people live in the area maintained by the Cherokee National Forest?",
-        "response": "25 million",
+        "query": "Which magazine, Reason or Ladies' Home Journal, is an American magazine published by the Meredith Corporation?",
+        "response": "Ladies' Home Journal",
         "source": "hotpot_qa",
-        "modified_query": "What is the population within the boundaries of the Cherokee National Forest?"
+        "modified_query": "Which American magazine is published by the Meredith Corporation: Reason or Ladies' Home Journal?"
     },
     {
-        "query": "Were Love Among Freaks and !!! formed in the same State ?",
+        "query": "U.S. Representative Mike Conaway is investigating interference in what US elections with the help of American attorney, politician and former prosecutor Trey Gowdy and Tom Rooney?",
+        "response": "2016 United States elections",
+        "source": "hotpot_qa",
+        "modified_query": "Which U.S. elections is Representative Mike Conaway investigating for interference with assistance from Trey Gowdy and"
+    },
+    {
+        "query": "The capital of Slovenia is located between which two cities",
+        "response": "Carniola and Styria",
+        "source": "hotpot_qa",
+        "modified_query": "Between which two cities is Slovenia's capital situated?"
+    },
+    {
+        "query": "What film other than the 2007 American computer-animated science fiction comedy film produced by Walt Disney Animation Studios was produced during Stainton's tenure?",
+        "response": "\"Chicken Little\"",
+        "source": "hotpot_qa",
+        "modified_query": "Which movie, besides the 2007 American computer-animated sci-fi comedy by Walt Disney Animation Studios"
+    },
+    {
+        "query": "Are the Sabueso Español and Galgo Español suitable dogs for domestic pets?",
         "response": "no",
         "source": "hotpot_qa",
-        "modified_query": "Did Love Among Freaks and !!! originate in the same state?"
+        "modified_query": "Are the Sabueso Español and Galgo Español good choices for household pets?"
     },
     {
-        "query": "Which band has more members, The Black Keys or Beastie Boys?",
-        "response": "Beastie Boys",
+        "query": "Who was the first person to describe Relational Quantum mechanics and has worked in Italy, the United States, and France?",
+        "response": "Carlo Rovelli",
         "source": "hotpot_qa",
-        "modified_query": "Which group has a larger number of members, The Black Keys or Beastie Boys?"
+        "modified_query": "Who first described Relational Quantum Mechanics and has worked in Italy, the U.S., and France?"
     },
     {
-        "query": "Who publishes Applied Physics A and B?",
-        "response": "Springer Science+Business Media",
+        "query": "On what network does The Assistants and About a Girl air? ",
+        "response": "The N",
         "source": "hotpot_qa",
-        "modified_query": "Which publisher is responsible for Applied Physics A and B?"
+        "modified_query": "Which network broadcasts The Assistants and About a Girl?"
     },
     {
-        "query": "Krysten Alyce Ritter, is an American actress and former model, she has appeared in films such as which 2008 American comedy film directed by Tom Vaughan, written by Dana Fox and starring Cameron Diaz and Ashton Kutcher?",
-        "response": "What Happens in Vegas",
+        "query": "The band Salem had a song featured in a 2012 film directed by whom?",
+        "response": "Derek Cianfrance",
         "source": "hotpot_qa",
-        "modified_query": "In which 2008 American comedy film, directed by Tom Vaughan and starring Cameron Diaz and Ashton Kut"
+        "modified_query": "Who directed the 2012 film that featured a song by the band Salem?"
     },
     {
-        "query": "Are both Elinor Lipman and Ernst Toller German?",
-        "response": "no",
+        "query": "What song was co-written by Verse Simmonds and can be found in an album know as \"Loud\" (2010)?",
+        "response": "Man Down",
         "source": "hotpot_qa",
-        "modified_query": "Is either Elinor Lipman or Ernst Toller German?"
+        "modified_query": "Which song, co-written by Verse Simmonds, is featured on the 2010 album \""
     },
     {
-        "query": "Are Mike Ness and Marc Bolan both guitarists?",
-        "response": "yes",
+        "query": "Zero Airport or Ziro Airport, is located at Ziro in the state of Arunachal Pradesh, India, Jet Airways showed interest in flying into the airport from where?",
+        "response": "Delhi",
         "source": "hotpot_qa",
-        "modified_query": "Do both Mike Ness and Marc Bolan play guitar?"
+        "modified_query": "From which location did Jet Airways express interest in flying to Zero Airport in Ziro, Arunachal Pradesh"
     },
     {
-        "query": "In what Nickelodeon shown did Todd Talbot star as the role of Matt Walker?",
-        "response": "Hillside",
+        "query": "How many people died in the famine that inspired the U.S. Commission on the Ukraine Famine?",
+        "response": "7 million to 10 million",
         "source": "hotpot_qa",
-        "modified_query": "In which Nickelodeon show did Todd Talbot play Matt Walker?"
+        "modified_query": "What was the death toll in the famine that led to the creation of the U.S. Commission on"
     },
     {
-        "query": "Which  weekly magazine published by the United States military during World War II did , Yank takes its title from ",
-        "response": "Yank, the Army Weekly",
+        "query": "Who is the father of the character Alfie Allen portrayed in \"Game of Thrones\"?",
+        "response": "Balon Greyjoy",
         "source": "hotpot_qa",
-        "modified_query": "From which World War II-era weekly magazine published by the U.S. military does Yank derive its title"
+        "modified_query": "Who is the father of the character played by Alfie Allen in \"Game of Thrones\"?"
     },
     {
-        "query": "MTV1987 was written by the rapper from what Texas city?",
-        "response": "Corpus Christi",
+        "query": "What was the founder of the Material World Charitable Foundation often referred to as?",
+        "response": "the quiet Beatle",
         "source": "hotpot_qa",
-        "modified_query": "From which Texas city is the rapper who wrote MTV1987?"
+        "modified_query": "By what name was the founder of the Material World Charitable Foundation commonly known?"
     },
     {
-        "query": "What disease was Kyle Broflovski infected with by one of his three friends?",
-        "response": "HIV",
+        "query": "Which influential composer of piano music was active later in the 20th century: Dmitri Shostakovich or Philip Glass?",
+        "response": "Philip Morris Glass",
         "source": "hotpot_qa",
-        "modified_query": "Which illness did one of Kyle Broflovski's three friends give him?"
+        "modified_query": "Who was a prominent composer of piano music in the latter part of the 20th century: Dmit"
     },
     {
-        "query": "What is this association football award that recognises the best Premier League player each month of the season, which is announced with the Premier League Manager of the Month, currently called?",
-        "response": "EA SPORTS Player",
-        "source": "hotpot_qa",
-        "modified_query": "What is the current name of the award given monthly to the best Premier League player, announced alongside the"
-    },
-    {
-        "query": "What American physicist discovered the positron which explained Chinese physicist Chung-Yao Chao's earlier experiments with gamma rays?",
-        "response": "Carl David Anderson",
-        "source": "hotpot_qa",
-        "modified_query": "Which American physicist identified the positron, clarifying Chung-Yao Chao's previous gamma ray"
-    },
-    {
-        "query": "Which coming-of-age drama film filmed in Pittsburgh did Logan Lerman act in in 2012?",
-        "response": "Perks of Being a Wallflower",
-        "source": "hotpot_qa",
-        "modified_query": "In which 2012 coming-of-age drama set in Pittsburgh did Logan Lerman star?"
-    },
-    {
-        "query": "What is the total inmate population in the state New Hampshire State Prison for Men is located in?",
-        "response": "2,791",
-        "source": "hotpot_qa",
-        "modified_query": "What is the inmate count in the state where New Hampshire State Prison for Men is situated?"
-    },
-    {
-        "query": "In what movie did a star of the 1998 American crime comedy-drama film directed by Ted Demme, play the role of Xenia Onatopp?",
-        "response": "\"GoldenEye\"",
-        "source": "hotpot_qa",
-        "modified_query": "In which film did an actor from the 1998 American crime comedy-drama directed by Ted Dem"
-    },
-    {
-        "query": "In what year did Malkit Singh move to the city where Oriental Star Agencies is based?",
-        "response": "1984",
-        "source": "hotpot_qa",
-        "modified_query": "When did Malkit Singh relocate to the city where Oriental Star Agencies is located?"
-    },
-    {
-        "query": "What is the  2014 incarnation of the charity super group Band Aid?",
-        "response": "Band Aid 30",
-        "source": "hotpot_qa",
-        "modified_query": "What is the 2014 version of the charity super group Band Aid?"
-    },
-    {
-        "query": "This Ole House is an album by the singer who is of what nationality?",
-        "response": "British",
-        "source": "hotpot_qa",
-        "modified_query": "What nationality is the singer of the album \"This Ole House\"?"
-    },
-    {
-        "query": "What is the area of the Island that Wailoa River State Recreation Area is on?",
-        "response": "4028 sqmi",
-        "source": "hotpot_qa",
-        "modified_query": "How large is the island where Wailoa River State Recreation Area is located?"
-    },
-    {
-        "query": "Who is from farther west, Makethisrelate or Saosin?",
-        "response": "Saosin",
-        "source": "hotpot_qa",
-        "modified_query": "Which individual originates from a more westerly location, Makethisrelate or Saosin?"
-    },
-    {
-        "query": "Earth Sound Research was located in what New York county?",
-        "response": "Nassau County",
-        "source": "hotpot_qa",
-        "modified_query": "In which New York county was Earth Sound Research situated?"
-    },
-    {
-        "query": "Who was born first, Mikael Salomon or Miklós Jancsó?",
-        "response": "Miklós Jancsó",
-        "source": "hotpot_qa",
-        "modified_query": "Who is older, Mikael Salomon or Miklós Jancsó?"
-    },
-    {
-        "query": "In what style of art did Edward Purrington and Paul Hindemith collaborate?",
-        "response": "opera",
-        "source": "hotpot_qa",
-        "modified_query": "What art style did Edward Purrington and Paul Hindemith work together in?"
-    },
-    {
-        "query": "Why We Broke Up was written by the author who has what pseudonym?",
-        "response": "Lemony Snicket",
-        "source": "hotpot_qa",
-        "modified_query": "Under what pseudonym did the author of Why We Broke Up write?"
-    },
-    {
-        "query": "The Reunion, released in which year, an American action film, starring Boyd Holbrook, an American actor and fashion model?",
-        "response": "2011",
-        "source": "hotpot_qa",
-        "modified_query": "In what year was \"The Reunion,\" an American action film featuring Boyd Holbrook, released?"
-    },
-    {
-        "query": "New Woman and Women's Running, are both manufactured into which forms of media?",
-        "response": "magazine",
-        "source": "hotpot_qa",
-        "modified_query": "In what media formats are New Woman and Women's Running produced?"
-    },
-    {
-        "query": "Which director does Sylvain Bellemare and Arrival have in common?",
-        "response": "Denis Villeneuve",
-        "source": "hotpot_qa",
-        "modified_query": "Who directed the film Arrival, which also involved Sylvain Bellemare?"
-    },
-    {
-        "query": "Bottle Shock starred which American actor who played Capt. Kirk in the Star Trek reboot?",
-        "response": "Christopher Whitelaw Pine",
-        "source": "hotpot_qa",
-        "modified_query": "Which American actor, known for playing Capt. Kirk in the Star Trek reboot, starred in Bottle Shock"
-    },
-    {
-        "query": " For British markets Big Time was released as a double A-side single together with a song originally written and produced by who?",
-        "response": "George Michael",
-        "source": "hotpot_qa",
-        "modified_query": "In British markets, who originally wrote and produced the song released as a double A-side single with Big"
-    },
-    {
-        "query": "Surfrider is located at the water park owned by what company?",
-        "response": "Village Roadshow Theme Parks",
-        "source": "hotpot_qa",
-        "modified_query": "Which company owns the water park where Surfrider is located?"
-    },
-    {
-        "query": "What Filipino playright wrote a zarzuela about the archipelago that Ferdinand Magellan claimed for the king of Spain on Easter Sunday, 32 March, 1521?",
-        "response": "Severino Reyes",
-        "source": "hotpot_qa",
-        "modified_query": "Who is the Filipino playwright who authored a zarzuela about the islands Ferdinand Magellan claimed for Spain's"
-    },
-    {
-        "query": "What is the name of the woman enslaved by Thoams Jefferson who is the suject of the James Ivory film Jefferson in Pairs?",
-        "response": "Sally Hemings",
-        "source": "hotpot_qa",
-        "modified_query": "Who was the enslaved woman by Thomas Jefferson featured in the James Ivory film Jefferson in Paris?"
-    },
-    {
-        "query": "Henry Ephraim Robins the the eighth President of a college in a state with what capital?",
-        "response": "Augusta",
-        "source": "hotpot_qa",
-        "modified_query": "Henry Ephraim Robins was the eighth President of a college in a state whose capital is what"
-    },
-    {
-        "query": "In which year was this Austrian business magnate, engineer and executive whom Hans Dieter Pötsch succeeded as chairman of the supervisory board of Volkswagen born?",
-        "response": "1937",
-        "source": "hotpot_qa",
-        "modified_query": "What year was the Austrian business magnate, engineer, and executive, succeeded by Hans Dieter P"
-    },
-    {
-        "query": "Which Soviet sniper and a Hero of the Soviet Union during World War II became the source material for a character from \"Enemy at the Gates?\"",
-        "response": "Vasily Zaytsev",
-        "source": "hotpot_qa",
-        "modified_query": "Which Soviet sniper, honored as a Hero of the Soviet Union in World War II, inspired a character"
-    },
-    {
-        "query": "Who was the grandfather of the seventh King of the Belgians?",
-        "response": "Fulco VIII",
-        "source": "hotpot_qa",
-        "modified_query": "Who was the seventh Belgian King's grandfather?"
-    },
-    {
-        "query": "The drug Nateglinide was developed by a company that has what percentage of the global market share?",
-        "response": "40%",
-        "source": "hotpot_qa",
-        "modified_query": "What is the global market share percentage of the company that developed Nateglinide?"
-    },
-    {
-        "query": "The performing arts center where The Hudson Museum is located in has been operating since what year?",
-        "response": "1986",
-        "source": "hotpot_qa",
-        "modified_query": "In what year did the performing arts center housing The Hudson Museum begin operations?"
-    },
-    {
-        "query": "Are Nintendo Power and Model Aviation both magazines?",
-        "response": "no",
-        "source": "hotpot_qa",
-        "modified_query": "Are both Nintendo Power and Model Aviation magazines?"
-    },
-    {
-        "query": "This concert tour  began on 16 September 2005 in Miami, Florida and returning as the background band was an American guitarist that has worked with an extensive list of artists in addition to his own what?",
-        "response": "solo career",
-        "source": "hotpot_qa",
-        "modified_query": "This concert tour started on 16 September 2005 in Miami, Florida, featuring an American guitarist"
-    },
-    {
-        "query": "When was the former chief executive officer of J. C. Penney born who joined after Myron E. \"Mike\" Ullman III?",
-        "response": "October 15, 1959",
-        "source": "hotpot_qa",
-        "modified_query": "What is the birthdate of the J. C. Penney CEO who succeeded Myron E."
-    },
-    {
-        "query": "Who is the director of the 2003 film which has scenes in it filmed at the Quality Cafe in Los Angeles?",
-        "response": "Todd Phillips",
-        "source": "hotpot_qa",
-        "modified_query": "Who directed the 2003 movie with scenes shot at the Quality Cafe in Los Angeles?"
-    },
-    {
-        "query": "What Horror thriller film directed by Franck Khalfoun, stars Stephanie Moore?",
-        "response": "P2",
-        "source": "hotpot_qa",
-        "modified_query": "Which horror thriller movie directed by Franck Khalfoun features Stephanie Moore?"
-    },
-    {
-        "query": " Myles Falls Horton taught and heavily influenced the co-founder of what conference?",
-        "response": "Southern Christian Leadership Conference",
-        "source": "hotpot_qa",
-        "modified_query": "Which conference's co-founder was significantly influenced by Myles Falls Horton?"
-    },
-    {
-        "query": "Abe Carver has been played by the American actor who debuted it since what year?",
-        "response": "1981",
-        "source": "hotpot_qa",
-        "modified_query": "In what year did the American actor first portray Abe Carver?"
-    },
-    {
-        "query": "In the 2011 census what was the population of suburban area in which BA Connect is headquartered ?",
-        "response": "26,788",
-        "source": "hotpot_qa",
-        "modified_query": "What was the population of the suburb where BA Connect is based according to the 2011 census?"
-    },
-    {
-        "query": "The Little River is a 7.2 mile long (11.6 km) river largely in the town of Exeter in Rockingham County, New Hampshire, it is a tributary of the Exeter River, part of the Great Bay/Piscataqua River watershed in which New Hampshire region, the southeast area of the U.S. state of New Hampshire that includes the eastern portion of Rockingham County and the southern portion of Strafford County?",
-        "response": "Seacoast Region",
-        "source": "hotpot_qa",
-        "modified_query": "In which region of southeastern New Hampshire, including eastern Rockingham County and southern Strafford County, is"
-    },
-    {
-        "query": "The Bachelor, season 5, is the fifth season of ABC reality television series \"The Bachelor\", the show featured the first non-American bachelor, Jesse Palmer, a Canadian sports commentator and former college and professional football player who was a quarterback in which organization?",
-        "response": "National Football League (NFL)",
-        "source": "hotpot_qa",
-        "modified_query": "In which organization did Jesse Palmer, the first non-American bachelor from season 5 of \"The Bachelor"
-    },
-    {
-        "query": "\"Having a Party\" and \"Bring It on Home to Me\" were made by what American Soul singer?",
-        "response": "Sam Cooke",
-        "source": "hotpot_qa",
-        "modified_query": "Which American Soul singer created \"Having a Party\" and \"Bring It on Home to Me\"?"
-    },
-    {
-        "query": "The High and the Mighty is a 1953 novel by Ernest K. Gann based on a real-life trip that he flew as a commercial airline pilot for Matson Lines , and was adapted into the WarnerColor\" American \"disaster\" film, The High and the Mighty, released in which year?",
-        "response": "1954",
-        "source": "hotpot_qa",
-        "modified_query": "In what year was the WarnerColor American disaster film adaptation of Ernest K. Gann's 195"
-    },
-    {
-        "query": "Which Russian actress, born July 28, 1969, starred in the film \"Moscow Does Not Believe in Tears\"?",
-        "response": "Yuliya Menshova",
-        "source": "hotpot_qa",
-        "modified_query": "Who is the Russian actress, born on July 28, 1969, who appeared in \""
-    },
-    {
-        "query": "Who served at the record office of the Queen of the United Kingdom of Great Britain and Ireland in the 1800's?",
-        "response": "John James Bond",
-        "source": "hotpot_qa",
-        "modified_query": "Who worked at the Queen of the United Kingdom of Great Britain and Ireland's record office in the "
-    },
-    {
-        "query": "Which American animated television series has C. H. Greenblatt worked on",
-        "response": "The Grim Adventures of Billy",
-        "source": "hotpot_qa",
-        "modified_query": "On which American animated TV series has C. H. Greenblatt contributed?"
-    },
-    {
-        "query": "Rich Brightman's hometown is a hamlet of what town in New York? ",
-        "response": "Islip",
-        "source": "hotpot_qa",
-        "modified_query": "Rich Brightman is from a hamlet in which New York town?"
-    },
-    {
-        "query": "Which Champions League Final was played on 22 May 2010 ",
-        "response": "2010 UEFA Champions League Final",
-        "source": "hotpot_qa",
-        "modified_query": "Which Champions League Final took place on May 22, 2010?"
-    },
-    {
-        "query": "Kate Kendall plays Lauren Turner on a soap opera created by who?",
-        "response": "Reg Watson",
-        "source": "hotpot_qa",
-        "modified_query": "Who is the creator of the soap opera featuring Kate Kendall as Lauren Turner?"
-    },
-    {
-        "query": "Kebo Gotti appeared on which American rapper's fourth and final single from the 2010 debut album \"Flockaveli\", the rapper is better known as who?",
-        "response": "Waka Flocka Flame",
-        "source": "hotpot_qa",
-        "modified_query": "On which American rapper's fourth and final single from the 2010 debut album \"Flockav"
-    },
-    {
-        "query": "What film is the actor, who played in the 1991 American action comedy film directed by Tony Scott, best known for?",
-        "response": "Predator",
-        "source": "hotpot_qa",
-        "modified_query": "What movie is the actor from the 1991 Tony Scott-directed action comedy most famous for?"
-    },
-    {
-        "query": "William Sadler had a role in the sci-fi comedy film by which director?",
-        "response": "Pete Hewitt",
-        "source": "hotpot_qa",
-        "modified_query": "In the sci-fi comedy film directed by whom did William Sadler have a role?"
-    },
-    {
-        "query": "The company Lena Himmelstein Bryant Malsin founded began in what year?",
-        "response": "1904",
-        "source": "hotpot_qa",
-        "modified_query": "In which year was the company founded by Lena Himmelstein Bryant Malsin?"
-    },
-    {
-        "query": "Which Soviet Union dictator did secret police officer Stainslav Redens work for?",
-        "response": "Joseph Stalin",
-        "source": "hotpot_qa",
-        "modified_query": "For which Soviet leader did secret police officer Stanislav Redens serve?"
-    },
-    {
-        "query": "Who was the coach of the Missouri Tigers women's basketball team that was hired in 2010?",
-        "response": "Robin Pingeton",
-        "source": "hotpot_qa",
-        "modified_query": "Who became the coach of the Missouri Tigers women's basketball team in 2010?"
-    },
-    {
-        "query": "In the Hall of the Mountain King is a piece by a composer of what nationality?",
-        "response": "Norwegian",
-        "source": "hotpot_qa",
-        "modified_query": "What nationality is the composer of \"In the Hall of the Mountain King\"?"
-    },
-    {
-        "query": "The 2006–07 Four Hills Tournament was a series of ski jumping competitions held in the traditional venues of Oberstdorf, Garmisch-Partenkirchen, Innsbruck and Bischofshofen, located in Germany and Austria, before the tournament started on which date, the World Cup leader was Simon Ammann, a Swiss ski jumper?",
-        "response": "28 December 2006",
-        "source": "hotpot_qa",
-        "modified_query": "Before the 2006–07 Four Hills Tournament began, on what date was Simon Ammann the"
-    },
-    {
-        "query": "What is the middle name of the co-founder of a doughnut chain named after a Canadian ice hockey player?",
-        "response": "Vaughan",
-        "source": "hotpot_qa",
-        "modified_query": "What is the co-founder's middle name of the doughnut chain named after a Canadian hockey player?"
-    },
-    {
-        "query": "Who was born first, James D Grant, who uses the pen name of Lee Child, or Bernhard Schlink?",
-        "response": "Bernhard Schlink",
-        "source": "hotpot_qa",
-        "modified_query": "Who was born earlier, Lee Child (real name James D Grant) or Bernhard Schlink?"
-    },
-    {
-        "query": "Which of the two major peninsulas that make up the state of Michigan contains the M-69 Highway?",
-        "response": "The Upper Peninsula",
-        "source": "hotpot_qa",
-        "modified_query": "In which of Michigan's two main peninsulas is the M-69 Highway located?"
-    },
-    {
-        "query": "In what year was the Lorman, Mississippi university where Joseph T. Owens played college football founded?",
-        "response": "1871",
-        "source": "hotpot_qa",
-        "modified_query": "What year was the university in Lorman, Mississippi, where Joseph T. Owens played college football,"
-    },
-    {
-        "query": "What electro-pop musician was born on September 11th 1971?",
-        "response": "Alessandra Rosaldo",
-        "source": "hotpot_qa",
-        "modified_query": "Which electro-pop artist was born on September 11, 1971?"
-    },
-    {
-        "query": "The Holy Trinity, an episode of British motoring series \"The Grand Tour\" was produced by which  independent television production company founded in 2015 in the UK?",
-        "response": "W. Chump and Sons",
-        "source": "hotpot_qa",
-        "modified_query": "Which independent UK television production company, established in 2015, produced \"The Holy Trinity\" episode"
-    },
-    {
-        "query": "Both Zixing and Baotou are cities in what Asian country?",
-        "response": "China",
-        "source": "hotpot_qa",
-        "modified_query": "In which Asian country are the cities Zixing and Baotou located?"
-    },
-    {
-        "query": "Who owns the pre-1974 library of the organization that produced The Last Unicorn?",
-        "response": "Universal Studios",
-        "source": "hotpot_qa",
-        "modified_query": "Who possesses the pre-1974 library of the group that created The Last Unicorn?"
-    },
-    {
-        "query": "Brian Stepanek plays Magnifo on a Cartoon Network series that first aired in what year?",
+        "query": "Nihito Arakawa He made his mark in the twelve-round lightweight slugfest against this man who held the WBC lightweight title in what year",
         "response": "2014",
         "source": "hotpot_qa",
-        "modified_query": "In which year did the Cartoon Network series featuring Brian Stepanek as Magnifo premiere?"
+        "modified_query": "In which year did Nihito Arakawa face the WBC lightweight titleholder in a twelve-round"
     },
     {
-        "query": "Which song by American rapper Kanye West from his fifth studio album did this American record producer, songwriter, keyboardist, vocalist, and multi-instrumentalist Jeff Bhasker contribute to and win a Grammy Award for?",
-        "response": "All of the Lights",
+        "query": "OU812 was the second album to feature a vocalist that also played what instrument in \"Finish What Ya Started\"?",
+        "response": "rhythm guitar",
         "source": "hotpot_qa",
-        "modified_query": "Which track from Kanye West's fifth album did Jeff Bhasker contribute to and win a Grammy for"
+        "modified_query": "In \"Finish What Ya Started,\" which instrument did the vocalist of OU812 also play?"
     },
     {
-        "query": "Who was the idealist metaphysician that wrote an argument published as a journal article in Mind in 1908?",
-        "response": "John McTaggart Ellis McTaggart",
+        "query": "The 2010 Pro Bowl and the Super Bowl XLIV both took place where?",
+        "response": "Miami Gardens, Florida",
         "source": "hotpot_qa",
-        "modified_query": "Which idealist metaphysician authored an argument published in the journal Mind in 1908?"
+        "modified_query": "Where were both the 2010 Pro Bowl and Super Bowl XLIV held?"
     },
     {
-        "query": "What is the name of this American botanist and inventor born in the 1860s, whose birthplace was Diamond, Missouri?",
-        "response": "George Washington Carver",
+        "query": "Who has more stage names, Simple Kid or Nic Nassuet?",
+        "response": "Nic Nassuet",
         "source": "hotpot_qa",
-        "modified_query": "Who is the American botanist and inventor born in the 1860s in Diamond, Missouri?"
+        "modified_query": "Which artist, Simple Kid or Nic Nassuet, has more stage names?"
     },
     {
-        "query": "What Canadian city was the venue for the Tokers Bowl from 2002 until a police raid in 2006?",
-        "response": "Vancouver",
+        "query": "Kurt Julian Weillwas a German composer, active from the 1920s in his native country, and in his later years in the United States, with Brecht, he developed productions such as his best-known work, the Threepenny Opera is a \"play with music\" by Bertolt Brecht and who, adapted from John Gay's 18th-century English ballad opera, \"The Beggar's Opera\"?",
+        "response": "Elisabeth Hauptmann",
         "source": "hotpot_qa",
-        "modified_query": "In which Canadian city was the Tokers Bowl held from 2002 until a police raid in "
-    },
-    {
-        "query": "The 2006 United States Grand Prix ended with the driver of what nationality in third?",
-        "response": "Italian",
-        "source": "hotpot_qa",
-        "modified_query": "What nationality was the driver who finished third in the 2006 United States Grand Prix?"
-    },
-    {
-        "query": "In which state are based the animated studios for the producer of the 1991 animated feature film 'Beauty and the Beast' who also create short films and television specials?",
-        "response": "California",
-        "source": "hotpot_qa",
-        "modified_query": "In what state are the animation studios located for the producer of the 1991 animated film 'Beauty"
-    },
-    {
-        "query": "What type of ore was mined at both Thompson-Lundmark Mine and Leckie Mine?",
-        "response": "gold",
-        "source": "hotpot_qa",
-        "modified_query": "Which ore was extracted from both Thompson-Lundmark Mine and Leckie Mine?"
-    },
-    {
-        "query": "Which is native to farther east, Punch or Chimayó Cocktail?",
-        "response": "Punch",
-        "source": "hotpot_qa",
-        "modified_query": "Which cocktail originates further east, Punch or Chimayó?"
-    },
-    {
-        "query": "What New Orleans Pelicans player born in 1993 won the 2017 NBA All-Star Game MVP award?",
-        "response": "Anthony Davis",
-        "source": "hotpot_qa",
-        "modified_query": "Which player from the New Orleans Pelicans, born in 1993, was named MVP of the"
-    },
-    {
-        "query": "Which American Singer and songwriter that has been recognized for several awards sings \"Better When I'm Dancin'\"?",
-        "response": "Meghan Trainor",
-        "source": "hotpot_qa",
-        "modified_query": "Who is the award-winning American singer-songwriter behind \"Better When I'm Dancin'\"?"
-    },
-    {
-        "query": "Jug-A-Lug is an album by David Murray released on the Japanese DIW label, the album features performances by Murray with Olu Dara, an American cornetist, guitarist and singer, and the father of which rapper?",
-        "response": "Nas",
-        "source": "hotpot_qa",
-        "modified_query": "Jug-A-Lug, an album by David Murray, features Olu Dara, who is the father of"
-    },
-    {
-        "query": "What year did the English actor, who starred in Night Train to Venice and has won a Golden Globe, breakthrough in the film industry?",
-        "response": "1987",
-        "source": "hotpot_qa",
-        "modified_query": "In what year did the English actor, known for Night Train to Venice and a Golden Globe win,"
-    },
-    {
-        "query": "How many seats the central campus of the church founded by John Hillery Osteen have?",
-        "response": "16,800-seat",
-        "source": "hotpot_qa",
-        "modified_query": "What is the seating capacity of the central campus of the church established by John Hillery Osteen?"
-    },
-    {
-        "query": "During the 2005 All-Pacific-10 Conference season, the  Pat Tillman Pac-10 Co-Defensive Players of the Year award was given to Dale Robinson and a man that current plays for what NFL team?",
-        "response": "Detroit Lions",
-        "source": "hotpot_qa",
-        "modified_query": "Which NFL team does the 2005 Pat Tillman Pac-10 Co-Defensive Player of"
-    },
-    {
-        "query": "Which school located at Korle Bu Teaching Hospital employed Charles Odamtten Easmon?",
-        "response": "University of Ghana Medical School",
-        "source": "hotpot_qa",
-        "modified_query": "Which institution at Korle Bu Teaching Hospital hired Charles Odamtten Easmon?"
-    },
-    {
-        "query": "Which President was escorted by the battleship whose pieces are now featured at the Glendale Veterans War Memorial?",
-        "response": "Woodrow Wilson",
-        "source": "hotpot_qa",
-        "modified_query": "Which President was accompanied by the battleship now displayed at the Glendale Veterans War Memorial?"
-    },
-    {
-        "query": "What is the English translation of the name of Gertraud Antonia Wagner-Schöppl's birthplace?",
-        "response": "Salt Fortress",
-        "source": "hotpot_qa",
-        "modified_query": "How is the name of Gertraud Antonia Wagner-Schöppl's birthplace translated into English?"
-    },
-    {
-        "query": "What sport does John McCarthy and UFC 2 have in common?",
-        "response": "mixed martial arts",
-        "source": "hotpot_qa",
-        "modified_query": "Which sport is associated with both John McCarthy and UFC 2?"
-    },
-    {
-        "query": "What is the name of the ballet that Vassilie Trunoff performed when he toured Australia in 1975 & 1977 that derives from revivals staged by Marius Petipa?",
-        "response": "Giselle",
-        "source": "hotpot_qa",
-        "modified_query": "Which ballet, revived by Marius Petipa, did Vassilie Trunoff perform during his"
-    },
-    {
-        "query": "Jody Williams possesses what distinct property, also known as tone color?",
-        "response": "timbre",
-        "source": "hotpot_qa",
-        "modified_query": "What unique characteristic, also called tone color, does Jody Williams have?"
-    },
-    {
-        "query": "Which American distance runner who died in an automobile accident in Oregon had a trail named after him?",
-        "response": "Steve Prefontaine",
-        "source": "hotpot_qa",
-        "modified_query": "Which U.S. distance runner, who passed away in a car crash in Oregon, has a trail"
-    },
-    {
-        "query": "What is the name of the series who's first season was released on Netflix on September 22, 2016 and stars actor pronounced as John-a-kite?",
-        "response": "Netflix",
-        "source": "hotpot_qa",
-        "modified_query": "What series, starring an actor pronounced as John-a-kite, debuted its first season on Netflix on"
-    },
-    {
-        "query": "The Griffin Auto Company Building is named after the company that is in what region of the US?",
-        "response": "southeastern",
-        "source": "hotpot_qa",
-        "modified_query": "In which region of the US is the Griffin Auto Company, after which the building is named, located"
-    },
-    {
-        "query": "Which band is Canadian, Marianas Trench or Tapes 'n Tapes?",
-        "response": "Marianas Trench",
-        "source": "hotpot_qa",
-        "modified_query": "Which of the bands, Marianas Trench or Tapes 'n Tapes, is from Canada"
-    },
-    {
-        "query": "In between Orson Scott Card and James Agee who won the author a posthumous 1958 Pulitzer Prize?",
-        "response": "James Rufus Agee",
-        "source": "hotpot_qa",
-        "modified_query": "Who among Orson Scott Card and James Agee received a posthumous Pulitzer Prize in 195"
-    },
-    {
-        "query": "Seven Days is directed by whom",
-        "response": "Won Shin-yun",
-        "source": "hotpot_qa",
-        "modified_query": "Who is the director of Seven Days?"
-    },
-    {
-        "query": "Which film did the writer of Tim Burton's 2005 fantasy musical came out in 2003.",
-        "response": "Big Fish",
-        "source": "hotpot_qa",
-        "modified_query": "What movie, released in 2003, was written by the screenwriter of Tim Burton's "
-    },
-    {
-        "query": "Q: Who as collaborated musically with both Leo Abrahams and Art Garfunkel?",
-        "response": "Paul Simon",
-        "source": "hotpot_qa",
-        "modified_query": "Who has worked on music projects with both Leo Abrahams and Art Garfunkel?"
-    },
-    {
-        "query": "Which district of Lancashire, England contains the village that lies between Langho and a village that is on the banks of the River Calder?",
-        "response": "Ribble Valley district",
-        "source": "hotpot_qa",
-        "modified_query": "In which district of Lancashire, England is the village located that is situated between Langho and a village"
-    },
-    {
-        "query": "What 19th-century transportation route through central North America did William Bent and his brothers establish a trade buisness along?",
-        "response": "The Santa Fe Trail",
-        "source": "hotpot_qa",
-        "modified_query": "Along which 19th-century transportation route in central North America did William Bent and his brothers set up"
-    },
-    {
-        "query": "The Prince of Wales Glacier was named for what individual who was the oldest person to be next in line to the throne since Sophia of Hanover?",
-        "response": "Charles, Prince of Wales",
-        "source": "hotpot_qa",
-        "modified_query": "Who was the Prince of Wales Glacier named after, known as the oldest heir apparent since Sophia of Hanover"
-    },
-    {
-        "query": "Last of the Wild Horses was filmed in Medford, Oregon, which is the county seat of what county?",
-        "response": "Jackson County",
-        "source": "hotpot_qa",
-        "modified_query": "In which county is Medford, Oregon, the filming location of Last of the Wild Horses, the"
-    },
-    {
-        "query": "what country was the banner song \"Forward! Forward! Blare the bright fanfares\" sung in 1922?",
-        "response": "Germany",
-        "source": "hotpot_qa",
-        "modified_query": "In which country was the anthem \"Forward! Forward! Blare the bright fanfares\" performed"
-    },
-    {
-        "query": "Which publication was published first The Artist's Magazine or Details ? ",
-        "response": "Details",
-        "source": "hotpot_qa",
-        "modified_query": "Which was released earlier, The Artist's Magazine or Details?"
-    },
-    {
-        "query": "Smurfs: The Lost Village stars which actor who played Flash Thompson in Spider-Man?",
-        "response": "Joseph Michael Manganiello",
-        "source": "hotpot_qa",
-        "modified_query": "Which actor, known for playing Flash Thompson in Spider-Man, stars in Smurfs: The Lost"
-    },
-    {
-        "query": "The Chevrolet Bruin was assembled by the division of GM that focuses on what type of vehicles?",
-        "response": "trucks and utility vehicles",
-        "source": "hotpot_qa",
-        "modified_query": "Which GM division, specializing in a specific vehicle type, assembled the Chevrolet Bruin?"
-    },
-    {
-        "query": "Donnie Little played for the team that was in what conference?",
-        "response": "Big 12",
-        "source": "hotpot_qa",
-        "modified_query": "In which conference did Donnie Little's team compete?"
-    },
-    {
-        "query": "What university is in Muncie, Indiana and is near York Prairie Creek?",
-        "response": "Ball State University",
-        "source": "hotpot_qa",
-        "modified_query": "Which university is located in Muncie, Indiana, close to York Prairie Creek?"
-    },
-    {
-        "query": "What British Conservative Party politician was a brother of Boris Johnson?",
-        "response": "Jo Johnson",
-        "source": "hotpot_qa",
-        "modified_query": "Which British Conservative politician was Boris Johnson's brother?"
-    },
-    {
-        "query": "What year was the album that Don Was helped the Highwaymen produce rereleased? ",
-        "response": "2005",
-        "source": "hotpot_qa",
-        "modified_query": "In what year was the Highwaymen's album, produced with Don Was, reissued?"
-    },
-    {
-        "query": "How many years did the subject of the album Nude hold out after World War II ended?",
-        "response": "29 years",
-        "source": "hotpot_qa",
-        "modified_query": "For how many years did the subject of the album Nude survive following the end of World War II?"
-    },
-    {
-        "query": "The Tyndall crater was named after John Tyndall, what was John Tyndall famous for?",
-        "response": "his study of diamagnetism",
-        "source": "hotpot_qa",
-        "modified_query": "What is John Tyndall known for that led to a crater being named after him?"
-    },
-    {
-        "query": "Nic Offer and Grant Hart are considered to be which type of artist?",
-        "response": "musician",
-        "source": "hotpot_qa",
-        "modified_query": "What kind of artists are Nic Offer and Grant Hart regarded as?"
-    },
-    {
-        "query": "Where is the company whose stores were the sole manner the physical version of American Dream was made available headquartered?",
-        "response": "Richfield, Minnesota",
-        "source": "hotpot_qa",
-        "modified_query": "Where is the headquarters of the company that exclusively sold the physical version of American Dream?"
-    },
-    {
-        "query": "Which national forest on Roan Mountain was created in 1920?",
-        "response": "Cherokee National Forest",
-        "source": "hotpot_qa",
-        "modified_query": "In 1920, which national forest was established on Roan Mountain?"
-    },
-    {
-        "query": "Are Dan McCafferty and Eddie Vedder both singers?",
-        "response": "yes",
-        "source": "hotpot_qa",
-        "modified_query": "Is it true that both Dan McCafferty and Eddie Vedder are singers?"
-    },
-    {
-        "query": "The country music artist who recorder a cover cersion of Am I That Easy to Forget which reached #11 country in 1960 started out as part of which band as a teenager in the late 1940s? ",
-        "response": "the Davis Sisters",
-        "source": "hotpot_qa",
-        "modified_query": "Which band did the country artist, who covered \"Am I That Easy to Forget\" and reached #"
-    },
-    {
-        "query": "Which brother of Jordan Subban was born on May 13, 1989?",
-        "response": "P. K. Subban",
-        "source": "hotpot_qa",
-        "modified_query": "Who is the Subban brother born on May 13, 1989?"
-    },
-    {
-        "query": "Which band has more members, Muse or The Raconteurs?",
-        "response": "The Raconteurs",
-        "source": "hotpot_qa",
-        "modified_query": "Who has a larger lineup, Muse or The Raconteurs?"
-    },
-    {
-        "query": "The album Different Strokes was produced by an American rhythm-and-blues singer who died in which year?",
-        "response": "2010",
-        "source": "hotpot_qa",
-        "modified_query": "In what year did the American R&B singer who produced the album Different Strokes pass away?"
-    },
-    {
-        "query": "In which city was the Symphony for Classical Orchestra in B-flat major completed by Harold Shapero who undoubtedly derived a fair amount from the American composer, teacher and writer known as the 'Dean of American Composers'?",
-        "response": "Massachusetts",
-        "source": "hotpot_qa",
-        "modified_query": "In what city did Harold Shapero complete the Symphony for Classical Orchestra in B-flat major, influenced"
-    },
-    {
-        "query": "Who directed the 1966 crime film that starred the actress who played Myrna Gibbons on \"The Doris Day Show\"?",
-        "response": "Bernard Girard",
-        "source": "hotpot_qa",
-        "modified_query": "Who was the director of the 1966 crime film featuring the actress known for her role as My"
-    },
-    {
-        "query": "Are Helmut Käutner and Hou Hsiao-hsien from the same country?",
-        "response": "no",
-        "source": "hotpot_qa",
-        "modified_query": "Do Helmut Käutner and Hou Hsiao-hsien share the same nationality?"
-    },
-    {
-        "query": "What is the nationality of the actress who plays Brittany in \"Sexy\"?",
-        "response": "American",
-        "source": "hotpot_qa",
-        "modified_query": "What is the actress's nationality who portrays Brittany in \"Sexy\"?"
-    },
-    {
-        "query": "What political party does the head of the Department of International Development belong to?",
-        "response": "member of the Conservative Party",
-        "source": "hotpot_qa",
-        "modified_query": "Which political party is the leader of the Department of International Development affiliated with?"
-    },
-    {
-        "query": "Which of the singles in Tim McGraw's Two Lanes of Freedom album features Taylor Swift on vocals and Keith Urban on guitar?",
-        "response": "Highway Don't Care",
-        "source": "hotpot_qa",
-        "modified_query": "Which single from Tim McGraw's Two Lanes of Freedom album includes vocals by Taylor Swift and guitar"
-    },
-    {
-        "query": "What is the 2010 population of the city that is home to the McLellan House?",
-        "response": "16,381",
-        "source": "hotpot_qa",
-        "modified_query": "What was the population in 2010 of the city where the McLellan House is located?"
-    },
-    {
-        "query": "Derailed starred a South Korean singer who debuted as a member of the South Korean boy group Shinee in what year?",
-        "response": "2008",
-        "source": "hotpot_qa",
-        "modified_query": "In which year did the South Korean singer from the boy group Shinee, who starred in Dera"
-    },
-    {
-        "query": "What corporation created the game developed to teach school children about the realities of 19th century pioneer life?",
-        "response": "Pressman Toy Corporation",
-        "source": "hotpot_qa",
-        "modified_query": "Which company developed the game designed to educate students about 19th-century pioneer life?"
-    },
-    {
-        "query": "Who directed a movie in 1985 that starred Paul Reubens and had a support actor who also portrayed Chubby in the \"Teen Wolf\" film series?",
-        "response": "Tim Burton",
-        "source": "hotpot_qa",
-        "modified_query": "Who was the director of a 1985 film featuring Paul Reubens and an actor who also"
-    },
-    {
-        "query": "When was the former international footballer for the French national team who starred in \"French Film\"  born? ",
-        "response": "24 May 1966",
-        "source": "hotpot_qa",
-        "modified_query": "What is the birth year of the ex-French national team footballer who appeared in \"French Film"
-    },
-    {
-        "query": "Who was the first member to die on a team of animators Milt Kahl belonged to?",
-        "response": "John Lounsbery",
-        "source": "hotpot_qa",
-        "modified_query": "Which member of Milt Kahl's animation team passed away first?"
-    },
-    {
-        "query": "Who is the guitarist for the band who released the album \"American Idiot?\"",
-        "response": "Billie Joe Armstrong",
-        "source": "hotpot_qa",
-        "modified_query": "Who plays guitar for the band that released \"American Idiot?\""
-    },
-    {
-        "query": "How many caps did Helen Svedin's husband win?",
-        "response": "127",
-        "source": "hotpot_qa",
-        "modified_query": "How many caps has Helen Svedin's husband earned?"
-    },
-    {
-        "query": "Elymus and Nicandra, are types of what?",
-        "response": "plants",
-        "source": "hotpot_qa",
-        "modified_query": "Elymus and Nicandra belong to which category?"
-    },
-    {
-        "query": "What profession does Armen Chakmakian and Steve Dildarian have in common?",
-        "response": "producer",
-        "source": "hotpot_qa",
-        "modified_query": "What is the shared profession of Armen Chakmakian and Steve Dildarian?"
-    },
-    {
-        "query": "In what capacity did the author of the book,  An Inconvenient Truth,  serve in the United States government ? ",
-        "response": "Vice President",
-        "source": "hotpot_qa",
-        "modified_query": "What role did the author of An Inconvenient Truth hold in the U.S. government?"
-    },
-    {
-        "query": "Of these two chief executives of the National Football League, Milton P. \"Milt\" Woodard and Allen Davis, who was born first?",
-        "response": "Milton P. \"Milt\" Woodard",
-        "source": "hotpot_qa",
-        "modified_query": "Between Milton P. \"Milt\" Woodard and Allen Davis, who was born earlier?"
+        "modified_query": "Who collaborated with Bertolt Brecht on the \"play with music\" adaptation of John Gay's \""
     }
 ]
