@@ -6,6 +6,6 @@ COPY parent.py .
 
 EXPOSE 5001
 
-RUN pip install --no-cache-dir redis requests
+RUN pip install --no-cache-dir fastapi requests uvicorn pydantic httpx
 
-CMD ["python", "-u", "debate.py"]
+CMD ["python", "-m", "uvicorn", "parent:app", "--host", "0.0.0.0", "--port", "5001"]

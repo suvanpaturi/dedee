@@ -37,54 +37,60 @@ class RetrievalTable:
         return hashlib.sha256(query.encode()).hexdigest()
 
     def query(self, query: str) -> str:
-        query_id = self.hash_query(query)
-
-        results = self.collection.get(
-            ids=[query_id],
-            include=["metadatas", "documents"]
-        )
-
-        if results["ids"]:  # Exact match
-            timestamp = time.time()
-            self.collection.update(
+        try:
+            query_id = self.hash_query(query)
+            print(f"Query ID: {query_id}")
+            results = self.collection.get(
                 ids=[query_id],
-                metadatas=[{"timestamp": timestamp, **results["metadatas"][0]}]
+                include=["metadatas", "documents"]
             )
-            return {
-                "query": results["documents"][0],
-                "response": results["metadatas"][0]["response"],
-                "cached_at": results["metadatas"][0]["original_timestamp"],
-                "match_type": "exact",
-                "region": results["metadatas"][0].get("region")
-            }
+            print(f"Results: {results}")
 
-        similar_results = self.collection.query(
-            query_texts=[query],
-            n_results=1,
-            include=["metadatas", "documents", "distances"]
-        )
-
-        if similar_results["ids"] and similar_results["ids"][0]:
-            distance = similar_results["distances"][0][0]
-            similarity = 1.0 - min(distance, 1.0)
-            print(similarity)
-            if similarity >= self.similarity_threshold:
-                similar_id = similar_results["ids"][0][0]
+            if results["ids"]:  # Exact match
                 timestamp = time.time()
                 self.collection.update(
-                    ids=[similar_id],
-                    metadatas=[{"timestamp": timestamp, **similar_results["metadatas"][0][0]}]
+                    ids=[query_id],
+                    metadatas=[{"timestamp": timestamp, **results["metadatas"][0]}]
                 )
+                print("bi")
                 return {
-                    "query": similar_results["documents"][0][0],
-                    "response": similar_results["metadatas"][0][0]["response"],
-                    "cached_at": similar_results["metadatas"][0][0]["original_timestamp"],
-                    "similarity": similarity,
-                    "match_type": "semantic",
-                    "region": similar_results["metadatas"][0][0].get("region")
+                    "query": results["documents"][0],
+                    "response": results["metadatas"][0]["response"],
+                    "cached_at": results["metadatas"][0]["original_timestamp"],
+                    "match_type": "exact",
+                    "region": results["metadatas"][0].get("region")
                 }
 
-        return None
+            similar_results = self.collection.query(
+                query_texts=[query],
+                n_results=1,
+                include=["metadatas", "documents", "distances"]
+            )
+            print(f"Similar Results: {similar_results}")
+            if similar_results["ids"] and similar_results["ids"][0]:
+                distance = similar_results["distances"][0][0]
+                similarity = 1.0 - min(distance, 1.0)
+                if similarity >= self.similarity_threshold:
+                    similar_id = similar_results["ids"][0][0]
+                    timestamp = time.time()
+                    self.collection.update(
+                        ids=[similar_id],
+                        metadatas=[{"timestamp": timestamp, **similar_results["metadatas"][0][0]}]
+                    )
+                    print("di")
+                    return {
+                        "query": similar_results["documents"][0][0],
+                        "response": similar_results["metadatas"][0][0]["response"],
+                        "cached_at": similar_results["metadatas"][0][0]["original_timestamp"],
+                        "similarity": similarity,
+                        "match_type": "semantic",
+                        "region": similar_results["metadatas"][0][0].get("region")
+                    }
+            print("hi")
+            return None
+        except Exception as e:
+            print(f"Error during query: {str(e)}")
+            return None
 
     def put(self, query: str, response: str, region: str = None):
         query_id = self.hash_query(query)

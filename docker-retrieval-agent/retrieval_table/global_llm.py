@@ -1,20 +1,19 @@
-from openai import OpenAI
-from dotenv import load_dotenv
-client = OpenAI()
+import os
+from openai import AsyncOpenAI
 
-load_dotenv()
+api_key = os.environ.get("OPENAI_API_KEY")
 
 class GlobalLLM:
     def __init__(self):
         self.model = "gpt-4o"
-        self.client = OpenAI()
+        self.client = AsyncOpenAI(api_key=api_key)
         
-    def invoke(self, query, knowledge):
+    async def invoke(self, query, knowledge):
         messages = self.build_messages(query, knowledge)
-        response = self.client.chat.completions.create(
+        response = await self.client.chat.completions.create(
             model=self.model,
             temperature=0.2,
-            max_tokens=20,
+            max_tokens=50,
             messages=messages
         )
         if response and len(response.choices) > 0:

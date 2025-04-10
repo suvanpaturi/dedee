@@ -1,0 +1,27 @@
+[
+    {
+        "query": "Who is Lee Harvey Oswald's widow?",
+        "predicted_response": "The correct answer is Eastus's response. It accurately identifies Marina Nikolayevna Oswald Porter as the widow of Lee Harvey Oswald.",
+        "actual_response": "Marina Nikolayevna Oswald Porter",
+        "source": "hotpot_qa",
+        "latency": {
+            "retrieval_table": {
+                "start_time": 98916.422994772,
+                "end_time": 0
+            },
+            "tree_retrieval": {
+                "start_time": 98916.423039172,
+                "end_time": 98922.387899903
+            },
+            "debate": {
+                "start_time": 98922.387902203,
+                "end_time": 99039.784734003
+            },
+            "global_llm": {
+                "start_time": 98621.500420249,
+                "end_time": 0
+            }
+        },
+        "overall_latency": 123.51604175000102
+    }
+]

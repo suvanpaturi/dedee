@@ -15,68 +15,32 @@ spec:
       containers:
       - name: ollama
         image: ollama/ollama:latest
-        command: ["/bin/sh", "-c"]
-        args:
-          - |
-            set -e
-            echo "Starting Ollama server...";
-            ollama serve
+        command: ["ollama", "serve"]
         ports:
         - containerPort: 11434
-        resources:
-          limits:
-            cpu: "750m"
-            memory: "1.5Gi"
-          requests:
-            cpu: "300m"
-            memory: "1Gi"
-        env:
-        - name: REDIS_HOST
-          value: "shared-parent-memory.redis.cache.windows.net"
-        - name: REDIS_PORT
-          value: "6379"
-        - name: REDIS_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: redis-secret
-              key: password
-        volumeMounts:
-        - mountPath: "/ollama"
-          name: ollama-storage
 
       - name: judge
-        image: dedeeregistry.azurecr.io/judge:v1
+        image: dedeeregistry.azurecr.io/judge:v2.0
         imagePullPolicy: Always
         ports:
-          - containerPort: 5001
+        - containerPort: 5001
         env:
-        - name: REDIS_HOST
-          value: "shared-parent-memory.redis.cache.windows.net"
-        - name: REDIS_PORT
-          value: "6379"
-        - name: REDIS_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: redis-secret
-              key: password
-        - name: PARENT_ID
-          value: "Judge-EastUS"
         - name: OLLAMA_MODEL
-          value: "tinyllama"
-        resources:
-          limits:
-            cpu: "500m"
-            memory: "1Gi"
-          requests:
-            cpu: "250m"
-            memory: "512Mi"
-        volumeMounts:
-        - mountPath: /app
-          name: debate-code
+          value: "gemma:2b"
 
-      volumes:
-      - name: ollama-storage
-        emptyDir: {}
-      - name: debate-code
-        configMap:
-          name: debate-script
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: judge-ollama
+spec:
+  selector:
+    app: judge-ollama
+  ports:
+    - name: ollama
+      port: 11434
+      targetPort: 11434
+    - name: judge
+      port: 5001
+      targetPort: 5001
+  type: LoadBalancer

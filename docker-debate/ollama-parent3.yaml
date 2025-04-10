@@ -15,80 +15,32 @@ spec:
       containers:
       - name: ollama
         image: ollama/ollama:latest
-        command: ["/bin/sh", "-c"]
-        args:
-          - |
-            set -e
-            echo "Starting Ollama server...";
-            ollama serve
+        command: ["ollama", "serve"]
         ports:
         - containerPort: 11434
-        resources:
-          limits:
-            cpu: "1"
-            memory: "4Gi"
-          requests:
-            cpu: "0.5"
-            memory: "2Gi"
-        env:
-        - name: REDIS_HOST
-          value: "shared-parent-memory.redis.cache.windows.net"
-        - name: REDIS_PORT
-          value: "6379"
-        - name: REDIS_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: redis-secret
-              key: password
-        volumeMounts:
-        - mountPath: "/ollama"
-          name: ollama-storage
+
       - name: parent
-        image: dedeeregistry.azurecr.io/parent:v1
-        imagePullPolicy: Always
+        image: dedeeregistry.azurecr.io/parent:v2.5
         ports:
         - containerPort: 5001
         env:
-        - name: REDIS_HOST
-          value: "shared-parent-memory.redis.cache.windows.net"
-        - name: REDIS_PORT
-          value: "6379"
-        - name: REDIS_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: redis-secret
-              key: password
         - name: PARENT_ID
-          value: "Parent-WestEurope"
+          value: "westeurope"
         - name: OLLAMA_MODEL
-          value: "qwen:0.5b"
-
-        volumeMounts:
-        - mountPath: /app
-          name: debate-code
-
-      volumes:
-      - name: ollama-storage
-        emptyDir: {}
-      - name: debate-code
-        configMap:
-          name: debate-script
-
+          value: "gemma:2b"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: parent-ollama-service
+  name: parent-ollama
 spec:
   selector:
     app: parent-ollama
   ports:
-  - name: ollama
-    protocol: TCP
-    port: 80
-    targetPort: 11434
-  - name: parent
-    protocol: TCP
-    port: 5001       
-    targetPort: 5001
+    - name: ollama
+      port: 11434
+      targetPort: 11434
+    - name: parent
+      port: 5001
+      targetPort: 5001
   type: LoadBalancer

@@ -102,4 +102,4 @@ if __name__ == "__main__":
     #asyncio.run(process_device("edge-device-westeurope-4-service"))
     
     
-    device_exists(device="edge-device-eastus-4-service")
+    device_exists(device="edge-device-westeurope-4-service")

@@ -26,12 +26,14 @@ EDGE_SERVICE_IPS = {}
 def get_edge_knowledge(filename):
     dataset = pd.read_csv(filename)
     dataset.columns = ['query', 'response', 'source']
-    dataset_shuffle = dataset.sample(frac=0.3, random_state=seed).reset_index(drop=True)
+    dataset_shuffle = dataset.sample(n=min(len(dataset), 5000), random_state=seed).reset_index(drop=True)
     dataset_splits = np.array_split(dataset_shuffle, 12)
+    '''
     dataset_splits = [
         split.sample(frac=0.5, random_state=seed)
         for split in dataset_splits
     ]
+    '''
     for i, split in enumerate(dataset_splits):
         edge_knowledge = split.to_dict(orient="records")
         with open(f"./experiment/data/edge/{EDGE_MAPPING[i]}.json", "w") as f:
