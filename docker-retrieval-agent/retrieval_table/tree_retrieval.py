@@ -12,10 +12,10 @@ logger = logging.getLogger(__name__)
 class RetrievalSettings:
 
     # Neo4j connection settings
-    NEO4J_URI: str = os.getenv("NEO4J_URI", "neo4j://128.203.120.208:7687")
-    NEO4J_USERNAME: str = os.getenv("NEO4J_USERNAME", "neo4j")
-    NEO4J_PASSWORD: str = os.getenv("NEO4J_PASSWORD", "dedee-knowledge-graph!")
-
+    NEO4J_URI = "bolt://128.203.120.208:7687"
+    NEO4J_USERNAME =  "neo4j"
+    NEO4J_PASSWORD = "dedee-knowledge-graph!"
+        
     # Retrieval settings
     TOP_K_RESULTS: int = int(os.getenv("TOP_K_RESULTS", "3"))
     CANDIDATE_LIMIT: int = int(os.getenv("CANDIDATE_LIMIT", "10"))
@@ -85,7 +85,7 @@ class TreeRetriever:
         
         try:
             # STRATEGY 0: Try exact text matching first
-            with self.driver.session() as session:
+            with self.driver.session(database="neo4j") as session:
                 exact_match_result = session.run("""
                     MATCH (q:Query)-[:HAS_ANSWER]->(a:Answer)
                     MATCH (d:Device)-[:HAS_QUERY]->(q)
@@ -124,7 +124,7 @@ class TreeRetriever:
             query_embedding_np = np.array(query_embedding)
 
             # Get all queries and answers with their embeddings
-            with self.driver.session() as session:
+            with self.driver.session(database="neo4j") as session:
                 result = session.run("""
                     MATCH (q:Query)-[:HAS_ANSWER]->(a:Answer)
                     MATCH (d:Device)-[:HAS_QUERY]->(q)

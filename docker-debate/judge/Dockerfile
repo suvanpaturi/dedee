@@ -6,6 +6,6 @@ COPY judge.py .
 
 EXPOSE 5001
 
-RUN pip install --no-cache-dir redis requests
+RUN pip install --no-cache-dir fastapi requests uvicorn
 
-CMD ["python", "-u", "judge.py"]
+CMD ["python", "-m", "uvicorn", "judge:app", "--host", "0.0.0.0", "--port", "5001"]
