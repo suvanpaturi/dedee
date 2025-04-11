@@ -1,61 +1,54 @@
 #!/bin/bash
- 
-set -e  # Exit if any command fails
-set -u  # Treat unset variables as errors
- 
+
+set -e  # Exit on error
+set -u  # Treat unset vars as error
+
 NAMESPACE=default
+MODEL_NAME="gemma:2b"
+
+delete_and_pull_model() {
+  local pod_name=$1
+  local role_name=$2
+
+  if [ -n "$pod_name" ]; then
+    echo "Checking and deleting existing model for $role_name..."
+    kubectl exec "$pod_name" -- ollama rm "$MODEL_NAME" || echo "Model not found, skipping delete"
+
+    echo "Pulling latest model for $role_name..."
+    kubectl exec "$pod_name" -- ollama pull "$MODEL_NAME"
+  else
+    echo "No $role_name pod found. Skipping."
+  fi
+}
 
 echo "Switching to AKS cluster (East US)..."
 az aks get-credentials --resource-group dedee --name edge-eastus --overwrite-existing
- 
-echo "Pulling for Judge..."
 
-POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep judge | awk '{print $1}')
-if [ -n "$POD" ]; then
-    echo "Pulling latest model for Judge..."
-    kubectl exec $POD -- ollama pull gemma:2b
-else
-    echo "No parent pod found. Skipping model pull."
-fi
+echo "Updating Judge..."
+JUDGE_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep judge | awk '{print $1}')
+delete_and_pull_model "$JUDGE_POD" "Judge"
 
-echo "Pulling for Parent.."
+echo "Updating Parent (East US)..."
+PARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')
+delete_and_pull_model "$PARENT_POD" "Parent-EastUS"
 
-POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')
-if [ -n "$POD" ]; then
-    echo "Pulling latest model for Parent..."
-    kubectl exec $POD -- ollama pull gemma:2b
-else
-    echo "No parent pod found. Skipping model pull."
-fi
- 
+echo "Switching to AKS cluster (West US)..."
 az aks get-credentials --resource-group dedee --name edge-westus --overwrite-existing
 
-echo "Pulling for Parent.."
+echo "Updating Parent (West US)..."
+PARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')
+delete_and_pull_model "$PARENT_POD" "Parent-WestUS"
 
-POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')
-if [ -n "$POD" ]; then
-    echo "Pulling latest model for Parent..."
-    kubectl exec $POD -- ollama pull gemma:2b
-else
-    echo "No parent pod found. Skipping model pull."
-fi
- 
+echo "Switching to AKS cluster (West Europe)..."
 az aks get-credentials --resource-group dedee --name edge-westeurope --overwrite-existing
- 
-echo "Pulling for Parent.."
 
-POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')
-if [ -n "$POD" ]; then
-    echo "Pulling latest model for Parent..."
-    kubectl exec $POD -- ollama pull gemma:2b
-else
-    echo "No parent pod found. Skipping model pull."
-fi
- 
-echo "Pulled latest model across all parents and judge"
- 
+echo "Updating Parent (West Europe)..."
+PARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')
+delete_and_pull_model "$PARENT_POD" "Parent-WestEurope"
+
+echo "✅ Pulled and refreshed model across all parents and judge."
+
+# Return to East US context and show pod/svc status
 az aks get-credentials --resource-group dedee --name edge-eastus --overwrite-existing
- 
-# Check status
 kubectl get pods
 kubectl get svc

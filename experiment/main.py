@@ -22,6 +22,7 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress:
     return {
         "query": query, 
         "response": result.get('response', "No Response"),
+        "method": result.get('method', "No Method"),
         "latency": result.get('latency', {}),
         "overall_latency": overall_latency
         }
@@ -45,9 +46,9 @@ async def main():
     
     data = [
         {
-            "query": "Who is Lee Harvey Oswald's widow?",
-            "response": "Marina Nikolayevna Oswald Porter",
-            "source": "hotpot_qa"
+        "query": "Just the Way You Are is a 1984 American comedy-drama film starring which American actress and singer?",
+        "response": "Christina Ann McNichol",
+        "source": "hotpot_qa"
         }
     ]
     data_dict = {d["query"]: d for d in data} #store test data in dict
