@@ -10,6 +10,7 @@ spec.loader.exec_module(helper_llm)
 seed = 17
 
 edge_data_path = './experiment/data/edge'
+dataset = 'hotpotqa'
 edge_data = []
 
 np.random.seed(seed)
@@ -31,7 +32,7 @@ split_index = int(len(test_data) * 0.3)
 exact_test_data = test_data[:split_index]
 altered_test_data = test_data[split_index:]
 
-with open('./experiment/data/test/exact_testset.json', 'w', encoding='utf-8') as f:
+with open(f'./experiment/data/test/{dataset}/exact_testset.json', 'w', encoding='utf-8') as f:
     json.dump(exact_test_data.tolist(), f, ensure_ascii=False, indent=4)
     
 prompt = """
@@ -48,7 +49,7 @@ llm = helper_llm.HelperLLM()
 llm.set_prompt(prompt=prompt, type="generation")
 results = llm.process_batch(data=altered_test_data)
 
-with open('./experiment/data/test/altered_testset.json', 'w', encoding='utf-8') as f:
+with open(f'./experiment/data/test/{dataset}/altered_testset.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
 
 set_results = [{
@@ -60,7 +61,7 @@ set_results = [{
 
 final_testdata = np.concatenate([exact_test_data, set_results])
 
-with open('./experiment/data/test/testset.json', 'w', encoding='utf-8') as f:
+with open(f'./experiment/data/test/{dataset}/testset.json', 'w', encoding='utf-8') as f:
     json.dump(final_testdata.tolist(), f, ensure_ascii=False, indent=4)
 
 
