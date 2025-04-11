@@ -8,7 +8,7 @@ az acr login --name dedeeregistry
 ACR_NAME="dedeeregistry.azurecr.io"
 
 # Versions for each component
-JUDGE_VERSION="v2.0"
+JUDGE_VERSION="v2.1"
 PARENT_VERSION="v2.5"
 
 echo "🚀 Building JUDGE ($JUDGE_VERSION)..."

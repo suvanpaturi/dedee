@@ -38,9 +38,10 @@ async def handle_query(input: Query):
                 await table.put(query=input.query, response=inference_response)
             return {"query": input.query, "response": inference_response, "latency": global_times}
         '''
-        inference_response = await inference_manager.run(input.query)
+        global_times["retrieval_table"]["end_time"] = time.perf_counter()
+        inference_response, method = await inference_manager.run(input.query)
         print("inference_response", inference_response)
-        return {"query": input.query, "response": inference_response, "latency": global_times}
+        return {"query": input.query, "response": inference_response, "method": method, "latency": global_times}
     except Exception as e:
         return {'Error has occurred': str(e)}
 
