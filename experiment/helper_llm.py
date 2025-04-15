@@ -11,7 +11,7 @@ class HelperLLM:
         self.model = ChatOpenAI(
             model="gpt-4o",
             temperature=0.2,
-            max_tokens=20,
+            max_tokens=50,
             api_key=api_key
         )
         self.chain = None
@@ -26,19 +26,19 @@ class HelperLLM:
         try:
             if self.chain and self.prompt_type:
                 query = item['query']
-                response = item['response']
-                source = item['source']
+                response = item['predicted_response']
                 if self.prompt_type == 'evaluation':
                     with get_openai_callback() as cb:
                         result = self.chain.invoke({"question": query, "answer": response})
                         return {
                             "query": query,
-                            "response": response,
-                            "source": source,
+                            "predicted_response": response,
                             "score": result,
-
                         }
                 if self.prompt_type == "generation":
+                    query = item['query']
+                    response = item['response']
+                    source = item['source']
                     with get_openai_callback() as cb:
                         result = self.chain.invoke({"question": query})
                         return {
@@ -56,7 +56,7 @@ class HelperLLM:
         for i in range(0, len(data), batch_size):
             batch = data[i:i+batch_size]
             if self.prompt_type == 'evaluation':
-                inputs = [{"question": item["query"], "answer": item["response"]} for item in batch]
+                inputs = [{"question": item["query"], "answer": item["predicted_response"]} for item in batch]
             if self.prompt_type == "generation":
                 inputs = [{"question": item["query"]} for item in batch]
             
@@ -67,8 +67,7 @@ class HelperLLM:
                         if self.prompt_type == 'evaluation':
                             all_results.append({
                                 "query": batch[j]["query"],
-                                "response": batch[j]["response"],
-                                "source": batch[j]["source"],
+                                "predicted_response": batch[j]["predicted_response"],
                                 "score": result
                             })
                         if self.prompt_type == "generation":

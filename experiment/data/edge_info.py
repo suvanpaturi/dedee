@@ -3,6 +3,8 @@ import numpy as np
 from kubernetes import client, config
 import subprocess
 import json
+from data_settings import dataset
+import os
 
 seed = 17
 
@@ -16,27 +18,21 @@ aks_clusters = [
 namespace = 'default'
 
 #-------------KNOWLEDGE----------------#
-#filename = './experiment/data/eli5.csv'
-#filename = './experiment/data/squad.csv'
-filename = './experiment/data/extracted/hotpotqa.csv'
+filename = f'./experiment/data/extracted/{dataset}.csv'
+
+os.makedirs(f'./experiment/data/edge/{dataset}', exist_ok=True)
 
 EDGE_MAPPING = {}
 EDGE_SERVICE_IPS = {}
 
 def get_edge_knowledge(filename):
-    dataset = pd.read_csv(filename)
-    dataset.columns = ['query', 'response', 'source']
-    dataset_shuffle = dataset.sample(n=min(len(dataset), 5000), random_state=seed).reset_index(drop=True)
-    dataset_splits = np.array_split(dataset_shuffle, 12)
-    '''
-    dataset_splits = [
-        split.sample(frac=0.5, random_state=seed)
-        for split in dataset_splits
-    ]
-    '''
-    for i, split in enumerate(dataset_splits):
+    data = pd.read_csv(filename)
+    data.columns = ['query', 'response', 'source']
+    data_shuffle = data.sample(n=min(len(data), 5000), random_state=seed).reset_index(drop=True)
+    data_splits = np.array_split(data_shuffle, 12)
+    for i, split in enumerate(data_splits):
         edge_knowledge = split.to_dict(orient="records")
-        with open(f"./experiment/data/edge/{EDGE_MAPPING[i]}.json", "w") as f:
+        with open(f"./experiment/data/edge/{dataset}/{EDGE_MAPPING[i]}.json", "w") as f:
             json.dump(edge_knowledge, f, indent=4)
 
 def get_edge_ips():
