@@ -2,6 +2,7 @@ import json
 import os
 import numpy as np
 import importlib.util
+from data_settings import dataset
 
 spec = importlib.util.spec_from_file_location('helper_llm', './experiment/helper_llm.py')
 helper_llm = importlib.util.module_from_spec(spec)
@@ -9,8 +10,9 @@ spec.loader.exec_module(helper_llm)
 
 seed = 17
 
-edge_data_path = './experiment/data/edge'
-dataset = 'hotpotqa'
+os.makedirs(f'./experiment/data/test/{dataset}', exist_ok=True)
+
+edge_data_path = f'./experiment/data/edge/{dataset}'
 edge_data = []
 
 np.random.seed(seed)

@@ -3,6 +3,7 @@ import httpx
 import asyncio
 import json
 from neo4j import GraphDatabase
+from data_settings import dataset
 
 #----------------EDGE DEVICE------------#
 DEVICE_PORT = 5001
@@ -70,7 +71,7 @@ def device_exists(device):
 
 async def process_device(device):
     try:
-        with open(f"./experiment/data/edge/{device}.json", "r") as f1:
+        with open(f"./experiment/data/edge/{dataset}/{device}.json", "r") as f1:
             knowledge = json.load(f1)
         with open(f"./experiment/data/edge/device_ips.json", "r") as f2:
             ips = json.load(f2)
@@ -101,5 +102,4 @@ if __name__ == "__main__":
     #asyncio.run(process_device("edge-device-westeurope-3-service"))
     #asyncio.run(process_device("edge-device-westeurope-4-service"))
     
-    
-    device_exists(device="edge-device-westeurope-4-service")
+    device_exists(device="edge-device-eastus-4-service")
