@@ -37,8 +37,23 @@ def hotpotqa_to_csv():
     data = pd.DataFrame(data)
     data['source'] = hotpotqa
     data.to_csv('./experiment/data/extracted/hotpotqa.csv', index=False)
+    
+def get_finqa_to_csv():
+    data = []
+    finqa_dataset = load_dataset("virattt/financial-qa-10K")['train']
+    print(finqa_dataset)
+    for f in finqa_dataset:
+        print(f)
+        data.append({'question': f['question'], 'answer': f['answer']})
+    data = pd.DataFrame(data)
+    data['source'] = "finqa"
+    data.to_csv('./experiment/data/extracted/finqa.csv', index=False)
+    
+def get_harry_potter_to_csv():
+    x = 1
 
 #------RUN-------
 #eli5_to_csv()
 #squad_to_csv()
 #hotpotqa_to_csv()
+get_finqa_to_csv()

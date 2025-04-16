@@ -19,7 +19,7 @@ class RetrievalSettings:
     # Retrieval settings
     TOP_K_RESULTS: int = int(os.getenv("TOP_K_RESULTS", "3"))
     CANDIDATE_LIMIT: int = int(os.getenv("CANDIDATE_LIMIT", "10"))
-    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.5"))
+    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.4"))
     HIGH_CONFIDENCE_THRESHOLD: float = float(os.getenv("HIGH_CONFIDENCE_THRESHOLD", "0.7"))
     QUERY_WEIGHT: float = float(os.getenv("QUERY_WEIGHT", "0.7"))
     ANSWER_WEIGHT: float = float(os.getenv("ANSWER_WEIGHT", "0.3"))

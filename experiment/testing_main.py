@@ -9,12 +9,12 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 BASE_URL = "http://retrieval-agent-traffic.trafficmanager.net:5001"
 #BASE_URL = "http://localhost:5001"
  
-async def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress: Progress):
+async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: str, progress: Progress):
     """Send a query to the retrieval agent and measure the latency."""
     task = progress.add_task(f"Querying: {query}", start=False)
     progress.start_task(task)
     start_time = time.perf_counter()
-    result = await client.post(f"{BASE_URL}/query/", json={"query": query})
+    result = await client.post(f"{BASE_URL}/query/", json={"query": query, "model": model})
     result = result.json()
     end_time = time.perf_counter()
     progress.stop_task(task)
@@ -30,7 +30,7 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress:
 async def main():
  
     llm_name = "gemma:2b"
-    dataset_name = "hotpot_qa"
+    dataset_name = "eli5"
     test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'
     
     with open(test_json_path, 'r', encoding='utf-8') as f:
@@ -38,7 +38,7 @@ async def main():
     
     data_dict = {d["query"]: d for d in data}
     
-    timeout = httpx.Timeout(180.0)
+    timeout = httpx.Timeout(300.0)
     
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
@@ -49,7 +49,7 @@ async def main():
     async with httpx.AsyncClient(timeout=timeout) as client:
         with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}")) as progress:
             for item in data:
-                result = await query_retrieval_agent(client, item["query"], progress)
+                result = await query_retrieval_agent(client, item["query"], llm_name, progress)
                 
                 query = result["query"]
                 query_result = {

@@ -3,6 +3,8 @@ from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 from langchain.callbacks import get_openai_callback
 import os
+import time
+from openai._exceptions import RateLimitError
 
 api_key = os.environ.get("OPENAI_API_KEY")
 
@@ -27,12 +29,14 @@ class HelperLLM:
             if self.chain and self.prompt_type:
                 query = item['query']
                 response = item['predicted_response']
+                actual_response = item['actual_response']
                 if self.prompt_type == 'evaluation':
                     with get_openai_callback() as cb:
-                        result = self.chain.invoke({"question": query, "answer": response})
+                        result = self.chain.invoke({"question": query, "answer": response, "actual_answer": actual_response})
                         return {
                             "query": query,
                             "predicted_response": response,
+                            "actual_response": actual_response,
                             "score": result,
                         }
                 if self.prompt_type == "generation":
@@ -51,32 +55,40 @@ class HelperLLM:
         except Exception as e:
             return {}
         
-    def process_batch(self, data, batch_size=30):
+    def process_batch(self, data, batch_size=30, max_attempts=3):
         all_results = []
         for i in range(0, len(data), batch_size):
             batch = data[i:i+batch_size]
             if self.prompt_type == 'evaluation':
-                inputs = [{"question": item["query"], "answer": item["predicted_response"]} for item in batch]
+                inputs = [{"question": item["query"], "answer": item["predicted_response"], "actual_answer": item["actual_response"]} for item in batch]
             if self.prompt_type == "generation":
                 inputs = [{"question": item["query"]} for item in batch]
             
             with get_openai_callback() as cb:
                 try:
-                    batch_results = self.chain.batch(inputs)
-                    for j, result in enumerate(batch_results):
-                        if self.prompt_type == 'evaluation':
-                            all_results.append({
-                                "query": batch[j]["query"],
-                                "predicted_response": batch[j]["predicted_response"],
-                                "score": result
-                            })
-                        if self.prompt_type == "generation":
-                            all_results.append({
-                                "query": batch[j]["query"],
-                                "response": batch[j]["response"],
-                                "source": batch[j]["source"],
-                                "modified_query": result
-                            })
+                    for attempt in range(max_attempts):
+                        try:
+                            batch_results = self.chain.batch(inputs)
+                            for j, result in enumerate(batch_results):
+                                if self.prompt_type == 'evaluation':
+                                    all_results.append({
+                                        "query": batch[j]["query"],
+                                        "predicted_response": batch[j]["predicted_response"],
+                                        "actual_response": batch[j]["actual_response"],
+                                        "score": result
+                                    })
+                                if self.prompt_type == "generation":
+                                    all_results.append({
+                                        "query": batch[j]["query"],
+                                        "response": batch[j]["response"],
+                                        "source": batch[j]["source"],
+                                        "modified_query": result
+                                    })
+                            break
+                        except RateLimitError:
+                            print("Rate limit error, retrying...")
+                            time.sleep(2)
+                            continue
                 except Exception as e:
                     print(f"Error processing batch {i//batch_size + 1}: {e}")
             print(f"Processed batch {i//batch_size + 1}/{(len(data)+batch_size-1)//batch_size}")

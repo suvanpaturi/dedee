@@ -18,9 +18,16 @@ spec:
         command: ["ollama", "serve"]
         ports:
         - containerPort: 11434
+        resources:
+          requests:
+            memory: "3Gi"
+            cpu: "1"
+          limits:
+            memory: "4Gi"
+            cpu: "2"
 
       - name: judge
-        image: dedeeregistry.azurecr.io/judge:v2.0
+        image: dedeeregistry.azurecr.io/judge:v2.3
         imagePullPolicy: Always
         ports:
         - containerPort: 5001

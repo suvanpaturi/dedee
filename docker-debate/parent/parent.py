@@ -8,7 +8,6 @@ import httpx
 app = FastAPI()
 
 PARENT_ID = os.getenv("PARENT_ID", "Parent-Default")
-MODEL_NAME = os.getenv("OLLAMA_MODEL", "gemma:2b")
 
 class KnowledgeItem(BaseModel):
     question: str
@@ -20,6 +19,7 @@ class DebatePrompt(BaseModel):
     knowledge: List[KnowledgeItem]
     round_number: int
     origin: str
+    model: str
 
 retrieval_agents = {
     "eastus": "128.203.120.105",
@@ -86,7 +86,7 @@ async def participate(prompt: DebatePrompt):
         ollama_res = requests.post(
             "http://localhost:11434/api/generate",
             json={
-                "model": MODEL_NAME,
+                "model": prompt.model,
                 "prompt": full_prompt,
                 "stream": False
             },

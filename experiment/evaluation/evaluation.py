@@ -16,12 +16,21 @@ helper_llm = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(helper_llm)
     
 prompt = """
-    You are an evaluator. Given a question and an answer, rate on a scale of 0 to 5 if the 
-    answer is relevant and answers the given query. 5 means the answer answers the question, while 0
-    means it does not. Provide only the rating and do not offer any additional text.
+    You are an evaluator whos job is to see if a given answer is a suitable response to a given question.
+    You will evaluate based on:
+    - relevancy
+    - correctness
+    - similarity to actual answer
+    Give a rating from 0 to 5.
+    5 = answer is relevant and answers the given query. 
+    0 = answer is not relevant and does not answer the given query.
+    
+    Provide only the rating.
     
     Given question: {question}
     Given answer: {answer}
+    
+    Actual answer: {actual_answer}
 """
 
 llm = helper_llm.HelperLLM()
@@ -112,10 +121,9 @@ async def evaluate(file_path: Path):
             "latency": calculate_latencies(item["latency"]),
             "overall_latency": item["overall_latency"],
         })
-
+    
     rating_results = llm.process_batch(data=eval_results)
     for i, result in enumerate(rating_results):
-        print(result["query"])
         eval_results[i]["score"] = result["score"]
 
     await asyncio.sleep(5)
