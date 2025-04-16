@@ -1,0 +1,1502 @@
+[
+    {
+        "query": "Why are RWD cars more powerful than FWD cars?",
+        "response": "A 400whp RWD car is not any more or less powerful than a 400whp FWD car. That said... RWD is better for acceleration, because weight shifts backwards under acceleration, so shifting to the drive wheels will give them better traction. FWD cars are nose heavy. The ideal balance for handling is 50/50 (imagine a pivot in the center of the car, it would be easier to turn if the weight is equally balanced on both sides, right?), and FWD cars will tend to have a poor weight balance due to the entire drivetrain being located in the front of the car. Further on handling, RWD cars have better balance between understeer and oversteer. When a car is turning, a FWD car will tend to plow forward if you approach/exceed the traction limits, while you can rotate a RWD car with the throttle and keep it on course.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why can't two particles with mass exist in the same place at the same time if all particles exist as probability distributions of their position?",
+        "response": "They can, if they have an integer spin (they are bosons). Helium-4 is an example of this, if you cool it enough all the atoms condense together and you get a superfluid. This isn't so much as the atoms all being in one spot, but rather that all the indistinguishable atoms are spread out over an area. Particles with half-integer spin (fermions) have a zero probability of being found in the same state.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are we unable to digest some hydrocarbons (such as petroleum and gasoline) while others (like glucose) are perfectly fine?",
+        "response": "Because we don't have enzymes evolved to break them down into more usable chunks. Enzymes are VERY particular about what they work on - it has to be exactly the right shape and size. Even breaking apart glucose takes several different enzymes - each enzyme acts on a different carbon that makes glucose.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why old people like bingo?",
+        "response": "Gets you out of the house. Can be social with friends and regulars. Potential to win money. No casinos in the area.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How is it that shows like Family Guy are able to get away with a more \"liberal\" agenda while being broadcasted on a network like FOX?",
+        "response": "Please use the search bar.  * [what is the difference between Fox \"Hollywood\" and \"Fox News\"? They seem to have contradictory interests politically and appeal to entirely different audiences. How do they get away with keeping the same brand without abandoning viewers?](_URL_0_) (273 comments) * [ELI5: Why is fox news so conservative when Fox Channel tv series, such as glee are very liberal in their ideals?](_URL_1_) (177 comments)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do modern jet aircraft have sharp angles on their wings/tails, whereas propeller aircraft of the 40s had curved wings and tails?",
+        "response": "Short answer is as planes got closer to supersonic speeds thanks to the development of jet engines traditional wing designs were innefective since the aerodynamics are quite different under these conditions.  Some WWII planes used elliptical wing planforms since it was the most efficient shape at the time, but also more expensive to make. In most cases they settled for a compromise solution where the shape wasn't quite an ellipse but the performance wasn't much worse and the costs were cheaper. These curvy wingtips probably responded to that attempt of making the wings more ellipse-like without making them much more expensive. But under the new conditions brought by jet engines this was no longer that important, having elliptical wings or very curvy tips didn't help much but it added costs. Also plain rounded wing tips aren't that good at reducing wingtip vortices and better wingtip devices were developed later.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "does anyone know what Search algorithm Microsoft Excel uses?",
+        "response": "There doesn't seem to be very much information about how exactly it makes guesses. One person speculated that it uses the [bisection method](_URL_1_). If you're just trying to find the solution to a function of X, you might want to consider [Newton's Method](_URL_0_).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How are free divers like Guillaume Néry able to go into the depths on a single breath?",
+        "response": "Free divers (people that dive down long distances) have tricks to dive deep. To keep the oxygen inside them for longer, they take advantage of something called the divers reflex. The divers reflex slows your heart rate, it's activated by jumping into cold water. Another thing they may do is hyperventilating before they jump in [DON'T TRY THIS, IT'S DANGEROUS]. Hyperventilating before let's you lower your level of co^2 which is something your body needs to get rid of when you hold your breath. When you breath your body get's rid of co^2 and takes in oxygen. Your body builds up co^2 quicker than it's need for oxygen. By lowering the levels of co^2 before you jump in you can stay in until your oxygen runs out. Free divers also usually have very large lungs to hold in more air so they can stay underwater for longer. I'm not fully sure how they combat buoyancy but it definitely is a challenge. Here's a link that goes more in depth _URL_0_.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is Chile shaped so oddly? ( i.e Why is it so long and narrow?)",
+        "response": "It's borders almost exactly match the former captaincy general of Chile. If you look at the former Spanish administrative areas, they almost all have the same shapes as the current nations of South America. When they became independent, they merely kept the same territories.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How do capacitance, inductance, and resistance make up impedance in an electrical circuit for power plants?",
+        "response": "you're in charge of a circuit, at the end of which is (for the sake of a visual) a motor. you flip on the switch and the motor gets 50w of power. you look at the generator and it's spitting out 100w. so where the hell are those other 50 watts? some of it is heating up the wires (resistance), some of it is filling capacitors (capacitance) and some of it is generating a magnetic field (inductance). these are all forms of work (it takes energy to do them) but *you don't care.* for all you're concerned, those 50 watts are just gone. *that* is impedance.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do some people remember there dreams so well and others can't remember anything?",
+        "response": "The ability to recall dreams has 2 factors:  When you wake up - you have a sleep cycle that progresses through a number of stages ending in REM sleep (rapid eye movement), REM sleep is when you dream. If you wake up while in REM sleep or soon after you are more easily able to recall dreams.  Norepinephrine levels - norepinephrine is a neuro chemical that aids in memory, while asleep you typically produce less of it. Perhaps your friends produce more of it in their sleeping state than you do.  Why do we have a tendency to forget dreams? Nobody know for sure but a leading theory suggests that remembering dreams might be a disadvantage causing false memories in your day to day life. Say you dream about doing something important but are unable to distinguish between reality and your dream, you might end up not doing something that you should have done because you think you've done it already.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "If pure energy is a by product of anti matter and matter meeting could we theoretically reverse the process and take pure energy and make it into anti matter and matter?",
+        "response": "There's not such thing as pure energy. It's just not a concept. Matter and anti-matter typically produce high energy photons when they meet. The reverse can happen, for example a gamma ray can interact with a nucleus and produce an electron-positron pair.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are cough suppressants added to medications with Guaifenesin such as Mucinex?",
+        "response": "So guaifensesin, as you said thins your mucus, allowing it to more easily be removed. It is often given with dextromethorphan, a cough suppressant. It does seem counter intuitive to mix expectorants and cough suppressants. But cough suppressants don't stop you from cough per say, so much as they decrease the irritation in the throat that leads to chronic coughing during illness. If phlegm or mucus gets dislodged due to the expectorant, and enters your throat, you will still cough it up when on the cough suppressant. The cough suppressant just makes that 'tickle' in your throat stop making you cough so much.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What purpose does hiccuping serve? Bonus round: why does breathing in a bag cure it?",
+        "response": "They're involuntary spasms in your diaphragm due to gas or air bubbles often. The large majority of the lungs are considered smooth muscles so often taking control of that and making several deep breaths can often help. If they continue for a long period of time, they can be related to several different medical conditions.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is it common for American houses to have issues with carbon monoxide?",
+        "response": "I do not think that carbon monoxide issues are all that common in America. although, on occasion you will hear about an unintentional poisoning and subsequent death(s). The problem with carbon monoxide is that it is odorless and will put a person to sleep and then effectively suffocate them. Yes, you can shut your self in a garage (car park) and leave your car running and you may kill yourself. The real danger and concern is a in-house heater or possibly water heater, while in use, leaking carbon monoxide into the living environment and being odorless, going undetected and killing everyone in the environment. We have carbon monoxide detectors specifically for this purpose. Older homes, (plus 30 years) with older equipment are the most concerning.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are memories from LSD and 'shroom trips so vivid +20 years later?",
+        "response": "In the same way an exotic vacation would be memorable, reality-shifting can be memorable.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do you have to \"crack\" a glow stick to get it to light up?",
+        "response": "The glow is produced by mixing two chemicals together. One of the chemicals is inside of a glass tube in order to keep them separate until you want to mix them. The cracking sound is you breaking the glass tube and allowing the reaction to happen.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is South Korea broadcasting on the loudspeakers?",
+        "response": "According to this article i was reading, the broadcasts  > focus on the superiority of life in South Korea as well as South Korean soap operas  & nbsp; Basically they spew how awesome electricity, fresh food and the internet is. And then they annoy the shit out of North Korean soldiers with their soaps. _URL_0_",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Are there any kinds of cosmic phenomena that could obliterate the earth completely, but that we couldn't see coming in advance?",
+        "response": "Gamma ray burst. It travels at the speed of light and would usually give almost no warning.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How much did Band Aid/USA for Africa/Live Aid really help starving people in Africa in the long run?",
+        "response": "There have been a couple of threads with answers on the impact of Live Aid, Band Aid, and USA for Africa, so I'll link them: u/wilbarp provides a thorough account with plenty of further discussion in [Did celebrity efforts like Band Aid's \"Do they know it's Christmas?\" and USA for Africa's \"We Are The World\" actually help alleviate famine in the 1980s?](_URL_0_) u/ReaperReader answers in [What was the real impact of the Live Aid concert of 1985?](_URL_1_) Hope this helps!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does water drain in a \"spiral\" shape?",
+        "response": "The spiral moving in opposite directions is a myth. The Coriolis effect - which causes storms to spin in different directions - is far too small to affect something like a draining bathtub.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Auction Theory Question",
+        "response": "What are they willing to pay? If they're willing to pay 120 they'll all be sold at 120. Easy way to see it is to say that if you see at least one item below 120 someone will obviously bid.  The subject is called game theory. There's lots of research on different types of auctions",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When I \"lose my voice\" what is actually happening?",
+        "response": "So you have these things called vocal cords, which are basically folds of skin that will vibrate and tighten in special ways when you speak in order to form sounds. After a cold or other viral infection, these folds and the structures around them get all swollen and irritated. This affects the way they move and your voice can sound funny. Sometimes these structures get SO irritated/swollen (or coated with mucous) that they don't move at all, which means you cannot produce sound!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Modern Britain experienced enormous, even dramatic changes, between the mid-eighteenth and late-twentieth centuries, and yet there was no revolution. Why?",
+        "response": "A reasonable amount of personal freedom and prosperity compared to much of Europe, a representative legislative body, an adaptive legal system, and an extant, but limited in power, monarch. Oliver Cromwell had also soured republicanism for many.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "what is the difference between brown and white eggs?",
+        "response": "Chicken owner here. The only difference is the breed of chicken the egg came from. We have a couple different breeds and end up with white, brown, green, and blue eggs. There's no difference in taste or nutrition.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Stock market question",
+        "response": "The price of the stock isn't set by a specific individual so nobody in particular \"attaches a dollar amount\". There's nobody making that decision. Instead it's a \"hive mind\" or a consensus. In the case of Woods the consensus was that Nike would lose business due to what had happened. However, the hive mind is a weird thing and can be prone to overreaction. So in your example the stock fell by 50%. I don't know if you're using actual figures but let's take them as an example. It would be very surprising if the Nike business as a whole became worth 50% less because of Woods' behaviour. But what can happen is that loads of people who own Nike stock go \"AAAAARGH!\" and panics and hits the sell button. So the response of all those people who got scared by the event causes the drastic fall. It's not totally crazy either, because a lot of people will think \"well, even if the stock only drops by 5% this means it's time for me to sell\" and then everyone who thinks like that causes the stock to drop and drop.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What exactly goes on in my TV screen when I am regulating brightness, sharpness, contrast etc.?",
+        "response": "The terms are actually not what you think they would be:    Brightness is the max brightness for white, it affects highlights.   Contrast is the min brightness for black, it affects shadows.   Sharpness deepens black-ish pixels and brightens white pixels (still dependent on the max/min values) to falsely mimic actual sharpness. Actual sharpness has actual contrast, the difference between white and black.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How come an Xbox, which features 6 year old hardware, can run modern games smoother than my recently built PC?",
+        "response": "Most popular games come out on the Xbox 360, the PS3, and the PC. Out of the three choices, the Xbox 360 is the most popular and has the oldest hardware, so the games usually get designed to run really well on the Xbox 360 first. After the game is done, they really quickly make versions for the PS3 and the PC, then release them all together to sell to you. The game is designed specifically to run on your Xbox 360 in the first place.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does crossing over \"cleanse\" chromosomes of mutations?",
+        "response": "[The mechanisms involved in carrying out crossover are related to the mechanisms involved in DNA repair, and there is some evidence indicating that crossovers occur more often in circumstances when DNA might be more prone to damage.](_URL_0_)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What to do when I go to a strip club.",
+        "response": "When you first come in, take your group to a table or booth not right at the stage, order your drinks and get settled in. Once you're settled wait for a change of dancer or song and you can take advantage of the space around the stage. Sometimes there will be chairs, other times it's standing room only. ONLY go up to the stage if you plan to spend money; while not required, it is somewhat disrespectful to not tip (the dancers aren't there to give you a free show). Only make physical contact if the dancer initiates it. While you are there, be prepared to be harassed every few minutes by dancers asking if you want a lap dance or private show. Don't be pressured into blowing your whole stack in a half hour (especially if you aren't there to make it rain). Definitely leave your card locked in the car, ATM fees are around $10 at the few i've visited which is ridiculous. Take a break between songs or dancers as you see fit and pace yourself. You'll have a great time if you can make your dollar go further.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In popular TV Show Boston Legal, why do the lawyers from Crane,Pool and Schmidt always give their closing the last(2nd)?",
+        "response": "Artistic license. The same goes for some shows/movies when the lawyer in the middle of cross examination suddenly stops questioning and makes an argument to the jury. As an attorney for 20+ years, I've learned to suspend disbelief and grant a certain amount of artistic license.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why can I have a cold or other illness, brush my teeth during that time, and then later on not get sick again from that same tooth brush?",
+        "response": "Once you have fought off a specific cold virus, your body has gotten good at fighting it off. So if you encounter it again in the near future, your body will fight it off this time before you even get symptoms.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are airplane (and some car) seats not designed to conform to the human vertebral column?",
+        "response": "The most likely reasoning is that properly designed seats take up room and taking up more room means less seats which means less money to make.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "why is it when it’s super bright outside it’s easy to keep one eye open fully but not both?",
+        "response": "The eye (and brain) are overwhelmed by the bright light stimulus until the eye has had time to adjust and enter \"bright mode\". The brain has to process not only the overwhelming light but also the overwhelming discomfort in your eye because you're looking at something that's too bright. Closing one eye helps to alleviate this.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do solid black curtains reduce or increase the temperature of a room?",
+        "response": "The overall heat of the room is probably increased. Black things are black because they don't reflect much light, which means most of the sunlight entering through the window is getting absorbed by the curtains. Those curtains will shed that extra energy as heat to the air or as infrared radiation. Glass tends to absorb IR radiation, so that energy won't escape back out to the outside but get trapped inside the house. After that though things get more complicated and might depend on exact part of the room in question and many factors of the room. The curtains will likely concentrate the heat at the curtain/window part of the room and so areas on the other side of the room could be significantly cooled by the lack of direct sunlight (even though average room temp would increase). The curtains holding a pocket of air between themselves and the window also provides a decent level of insulation from the outside heat getting in, so outside temps could play a factor.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do lips get chapped when you lick them?",
+        "response": "I thinks it's because the evaporation of saliva causes them to dry out.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does the moon appear bigger on some days and smaller on others if its orbit remains the same?",
+        "response": "There actually are slight difference in the distance between the Earth and the moon depending over time but you can't see them with the naked eye.  The reason the moon sometimes looks bigger is an illusion. When the moon is high in the sky you don't have any nearby objects to compare it to so you only judge it's size based on the angle it subtends. But when the moon is close to the horizon your brain compared it to objects that subtend a smaller angle than the moon does so it ends up looking bigger.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "\"Many a military disaster has been prevented by reluctant obedience.\" True?",
+        "response": "_URL_0_ Perhaps the most world altering example I can think of, during the Cuban missle crisis the US began dropping depth charges on a Russian submarine in an attempt to make it surface. The Americans were unaware that this was a nuclear sub with some authority to fire. For all they knew, war had begun. The world dipped very close to war several times during the crisis, they were in international waters so clearly something was out of the ordinary, and they were in a metal can moving slowly at the bottom of the ocean. The general consensus is that the war is on, time to go through with the mission. Fortunately for the world the second in command, Vasili Arkhipov was able to to convince them to wait for orders from Moscow. Had that nuke fired, every other nuke would have fired. Vasili saved the world.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Could a complex animal be genetically engineered to allow for the growth of chloroplasts?",
+        "response": "> DNA engineered to produce everything the chloroplast needs to function … [one step ahead of ya](_URL_0_)  > Exactly how the genes got from the algae to the slug isn't clear, but Pierce said research into this mechanism could lead to advances in gene therapy and genetic engineering.  > Pierce said gene therapists are \"trying to insert genes from one organism to another to fix genetically based diseases, and honestly that doesn't work very well yet, but these slugs have figured that out.\" [source](_URL_1_)  > … and reproduce It sounds like they haven't figured that part out yet. (Not that I'm an expert.)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "if someone is a citizen of 2 different countries, do they have 2 different passports?",
+        "response": "Yes. Passports are issued by each country separately, there's no such thing as a \"multiple country\" passport.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why can you use a negative adverb to make an adjective more positive? Ex: Awfully good",
+        "response": "The adjectives which spring to mind - awfully, terribly, dreadfully, frightfully, fearfully, scarily - all come from words related to fright. And this, I think, is because for many things we fear, that fear is mixed with respect - we both fear and respect the mighty power of nature; we both fear and respect a large predator; we both fear and respect whatever god we happen to believe in. So the comparison is being made with that - \"He is a terribly good footballer\" literally implies that he is so good that we must fear and respect his powers.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does alcohol dehydrate you?",
+        "response": "You make a hormone called vasopressin. One of the functions of it is to maintain water in your body. Alcohol inhibits the production of it. As a result, your kidneys don't reabsorb as much water as they would otherwise, and instead you whizz it out.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does 72 degree water feel so much colder than 72 degree air?",
+        "response": "Water has a much higher thermal conductivity than air, meaning it will transfer heat (or cold) through it faster, ultimately removing energy from your skin faster.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How did Ernest Rutherford know for sure that the result of the famous gold-foil experiment wasn't down to the space BETWEEN atoms?",
+        "response": "You're not focusing on the most important detail in your summary--that **a small fraction of the alpha particles were strongly deflected**. The model he was comparing against was Thompson's ['Plum Pudding Model](_URL_0_)', in which electrons exist inside a uniformly distributed positive charge. **Were this model correct, none of the alpha particles would be strongly deflected**. The positive charge must be compact compared to the distribution of the electrons to explain the deflection. Whether or not the non-deflected alpha particles passed 'between' atoms or through them is immaterial to his result.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "The decline of Labor Unions in America",
+        "response": "Labor unions are meant to give workers support in negotiating fair wages, decent working conditions, etc, when dealing with large, powerful employers (i.e., collective bargaining). Many people dislike labor unions because there are issues with union workers sometimes being \"untouchable\" and it often keeps unqualified workers in positions where they don't belong. A prominent example is not being able to fire bad school teachers.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the point in a corporation making billions in profit a year?",
+        "response": "Most of them do, to a certain extent. Revenue means value, value means stronger stock, stronger stock means money. What is the point of limiting the amount of money a corporation can make or keep? Aside from limiting performance? Also, 15 billion dollars brought in, when your operating costs are 12 billion, isn't a whole lot of profit.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do Australians have the highest per capita CO2 emissions?",
+        "response": "* First-world lifestyle - cars, air conditioning, heating, the lot.  * CO2 heavy energy production. Most of the energy comes from coal plants. No nuclear (unlike US), negligible renewables. Solar is starting to become more popular, but hasn't quite gone big yet.  * Low density. Huge transporting distances between cities. Cities themselves tend to be lower density than European cities - favouring roads and cars over public transport or walking / cycling / other.  That's probably the main factors I would imagine. No source on anything so take it with a grain of salt - I'm sure others have better information / experience.  Source - am Australian, some environmental science experience.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is it possible (or are we able) to isolate cytosol from a cell or group of cells?",
+        "response": "Yes, absolutely.  [This](_URL_1_) is a kit that is commonly used in laboratories for the isolation of the cytosol, and [this](_URL_0_) is an article discussing the protocols involved and their usefulness.  Hope this helps.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does frying food create bubbles?",
+        "response": "The oil used in frying is hotter than the boiling point of water. So when food touches it, the water contained in the food quickly boils, creating bubbles.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "how do the chips on credit cards provide extra security?",
+        "response": "Magnetic stripes are easily duplicated. The information on them is unencrypted and the machines to duplicate them quite cheap.  A chip on card is basically a unique encryption key. The reader has an active conversation with the chip to verify the authenticity of the card. Pin not being required has been done largely to reduce the resistance to adoption. It is an additional layer of security that should be used but its absence does not lower it to the simple pinless magstripe transaction as the difficulty of reproducing or emulating an individual cards chip is prohibitive.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why whenever I eat a burger/sandwich the bottom bun always gets way smaller than the top bun.",
+        "response": "Because you move your lower jaw and the bite on the bottom part goes \"deeper\" than your upper bite.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is it common to pronounce some latin names like Caesar and Cicero with a soft C instead of a hard K (the traditional latin pronunciation), but not names like Cornelius and Caius?",
+        "response": "I mean, in Classical Latin, it really is pronounced \"Kae-sar\" and \"Kae-sero,\" but English speakers are terrible about not butchering names.  Plus, it's how Ecclesiastical Latin pronounces some of them, because it's more related to Italian.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "If my parents are not contributing at all to my college education, why does their income still get calculated into my Financial Aid package?",
+        "response": "Because the financial aid system is based on the premise that your parents are *supposed to* pay at least a part of your college expenses if they can afford it. Whether or not they do is their choice, and shouldn't have a bearing on how much money the government is going to cover.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How do places like Hooters get around anti discrimination laws?",
+        "response": "Title VII prohibits employment discrimination based on things like gender, race, and age.  [Title VII also, however, allows for discrimination based on protected characteristics (except race), when that characteristic is what is called a \"Bona Fide Occupational Qualification\" (BFOQ). To be a BFOQ, being a member of that group is essential to the job.](_URL_0_) Hooters was sued by the Equal Employment Opportunity Commission (who argued that Hooters was primarily providing food, which you don't have to be a woman to do) and they argued that their waitresses main function was offering \"vicarious sexual entertainment\" to their customers. They settled out of court for over $3 mil and agreed to start having positions available for men (bartender, host, etc). The entertainment industry tends to be the most successful when arguing for this kind of exception.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How are food calories measured?",
+        "response": "Did you bother looking it up yourself? This has been asked a million times here already. The search feature is invaluable. Use it.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In an uncomfortably cold environment, can consumption of capsaicin/spicy food (temporarily) increase perceived comfort?",
+        "response": "Capsaicin mostly activates local *pain* receptors that detect heat, but it does not trick the body into thinking that it's overall temperature is higher than it is. Capsaicin would do nothing to reduce the discomfort of feeling cold and actually make it worse by stimulating a sweat response.  The key is that local sensors that detect tissue damage from extreme heat and sensors that detect overall body temperature are different. Capsaicin activates the former and does little to fool the body into thinking it is warmer than it actually is. If you pay close attention, you'll notice that the sensation of being burned is way different from the sensation of being overheated.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does fire emit light?",
+        "response": "There are two ways that fire emits light. 1. Soot is made of solid, black particles, mostly carbon. When a black solid heats up, it emits [black body radiation](_URL_0_). This is why the sun gives off light, and why you can see people on infrared cameras at night. Yellow light from a fire is caused by this mechanism. 2. Gases in the fire get excited because they are so hot. This means that they vibrate faster than normal, or their electrons move further away from the nucleus than normal, or the spin faster than normal. This doesn't last long, and they quickly return to their normal state. When they return to this state, the excitation energy is released in the form of light. This is where the blues and greens in a fire come from.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does bitcoin mining work?",
+        "response": "Bitcoin mining has not been profitable for quite some time. I don't recommend it. The location of every bitcoin, and every transaction, is stored in an ever growing ledger file. Miners attempt to solve a very complicated math problem, that takes a kind of \"summary\" (Hash value) of the ledger as one input, and try to find another input such that the answer to the math problem comes out under a certain number. Once a miner solves the problem, they announce the answer, update the ledger file with new transactions, and award their own account some bitcoins. Other miners verify that all those procedures were done correctly, then try to solve the problem again with the new ledger file. The criteria for a correct answer to the math problem is changed by the developers periodically, so that on average miners find one solution every 10 minutes or so.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Wireless electricity, how it works, and why we don't have it.",
+        "response": "The biggest problem is inefficiency, unless your transmitter can focus and aim a beam at every target device you need to broadcast it freely in all directions (the way wifi works for example). [When things spread out in all directions, they get exponentially weaker as you get farther away](_URL_0_) whereas copper can carry AC current very efficiently. In short, we do use \"wireless electricity\" in things such as transformers - [the big metal cans you see up on the power poles](_URL_1_) - where 2 coils of wire are simply next to each other and transmit by electromagnetic [induction](_URL_2_), but we haven't worked out a way to do that over great distances effectively yet.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Could viruses cross the boundary from non-living to living?",
+        "response": "Based on this hypothetical situation I don't think we could call this new organism a virus at all. We'd need a new classification for it.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How do standard BIC Lighters work? They appear to be a liquid, but are released as a gas.",
+        "response": "Butane gas is contained within the body under pressure. This pressure condenses it into a liquid, dramatically increasing the quantity of fuel that can be stored in a given volume (if the butane were stored as gas, the lighter would be several dozen, if not hundred, times larger). When you push the activation nub (the red button/lever) it opens a valve allowing the butane to leave. When it leaves, the pressure drops and the butane converts back into gas all on its own. If a flame or spark is present, it will also ignite.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does the bail system work in the USA? if you 'post bail' of $15,000, say, do you get it back or what?",
+        "response": "After you are arrested, the state wants a guarantee that you will show up for court. The \"bail\" money is used to coerce you into compliance. You get the money back when the case is disposed of, guilty or not, as long as you appear in court when you're told. If you don't show up, you have \"jumped bail\" and the cops and maybe Dog the bounty hunter will come looking for you.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does meat decay in the vacuum of outer space?",
+        "response": "No, in fact it would probably turn into something similar to beef jerky.  In space, the water would boil off, dehydrating the meat and if it was in view of the sun it would be slowly dehydrated and cooked.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What would happen if someone who is obese starves back to normal weight?",
+        "response": "Nothing good. Fat cells act as storage for excess glucose, which can be accessed for cellular respiration.  However, the body needs a range of amino acids and vitamins to function, which are *not* stored in fat. Before you starve off the weight, your body will be reduced to cannibalizing muscle tissue for proteins, and even bone tissue.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Could a State of the USA leave the Union and become an independent country?",
+        "response": "Only if the federal government let it. See: American Civil War",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does your field of vision stay the same as your pupils contract and dilate?",
+        "response": "The same reason it crops out your nose, momentary blindness when you blink or move eyes, etc.: your brain auto-corrects the information it is receiving to create a seamless experience.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What makes certain notes or melodies in music sound \"evil\" or \"ominous\"?",
+        "response": "As someone who's been playing music on and off his whole life, the answer is both simple and complex. I'll try to make it an ELI5. In music, we have culturally defined certain sounds to be \"pleasant\" and \"happy\" and some to be \"dark\" and \"sad\". In general, happy songs utilize a major key and uses major chords, while sad songs use a minor key and more minor chords. Again this is a generalization but to our ears this is the most natural.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do different programing languages exist? What makes one more suited for one task than another?",
+        "response": "The same reason different cars exist - some of them are vastly different and have different usages, while some are similar but have minor differences that make one preferable over another for some people.  For example, Java and C have the same basic syntax, but are very different. Java is object oriented and memory managed, while C isn't. This makes it easier to write complex and dynamic software in Java, but makes C much more low level, allowing the programmer to better interact with the hardware or write more efficient programs (theoretically).  Another example is Java and C#, which are very similar, but developed by different companies, Sun (now Oracle) and Microsoft. Each one has some features that are useful, for example Java is very cross platform (the same program can be run on different platforms such as Windows, Linux and Mac) while C# is less so, but C# has very good GUI capabilities and other features that Java doesn't.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Assuming that roughly 3-3.5k calories equal one pound of fat, would it be possible to eat a food of that caloric value, that weighs less then a pound, and gain a pound from it?",
+        "response": "It's not about the type of food. Yes, there are foods which will have more calories than 3500/pound. But I think your question was about conservation of mass or something like that? The answer to that is - fat cells don't consist purely of fat... They also have, say, water in them ;) However, the whole thing with calories and fat is far, far from as simple as this...",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "how does a video on YouTube have fewer views than upvotes on reddit?",
+        "response": "> Do you have to watch every single second of the video for YouTube to count it? This is a bit of a trade secret, because YouTube doesn't want to release any information that would help people cheat the system. But after 301 views, YouTube starts checking every single new view that comes in (which is why counters often appear to \"freeze\" at 301), and this takes a little time, so the view counter always has a delay. To count as a view, you do have to watch a certain amount of the video (how much YouTube isn't saying); also, you have to actually start the video yourself. For example, if you click to a non-YouTube webpage and a YouTube video embedded in it automatically starts playing, that doesn't count. But if you have to start the video by clicking the \"Play\" button, or if you click to the video on its actual YouTube page, then that does count. Ratings, however, aren't subject to the same scrutiny, so they always update almost instantly.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does the photon of specific phase that causes stimulated emission in a laser device arise?",
+        "response": "The first photon doesn't have to have a specific phase. Whatever it has determines the phase of the laser. In terms of direction and polarization: If it is not aligned with the laser cavity (or has the wrong polarization, if that is relevant), this chain of photons dies down quickly and another \"first photon\" will start the laser. Note that actual lasers do not emit *perfect* laser light. You can still get all sorts of weird effects in between.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "For televised football games, how do the lines and graphics on the field work?",
+        "response": "The answer is a huge amount of computing power. A 3D model of the field must be programmed into the computer first, indicating where each yard is, as well as where all the bumps and slopes on the field are. The cameras are mounted on special rigs that monitor every movement the cameraman makes. The computers are programmed to recognise various different colour palettes so they can tell where the players are, so as not to draw the line over the players. When all of this setup is complete, it takes [8 computers and 4 people](_URL_0_) to do the actual job of drawing the 1st down line on the pitch.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are Dumas' heroes called musketeers when they use a rapier, not a musket?",
+        "response": "Answered your question in another thread but anyway: Because Dumas modelled his main characters after, somewhat unsurprisingly, four musketeers. [Charles de Batz-Castelmore d'Artagnan](_URL_0_)(Yeah, take a wild guess at why that was shortend, quite a mouthful), [Armand d'Athos](_URL_2_), [Henri d'Aramitz](_URL_1_) and [Isaac de Porthau](_URL_4_). Notable members of the French [Musketeers of the Guard](_URL_3_) EDIT: I suspect, but I can't yet prove this, that the rapier was a purely fictional addition because rapier duels are more interesting to read about than four guys walking around shooting people with muskets. The musket, revolutionary as it may have been, lacks a certain literary flair and it most certainly lacks the romantic element otherwise present in Dumas work.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What are computer servers really?",
+        "response": "A server is just a computer. The thing which makes it a server, is simply that it has some kind of resource on it (perhaps a web page, or a printer, or just some disk space) which people on other computers can connect to and use. Because many people can all connect to a server at the same time, and use the resources on it at the same time, many servers are more powerful than the average computer that you might use - but they don't have to be. A server could well be, physically, exactly the same as the computer you used to make this post.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "I've heard Islam and the Arab Caliphates were heavily influenced by Persian culture and traditions. Why is that and what are some examples?",
+        "response": "Persians dramatically outnumbered Arabs. They were vastly wealthier, had a tremendously larger cultural tradition, including literacy, and they were more urban and sophisticated. The Umayyads tried hard to keep the Arabs ruling the Near East segregated from local populations in order to maintain Arab cultural unity, but in the far-flung areas of Khorasan (what is today Uzbekistan) this proved impossible, and Arabs and Persians mingled a great deal. The Persians had more wealth and culture, so they tended to make the Arabs more Persian than the converse. A good example of this is when al-Mansour built Baghdad in the 760s. The city was arranged in such a way as to conform to Persian obsessions with astrology, and when Mansour was installed, he had it done in the manner of a Persian king.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How are car batteries able to be charged up with a jump start, if Car Batteries use chemicals for energy?",
+        "response": "The jump start doesn't charge the battery, it just starts the car. When the car is running, it charges the battery.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why doesn't Cerenkov Radiation violate causality?",
+        "response": "When scientists refer to the speed of light related to causality ( c ), what they are actually talking about is the speed of a massless particle (usually the photon). When you hear about the speed of light in a medium slowing down, what you are hearing about is the macro level appearance of moving light. The reason it slows down is because as photon move through the medium, they are periodically absorbed and re-emitted by atoms in the substance. This absorption takes time, so the light seems to take longer to move through it. Between atoms though, photons are always moving at c. In my opinion, 'speed of light in a substance' should always instead be called the speed of propagation of light in the substance instead, because they are two different things, and this does tend to confuse new people. Hope this helps!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Did the Opium Wars of China have any long term effects on the Chinese Psyche?",
+        "response": "Look up the term \"Century of humiliation\", it's what the Chinese call the roughly 100 years between the opium wars and WWII/Second Sino-Japanese War. It is still a sore issue with them, and is a part of their school history books.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the whole story with the Syrian refugees in the news?",
+        "response": "Basically, due to the Syrian civil war nearly 11 milion people have been displaced. Many of those settled in neighboring countries like Turkey, Egypt and Libya. The problem is that those countries have become unsafe for refugees. The new Egyptian government is hostile to the refugees and is forcing them on to Libya, however in Libya the government has all but collapsed and IS is on the rise there. In Turkey there has been a wave of attacks on refugees and increased fighting by the Kurds. This is causing many refugees to flee those countries, and most are seeking the safety and stability of Europe. The problem is that Europe, seeing that these people are not fleeing from their country of origin has labelled them as migrants instead.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does America oppose communism so strongly?",
+        "response": "There were a couple Red Scares based on the threat communist ideology posed to the existing order in the US. The modern animosity towards Communism was because it was the ideology of the Soviet Union, who was a rival to the US and its Allies after WW2. Due to the rivalry, the US played up the anti-freedom and anti-individual aspects of Communism and the USSR in order to indoctrinate its population against foreign infiltration. Additionally, as historians have studdied Russia and ther Communist nations, Communist revolutions have a nasty habit of involving a monstrous amount of mass murder and actual tyranny, which provides legitimate justification for sentiment thatwas seeded by what more or less amounted to propaganda.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Are calories just calories? Is it the same if you get a calorie from a fizzy drink or a piece of fruit or a slice of potato or a bit of cheese?",
+        "response": "A calorie is a physical measure of energy - specifically, the amount of energy needed to heat one metric mililitre of water by one degree Celsius. Energy in food intake is also measured in this way, though the terms kilocalorie and calorie are often used interchangably, which can cause confusion.  But yes, no matter where it comes from, one calorie always represents the exact same amount of energy. However, a difference you *can* make is that some foods will allow the energy that is within them to be absorbed more efficiently or more quickly, which can lead to varying results. (Edit courtesy of Neo6874: One calorie heats one millilitre by one degree Celsius. One kilocalorie heats one litre by one degree Celsius.)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the fundamental reason the American economy is considered \"shaky\"?",
+        "response": "It's not 'shaky' in any mathematical sense. There is a sense that the current gains may be temporary. If they are not, then raising the interest rate is a good idea. Lowering the rate always gives a short term boost to the economy, so raising them now lets us stock up for a future crisis. If things are only barely succeeding though, it could prevent the growth many have been looking for.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "why do I twitch as I'm falling asleep?",
+        "response": "This is called a hypnic jerk (or sleep twitching). It's an involuntary move triggered by you central nervous system. Causes are often too much caffeine, anxiety, stress. Has also been linked with watching TV or playing games before sleeping.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does a bread knife cut bread better than a regular straight-edged knife?",
+        "response": "Because the serrations tear through the crust, meaning you don't squash the bread when you press down while cutting (particularly when you start a new slice). The same thing goes for tomatoes.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do modern day outlets and appliances not have the reset and trip (red and yellow buttons) today, and most appliances and outlets in '90s had them?",
+        "response": "What you're talking about there is a device called a Residual Current Device (RCD) or Ground Fault Circuit Interrupter (GFCI), depending on which side of the Atlantic you're from. What it does is cut off the electricity at the first sign of something going wrong. In the 90s, these were fairly new tech, and it the recommendation came out that we fitted them to sockets or appliances used in risk areas - particularly in wet areas, outdoors or for power tools. In time, as new houses got built or old ones were rewired, we went away from protecting individual appliances or sockets, and protected the entire house. If I go to my consumer unit (fuse box), there are two of these devices which, between them, cover my entire house instead of having to do it at a more local level.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Was there human sacrifice during Saturnalia?",
+        "response": "What exactly *are* your sources suggesting human sacrifice?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "If our stomach acid is strong enough to digest razor blades, why can't we digest corn?",
+        "response": "There's something in plants called cellulose. We know it as \"fiber.\" We can't digest all types of fiber. A lot of mammals have a thing called a coecum attached to their digestive tract, with bacteria inside, which digests the cellulose for them. Not an easy task for an animal, because it takes incredible amounts of energy to digest it yourself. That's why they employ bacteria.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do chips stay crunchy in the bag, but once opened, become soft?",
+        "response": "They are packed under a controlled atmosphere: very low humidity, very low oxygen content normally. This prevents staleness and loss of flavour. _URL_1_  A German company tries to do the same for shipping containers to keep meat and fruit fresh for longer: _URL_0_ That's how I knew about the technology.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is Rh in blood, and why does it matter?",
+        "response": "A, B, and O are types of blood. Rh factor represents a protein that's present in blood. Either you have it (+) or you don't (-). It's important because, if you have a negative Rh factor, your blood will perceive (+) blood as a foreign body and try to fight it off (like an immune response to infection). If you have Rh + blood, however, you can generally accept Rh - blood. In all blood transfusions, the patient must be monitored for any adverse reaction.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does relativity work when moving near the speed of light?",
+        "response": "> If we send a craft that can instantly accelerate to 99.9% of c with no damage to the craft itself or the people inside then it will get there in about 1000 years. Roughly same amount of time has passed on Earth and on the destination planet but how much time has passed on the ship? And how? At 0.999c, the [Lorentz factor](_URL_1_) is about 22.37. This means the distance between Earth and the destination is [length contracted](_URL_0_) by a factor of 22.37 - so when the spacecraft is moving at speed, they'll see the distance between the two as 44.71 light years, rather than 1000 light years. Therefore, the trip would only take 44.71 / 0.999 = 44.75 years.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is time on the sun's surface slower than on Earth due to gravitational time dilation, and by how much?",
+        "response": "using the schwarzchild metric with dr=dphi=dtheta=0, dt/dtau = sqrt( 1 - 2GM/rc^2 ) ~ 1 + GM/rc^2. Plugging in the mass and radius of the sun I get that time is dilated by about 2 parts per million (2e-6). Plugging in the mass and radius of earth, I get a time dilation of around 1 part in 100 billion (1e-11)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes goats to have rectangular pupils in their eyes?",
+        "response": "Not only goat goats, octopuses and toads ,the reason these animals have rectangular pupils is because this is what helps them avoid predators. Rectangular pupils tend to get very narrow during day time, which gives animals a greater accuracy of depth perception in their peripheral vision. Traditionally seen as prey, thanks to their eyes these animals are able to avoid predators",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How can a person's stem cells be used to treat a genetic disease if the extracted stem cells also contain the defective gene?",
+        "response": "One of the upsides to autologous transplantation is the ability to avoid immune rejection as well as complicated ethical and proprietary issues. The challenge here lies in, as you point out yourself, that the cells still contain the faulty genetics. However, we are getting increasingly better at [gene therapy](_URL_1_), and although we still have quite a ways to go before we master tools such as Cas9 (CRISPR) or viral delivery, the consensus seems to that we’ll eventually be able to correct most genetic diseases, and ‘fix’ the cells before reintroducing them to the body. You might be interested in reading about [induced pluripotent stem cells](_URL_0_). While challenges still remain, including fitness of cell/mitochondria and fully understanding and mastering the dynamic stem cell hirearchy, it's definitely an interesting field.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "After relocating from the Southern to the Northern hemisphere, why does it seem like the sun rises in the west? Is this just an illusion?",
+        "response": "In the southern hemisphere the sun arcs across the sky in the north, but in the northern hemisphere it does the opposite. Suppose you're facing south and watching the sun setting in the west; you then imagine the arc that the sun made over the course of the day in front of you. In order to view that arc in the same way (with the sun in the same position) in the southern hemisphere, you need to be facing north with the sun rising in the east. So for this view, you've been accustomed to associating it with dawn.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What depth is required for underground lunar structures to adequately shield against temperature fluctuations, radiation, and meteor impacts?",
+        "response": "The depth to be protected from temperature swings depends on the amount of insulation on the building and the heating/cooling capabilities of the HVAC system. If the building is heavily insulated and had powerful heaters and quick cooling, it wouldn't need to be deep at all. If the building had zero insulation, it would have to be very deep. (If you want a number for this case, it can be calculated using the heat transfer coefficient of lunar regolith.) For radiation protection, [it has been shown](_URL_0_) that about [15 to 20 cm of lunar regolith](_URL_1_) is enough to reduce the radiation doses to 22 rem/yr for skin dose equivalent, and 16 rem/yr for organ dose equivalent. Meteor strikes are an infrequent occurrence on the moon, at least on the large scale. (Micrometeorites are constantly bombarding the surface, but this is basically very high-energy dust.) Here, again, a centimeter or two would provide adequate protection for everything except major events. Edit: spellang",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What size must a water sphere (or planet) be for ice to develop at its core?",
+        "response": "You must specify what temperature this sphere should have to be able to answer the question. If it was just put in empty space it would cool to close to the absolute zero temperature and freeze no matter what the size.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What was used prior to the invention of lip balm?",
+        "response": "People used goose or other animal fats on their lips and faces, especially in cold areas to protect against windburn and cold, dry air. Also, beeswax and oil. The Burt's Beeswax brand that I use now is essentially just that.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How can you send a text message in Chinese?",
+        "response": "Pinyin and knowing the tones.  Chinese has a writing script based on roman alphabet which is what kids and beginners use when first learning the language. This is called pinyin. This is basically the phonetic transcription of the language.  There are then 4 corresponding tones in Chinese. Flat (1), Rising (2), Falling-Rising (3) and Falling (4).  The word 'train-station' in Mandarin is huǒchēzhàn. So you type it out like that but add the tones by adding a number after the corresponding character. (But not every character has a tone.) So huǒchēzhàn would be huo3che1zhan4 and this would type out as 火车站",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people get irritated when you pretend not to understand their insults?",
+        "response": "They didn't get the reaction out of you that they wanted, but honestly i dont think thats the best way to deal with insults. There are ways to deal with insults which can annoy people even more",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Will your body naturally become happier when not on drugs that cause sadness or depression?",
+        "response": "Straight from the sidebar: Please keep discussion scientific (i.e. based on repeatable analysis published in a peer reviewed journal). Please do not just say \"depleting < your favorite monoamine > produces depression.\" [This is a vast oversimplification: \"the cause of depression is far from being a simple deficiency of central monoamines.\"](_URL_0_). To facilitate the discussion, please support your arguments with relevant sources and encourage others to do so as well. That is the point of Askscience.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does the stomach mix food consumed at different times, or does it layer it?",
+        "response": "Your stomach is a sack of muscle filled a bit with digestive juices and coated in slimy mucus. At one end, it's the \"intake valve\" where food comes in. At the other end, there's the \"output pipe\" AKA start of your small intestine, the duodenum.  You stomach twists around a bit while it's digesting food. It'll move that food to the small intestine when it's \"ready\". If you eat some food, and it's digesting (digestion time mostly depends on exposure time to the digestive juices and content of the food) it will move to the small intestine when it's ready to go. If it happens that you eat something else while \"digesting\" that first meal, it could also move to the small intestine with the first round of food. In short, I think the answer to your question is a no.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is it not possible to have a single \"international timezone\"?",
+        "response": "It's called ['UTC'](_URL_0_) - it's a time standard that's free of time-zones & used when you need to coordinate things across zones. There's no *technical* reason we couldn't use UTC for everything. China only uses one even though it covers 5 zones worth of territory. For the rest of the world people like to have 9am be sometime in the morning and noon be midday - it's a social issue, not a technical one.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What did ancient Mediterranean civilizations such as the Greeks or Romans believe was located west of the Atlantic Ocean?",
+        "response": "They were just talking about it in another thread. u/taciteanus talks about that subject shortly. Lets see if this link works : _URL_0_",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What are the applications of the photoelectric effect?",
+        "response": "This may not be practical in the conventional sense, but it's important in the characterization world. The photoelectric effect is key to a measurement technique called x-ray photoelectron spectroscopy (XPS), where we can identify the atoms at the very surface of a material by shining an X-ray beam at them. The high energy X-rays ionize the electrons, which fly off the material with the excess kinetic energy (KE = hv - binding energy). We can detect the kinetic energy of the electrons that fly off, which tells us information about the composition (types of atoms) of the surface and how the atoms are bonded together (chemical state).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does cold coffee from a French press taste good, while cold coffee from a machine tastes bad?",
+        "response": "Hey! Former barista checking in. It has to do with the oils. Oils are used to roast the beans. By using a French press you use a brewing method called \"full immersion.\" Drip coffee is well, drip coffee. Coffee from a French Press is noticeably slicker than coffee from drip. These oils contains higher levels of coffee flavor and aroma that continue to develop as it brews. It tastes better in your cup at room temperature because the aromas generated by the oil are sticking around long enough for you to smell them. When the coffee is hot, the steam carries away those aromas and it's hard to taste anything other than coffee and hot. As it cools the beans show off their true nature. With bad coffee it tastes like pennies, stale potatoes, and a mangy cat. Fresh coffee will still have those oils and reflect the roasting technique, soul chemistry, species, and drying methodology. Tl:dr - French presses are dope and a bitch to clean. Check out an AeroPress. Just as tasty, 5/6 of the hassle.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How can I make sure my diary becomes a valuable primary source for future historians?",
+        "response": "I can't speak for the physical side of things. But I can tell you as a historian who primarily uses primary sources for research it's rather difficult to ensure that your diary will be a valuable resource for future historians. Although I admit I find it funny as I often have similar thoughts.  Generally speaking, much of what is used as primary sources today is, to put it simply, junk or trash. For example, there is a very talented historian at Rice University named Tani Barlow that does a lot of research exploring the depiction of women in Chinese ads in the 20s. It's fascinating work but the majority of her work uses sources that most people at the time would have considered completely irrelevant or uninteresting. However, they are valuable windows into the cultural space of the time period she studies. So even if your current writing may seem useless or irrelevant to future historians it may in fact be useful. At the very least, preserving such things will certainly be interesting to your descendants.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes a Crookes Radiometer to rotate?",
+        "response": "The black side absorbs the light, and warms up. This causes the air that touches it to warm up and expand, thus pushing the vane away and making it rotate. It has nothing to do with the pressure of light, though that force also exists. If it were to be the pressure, then the thing would work in hard vaccuum (it doesn't) and it would turn in the other direction. (Reflecting is a larger momentum change than absorbing)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does time seem to fly by when we are asleep?",
+        "response": "Can't tell if trolling...! Time does not pass any more swiftly - it ticks away as it ever did. But our perception of time only exists when we are awake and aware of time.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does a hand-cranked electric train work in terms of physics?",
+        "response": "You have a hand cranked DC generator powering the tracks and a train with a DC motor in it. Turn the crank one way and the train goes along the track. Turn the crank the other way, you get the opposite polarity and the train comes back.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do countries like Sweden and Lithuania have faster internet than the USA and Germany?",
+        "response": "Well In general \"a small country\" can more easily heighten its average internet speed. For example there are regions in USA which have very fast internet, but there also regions that have slow internet or no internet at all. So the average for USA tends to be lower. Same goes for Germany. In case of Sweden which doesnt have a big population its easier to provide faster internet connection for majority of populations. Which hightens the average internet speed of Sweden. Same goes for Lithuania ( also a small country).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Would ice cubes in a high-power blender turn into water if blended for x time but kept below freezing?",
+        "response": "No, but you could form it into an extremely fine powder. At some point the agitation of the blender isn't going to be enough to split the tiny crystals, or the cooling isn't going to be enough to prevent the energy input from heating them enough to bind together again.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes hot dogs to split open in the microwave?",
+        "response": "Because the outside is (mostly) waterproof and the inside has a lot of water in it. So when the water turns to steam, it builds up pressure until the casing breaks.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Would traveling \"up\" from the solar system's plane allow us to exit it more quickly than moving \"out\" along the plane?",
+        "response": "If you define the *solar system* to be the [heliosphere](_URL_0_), the bubble of space around the sun dominated by its solar wind, then traveling perpendicular to the ecliptic isn't necessarily going to get you out of it any sooner. If you're relying on gravity assist maneuvers for delta-v, you may in fact find it takes a lot longer traveling out-of-plane. Note that the shape of the heliosphere is not precisely known, and is unlikely to be a perfect sphere. That said, its shape is determined primarily by the interstellar medium and the solar system's motion relative to it rather than the ecliptic plane.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does the body burn calories when it warms up after being cooled down, like with a cold shower or standing in a cooler?",
+        "response": "Yep. It's called adaptive thermogenesis. And if you stay cool long enough your body may start making more brown fat, which warms the body and burns more calories than white fat.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do any organisms spend their whole lives airborne?",
+        "response": "There are living bacteria in clouds. I don't think any are native to clouds, but I wouldn't be surprised if a fair number spend an entire generation (the duration of a bacteria's \"life\" is a bit hard to define) suspended in the air.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are manual transmission cars common in Europe but rare in the US?",
+        "response": "There's not a big market for them anymore. The US has more drivers, we sit in more traffic, roads are more wide-open, and we drive further. Modern technology negates the gas mileage difference in auto and manual transmissions. Plus, they're just not making as many cars with manuals anymore. I love driving stick, but it's hard to find a new car with a manual. I wanted a Charger, but a stick shift just isn't an option.  Smaller cars and sports cars still have manual options. Smaller cars are more popular in Europe. Americans prefer bigger cars.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Did patriarchal societies ever try to enlist women as warriors during wars due to a shortage of men?",
+        "response": "I think you'll find a number of examples from instances where one side is fighting against a much strong opponent. * [Palestinian women in the Intifada](_URL_2_) * [Tamil women fighting in the Tamil Tigers](_URL_1_) * [Salvadoran women in the civil war of El Salvador](_URL_0_) Also, the more communistic rebel groups tended to use women as they generally had a more gender-equal philosophy but that answer dodges your question.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How did ancient humans maintain personal hygiene?",
+        "response": "One of the few things known about prehistoric grooming habits is that people over a wide spread of places and environments used [ochre pigments](_URL_0_) to cover themselves. It provided Sun protection, allowed for tribal and personal decoration, and might have concealed odors to some extent.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is it possible to contract mononucleosis from a single sip of beer believed to be contaminated with the virus?",
+        "response": "Yes its possible Probable? Dont know Impossible? Doubt it  & #x200B; Wont know till you test or show symptoms",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are conspiracy theorists concerned about drones monitoring our cities?",
+        "response": "Do you care if the police install cameras in your house, your bedroom, your toilet, or your shower? Why? Unless you're committing a crime who cares? The idea is that people like having privacy even if it isn't to commit a crime. I don't think you're a conspiracy theorist if you'd like to have some degree of privacy.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How do air bubbles develop at the pot's bottom when water boils?",
+        "response": "The bubbles contain water vapour and steam. A speck of water heated to that state expands 1700 times, easily making a bubble from 'nothing'. Edit 1700 not 3200, thanks /u/rawwwse",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes adult-targeted video games to attract younger audiences, and why do games for younger players, like Pokemon, appeal to adults?",
+        "response": "Although aimed towards adults. Call of duty is pretty basic and doesnt require any real understanding of the series such as Pokemon (evolutions, training, strategies, pretty intense stuff). Its easier to pick a controller and shoot then it is to dedicate time to a adventure game (kids have short attentions spans).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the frequency of the tone produced when rain hits a large body of water?",
+        "response": "The sound of each water drop is not a pure tone (one frequency). It's a plopping sound that consists of many frequencies (Pluh-AHP! medium/low then gets higher). When you add a lot of them together, you get white noise of that same range of frequencies and ratios of frequencies, but now effectively chopped up in random blends and orders, instead of one coherent plopping sequence. Edit: found a spectrogram of rain (sort of): _URL_0_ So yeah, pretty much \"very close to white noise but biased slightly toward one end\" Apparently that one is artificially produced, but from a model that was trained on rain. Close enough for this general of a question. Finding it difficult to find an actual plain old real rain spectrogram, but it's definitely not going to be a pure tone either.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is maintaining balance simpler on a moving bicycle?",
+        "response": "The way my father explained it to me was through conservation of momentum. This sounds like a difficult concept, but all it really means is that a fast object (or a heavy object, but that isn't as crucial here) is going really fast, so it takes a lot of effort to stop it or move it, right? This means that you're not likely to fall over, since you're heading in a straight line at a significant speed, but it also makes turning harder. It's easiest to take one's hands off the handlebars when you're going fast rather than slow for this reason (though unless you know what you're doing, don't try it).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can I become paler instead of getting a tan?",
+        "response": "Avoid exposure to the thermonuclear sky furnace. Don't resort to chemicals.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Have contemporary artists always created themed series of multiple artworks, or is this a recent trend?",
+        "response": "A lot of these groups can go on for years and years. So it's not really like \"muck together 10 paintings that look kinda similar for a show\", but maybe a decade long fascination with certain techniques or types of imagery.  It's a bit like how people will refer to Picasso's \"blue period\", but this literally just a period in Picasso's career where he was painting in a certain style, often using similar subject matter and a lot of blue colors. It wasn't like he sat down and said, \"I'm going to spend 5 years painting a lot of sad musicians on blue backdrops,\" it's just what he was into doing for a while until he then got more into cubism a few years later.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are street lights colored red, yellow, and green?",
+        "response": "I believe railways were using red signals for \"stop\" and green for \"go\" long before street lights were invented, but that just pushes your question back in time without really answering it. I'm not sure of all the details, but red seems to be an almost universal symbol for alarm or danger among humans and even some other species, so it seems like a natural choice for \"STOP OR YOU'LL DIE!\" Green is red's complementary colour, and often represents life and calmness to humans, so it makes sense for \"GO AHEAD. EVERTHING'S GOOD.\" Yellow? Your guess is as good as mine.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes people to sneeze several times consecutively rather than just once?",
+        "response": "You failed to clear the irritant with the first sneeze.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What does it truly signify for cities to be sister/twin cities, and is it merely symbolic or do they gain additional benefits?",
+        "response": "The Town of [Boring, Oregon](_URL_1_), is part of *a \"League of Extraordinary Communities\" grouping [Dull](_URL_0_), Boring and [Bland](_URL_2_) as a means of encouraging travel, promoting all three communities.* Tourism, awareness, and merchandising. Also community building internationally; Boring is in the US, Bland is in Australia, and Dull is in Wales.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do athletes face a higher risk of injury today than in past decades?",
+        "response": "Higher speeds and more wear and tear are the two major reasons. Think of this for a young pitcher. Back in the day he'd pitch a couple months during high school and then either go to the minors or college. Now kids have their high school teams and travel teams that play year round. So they're burning through their arms 4 times faster before the games actually mean anything.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Where can I access all existing Latin and ancient Greek texts?",
+        "response": "No, there isn't. The closest things are:  For Greek, The [TLG](_URL_0_) (Thesaurus Linguae Graecae). This *is* a corpus of Greek texts covering almost everything from 8th BC to 1453. You need a licence to access it and the best way to do that is through a university. For Latin, the [PHI corpus](_URL_1_) covers Latin literary texts up to about 200 AD. For Later latin you need to go elsewhere, likewise for epigraphy. For Patristic texts, still the most comprehensive collection is those by Migne, the Patrologia Latina has not been surpassed for scope; most of Patrologia Graeca can be found in the TLG. Of course, for individual texts, they are often surpassed by more recent critical editions.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is there a numeral system other than base 10 where fundamental masses or constants relate through simple integer multiplication?",
+        "response": "Well, in base 1369.003, you would get a 10:1 ratio. This is applicable to any proportion you want.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What delayed the invention of the bicycle until 1817?",
+        "response": "Like most modern inventions, the bicycle was invented smack bang in the middle of the industrial revolution. How the industrial revolution occurred was from a combination of technologies that 'fed' developments within each other, good access to energy, information and new transport methods. This is probably the best explanation put as simply as possible for how that happened: _URL_0_",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do large fires impact climate change similarly to emissions and pollution?",
+        "response": "a small percentage of overall pollution, but it is only a very small fraction of the overall scale of pollution. In contrast Human pollution is much much larger.  EDIT: This guy below sounds smarter than me, listen to him my answer isnt as detailed (/u/Tokyojokeyo)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Was the Vietnam War justified?",
+        "response": "This is quite a loaded question. Perhaps I could help you rephrase it. :) What is it that you'd like to know? For example, your original question is whether or not the Vietnam War is necessary. How would you define a necessary war? Is there such a thing? Is any war necessary?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is it more difficult to keep your eyes open than to walk when you're tired?",
+        "response": "Being physically tired and sleepy are different things. Being sleepy is like your brain being tired, not your muscles.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do all my toes move when I try to move just one?",
+        "response": "Your fingers actually have very similar limitations (though not quite as pronounced) due to redundancies in the anatomy of our hands. Make a fist and place it on a flat surface like a table, so your knuckles face up and the middle third of each finger is laid against the table. Now extend and retract each finger 1 at a time without moving the others or taking your fist off the table. Notice anything about the ring finger? Yup, you can't do it without extending the middle finger a bit too. It's because your middle and ring finger are operated by the same tendon, so you can't move one without the other. Same kind of thing is going on with your toes.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What occurs in the brain when someone is in a coma?",
+        "response": "The conscious mind (essentially all that is you) shuts down for some reason, be it physical damage or a bodily response to something. Processes tat run in the background (Breathing, heartbeat, digestion, etc) all run normally (most of the time.) It's basically just sleeping, but for longer.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "If I submerge a sealed box underwater, fill it with water, seal it tightly, and bring it to the surface, will the internal water pressure remain the same as it was underwater?",
+        "response": "In short, yes. Longer answer; You wouldn't want to use a glass box, since it would more than likely shatter from the extreme differences in pressure. That said, this effect has been observed many times, either from purposeful experimentation, or from bathysphere tests where the vessel had a flaw and was not perfectly water-tight. **However**, most liquids have a very low degree of compressibility. Water in particular is only compressed by 1.8% at the deepest parts of the ocean. So while your retrieved water will still be compressed by that extreme pressure, it's not as though hundreds of gallons would explode out of a ten gallon tank.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How did Dukes and Counts relate to each other in the Merovingian period?",
+        "response": "The Merovingians adopted Roman hierarchical terminology; for them a 'comes' was a 'companion', someone deriving authority from his mission (either explicit as a palatial count, or implicit as a landed count) from the king. A 'dux', on the other hand, just means 'leader', and while theoretically he should always be subjected to a king of Christendom for his rule to be legitimate, his authority was not directly derived from his association with the king. Things change during the Carolingian period, when the counts become increasingly independent and heriditary. It gets complicated when monks try to capture the subtleties of non-Christian hierarchies within these classically-derived terms, such in pagan Saxony (what are 'satrapes'?) or Denmark 'rex danorum'?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How did the Papacy react to the Norman invasion of England, if at all?",
+        "response": "The Pope (Alexander II) [blessed the invasion](_URL_0_), and granted William the Standard of St. Peter. The position of the church was quite clear to everyone involved. [edit] As for actual documentation, I do not read Latin (sigh). I will ask my ex, who is a real expert in this area, and perhaps she can point you in the right direction.  Sorry for having misread your question.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Would you classify Julius Caesar as a reformist, a conservative, or merely an opportunist?",
+        "response": "Could you expand your question? What do you want to know about Julius Caesar?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the total number of possible patterns on an Android unlock screen?",
+        "response": "It's been answered by a Google engineer here _URL_0_ Answer: a bit less than 400000",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Questions about Overwatch and The Living Tombstone?",
+        "response": "During matches you can change characters to counter (or deal with being countered by) characters on the other team. Like with TF2, if you've ever played that.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is \"Boo\" commonly used to show disapproval in public?",
+        "response": "From etymonline:  expression meant to startle, early 15c., boh, \"A combination of consonant and vowel especially fitted to produce a loud and startling sound\" [OED, which compares Latin boare, Greek boaein \"to cry aloud, roar, shout.\"]; as an expression of disapproval, 1801 (n.), 1816 (v.); hence, the verb meaning \"shower someone with boos\" (1893).  Booing was common late 19c. among London theater audiences and at British political events; In Italy, Parma opera-goers were notorious boo-birds, but the custom seems to have been little-known in America till c. 1910.  [source](_URL_0_)  Edit: ELIactually5: It's a loud and surprising sound, and it's similar to what older languages used.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What are the marginal tax brackets?",
+        "response": "Suppose there are tax brackets of $100, $200, with rates of 10, 20 percent. The first $100 of your income is taxed at 10%. If you make a dollar, the tax is 10 cents; if you make the full $100, the tax is $10. Now, what happens when you bump your income up to $101. If we did it your way, the tax would be 101 * 20%, or about $20 dollars. That's no good; it's not fair that bumping your income up by one dollar makes you pay ten more in taxes. So we say that instead, that 20% tax rate only applies to income *past the first $100*. That is, the first $100 you make gets the 10% tax, and only that last dollar gets a 20% tax rate. So your total tax bill works out to $10.20.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is pain tolerance different for individuals who exercise regularly?",
+        "response": "Yes, they do. All people have the same pain threshold. However, athletes have a higher pain tolerance than their non-exercising counterparts. A study by Jonas Tesarz found the highest tolerance levels in football players & cross-country skiiers.  Other studies have mentioned the psychological impact of frequent exercise, noting that repeated exposure to muscle soreness/pain brings a higher tolerance.  To read more on the subject, you can always check out [The Journal of the International Association for the Study of Pain](_URL_0_).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What does \"rendering\" a video involve, and why is it time-consuming for multiple computers?",
+        "response": "Images and videos are just many lines of computer code, video rendering is the process of converting this code into images that you can see on your screen. This takes so long to do because as the quality of the image increases, so does the amount of code that image is made of. This of course increases the time it takes to render the image Becuase more code needs to be converted and since a video is just lots of pictures played one after the other, you can see how much time this will build up to.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What's incorrect about my antimatter theory?",
+        "response": "This is a small complaint, but you don't have a theory about antimatter. You have a conjecture. I don't know enough about the topic to say if it has any possible credence or not, but a theory requires a lot more work than \"hmmm, maybe it's this!\" This is not supposed to discourage you wondering or asking, just helping fight the common phrase \"well, that's just a theory!\" that you hear non-scientists say.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Did any Sci-Fi authors write about an undiscovered continent before the New World was \"discovered\"?",
+        "response": "This is not a direct answer to your question, but you might be interested in [this older answer](_URL_0_) by /u/sunagainstgold, on the topic of Science Fiction/Future fiction and/or the lack thereof in the middle ages.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why did the Ancient Egyptians choose a sickle sword over a straight sword, and what advantages did it offer?",
+        "response": "Related question: wasn't a very similar design also used by bronze age Canaanites? Was it a technology they imported from Egypt? How popular was the sickle sword in the bronze age near East, generally?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the molecular composition of cotton?",
+        "response": "According to my Materials Science book, cotton is an example of a seed fibre, and so is a biological polymer. According to [this website](_URL_0_), the main component of the cotton fibres is cellulose. Cellulose is found in all plants, and as such is used to make paper, card, linen and, of course, cotton fabric. On a molecular level, the Cellulose is made of D-Glucose linked by 1-4 glycosidic bonds. This just means that the cellulose chain is made of many molecules of this simple sugar linked together in one long chain, called a fibril. These fibrils then form concentric layers of spiralling fibrils to form the basic fibre.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes milk to have a \"smell\"?",
+        "response": "It is hard to know for certain and hard ot answer your question without smelling what you smell. Smell is basically small particles of whatever it is you are smelling, entering your oral and nasal cavity (Taste plays a role in smell - meaning when you smell a fart you are kinda tasting it too..). These small particles then, enter into [olfactory bulb](_URL_0_), stimulate your neurons through the olfactory nerve. These then send signals to your brain which you interpret as a smell. The reason you may get a bigger whiff out of the milk jug is because you have a higher, purer concentration of whatever chemicals in the milk you are actually smelling. Whereas in your cereal, that smell is diluted by the sugary, wheaty smell of cornflakes. SOURCE: Dental education, numerous anatomy and physiology classes.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do any non-human animals exhibit religious behavior?",
+        "response": "Organized religion - no. Superstition - yes. See [Skinner's famous experiments on superstitious pigeons](_URL_0_) (article - > [Skinner 1947](_URL_1_)).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Which book do you consider the best on the history of Black Americans' struggles?",
+        "response": "I would strongly advocate for [Self-Taught: African American Education in Slavery and Freedom](_URL_1_) by Heather Williams. It's academic but not terribly dense. The last chapter of the book includes all of the anti-literacy laws passed to keep Blacks from getting an education and from white abolitionists from helping them.  I'm also a fan of [They Were Her Property: White Women as Slave Owners in the American South](_URL_0_) by Stephanie Rogers-Jones because her research upends a great deal of what we think is true about people's lived experiences in antebellum America.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is Donald Trump's campaign making headlines? Is it merely due to its spectacle?",
+        "response": "Because Donald Trump is only in it for the publicity and he's now the ***12th*** person in the clown car of the Republican parties presidential candidates. Everyone knows he's got as much chance to be elected as a fly does flying straight in a tornado. He's in it for the free money, the publicity and the secret service detail.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do certain cars, like French ones, have yellow fog lights?",
+        "response": "Like you're five... The yellow light does not reflect off the water as readily as the blue in white light does. It more effectively cuts through the bad weather and shows you the road.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What are some factors influencing human evolution today?",
+        "response": "> Are we evolving faster or slower than we have been for say the last million years? There's a book by two anthropologists, called the 10.000 year explosion, which argues that our higher population density since the Neolithic revolution has led to accelerated evolution in our species, with a rate of change anywhere up to 100-fold faster than during the paleolithic era.  > What things are still pushing us to evolve? There are still factors that drive us to evolve. [One study looked at a village in Canada, it found that the age at first childbirth appeared to be decreasing, which was argued to be indicative of genetic change.](_URL_0_) There is other evidence that parts of our genome are still changing. [Studies find that convicted criminals have a much higher fertility rate than comparisons.](_URL_1_) The authors conclude that criminality is an adaptive trait in industrialized society, which means that we are gradually evolving to become more criminal.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is Turkey still concerned about the labeling of the Armenian genocide despite it happening so long ago?",
+        "response": "Why is the US so upset over the labeling of US treatment of Native Americans as a genocide?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is uploading typically slower than downloading?",
+        "response": "Upload speeds aren't necessarily slower than download speeds, they're just intentionally slower for your average home internet connection because you don't need huge upload speeds. If you're watching a movie on Netflix, you just have to send a few dozen kilobytes telling them what movie you want to watch and then you'll receive several gigabytes of data, so you're receiving thousands or millions times more data than you're sending.  So say the average home user's connection can handle 20Mbps in total, having a symmetrical connection with 10/10 up/down means that most of the upload speed is going to waste most of the time, because they barely upload anything, but it means their download speeds are slower so it takes longer to download the latest movie/game/whatever. With speeds something like 2/18 up/down, the average user notices next to no difference other than their downloads taking half the time.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can a political party's policy be copyrighted, and how difficult is it to copy and slightly modify it to create a new party?",
+        "response": "What copyright law? There are many across the world. Generally you'd probably be safe as long as you make an original work describing your platform; a verbatim copy of someone else's writing is generally going to fall under copyright violation.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How \"effective\" is a supernova?",
+        "response": "I'm not sure what you mean by \"efficiency.\" During nuclear reactions (fission, etc) mass is being converted to energy at the rate governed by Einstein's famous equation (E=mc^2), so if you mean efficiency in terms of amount of mass destroyed per unit of energy produced, they should be equally efficient.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is light visible from the centers of galaxies if each has a supermassive black hole?",
+        "response": "It's not that black holes suck all the light in, they don't allow light to escape if it's inside the Schwarzschild radius. The super massive black hole at the center of the Milky Way is [no more than 6.25 light hours across](_URL_0_), which is much, much smaller than even the center of a galaxy.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why did large drones (helicopters) exist before smaller ones?",
+        "response": "Helicopters aren't drones. They have a pilot.  They also have a giant combustion engine.  You can't use a giant combustion engine on a drone because then it's too big (consumer drones, I know Predator drones exist guys). So you have to use small electric motors. Uh oh! the currently existing technology doesn't provide powerful enough motors or long-lasting batteries! Time to get inventing! Hooray! Drones!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What occurs at the cellular or biological level when skin is indented by clothing or pressure?",
+        "response": "Physiologist here: Your body is a bag (skin, tissue) that contains a bunch of smaller water-filled bags (cells) that are surrounded by more water (what is technically called interstitial fluid).   Pressing a textured pattern against the skin causes higher forces to be imparted on the skin by raised surfaces - resulting in more water being pushed aside in the tissues in and underlying the skin. This is grossly observed as the pattern of a textured fabric/wall/whatever temporarily imprinted in the skin.  Over a few minutes of removing the textured surface, the interstitial fluid redistributes itself, and the textured imprint on the skin disappears.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes certain items to become slippery when wet, while others become sticky or more grippy?",
+        "response": "Generally speaking water is a bad lubricant and when you coat something with a (relatively speaking) rough surface, it won’t get slippery afterwards as well. However if you have something less structured and you put water on it (imagine a smooth surface ball or something) it will get slippery. I think the hand also accounts to things being “grippier” when the hand is wet.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In what way does the solar cycle begin anew?",
+        "response": "It's a fairly complicated process but the diagram is not the full cycle. Once you go past the last picture, the tightly wound up magnetic field lines get lifted up through to magnetic lift with the Coriolis force twisting the lines into loops. At some point these loops will break the field line and reconnect forming a shorter less twisted line. This reconnection removes the east west component of the field and leaves the polodial field with an opposite polarity. At this point you are 11 years past the first picture, the whole process goes through the same cycle again just with reversed polarity and presto you end up at the original state again after some 22 years. Just a very rough sketch of the process, but should give you an idea how it works in principle.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does the Field of View appear to \"jump\" instead of smoothly transitioning when moving the eyes from left to right?",
+        "response": "Those are two different kinds of motions your eyes are capable of making: [saccades](_URL_1_) and [smooth pursuit](_URL_0_). There is some amount of masking / blocking of processing of visual information that occurs when you make a saccade. This is called [saccadic masking or suppression](_URL_2_). I recommend starting with these basic readings and coming back with a more specific question.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people initially tense up and freeze rather than flee when they are very frightened?",
+        "response": "Freezing up and not making sound can make it much harder for a predator to notice you. Their sight is similar to ours in that they find it easier to notice motion than things that are standing still. Fear doesn't just have to be caused by a mammoth charging at you!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Did people realize their voices sounded different to others before sound recording was possible?",
+        "response": "Probably. A good impersonator could imitate someone and the person might be like \" That doesn't sound like me!\" and people around them could say \" Yes it sounds exactly like you\" So yeah.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does the _URL_0_ door knocking audio clip effectively make it seem like the sound isn't coming from your headphones?",
+        "response": "Ha, had the speakers on when I played that audio clip and the cat **freaked** out. Apparently that knock knock fools animals into thinking someone's at the front door too. Your brain determines the location of a sound's source by a few different factors. Namely, distortion differences between each ear, and delay in which ear hears the sound first. Technology has gotten good enough that with proper equipment it can re-create those effects and trick your brain. We usually use the term \"binaural\" as in \"Two ear\" to describe the effect. One of the most famous examples of binaurual audio is the \"Virtual haircut\" clip _URL_1_ where they demo a technology designed to create the effect. Lots of ASMR artists and other people do it too, one popular device these days is [a 3Dio twin mic setup such as this](_URL_0_). With two microphones and extremely accurate recreation of the human ear shape (it affects how sound bounces about), you can recreate a whole room's soundscape effectively.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are psilocybin mushrooms classified as Schedule I and illegal despite having lower harm rates than alcohol, cannabis, cocaine, ecstasy, heroin, and tobacco, and significant medical benefits?",
+        "response": "The same could be said for Marijuana or even ecstasy and LSD. In truth American drug laws haven't receive a serious restructuring on a national level in a very long time. That is why a lot of drugs with medical benefits or low risk of abuse are still classed as Schedule I.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do scalp and muscle massages feel more enjoyable when performed by someone else?",
+        "response": "The current understanding as to why it doesn't feel good when we try and massage ourselves is linked to a feature of the brain called \"efference copy\". Basically the brain cancels out or ignors certain signals in order to operate more efficiently or effectively. Have a look at the definition: [here](_URL_0_)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Which forms of Earth life might be able to live on Mars?",
+        "response": "The Martian soil is well suited for a few types of vegetables like asparagus and turnips. However, the temperature and lack of water and CO2 would prohibit just planting them on the open surface. [Link](_URL_0_)  As for just tossing some life from earth out on to the surface of Mars and expecting it to survive, I do not know of anything, perhaps some chemeosynthetic extremophile that lives in the rock or ice here of earth might be able to survive for a while. Probably nothing would thrive though.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In the Antebellum American South, what were the consequences for a mixed-race child born to a white woman?",
+        "response": "u/georgy_k_zhukov answers this in part in [this comment]( _URL_0_ef9gdqk) to the [related thread](_URL_0_) about white male - slave female sexual relations.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What would occur if all U.S. citizens simultaneously withdrew their bank funds?",
+        "response": "The banks would run out of physical cash and a freeze would be put on withdrawals to prevent a run on the banks. Of course the chance of such a thing happening is extremely remote.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How are new particles or electrons formed?",
+        "response": "This question is rather ambiguous. Could you clarify? Do you mean creation of new mass, splitting atoms into their composites, or making new elements?  TL;DR more stuff, dissecting stuff, or new types of stuff?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In what way does the melting of ice increase water levels, considering ice's lower density compared to water?",
+        "response": "Ice is on the ground above the sea level. When it melts it runs downhill until it runs into the sea. Yes, when an iceberg melts the sea level does not rise. The sea level rose when the iceberg fell in.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do trees live for a certain period?",
+        "response": "Most organisms (including most trees) will start to die more often (mortality rate) as they get older (once matured). This gives you an average age they will live to. Some organisms though have an unchanging or even decreasing mortality rate as they get older. They basically don't age and are called biologically immortal. However the longer a life form is alive (even if they aren't aging) the more likely they are to die from some other cause so they will still have an average age they will live to. Here is the wikipedia article title [list of long-living organisms](_URL_0_).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can I exchange 100 bitcoins for $100K if each is valued at $1000?",
+        "response": "*IF* you could find a buyer for all 100 bitcoins, and *IF* they purchase at the $1,000 price exactly, then you would walk away with $100,000K. You would have to find a way to put that into your bank account, and then explain/hide it from the tax collectors when it comes time to report earnings/savings.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does an electronic device determine the battery's charge level?",
+        "response": "The phone can detect how much voltage it's power cells are putting out... as you use up the charge voltage will drop gradually. It can show you a good guess (percentage) on how much juice you have left by comparing what it's seeing from the battery vs the limits that have been set by the manufacturer.  There's a minimum, nominal, and max voltage based on how the cells are designed/built.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do permanent scars remain if our skin regenerates monthly?",
+        "response": "Your skin is made up of three layers: the epidermis, the dermis and the hypodermis. Only the epidermis replaces itself regularly; damage to the epidermis will not result in scaring. Deeper damage - to the dermis or hypodermis - results in scarring as these layers do not get replaced as often.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When did the idea of basic training, including the sergeant yelling, start in the military?",
+        "response": "The 'sergeant screaming in your face' type of basic training largely emerged after the Second World War. S.L.A. Marshall's research during and after the Second World War found that 75 to 80 percent of riflemen *did not* fire their weapons at an exposed enemy. \"When [he] was sent to the Korean War to make the same kind of investigation [...] he found that (as a result of new training techniques initiated in response to his earlier findings) 55 percent of infantrymen were firing their weapons - and in some perimeter-defense crises, almost everyone was. These training techniques were further perfected, and in Vietnam the firing rate appears to have been around 90 to 95 percent.\" A lot of these new training techniques involved the desensitization and conditioning that come with variations on the 'screaming in your face' style of training. If you are interested in this kind of thing, I would highly recommend Lt. Col Dave Grossman's *On Killing: The Psychological Cost of Learning to Kill in War and Society*.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do numerous companies opt to incorporate in Delaware?",
+        "response": "Lower taxes. Arbitration rules that favor the companies.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What technologies prevent the theft of your credit card information while it's in your wallet?",
+        "response": "Information on a credit card is presented in three ways 1.) In printed or raised lettering on the face of the card 2.) Encoded on a magnetic strip on the rear of the card 3.) Stored within a microprocessor located on a chip embedded in the card If a credit card is located within a wallet, it's safe to say that interception via #1 is impossible straight off the bat. Interception via #2 requires that the magnetic strip be exposed as the sensor needs to be incredibly close to it, and must scan across it cleanly. Interception via #3 is impossible because there's no way to get the credit card information from the EMV chip. How it works is far beyond the scope of ELI5, but the entire transaction is encrypted; furthermore, transactions beyond a certain value are further authenticated with a PIN known only to the card holder.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do airline ticket prices fluctuate so frequently?",
+        "response": "Airline costs are sensitive to demand - they really want every plane full, but overbooking too much costs money. Unpopular routes like Seoul to Vladivostok are consistent - you're not going to get much fluctuation in people making that flight, and there's so few that even the small plane you're running will have spare seats. For popular flight paths, there are lits and lots of people trying to find tickets, so the demand varies greatly even minute to minute. The algorithms automatically price that.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes us to tan?",
+        "response": "Sunlight has UV rays in it, which can be harmful to your skin. Your body detects this and releases a chemical called melanin to protect yourself. A side effect of this chemical is that it causes your skin to darken.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What allows electric cars to accelerate faster than gasoline-powered cars?",
+        "response": "A electric engine can provide full torque (the force that cause the rotation of the tires) from then start to rotate from stationary. A combustion engine have low tork at low RPM and max torque and a quite high RPM To be more correct the electric engines torque will change when the rpm changes but is it a flatter curve then for a combustion engine so in most/all RPM depending on the combustion engine a electric engine have more torque and therefore faster acceleration",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Which city was the most perilous during peacetime in history?",
+        "response": "Pompeii.  All jesting aside, the slums of Victorian London were very bad.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does water evaporate from oceans and seas below its boiling point of 100 degrees Celsius?",
+        "response": "Let's start with the layman's definition of temperature. It's the average kinetic energy of all the particles. However, individual particles can have and often will have more kinetic energy than that, meaning that individual particles can possess enough energy to \"evaporate\" and escape the ocean.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In what way can a 6-mile-wide asteroid trigger a mass extinction event?",
+        "response": "The meteor won't do anything to the Earth itself.  What it will do is throw up a cloud of dust that blocks most of the light from the Sun from reaching the surface. This cloud not only blocks infrared heat but also blocks visible light. Alot life on Earth derive food from plants, either directly or indirectly, which uses visible light. No food, starve to death.  Most life on Earth also live in a comfortable zone of temperature. If that temperature drops in the matter of months and doesn't come back up, alot of life won't be able to proliferate.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does the flu virus keep changing, necessitating yearly vaccines, while other viruses like chickenpox remain stable?",
+        "response": "Influenza, like many other fast mutating viruses (common cold, stomach viruses, anything you can get year after year) is an RNA based virus. RNA is like DNA, except it only has one strand, not two strands like the DNA double helix. This one stranded structure is less stable and makes the virus more prone to mutations. However, this obviously works to the virus' advantage, as it has gotten around all of our attempts--natural or technological--to stop it.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes the wind to decrease at night?",
+        "response": "Chemical Engineer here so this is not my specific field but here I go! One of the primary causes of wind is the expansion of gas when temperature increases.  So in very watered down / simple terms: the sun heads the ground. The ground heats the air close to the ground. The newly heated air rises and causes air to be pulled into the low pressure zone it created by rising.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes recurring power problems like \"lines are down,\" \"rolling blackouts,\" or \"rolling brownouts\"?",
+        "response": "Burying powerlines would solve the problem but it's quite expensive (the power company would need to dig up a network of trenches to all their customer's homes--costing thousands per customer and snarling traffic for several years).  It's far less expensive to cut trees regularly and repair problems as they occur (which frequently are much more minor than the rare widespread ice storm).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do clouds appear grey before it rains?",
+        "response": "Thicker, denser, more water content. With less light passing through, they look darker, or greyer.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can any place get hot enough to cook an egg or other food on a rock?",
+        "response": "In order for the egg to fry, it needs to hit 158 deg F. Please google before posting, since there are a ton of informative articles on this very topic.. Such as [this](_URL_0_) quick edit: Well holy hell, that link is even library of congress..",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When was the most recent instance of a warship being boarded and seized?",
+        "response": "On January 23rd, 1968 The North Koreans boarded and captured the Us Navy ship Pueblo. However, this was classified as a Banner Class Scientific Research Vessel at the time. To get the crew back, the US had to admit the Pueblo was a Signals Intelligence gathering ship. There is a questionable doubt if the Pueblo fits your criteria for being a warship.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do many US TV shows depict scenes in Mexico with a yellow tint?",
+        "response": "Because it contributes to the illusion that we are looking at someplace hot and dry where the sun is really bright.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are both temperature and angles measured in degrees?",
+        "response": "A degree just means a 'graduation of' - some way of dividing it. Hence we have first & second degree murder, and say 'in the highest degree'.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do ear buds consistently become tangled in my pocket?",
+        "response": "There was actually a [study](_URL_0_) done in 2008 about this.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the cost of the additional airplane fuel burned due to my overweight luggage?",
+        "response": "Nothing. The plane takes off full regardless of how much passenger bags there are. The extra space is sold to mail and cargo companies. You pay for overweight bags to make up for space they could have sold.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What would occur if I opened an airplane's Emergency Exit door at 30,000 feet?",
+        "response": "You wouldnt be able to, because they way its set up on commercial airlines is that you have to pull the door in before you can open it outwards, and the pressure difference from inside the cabin makes it to where the door will not swing inwards with any amount of force one person could use.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What prevented Alexander the Great from entering Italy?",
+        "response": "I discussed this question a while ago [here](_URL_0_). Italy was certainly known to the Greeks; indeed, much of it was settled by Greeks, which is why some of the finest surviving Ancient Greek ruins are in Italy. But there wasn't much there for Alexander until after he'd dealt with the more obvious, more legitimate, and more attractive opponent in the East.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why didn't the Orthodox Church experience large-scale reform movements like the Catholic Church did?",
+        "response": "I think it would be difficult to establish a specific reason, but two factors that were probably important were: A) that the national Orthodox churches maintain some degree of autonomy, whereas in the Catholic Church the center exerts a much larger influence. The local Orthodox churches were more flexible and more easily able to deal with local challenges. B) that the national Orthodox churches are *national*. The religious identity and the national identity have some amount of overlap there. It's not a church controlled from some foreign remote location, it's described in those countries as \"our church\". The combination of religion and nationalism is always very powerful. I'm speaking mostly about East European countries, although Orthodoxy is not limited to that area. Also, those two factors alone are probably not sufficient.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What does it signify that United Health is withdrawing from Obamacare?",
+        "response": "United Health is an insurance company. They must make a profit to stay in business. Their quoted premiums were not enough to cover the cost the health care provided under their policies. So the company will no longer lose money on these policies. Those insured will have to find other companies whose premiums are likely to be higher. But the company is still offering health insurance policies. They are still in business. They needed more subscribers than they got and their costs were too high.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why must humans drink purified water while animals can consume any water?",
+        "response": "It's a safety thing. You could go drink water out of a spring and probably be fine. Maybe. But you run the risk of the water containing harmful bacteria. It's the same reason we cook most foods but animals eat it raw. Now, if you had always drank from that pond, your body might have adapted to those bacteria and they would be rendered harmless by you. But since you mostly drink purified water, your body isn't ready for contaminated bacteria. My dog has always had tap water, so he sometimes gets sick if I let him drink of natural water sources because he's no more used to those bacteria than I am.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When I exert force on a large object, what type of energy do my muscles' energy transform into?",
+        "response": "Yes, just heat. Kind of hard to measure the energy directly though. The expended energy comes from various chemical reactions culminating in ATP powering a myosin protein to pull on an actin fiber. To maintain a certain amount of force, even isometrically, these myosin molecules have to alternate between pulling and relaxing, so ATP continues to be expended. Thermodynamically, you could say all these reactions are net exothermic, but physically what it boils down to is that chemical potential energy changes to [kinetic energy of molecules bouncing and flailing around](_URL_1_), which is what that form of heat is.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Which subjects were typically taught to royalty and nobles between 1700 and the early 1900s?",
+        "response": "One of the more unsual things that they learned (at least in the Austrian Habsburg family) were normal trades.  For example Emperor Francis II was a gardener and Franz Josef was a bookbinder.  But no idea if this was an oddity of the House of Habsburg or something that was rather common at the time and age.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Would there be a delay between your movement and its reflection on the last mirror if a million mirrors were arranged to reflect off each other and you stood in front of the first one?",
+        "response": "Yes. Light doesn't travel instantaneously, although it does travel pretty fast (3 x 10^8 m/s). From that speed you could calculate the lag depending on how far the light travels from one mirror to the other. The calculation would look something like: (distance from you to the mirror in meters + average distance the light travels from mirror to mirror in meters x (999,999))/(3 x 10^8 m/s) = _____ seconds of lag",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How can police freely discuss case details with the media to sway public opinion, yet often claim \"We Don't Discuss Ongoing Investigations\" when an officer is under suspicion?",
+        "response": "I've never seen the cops influencing portrayal of the suspect, if anything, the media do it a hundred times worse. Most of the police press conferences I have seen are stuff like. \"We have a suspect in the case of the murder of Jim Joe, we are currently talking with him and his council, though we have no further information at this time\" and they release the name. It's the media that run with it. MSNBC has doctored recording to make people sound racist, FOX will make anyone that's not a white christian seem crazy, and CNN will do the opposite.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When does the L.A. methane gas leak surpass the BP Deepwater Horizon oil spill in environmental impact?",
+        "response": "Partial answer: [California participates in the cap & trade system put forward by the province of Québec](_URL_1_) (what a strange world world we live in where these kinds of strategic decisions occur at the state/province level instead of the national one). The price for a ton of CO2 is currently at [$12.79](_URL_0_); however, the gas issuing from LA is methane, so that would have to be converted in CO2 equivalents. The EPA says that a ton of CH4 is equivalent to 22.7 tons of CO2. And the LA methane leak is in the order of 1300 tons per day. Thus: 1300 tons x 22.7 x $12.79 = about $377 432 in carbon rights per day should be the going rate. Furthermore, the leaks have apparently been going for nigh on 2 months, so that would be a ballpark figure of around $22 645 974, without going into the actual intricacies of the system which would bring the total down a bit.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does Iggy Azalea face significant criticism in the hip-hop community compared to other white rappers?",
+        "response": "Because she doesn't make good music, and she's made it to the mainstream music's Eye.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why didn't Native American societies develop as extensively as those in Europe and other regions?",
+        "response": "Please consult our handy [list of popular questions](_URL_0_) regarding this - it's a question that's been asked and answered many times here. Short answer, the idea of being \"more advanced\" is a logical fallacy, and in many ways civilizations in the Americas were as advanced as any in the Old World.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What function did the colonies serve in the British mercantilist system?",
+        "response": "The colonies would produce raw goods and British merchants would turn into into a product. They would then in turn sell it back to the colonies. In a mercantile system the role of the colonies to to supply to the motherland. At least that is what I remember from my AP class.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How would the police catch me if I, with no criminal record, killed a random person?",
+        "response": "Actually, someone like that is pretty hard. A stranger killing another stranger is a difficult case. However, they would obviously first look for any screw-ups: if you left DNA, they might, for example, have one of these \"everyone in this city gives a sample\" operations going.  But let's say you avoid everything: a perfect stranger, a perfect murder. No DNA, no witnesses, a city you don't live in that is big enough for you to not be noticed or remembered, a spot secluded enough that you can get away before the murder is called in, no travel records, no nothing. Then they won't catch you. But the point is, nobody is perfect, and nobody is the perfect killer. A single mistake will trip you up, and then the hunt is on. Doesn't necessarily mean you'll be caught if you only had a minor screw-up, but these cases aren't forgotten - you'd have to watch your back for the rest of your life.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When will humans be able to use lizard enzymes to regenerate amputated limbs?",
+        "response": "Salamanders are not lizards. Humans are more closely related to lizards than amphibians are.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is stagnant water unsafe to drink compared to well water?",
+        "response": "Various anaerobic bacteria are commonly found in stagnant water, this bacteria are harmful to humans. Well water is ruining and well oxygenated there for most of the time does not have harmful bacteria. But is not always the case. Well water can get contaminated, So it needs to be constantly monitored.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What biological factors contribute to a song's catchiness?",
+        "response": "Repetition & variation. Repetition establishes a pattern and then variation creates unexpected surprise in that pattern. The brain tries to adapt to the pattern but needs to re-listen to the variation to grasp the nature of the unexpected surprise. The repetition can occur in one or more of the elements of music: rhythm, melody, structure, background vs. foreground, or multiple elements against each other.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What are the austerity measures in Greece?",
+        "response": "Due to pressure from creditors, they are going to lay off gov't workers, reduce public work salary, pension benefits, raise taxes, and privatize some gov't functions.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "At what point did people cease using proper shields in battle?",
+        "response": "according to John France, shields became less and less popular at the end of the thirteenth century (along with shrinking in size) due to advancement in armor technology. Plate mail became so effective that the shield, which had until then been the most effective equipment for turning blows, became more bother than it was worth. At the battle of Agincourt (1415) the french knights greatly favored greatswords and polearms to shields and one-handed weapons. Shields were still used at Jousts until the sixteenth century, to deflect the lance-blow, but they were generally much smaller than medieval shields. Light infantry and skirmishers armed with hand-to-hand weapons also continued to use shields until the 18th century, while gun-wielding infantry and pikemen, which were the norm since the late 15th century, didn't use shields at all.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people criticize illegal immigrants for taking jobs instead of the companies that hire them?",
+        "response": "The is nothing to be explained other than the person that hire those illegal immigrants are of the same nationality of the person that complains about it.  Very often those who hire illegals are complaining about it too since they feel that they cannot compete legally.  Finally, \"Taking jobs\" that most citizens don't want is a very bad argument. Most of the jobs that illegals \"take\" are daily jobs with little money that provide no income security nor benefits.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people tap and expel air from needles before administering injections?",
+        "response": "You don't want to inject air. It's difficult to fill a syringe without having at least a small air bubble. Putting the needle up and flicking will get any air bubbles in the syringe up to the end, you then push out the bubble and you know when it's all out of the needle when liquid flows through. Even when you're not injecting it into a person, if the volume measurement needs to be very precise you won't want any air in there to throw it off. EDIT; Note that the movie version with a large fountain of medicine coming out is dramatization, but the practice is real and much less wasteful.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How did Japan transform from the WWII-era Empire to the friendly, efficient, stable nation known for video games and anime today?",
+        "response": "The US also kept intact the Imperial Monarchy. Being vital to the Japanese culture and ethos, the Allies allowed for a constitutional monarchy ( which was arguably in place after the Meiji era anyways).  By having a peaceful occupation and rebuilding, along with respecting the Japanese culture, they became our Ally.  We increased their economy 3x after WWII. Additionally, their governmental system wasn't much different after post-war Japan. Having given them an economic boost, they went about their way.  Also, since Japan is extremely honorific and collectivist, they took it well.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What methods can we use to predict the golden record on Voyager will endure for a billion years?",
+        "response": "Well currently both Voyagers are in interstellar space, and in the start of the 2020s, Voyager 1 is going to lose signal, and power. The golden record is an interesting topic, and I read a cool [article](_URL_0_) about it recently. As far as it last a billion years, we would never really know. There is of course not that much to hit it, except of course some dust. In fact, the record actually contains a piece uranium that can be used to date it. For all we know, some other life form could find it before a billion years has actually passed. Could probably always get hit some rock anyways, although that chance is extremely small. Edit: I'm amazing at spelling, and grammar.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What distinguishes Prussia from Germany?",
+        "response": "After the Holy Roman Empire fell apart the area of modern day Germany was home to a large collection of independent states in a confederation. By the 19th century Prussia had become the most prominent and militarily skilled of the german states, which lead to them forming a unified German state in 1871.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does a gravitational constant exist that matches the speed of light?",
+        "response": "The constant in Einstein's equations that relates the stress-energy tensor to the left side of the equation (a complex differential geometry function of the metric) is 8pi G/c^4, about 2x10^-43 meters/Joule.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does drinking salt water cause dehydration, yet a Sodium Chloride IV is given for dehydration?",
+        "response": "Your body actually contains a decent amount of salt, and in fact you need that salt to be there in order to survive.  But the concentration of salt inside your body is far lower than the concentration of salt in sea water. Sea water has so much salt in it that your body cannot effectively use the water, and enough salt in it that the body cannot filter it out and discard it before it starts causing problems.  The relatively small amount in your IV is useful to your body. The relatively large amount in salt water is very bad for your body.  There are many things that are fine or even helpful in proper doses, but which become very dangerous in large amounts. Even plain ol' water can kill you if you drink enough in a short period of time.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people dislike Richard Nixon?",
+        "response": "He's not actually that hated. I would say that certain circles actually still hate politics of presidents like Reagan or Bush younger. Nixon is still, though, ridiculed in popular media like in Futurama. Reason for that are [these few lines.](_URL_0_) It's even funnier because he clearly was a crook: He gave orders to physically break into Democratic party head quarters and wiretap their discussions. This led to the Watergate scandal (office building where they brake into was called Watergate), which eventually forced him to resign as the president.  He didn't start the Vietnam war, but was president during it and started the withdrawal of American troops from Vietnam.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is using a series of intelligently timed space explosions the most effective method for sending an extraterrestrial greeting, given the speed limitations of probes like Voyager?",
+        "response": "Wouldn't it be even easier to just build a big radio dish? There's a lot of visible light pollution from things like stars. And besides, no one really treats probes like voyager as a possible first contact method.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can technology measure a person's pain level, and do our brains respond similarly or differently regardless of individual pain tolerance?",
+        "response": "Because pain is *subjective* measure. Two people can be subjected to the exact same injury, but it'll seem more painful to one person and less to the other.  You could *in theory* put a person in an fMRI and measure how their brain is reacting to the pain, but -- again -- their perception of the pain might make that measurement pointless, and beyond that, it is absolutely impractical to do so. You can't have every patient in the ER put in an fMRI.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do our mouths open when something surprises us?",
+        "response": "To take in extra oxygen for your muscles because you are in shock and preparing to run/fight/",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is Customer Service/Technical Support crucial in a business yet often among the lowest-paid roles?",
+        "response": "It is not one of the most important in the business. It's just required, much like the Janitor is required. It's one of the most poorly paid because it requires some of the fewest skills.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does X-ray crystallography function?",
+        "response": "When x-rays are shot at a crystalline sample, they scatter off of each atom. The scattered x-rays from each atom interfere with each other, and a diffraction pattern forms at the detector (this is why the technique is also called x-ray diffraction). Just like how the distance between slits changes the resulting pattern in a double-slit experiment, different arrangements of atoms result in different diffraction patterns. For a 2-D lattice, the Fourier transform of the diffraction pattern gives you a 2-D map of the electron density, which is essentially the locations of the atoms on the lattice. To get 3-D information, the sample is rotated and diffraction patterns are obtained for different angles, which can be correlated and have Fourier transforms applied to determine the 3-D lattice.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is the line item veto considered unconstitutional?",
+        "response": "Some parts of laws are designed to work with each other. For instance, Congress might pass a law that lowers taxes on the poor and raises on the rich, as a compromise between people who just want to lower taxes on the poor and people who just want to raise taxes on the rich. If the President used a line-item veto to eliminate only one part of the law, he would basically be rewriting it, and the President does not have the right to write laws.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How can Barry communicate with Caitlin and Cisco when time slows down for him in The Flash TV series?",
+        "response": "Producers of superhero TV shows and movies often have to play fast and loose with the laws of physics, in order for the show logic to \"work.\" The general idea of such a show is escapism anyway, so accurate portrayals of physics aren't that essential anyway. If you still want to nitpick about the physics challenges of dealing with super speed, though, here are a few other things to consider: _URL_0_",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How bad is it for me to frequently wash my hands with solvent at work?",
+        "response": "Well what kind of solvent? Water is a solvent, and that works fine.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does Old English have more in common with German or Danish?",
+        "response": "This is more of a linguistic question, but English and German are both West Germanic languages, while Danish is a North Germanic language. So, English is closer to German than Danish. In fact, Low German is, next to Frisian, one of the closest languages to English, as all three are part of the Ingvaeonic subset of West Germanic languages.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is there a deeper significance to the order of operations, or is it just an agreed-upon convention?",
+        "response": "It is a convention but you could consider it to have deeper significance. [Addition, multiplying and exponents are all repeated applications of the former operation](_URL_0_). Multiplication is repeated addition (4×3= 4+4+4) and exponentials are repeated multiplication (4^3 =4×4×4).  You preform exponents before multiplication and multiplication before addition, essentially doing the highest order operation first as it consists of doing the lower order operations multiple times.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does the divergence of an electric field relate to charge density?",
+        "response": "So divergence conceptually represents the flux in or out of an infinitesimal point, integrating this over some volume will give you the total flux through the surface. Because a point charge gives off a radial field, any integral of flux across a closed surface containing a point charge will be proportional to the charge contained within (gauss's law), you should draw some pictures and try and intuitively get why this is true. The divergence theorem says the volume integral of the divergence of a equals the integral of flux across the surface of said volume, so the volume integral of the divergence is also proportional to the contained charge. Then differentiate both sides with respect to volume, and you can see that the divergence is equal to the charge per volume, or charge density.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why don't boats use transmissions like cars, and wouldn't that increase their speed?",
+        "response": "Some boats, very high performance ones, do have transmissions. But for most normal boats, this adds a lot of complexity and, most of all, cost. The other factor is that water behaves very differently than air. Water resists being pushed out of the way, and the harder you push, the harder it pushes back. The fancy term is compressibility. It's because of this that a fall from a great height into water tends to be like hitting concrete.  So, back to the boat. As you spin the propeller faster and faster, it gets harder and harder to turn. Also, the drag of the water against the hull increases, requiring more effort. So, a boat in water is like a car that is going up a very steep hill. It needs to gear down to maintain speed or accelerate. With a boat, it works out that most of the time you only need one or two gears.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Will transplanted organs in an infant grow with the child's body?",
+        "response": "Depends on the organ. Livers can regenerate from a small nubin, so we would implant a small baby sized liver and it would grow. I think kidneys are implanted whole, hopefully in bigger children. These also can hypertrophy (get bigger) as needed. Hearts would be very unusual. Not sure it could work without a similar sized donor. As far as I know (not a paediatric transplant surgeon!) the goal is to delay transplant as long as possible so sizes work better. So in the heart they do a while bunch of weird operations like cutting out bad pieces and sticking vessels in weird spots, as a temporary measure. Past that, I think the odds of getting a super-specialist in here are low, but there will be tons of case reports in the literature. Just google \"paediatric transplant\" with the organ of interest",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why isn't there a surgical procedure to modify the sinus area that excessively produces mucus in allergy sufferers?",
+        "response": "First, the majority of allergy sufferers, have the main issue of sinus inflammation. A majority of the time, a stuffy nose is just that, an inflamed sinus. That's when you feel stuffed up, blow our nose, but nothing comes out. However, sometime there is an overproduction of mucus. However, if you were to remove that completely, the results would be worse than any runny nose you've ever had. A lack of mucus production would lead to a dried out cavity that would crack, bleed, etc. Any opening to the body (mouth, nose, genitalia, etc) needs to remain well lubricated for proper functioning of your immune system among other functions as well.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does Switzerland operate with four official languages?",
+        "response": "Swiss here. What are you touching on? Government? Every-Day problems? School? Well, almost [all daily objects are labeled in at least three languages](_URL_0_). Announcements in trains are held in at least two languages. However, there are seperate parts in the country which speak different languages. **Don't think we all are quadrilingual. If you are, as me, a citizen of the german-speaking part of Switzerland, you will basically never need to speak italian or such.** We have to learn two languages at least in School, though (EN and French for me, EN/FR/IT in the extreme). The main part where all languages meet is national politics. It may help that Switzerland is so small. Our National Council offers simultaneous translations in all languages and the speaker speaks in his mother tongue. The Senate, however, does *not* offer this service. In conclusion. The main solution is translations, translations, translations everywhere. Ama. ^Edit:Grammar",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does Noether's theorem account for the invariance of the speed of light?",
+        "response": "Noether's Theorem does not explain the constancy of the speed of light. Noether's Theorem identifies conserved quantities, which means that you have something that can take all sorts of values, but for any given (isolated) system, its value won't change. Thus, for example, in two different collisions, the momentum will be conserved, but the value of the momentum in each case can be different. The idea is that if you set an initial value for something, the equations of motion are such that that something does not change its value -- but different initial conditions would have produced a different value. The speed of light is a constant of nature. It has the same value no matter who does the observing, no matter the situation. The constancy of the speed of light is still associated with a symmetry; [Lorentz invariance](_URL_0_) is the symmetry that causes there to be a speed that takes the same value for all observers.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people from older generations appear more mature and older at a certain age compared to people of the same age today?",
+        "response": "Are you talking about when you look at a picture of your dad (for example) when he was 20, and compared to 20 year olds today, he looks more mature? It's probably just because of his style... the type of clothes he wore, how he wore his hair, etc. You associate that style with older people because it's the style of older generations. When they were young, they probably thought the same thing about their parents.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In what way does the moon influence ocean tides?",
+        "response": "Gravity Gravity pulls the water up a little bit. More than it can pull the land (which is attached to other land and on average all further away) Note that the land does get pulled too - which is why you get a tide opposite the moon - thats the land being pulled away from the water!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "[Engineering] Why hasn't an engine been designed with cylinders of different sizes?",
+        "response": "Vibration would be a big factor. Straight 6 and V12 engines have the best balance/lowest vibration. Most others are compromises of space and vibration. If you have different sized cylinders everything becomes way more complicated and less efficient.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Has a natural object ever collided with the moon?",
+        "response": "Yes, an impact was observed during the last eclipse _URL_0_",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are most plants green?",
+        "response": "The simplest answer is because [chlorophyll](_URL_0_) looks green. Are you asking in a deeper sense, like why aren't plants black (to absorb more wavelengths), or why does the chlorophyll molecule look green?",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the purpose of the button to disable traction control in cars?",
+        "response": "Because there are certain situations like being stuck in the mud, snow, or sand where traction control hinders the process.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How do coroners determine a body's identity during an autopsy?",
+        "response": "If police series are relatively accurate, there are a few ways this can happen. 1) The body has some sort of identification on them (drivers license, passport,...) 2) Using specific body traits, like dental records, fingerprints, DNA, traceable implants,... But these require them being in a database. 3) Someone recognised the victim (if I'm not mistaken a positive identification from a family member is often required) 4) Comparing a picture of the victims face with a database (missing persons, people with criminal records,...)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does the melting of ice caps cause sea levels to rise?",
+        "response": "To add to /u/skratchx explanation, a significant part of the ice in polar regions is on top of land (namely Greenland and the Antarctic continent). We are talking kilometer thick glaciers. When it starts to melt you will get huge influx of water.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are some bank tellers positioned behind a glass barrier?",
+        "response": "Usually a rule implemented in high risk areas for security reasons Source: my wife is a banker",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do people enjoy watching pimple popping videos?",
+        "response": "I guess it's because we need \"resolution\". For instance in music, you can't leave something tensed : after tension, you need a resolution. Same with your body : when you have something that hurts a bit when you touch it and you KNOW you could juts pop it, drain the pus and it would be fine, you do it because it releases the tension. Now, because you KNOW how it works with your body, when you see it in someone else's body it creates a tension : you see that white spot that is JUST ABOUT to burst and that creates a tension that you want to release, thinking \"if it was me, I would have popped that fucker a long time ago !\". So seeing someone do it brings a resolution to a tension and it soothes the watcher.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do larger animals have slower heart rates compared to smaller ones?",
+        "response": "This is for mammals only, and it's because of metabolism. Small things cool down faster than big things, so small things need to burn more energy to keep warm, so small things have faster heart rates. It also helps that it's easier to move a small thing than a large one.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is the production time for military aircraft in the US longer now than before?",
+        "response": "Tell me... how many computers were in the P-51? How many stealth features? How about communications, sensors, and jet engines? Oh... none? (With the exception of a radio) Comparing a P-51 to an F-22 is about as sensible as comparing a Model T to a Tesla... I mean strictly speaking they do the same thing... but one is a hell of a lot more advanced.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "When I hold my pen above the ground, is the force from my hand counteracting the spacetime warp caused by gravity, preventing it from moving?",
+        "response": "An object with no forces on it follows a straight line through spacetime; this is the cause of gravitational attraction, as you point out. But once another, non-gravitational force acts on the object, it follows a *curved* path through curved spacetime (just like in Newtonian mechanics, an external force causes an acceleration); in your example of holding a pen, the force is just enough to curve the pen's trajectory through spacetime so that it stays at rest relative to the Earth. By the way, the curving of space*time* is crucial for understanding gravitational forces; curving space alone doesn't cut it. (It can't explain the attraction of objects at rest, for example.)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do energy companies promote energy conservation?",
+        "response": "Because they have a (mostly) fixed capacity and they are a highly regulated industry. If they can push 100 units of power out... and people are demanding 500... that is a pretty big problem for them. In a free market, prices would skyrocket but in the utility market their prices are basically fixed by the government. Since their prices are fixed... and their capacity is fixed... the only thing that can give is the service provided... thus blackouts!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can an astronomical event in another galaxy impact Earth?",
+        "response": "**Very** hypothetically, a [vacuum metastability event](_URL_0_).  It's unsure if the vacuum of space is a true vacuum, or a false one. If it's false, and something happens anywhere in the observable universe that manages to kick the local vacuum into a lower energy state, then the new *true* vacuum could spread out at the speed of light, most likely completely annihilating all of existence and rewriting the very laws of physics in its wake.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why doesn't the USA adopt the metric system?",
+        "response": "We wanted to once, but then realized it would cost money to change everything over and, strangely enough, that deterred us.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does water feel colder after eating mint?",
+        "response": "Many mints contain menthol. Menthol is the chemical in mints that makes your tongue and mouth feel cold. [That's because menthol binds to a certain receptor in your cold-sensing nerve fibers in your tongue and mouth, causing the nerve fibers to depolarize, and send a signal to the brain.](_URL_1_) These nerve fibers usually only depolarize and send signals when something cold is in your mouth. But the way that menthol is shaped (it's chemical composition and structure) [allows it to bind to a receptor on the cold-sensing nerve fiber, and make the fiber depolarize](_URL_0_), in a way that other molecules can't. As for why drinking water makes the sensation more intense, I don't exactly know. I would guess that drinking water makes it easier for the menthol to get to your cold-sensing nerve fibers. But that is just a guess.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How do Top Gear presenters get permission to film in various countries they visit?",
+        "response": "They just get work visas. A Visa is essentially a little piece of paperwork that gives you the ability to work in an area for a specific amount of time. And are relatively easy to get if you have any sort of sway (which Top Gear does) It's no different than the survival shows, cooking shows or travel shows that go around the world. They decide on a destination, contact that country's immigration office and make the arrangements.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are synthetic diamonds deemed less valuable, and do they differ molecularly from natural diamonds?",
+        "response": "No, in fact lab diamonds are more pure than natural diamonds. However, one of the reasons that diamonds are valuable is because people believe that they are rare and hard to find.  Because lab diamonds don't fit this mold, demand for them is lower, dropping the price.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why didn't an American Revolution occur during the Great Depression?",
+        "response": "I'd seriously recommend Tony Badger's *FDR: The First Hundred Days* - it's short, readable, and presents his argument that the entirety of the New Deal was a 'holding operation', designed to keep capitalism afloat until exogenous factors could stimulate a recovery. Although naturally it's a little more complex than that.  Then I'd go into his bibliography, and take it from there.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does a movie or game appear better on a 4k screen if the PS4 doesn't support 4k? Why or why not? What are the visible differences between 4k and standard HD?",
+        "response": "4K means that your image is made of more pixels. More pixels = more details. [Check this](_URL_0_). There is no benefict in having a 4k TV if your hardware does not support it: The TV will send the image in HD resolution or below.  I have a 4kTV and the only times that I watch something in 4k is when I open Youtube xD. The TV-Box only supports 1080p. I must say that 1080p is more than enought for Sports, News and some Series. But 4kTV with 3D is something else",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do animals experience concussions similar to humans, and are the effects comparable?",
+        "response": "Yes, they can and do. It can be harder to tell, and we don't usually send them for MRI/CT to confirm, so a lot of them go misdiagnosed. But animals with head trauma will become nauseous, lose consciousness, loss of balance, signs of partial blindness, etc, all the same kind of signs we'd expect in a human.  Rest and exercise restriction are important. Obviously its hard to prevent intense cognitive workouts in a dog or cat, but keeping them \"unstimulated\" is important. We do also see cumulative concussion effects like tremors, seizures, cognitive dysfunction, etc in animals with a (suspected) history of repeated concussions, such as victims of animal abuse or bloodsports.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is the legal drinking age 14 in Germany compared to 21 in the USA?",
+        "response": "In the 1970s and 80s, the US had a huge rash of drunk driving fatalities caused by drunken teenagers. The two reactions considered for this was either raising the drinking age or raising the driving age. The US opted for the former. Whatever you may think of the drinking age in the US, it had the desired effect -- drunk driving fatalities plummeted.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What makes petting animals physically comforting?",
+        "response": "Most mammals have special sense receptors that respond favorably to gentle touch, which is why the vast majority of mammals will enjoy being pet (or petting something soft). So gentle stroking feels good to them, almost as much as it feels good for you to do it. We also have a certain chemical in our body (oxytocin) which is related to bonding and affection. Research general states that this chemical is released while we're petting or sometimes even looking at our pets.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the number of possible color combinations when selecting 4 out of 7 colors with repetition, and which formula is used?",
+        "response": "7^^4 = **2041** of possible combinations Someone correct me if I'm wrong, but this should be it E: Wrong, it's **35**, see below",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is time considered the fourth dimension?",
+        "response": "\"dimension\" in math doesn't need to be geometric. A dimension is just a relevant variable in an equation, basically.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why are operating systems tailored to specific architectures like X86 and ARM, while applications are not?",
+        "response": "Applications are architecture specific. It's just that you mostly use AMD64 (or x86_64) CPUs with fitting OS and then run x86 applications. Like the name suggests, x86_64 is just an extension of x86 and x86_64 is backwards compatible.  You just can't mix both in one application. That's why your Windows has a System32 directory and SysWOW64 directory. The 32bit stuff is in the latter, the 64bit stuff in the former. (thanks /u/AdarTan) An ARM application simply wouldn't run on the x86 architecture. At least not a native applications which is why Java or .Net applications run on everything that has Java or .Net. The Application itself is not compiled (translation from source code that humans can read and write to 1s and 0s) for Windows or AMD64 but for the Java Virtual Machine (and whatever Microsoft calls their .Net stuff) which is a virtual machine that then runs your application with code for your platform (CPU architecture and OS).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Did Native American tribes assign human-like traits to animals, and if so, were these traits different from those attributed by the modern Western perspective?",
+        "response": "Northwest groups have anthropomorphized a number of animals. As have most of the tribes in the west. Perhaps the most common animals represented in the mythological literature are Coyote and Raven. [Coyote](_URL_0_ or the Trickster, was famous among Northwest California as a mischievous critter who could trick people into having sex with him, take others' money or possessions, and give people they were averse to bad luck.  Prominent Coyote stories have been collected from central California to the northern Plateau. Coyote was also mythologized in the Southwest and in the Great Plains. Coyote figured prominently in creation myths, innovations (e.g. creating fire), demonstrating normative or more accurately, non-normative behavior, and in explaining natural land forms. *Hupa Texts*. P. E. Goddard. 1904 Handbook of North American Indians, Smithsonian. Volumes 7(Northwest), 8 (California) and 12 (Plateau). Handbook of California Indians, A. Kroeber, 1970",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "During wartime, do attacking forces typically spare cultural landmarks such as Big Ben or the Cologne Cathedral, or are they targeted like other buildings?",
+        "response": "I just finished Thomas Madden's book about Venice and he talks a little about this in WW2.  Basically there was a concerted effort on the allies part to not bomb Venice at all. They could afford to do this of course because there was very little strategic value in Venice.  There was however a single bombing campaign to destroy Axis shipping that was going through Venice. It was done with a great amount of planning and precision and they were able to take out the targets without harming the city. The citizens of Venice watched the raid from their rooftops.  The book also includes the quote \"Provided you weren't Jewish, Venice was the safest place in Europe to be during WW2\"",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How does saliva prevent snorkel or dive masks from fogging up?",
+        "response": "From my personal experience, saliva forms a transparent film on the surface of the mask, preventing condensation from forming. Anti fog sprays appear to do the same thing; coat the surface with a transparent gel like film that shields the surface form condensation.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why did I get cuts without my clothing being torn first?",
+        "response": "It did go through your shirt, but it only needs to pierce through in one spot. Your shirt then moves with the hook as it cuts your skin. It may have left no damage at all to your shirt, depending on the size of the hook.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What additional benefit would a third eye offer if a second eye allows for depth perception?",
+        "response": "A possible use for an extra eye in a human could be as a specialised eye that is different to the other two; an eye that can see well underwater, in low light, as a close-range magnifier, or in a different wavelength to the other eyes. A simple 'motion detector' eye on the *back* of our heads could be useful sometimes. The fact that these kinds of extra eyes are not naturally occurring in mammals would suggest that either they aren't all that useful, or that it's evolutionarily difficult.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How would a significant increase in computational power impact digital security?",
+        "response": "We use that computer to make more complex and incalculable encryption. Cat and mouse. The ability to crack my encryption got better, so I just build better encryption",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why do most venomous animals have bright colors?",
+        "response": "The predator species can develop in a way that they avoid the certain pattern. For example I've recently read a study that virtually all monkeys are predisposed to fear snakes (trait which have evolved long time ago). That explains why lots of people fear them, even though humans have evolved to be the best predators on Earth.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What causes the urge to fidget or shake our legs while sitting, especially during lectures or when bored, even if we're not anxious?",
+        "response": "Your brain shoots signals down there to make sure you aren't asleep.  When you're sleeping or at rest in general, your brain actually paralyzes your body so if you're running in your dream, you won't actually get up and run into a wall. As you're laying in bed your brain sends signals to your muscles to see if it's properly paralyzed.  This also leads to that feeling of falling before suddenly waking up. Your body was in the midst of locking down, but the scale suddenly tipped back to full control. I'll link to a YouTube video that explains this well when I have access to a computer.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does blue light on your phone activate your brain, while orange light does not?",
+        "response": "When your eyes see blue light, your brain suppresses the production of melatonin, a chemical that makes you sleepy. So as long as you're seeing blue light, you won't be as sleepy. This is because humans evolved for millions of years in which the only time we really saw the color blue was during the day. Now that we have computer and phone screens to look at long past sunset, it can really mess with how your body prepares for bedtime.  TLDR: when you see the color blue your brain still thinks its daytime, and you won't get as sleepy.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why does water become noisy just before boiling in a kettle, yet quiet once it starts boiling?",
+        "response": "Cavitation. The little bubbles that form on the bottom collapse when they hit the colder water above. It happens so quickly that the water slamming back together makes a sound. I also found a video that goes into more detail: _URL_0_",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is hitting a cold body part more painful?",
+        "response": "Your body reacts to coldness by decreasing blood flow in your limbs in order to keep your core on operating temperature. As low blood flow = less function, your fingers and toes start feeling numb and you lose dexterity as they're stiffing up, which is all a result of your nerves being numbed as well. But interestingly enough, probably for safety reasons, your pain receptors still work, unlike many others. So this means, that the input you normally have is \"turned off\", while pain is the only one still being \"transmitted\", which can be compared to being on a concert with a crying baby next to you (you won't really notice) or being in a quiet room with the same baby (really annoying).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why is there tension between China and Taiwan?",
+        "response": "China had a civil war that ended in approximately 1949. The communists won and the nationalists lost. The nationalists fled to Taiwan, a large island off the coast of mainland China. The situation has been tense and complicated since then. Taiwan's economy boomed to unbelievable extent, and the mainland Chinese want to incorporate them into mainland China. If there is another huge war in the near to medium term, this is one of the places it could start.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "In which state of matter does gel/jelly exist?",
+        "response": "Think of it as a sponge made out of protein, with water suspended in it. The sponge itself is solid, but the water inside it is liquid.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What prevented Asian countries like China and Japan from colonizing the Americas?",
+        "response": "long story short, [they did](_URL_1_), although China and Japan didn't exist 15,000 years ago when it happened. the americas were colonised by north asians through siberia and the land-bridge that is now the Bering straight. this is shown in [genetics](_URL_2_) as well as language. if nowhere in the new world has a large asian-descended population, then who are the Inuits and why are their eyes constructed the way that they are? [sources](_URL_0_) that [aren't](_URL_4_) the [smithsonian](_URL_3_)",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why don't stars become black holes before going supernova if they are massive enough to do so?",
+        "response": "Something along the lines of the force of nuclear fusion trying to pull the star a part is counter balanced by the force of gravity attempting to crush it to a point. Once the star runs out of fusible material the force of gravity is no longer balanced and the star collapses into a black hole.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Can you explain the difference between 3G and 4G connections in simple terms?",
+        "response": "Simply put, the difference is speed. 4G connections support faster data speeds than 3G connections.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How can I determine whether a sound is near or distant?",
+        "response": "Echoes and sound reflection. A sound from far off will bounce off the landscape, which causes an echo effect. The sound then will be blurred out, creating a \"far off\" sort of distortion. Sounds from close by are clearer as they haven't been blurred out in this way. There are rooms that have been so completely isolated from sound and echoes that you actually will not be able to tell the distance by sound alone. Lots of strange things happen to sounds in these rooms.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Does gravity's acceleration influence a pendulum's frequency?",
+        "response": "Are you sure that is what your professor said? Your intuition is correct, as the [frequency](_URL_0_) (1/period) of a pendulum does depend on the gravitational acceleration. Perhaps she was talking about a different kind of pendulum, such as a pendulum that is constrained to move completely perpendicular to the direction of gravity.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Where did the saxophone originate?",
+        "response": "It was created by a man named Adolphe Sax. Long story short, it was created as a bridge between brass and woodwind instruments in french military bands in the 1800s. Sax started at the lower end with bass saxes, and he then went on to create tenor, alto, soprano, and all other crazy sizes! If you're interested, there's a book called \"Devil's Horn\" (I'm sorry I don't remember the author! ) about the history of the sax and it's place in music. It's fasinating!",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Is this a test rather than a question?",
+        "response": "Go here: _URL_0_ and look at the top comment of each.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the probability of witnessing 10 consecutive baseball wins?",
+        "response": "I'll assume that in each game, there was a 50-50 chance that the Jays would win (not an unreasonable approximation). If there is a 50-50 chance as to which team will win, the odds of the Jays winning all 10 is 1 in 1024. This comes from (1/2)^(10). Note, however, as you went into this year already knowing that the Jays won the first 9 games, if you ask what are the odds that the streak would extend from 9 to 10, that is just the odds of single win, which is 1 in 2 (in the approximation I'm using).",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is the origin of the heart shape, and when was it linked to the heart organ?",
+        "response": "_URL_0_ Answered here:  In summary - the heart shape became associated with male-female sexual relationships in antiquity because it is the shape of the seed of the now extinct silphium plant which was a widely used contraceptive.  It was thereby transferred to the bodily organ because of ancient beliefs that the heart was the seat of emotions and reason, including romantic love.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What happens to the blue color in Gatorade when I urinate yellow?",
+        "response": "Ever give Gatorade to a kid still in diapers? The colorful portion of Gatorade comes out of the other end... Not when you pee it out.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Would water flow through a radiator connected to a sealed pot on the stove without using a pump?",
+        "response": "The name of this phenomenon is [thermosiphon](_URL_0_), if you want to 'fully' circulate then both pot and radiator need two openings each at the top and bottom (and the heated part should be lower).   *A single opening at the top of the pot and bottom of the radiator above it will work, sort of.*    The flow is a bit difficult to calculate, as the flow-resistance is unknown, water expands when it heats up (the specific gravity gets lower), the driving force behind it is weight *difference* of the hot- and cold water columns in the connecting pipes.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "How did Crusaders construct their castles rapidly and robustly to ensure their effectiveness?",
+        "response": "They weren't always made from scratch. Krak de Chevaliers, perhaps the most famous 'Crusader Castle', was built by Kurds before the crusaders arrived on the scene. Raymond IV of Toulouse went to it, found it was deserted, and decided to take control of it, but then abandoned it later and Tancred, Prince of Galilee, got it. Although this is information you can find on Wikipedia, I thought it was worth sharing because it's an approach you might not have thought of using.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Why isn't the transformation of wolves into breeds like poodles and bulldogs through selective breeding considered evidence of evolution? Am I overlooking something?",
+        "response": "But if dogs evolved from wolves.... Why are there still wolves?  Kidding aside: All the facts point towards evolution and none towards creationism. So ignoring contradictory facts is just the way to go if you want to believe in creationism.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Under what circumstances is it permissible for a comedy show to satirize a company using its actual name, and when is it not allowed?",
+        "response": "Companies can sue for defamation if they feel that the joke makes false claims about their product. Most large companies don't actually do this [because it's horrible PR](_URL_0_), but many comedians and shows would rather not take the risk.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "Do symptoms like fever offer any advantages?",
+        "response": "Yes, a fever helps in two main ways: First, most things that make us sick, like viruses or bacteria, have adapted to our very specific body temp - ~37C or ~98F. When our body finds something inside us that isn't us, it raised the temperature a bit to make it harder for those germs. Second, a bunch of parts of the immune system work better at slightly higher temperatures. The cells that eat bacteria and viruses, for example, are better at it when the temperature is a just a little higher than our regular body temp.  So when we have an infection, our body raises its temperature a little bit to make life harder for the bugs, and easier for the things that kill them.  & nbsp; It's similar for other symptoms. Mucus in your nose helps catch things so they can't get any further inside. Coughing and sneezing expels bad things. A lot of the unpleasantness of being sick is our own body fighting the germs, rather than caused by the germs themselves, but these things help us get better faster.",
+        "source": "sentence-transformers/eli5"
+    },
+    {
+        "query": "What is a doctor doing when they palpate your stomach?",
+        "response": "For your specific case, knowing a bit more would be necesary, at the very least where and how they palpated. However, the abdomen is divided into 6 areas, and each primarily is where different organs can be felt. Upper right (your right for your abdomen) the liver can be felt just below the rib cage, Upper middle the pancrease, upper left the bottom of the stomach, rght middle, a very distended liver, and thelarge and small intestine, middle has small instestine, enlarge uterus (baby or fibroids/tumor) you can also easily feel the large artery and vein going to and from the heart here, and to the right and left of this, the higher of the ilio psoaz muscles, if you push very deeply. Middle left, intestine, large and small, enlarged spleen (normally you wrap around and find the spleen behind the last few ribs on the left side), Lower right, enlarged appendix, start of large intestine, small intestine, lower mid, sigmoid colon, bladder, uterus, lower left, sigmoid colon hope that helps",
+        "source": "sentence-transformers/eli5"
+    }
+]

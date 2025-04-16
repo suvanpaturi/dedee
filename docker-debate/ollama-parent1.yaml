@@ -18,9 +18,16 @@ spec:
         command: ["ollama", "serve"]
         ports:
         - containerPort: 11434
+        resources:
+          requests:
+            memory: "3Gi"
+            cpu: "1"
+          limits:
+            memory: "4Gi"
+            cpu: "2"
 
       - name: parent
-        image: dedeeregistry.azurecr.io/parent:v2.5
+        image: dedeeregistry.azurecr.io/parent:v2.6
         ports:
         - containerPort: 5001
         env:

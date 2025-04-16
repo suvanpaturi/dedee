@@ -8,7 +8,11 @@ class InferenceManager:
         self.retriever = TreeRetriever()
         self.llm = GlobalLLM()
 
-    async def run(self, query):
+    async def run(self, input):
+        
+        query = input.query
+        model = input.model
+        
         global_times["tree_retrieval"]["start_time"] = time.perf_counter()
         retrieved_knowledge = self.retriever.comprehensive_search(query)
         global_times["tree_retrieval"]["end_time"] = time.perf_counter()
@@ -23,6 +27,7 @@ class InferenceManager:
         global_times["debate"]["start_time"] = time.perf_counter()
         debate_request = DebateRequest(
             query=query,
+            model=model,
             total_rounds=3,
             retrieved_knowledge=retrieved_knowledge
         )
