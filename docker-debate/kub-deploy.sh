@@ -8,8 +8,8 @@ az acr login --name dedeeregistry
 ACR_NAME="dedeeregistry.azurecr.io"
 
 # Versions for each component
-JUDGE_VERSION="v2.1"
-PARENT_VERSION="v2.5"
+JUDGE_VERSION="v2.3"
+PARENT_VERSION="v2.6"
 
 echo "🚀 Building JUDGE ($JUDGE_VERSION)..."
 docker buildx build --platform linux/amd64 \

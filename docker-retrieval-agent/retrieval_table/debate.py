@@ -28,6 +28,7 @@ active_debates: Dict[str, Dict] = {}
 @dataclass
 class DebateRequest():
     query: str
+    model: str
     total_rounds: int = TOTAL_ROUNDS
     retrieved_knowledge: List[Dict] = field(default_factory=list)
 
@@ -57,7 +58,8 @@ async def run_debate_rounds(request, query_id, knowledge_dict, PARENT_ENDPOINTS,
                         "query_id": query_id,
                         "knowledge": knowledge_dict[parent_id],
                         "round_number": round_num,
-                        "origin": RETRIEVAL_ID
+                        "origin": RETRIEVAL_ID,
+                        "model": request.model
                     }
                     tasks.append(post_to_parent(client, parent_id, url, payload))
                 else:
@@ -97,7 +99,8 @@ async def start_debate(request: DebateRequest):
             try:
                 judge_response = requests.post(JUDGE_URL, json={
                     "query": request.query,
-                    "responses": all_responses
+                    "responses": all_responses,
+                    "model": request.model,
                 })
                 final_verdict = judge_response.json()
             except Exception as e:
@@ -105,7 +108,7 @@ async def start_debate(request: DebateRequest):
 
         active_debates.pop(query_id, None)
         print(final_verdict)
-        if final_verdict is None or final_verdict["response"] == "No Answer":
+        if final_verdict is None or "No Answer" in final_verdict.get("response", ""):
             return None
         return final_verdict["response"]
     except Exception as e:

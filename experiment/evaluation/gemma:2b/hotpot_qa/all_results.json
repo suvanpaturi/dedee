@@ -56,7 +56,7 @@
       },
       "overall_latency": 0.13320070898043923,
       "score": "5",
-      "bert_score_f1": 0.9999996423721313,
+      "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
         1.0,
@@ -118,7 +118,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13665562501410022,
-      "score": "2",
+      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -161,7 +161,7 @@
       },
       "overall_latency": 0.1450352919928264,
       "score": "5",
-      "bert_score_f1": 1.0000001192092896,
+      "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
         1.0,
@@ -181,7 +181,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13403529199422337,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -202,7 +202,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13938024998060428,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -224,7 +224,7 @@
       },
       "overall_latency": 0.14051241599372588,
       "score": "0",
-      "bert_score_f1": 0.9999997615814209,
+      "bert_score_f1": 0.9999996423721313,
       "f1_score": [
         1.0,
         1.0,
@@ -244,7 +244,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.1335472920036409,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -265,7 +265,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13390549999894574,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -370,8 +370,8 @@
         "global_llm": 0
       },
       "overall_latency": 0.1463269169908017,
-      "score": "3",
-      "bert_score_f1": 0.9999997615814209,
+      "score": "5",
+      "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
         1.0,
@@ -391,7 +391,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.14032629199209623,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -580,8 +580,8 @@
         "global_llm": 0
       },
       "overall_latency": 0.13601979200029746,
-      "score": "0",
-      "bert_score_f1": 1.0000001192092896,
+      "score": "5",
+      "bert_score_f1": 1.0000003576278687,
       "f1_score": [
         1.0,
         1.0,
@@ -623,7 +623,7 @@
       },
       "overall_latency": 0.14705016600782983,
       "score": "5",
-      "bert_score_f1": 1.0000003576278687,
+      "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
         1.0,
@@ -685,7 +685,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13994854100747034,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -749,7 +749,7 @@
       },
       "overall_latency": 0.13990404098876752,
       "score": "5",
-      "bert_score_f1": 0.9999999403953552,
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -811,7 +811,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13683487501111813,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -832,7 +832,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13490470798569731,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -937,7 +937,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.1439403330150526,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.999999463558197,
       "f1_score": [
         1.0,
@@ -980,7 +980,7 @@
       },
       "overall_latency": 0.14573566601029597,
       "score": "5",
-      "bert_score_f1": 0.9999998807907104,
+      "bert_score_f1": 0.9999995827674866,
       "f1_score": [
         1.0,
         1.0,
@@ -1000,7 +1000,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13238979200832546,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.999999463558197,
       "f1_score": [
         1.0,
@@ -1043,7 +1043,7 @@
       },
       "overall_latency": 0.13710254098987207,
       "score": "5",
-      "bert_score_f1": 1.0,
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -1064,7 +1064,7 @@
       },
       "overall_latency": 0.13473212500684895,
       "score": "5",
-      "bert_score_f1": 0.9999997019767761,
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -1085,7 +1085,7 @@
       },
       "overall_latency": 0.1401239999977406,
       "score": "5",
-      "bert_score_f1": 1.0,
+      "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
         1.0,
@@ -1147,7 +1147,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.1341800410009455,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -1189,7 +1189,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.13247883299482055,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998211860657,
       "f1_score": [
         1.0,
@@ -1210,8 +1210,8 @@
         "global_llm": 0
       },
       "overall_latency": 0.14302741701249033,
-      "score": "0",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -1252,8 +1252,8 @@
         "global_llm": 0
       },
       "overall_latency": 0.1350225420028437,
-      "score": "0",
-      "bert_score_f1": 0.9999998807907104,
+      "score": "5",
+      "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
         1.0,
@@ -1316,7 +1316,7 @@
       },
       "overall_latency": 0.1301947920001112,
       "score": "5",
-      "bert_score_f1": 1.0000003576278687,
+      "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
         1.0,
@@ -1420,7 +1420,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.1343951669987291,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -1463,7 +1463,7 @@
       },
       "overall_latency": 0.13373587501700968,
       "score": "5",
-      "bert_score_f1": 1.000000238418579,
+      "bert_score_f1": 1.0000005960464478,
       "f1_score": [
         1.0,
         1.0,
@@ -1484,7 +1484,7 @@
       },
       "overall_latency": 0.13580254197586328,
       "score": "5",
-      "bert_score_f1": 1.000000238418579,
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -1525,7 +1525,7 @@
         "global_llm": 0
       },
       "overall_latency": 0.1472442499944009,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -1568,7 +1568,7 @@
       },
       "overall_latency": 0.13438762500300072,
       "score": "5",
-      "bert_score_f1": 1.0,
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -1652,7 +1652,7 @@
       },
       "overall_latency": 0.1330929579853546,
       "score": "5",
-      "bert_score_f1": 0.9999997019767761,
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -1820,7 +1820,7 @@
       },
       "overall_latency": 0.13252654200186953,
       "score": "5",
-      "bert_score_f1": 1.0000003576278687,
+      "bert_score_f1": 1.0000004768371582,
       "f1_score": [
         1.0,
         1.0,
@@ -1841,7 +1841,7 @@
       },
       "overall_latency": 0.14757233401178382,
       "score": "5",
-      "bert_score_f1": 0.9999995231628418,
+      "bert_score_f1": 0.9999993443489075,
       "f1_score": [
         1.0,
         1.0,
@@ -1882,8 +1882,8 @@
         "global_llm": 0
       },
       "overall_latency": 0.13225166697520763,
-      "score": "0",
-      "bert_score_f1": 0.9999999403953552,
+      "score": "5",
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -1925,7 +1925,7 @@
       },
       "overall_latency": 9.732639708003262,
       "score": "5",
-      "bert_score_f1": 1.0,
+      "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
         1.0,
@@ -1966,7 +1966,7 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 6.180329499999061,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -2029,7 +2029,7 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 8.88706783298403,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -2050,7 +2050,7 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 9.201832499995362,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000003576278687,
       "f1_score": [
         1.0,
@@ -2071,7 +2071,7 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 7.954787374997977,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -2134,8 +2134,8 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 6.1588898329937365,
-      "score": "0",
-      "bert_score_f1": 1.0000001192092896,
+      "score": "5",
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -2155,7 +2155,7 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 6.078015125007369,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -2176,7 +2176,7 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 5.93559258300229,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -2197,8 +2197,8 @@
         "global_llm": 1.4226676059988677
       },
       "overall_latency": 5.971323165984359,
-      "score": "0",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
         1.0,
@@ -2261,7 +2261,7 @@
       },
       "overall_latency": 5.818511207995471,
       "score": "5",
-      "bert_score_f1": 1.0000003576278687,
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -2281,7 +2281,7 @@
         "global_llm": 0.7128540659978171
       },
       "overall_latency": 6.150054540979909,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999994039535522,
       "f1_score": [
         1.0,
@@ -2302,8 +2302,8 @@
         "global_llm": 0.7128540659978171
       },
       "overall_latency": 5.899553958995966,
-      "score": "0",
-      "bert_score_f1": 0.9999999403953552,
+      "score": "5",
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -2386,7 +2386,7 @@
         "global_llm": 0.7128540659978171
       },
       "overall_latency": 5.909402374993078,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -2408,7 +2408,7 @@
       },
       "overall_latency": 5.75533837499097,
       "score": "5",
-      "bert_score_f1": 0.9999998211860657,
+      "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
         1.0,
@@ -2428,7 +2428,7 @@
         "global_llm": 0.7128540659978171
       },
       "overall_latency": 5.81844266699045,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 1.0000005960464478,
       "f1_score": [
         1.0,
@@ -2492,7 +2492,7 @@
       },
       "overall_latency": 106.62027412498719,
       "score": "5",
-      "bert_score_f1": 0.8169798851013184,
+      "bert_score_f1": 0.8169800043106079,
       "f1_score": [
         0,
         0,
@@ -2533,7 +2533,7 @@
         "global_llm": 0.7128540659978171
       },
       "overall_latency": 5.915981083991937,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -2554,7 +2554,7 @@
         "global_llm": 0.7128540659978171
       },
       "overall_latency": 5.88437529199291,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -2618,7 +2618,7 @@
       },
       "overall_latency": 8.040672874980373,
       "score": "5",
-      "bert_score_f1": 0.9999999403953552,
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -2723,7 +2723,7 @@
       },
       "overall_latency": 5.868570874998113,
       "score": "5",
-      "bert_score_f1": 0.9999997615814209,
+      "bert_score_f1": 0.9999995231628418,
       "f1_score": [
         1.0,
         1.0,
@@ -2744,7 +2744,7 @@
       },
       "overall_latency": 6.218591042008484,
       "score": "5",
-      "bert_score_f1": 1.0000003576278687,
+      "bert_score_f1": 1.0000004768371582,
       "f1_score": [
         1.0,
         1.0,
@@ -2785,7 +2785,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 9.982534707989544,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999996423721313,
       "f1_score": [
         1.0,
@@ -2806,7 +2806,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 9.816609458997846,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -2869,7 +2869,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 6.324037957994733,
-      "score": "4",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -2911,7 +2911,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 6.140126083017094,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -2953,8 +2953,8 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 6.031381750013679,
-      "score": "4",
-      "bert_score_f1": 0.9999998807907104,
+      "score": "5",
+      "bert_score_f1": 0.9999995827674866,
       "f1_score": [
         1.0,
         1.0,
@@ -3016,7 +3016,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 5.816869292000774,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -3037,8 +3037,8 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 5.821586834004847,
-      "score": "0",
-      "bert_score_f1": 0.9999993443489075,
+      "score": "5",
+      "bert_score_f1": 0.999999463558197,
       "f1_score": [
         1.0,
         1.0,
@@ -3079,7 +3079,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 5.886141499999212,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -3142,7 +3142,7 @@
         "global_llm": 0.7680263580041355
       },
       "overall_latency": 5.804163916996913,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -3163,7 +3163,7 @@
         "global_llm": 1.0838112159981392
       },
       "overall_latency": 7.270453082979657,
-      "score": "5",
+      "score": "0",
       "bert_score_f1": 0.785442054271698,
       "f1_score": [
         0,
@@ -3310,7 +3310,7 @@
         "global_llm": 1.0838112159981392
       },
       "overall_latency": 5.800545207981486,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -3394,7 +3394,7 @@
         "global_llm": 0.8950776220008265
       },
       "overall_latency": 5.797632792004151,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -3436,7 +3436,7 @@
         "global_llm": 0.8950776220008265
       },
       "overall_latency": 7.3317727919784375,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -3500,7 +3500,7 @@
       },
       "overall_latency": 7.009806540998397,
       "score": "5",
-      "bert_score_f1": 0.9999999403953552,
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -3541,7 +3541,7 @@
         "global_llm": 0.8950776220008265
       },
       "overall_latency": 8.660709124989808,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -3562,7 +3562,7 @@
         "global_llm": 0.8950776220008265
       },
       "overall_latency": 11.364297708991216,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999996423721313,
       "f1_score": [
         1.0,
@@ -3583,7 +3583,7 @@
         "global_llm": 0.8950776220008265
       },
       "overall_latency": 7.96243341700756,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -3605,7 +3605,7 @@
       },
       "overall_latency": 7.992977542016888,
       "score": "5",
-      "bert_score_f1": 0.9999999403953552,
+      "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
         1.0,
@@ -3647,7 +3647,7 @@
       },
       "overall_latency": 8.350129124999512,
       "score": "5",
-      "bert_score_f1": 0.9999996423721313,
+      "bert_score_f1": 0.999999463558197,
       "f1_score": [
         1.0,
         1.0,
@@ -3709,7 +3709,7 @@
         "global_llm": 5.013215582002886
       },
       "overall_latency": 7.009506125003099,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -3772,8 +3772,8 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 6.680179124989081,
-      "score": "0",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -3814,7 +3814,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 6.608342624997022,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -3835,7 +3835,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 6.500140582997119,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -3856,8 +3856,8 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 6.899607208004454,
-      "score": "0",
-      "bert_score_f1": 0.9999997615814209,
+      "score": "5",
+      "bert_score_f1": 0.9999997019767761,
       "f1_score": [
         1.0,
         1.0,
@@ -3940,7 +3940,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 5.915201542025898,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -3962,7 +3962,7 @@
       },
       "overall_latency": 6.121276833000593,
       "score": "5",
-      "bert_score_f1": 0.9999997019767761,
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -3982,7 +3982,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 6.020708041003672,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -4024,7 +4024,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 5.851136375014903,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -4087,7 +4087,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 5.996559166000225,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -4108,8 +4108,8 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 6.301807125011692,
-      "score": "0",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -4129,8 +4129,8 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 8.072822082991479,
-      "score": "0",
-      "bert_score_f1": 1.0000003576278687,
+      "score": "5",
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -4150,7 +4150,7 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 7.149128709017532,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000003576278687,
       "f1_score": [
         1.0,
@@ -4192,8 +4192,8 @@
         "global_llm": 1.0193913330003852
       },
       "overall_latency": 5.908314416999929,
-      "score": "0",
-      "bert_score_f1": 0.9999999403953552,
+      "score": "5",
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -4256,7 +4256,7 @@
       },
       "overall_latency": 6.928644291998353,
       "score": "5",
-      "bert_score_f1": 0.8460724353790283,
+      "bert_score_f1": 0.8460723757743835,
       "f1_score": [
         0.4,
         0.25,
@@ -4276,7 +4276,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 6.280613999988418,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -4297,7 +4297,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 5.711812291992828,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -4318,8 +4318,8 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 5.911300209001638,
-      "score": "0",
-      "bert_score_f1": 1.0000003576278687,
+      "score": "5",
+      "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
         1.0,
@@ -4339,7 +4339,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 5.766622499999357,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -4402,8 +4402,8 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 5.877904541994212,
-      "score": "3",
-      "bert_score_f1": 1.000000238418579,
+      "score": "5",
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -4486,7 +4486,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 6.020535124989692,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -4528,7 +4528,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 6.332059166976251,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -4549,8 +4549,8 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 8.95367124999757,
-      "score": "0",
-      "bert_score_f1": 1.0000005960464478,
+      "score": "5",
+      "bert_score_f1": 1.0000003576278687,
       "f1_score": [
         1.0,
         1.0,
@@ -4612,7 +4612,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 7.3066012500203215,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -4633,8 +4633,8 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 6.6219323340046685,
-      "score": "0",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -4654,7 +4654,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 5.782791250006994,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -4675,7 +4675,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 5.7298328329925425,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -4717,7 +4717,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 6.070344417006709,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -4781,7 +4781,7 @@
       },
       "overall_latency": 5.972868749988265,
       "score": "0",
-      "bert_score_f1": 0.8044675588607788,
+      "bert_score_f1": 0.8044673800468445,
       "f1_score": [
         0,
         0,
@@ -4864,7 +4864,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 143.33474729099544,
-      "score": "3",
+      "score": "0",
       "bert_score_f1": 0.7920524477958679,
       "f1_score": [
         0,
@@ -4906,7 +4906,7 @@
         "global_llm": 0.7283621649985434
       },
       "overall_latency": 7.334013165993383,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000003576278687,
       "f1_score": [
         1.0,
@@ -4949,7 +4949,7 @@
       },
       "overall_latency": 5.981702457997017,
       "score": "5",
-      "bert_score_f1": 1.0000001192092896,
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -4991,7 +4991,7 @@
       },
       "overall_latency": 5.960924625018379,
       "score": "5",
-      "bert_score_f1": 0.999999463558197,
+      "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
         1.0,
@@ -5012,7 +5012,7 @@
       },
       "overall_latency": 6.103802583005745,
       "score": "5",
-      "bert_score_f1": 1.0000004768371582,
+      "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
         1.0,
@@ -5075,7 +5075,7 @@
       },
       "overall_latency": 5.9920115410059225,
       "score": "5",
-      "bert_score_f1": 0.999999463558197,
+      "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
         1.0,
@@ -5096,7 +5096,7 @@
       },
       "overall_latency": 5.6302565000078175,
       "score": "5",
-      "bert_score_f1": 0.9999997615814209,
+      "bert_score_f1": 0.9999997019767761,
       "f1_score": [
         1.0,
         1.0,
@@ -5158,7 +5158,7 @@
         "global_llm": 1.4193962270001066
       },
       "overall_latency": 7.389869500009809,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -5200,7 +5200,7 @@
         "global_llm": 1.4193962270001066
       },
       "overall_latency": 122.61941508299788,
-      "score": "0",
+      "score": "4",
       "bert_score_f1": 0.8099372386932373,
       "f1_score": [
         0.10526315789473684,
@@ -5243,7 +5243,7 @@
       },
       "overall_latency": 5.951832999999169,
       "score": "5",
-      "bert_score_f1": 0.9999997019767761,
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -5263,7 +5263,7 @@
         "global_llm": 1.4193962270001066
       },
       "overall_latency": 6.730215124989627,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.0000003576278687,
       "f1_score": [
         1.0,
@@ -5284,7 +5284,7 @@
         "global_llm": 1.4193962270001066
       },
       "overall_latency": 6.9878654580097646,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998211860657,
       "f1_score": [
         1.0,
@@ -5326,7 +5326,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 7.776208082999801,
-      "score": "5",
+      "score": "0",
       "bert_score_f1": 0.7964437007904053,
       "f1_score": [
         0,
@@ -5347,7 +5347,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.9675725829729345,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -5431,8 +5431,8 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.005536790995393,
-      "score": "3",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -5452,7 +5452,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.653412417013897,
-      "score": "3",
+      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -5515,7 +5515,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.689783084002556,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -5536,8 +5536,8 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.827354499982903,
-      "score": "2",
-      "bert_score_f1": 0.9999997019767761,
+      "score": "5",
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -5557,7 +5557,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.69282379100332,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999998211860657,
       "f1_score": [
         1.0,
@@ -5600,7 +5600,7 @@
       },
       "overall_latency": 5.659586041991133,
       "score": "5",
-      "bert_score_f1": 0.9999997615814209,
+      "bert_score_f1": 0.9999997019767761,
       "f1_score": [
         1.0,
         1.0,
@@ -5662,7 +5662,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.712476375018014,
-      "score": "0",
+      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -5683,7 +5683,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.835752832994331,
-      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -5704,8 +5703,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.8303059579920955,
-      "score": "5",
-      "bert_score_f1": 1.0000001192092896,
+      "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
         1.0,
@@ -5725,7 +5723,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.155085750011494,
-      "score": "0",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -5746,8 +5743,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.372739332990022,
-      "score": "5",
-      "bert_score_f1": 0.9999997019767761,
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -5767,7 +5763,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.822125792008592,
-      "score": "0",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -5788,7 +5783,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.171931749995565,
-      "score": "4",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -5809,7 +5803,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.728067624993855,
-      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -5830,7 +5823,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.77342754098936,
-      "score": "3",
       "bert_score_f1": 1.000000238418579,
       "f1_score": [
         1.0,
@@ -5851,8 +5843,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.839815125014866,
-      "score": "5",
-      "bert_score_f1": 1.000000238418579,
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -5872,8 +5863,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.7384647079743445,
-      "score": "5",
-      "bert_score_f1": 0.9999999403953552,
+      "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
         1.0,
@@ -5893,7 +5883,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.765855332982028,
-      "score": "3",
       "bert_score_f1": 0.9999995231628418,
       "f1_score": [
         1.0,
@@ -5914,7 +5903,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 5.725337042007595,
-      "score": "5",
       "bert_score_f1": 0.9999998211860657,
       "f1_score": [
         1.0,
@@ -5935,7 +5923,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.140392458008137,
-      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -5956,7 +5943,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.469269791996339,
-      "score": "0",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -5977,7 +5963,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 7.805777375004254,
-      "score": "0",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -5998,8 +5983,7 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 7.001843374979217,
-      "score": "0",
-      "bert_score_f1": 0.9999997019767761,
+      "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
         1.0,
@@ -6019,7 +6003,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.545078374998411,
-      "score": "5",
       "bert_score_f1": 0.9999998807907104,
       "f1_score": [
         1.0,
@@ -6040,7 +6023,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.9090685000119265,
-      "score": "5",
       "bert_score_f1": 1.0000004768371582,
       "f1_score": [
         1.0,
@@ -6061,7 +6043,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 7.269367250002688,
-      "score": "5",
       "bert_score_f1": 1.0,
       "f1_score": [
         1.0,
@@ -6082,7 +6063,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 6.935395834007068,
-      "score": "5",
       "bert_score_f1": 0.9999997615814209,
       "f1_score": [
         1.0,
@@ -6103,7 +6083,6 @@
         "global_llm": 1.1721226470035617
       },
       "overall_latency": 7.98994962501456,
-      "score": "5",
       "bert_score_f1": 0.9999997019767761,
       "f1_score": [
         1.0,
@@ -6124,7 +6103,6 @@
         "global_llm": 1.1676182240044
       },
       "overall_latency": 8.827328167011729,
-      "score": "4",
       "bert_score_f1": 0.8135570883750916,
       "f1_score": [
         0.17647058823529413,
@@ -6145,7 +6123,6 @@
         "global_llm": 1.1676182240044
       },
       "overall_latency": 5.875169792008819,
-      "score": "5",
       "bert_score_f1": 0.9999997019767761,
       "f1_score": [
         1.0,
@@ -6166,7 +6143,6 @@
         "global_llm": 1.1676182240044
       },
       "overall_latency": 5.71969754100428,
-      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -6187,7 +6163,6 @@
         "global_llm": 0.6772687869961374
       },
       "overall_latency": 6.557055916986428,
-      "score": "5",
       "bert_score_f1": 0.7757779359817505,
       "f1_score": [
         0,
@@ -6208,7 +6183,6 @@
         "global_llm": 0.6772687869961374
       },
       "overall_latency": 6.250923917017644,
-      "score": "0",
       "bert_score_f1": 0.9999998211860657,
       "f1_score": [
         1.0,
@@ -6229,7 +6203,6 @@
         "global_llm": 0.6772687869961374
       },
       "overall_latency": 5.952162917004898,
-      "score": "5",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -6250,7 +6223,6 @@
         "global_llm": 0.6772687869961374
       },
       "overall_latency": 6.118021832982777,
-      "score": "5",
       "bert_score_f1": 0.9999999403953552,
       "f1_score": [
         1.0,
@@ -6271,7 +6243,6 @@
         "global_llm": 0.6772687869961374
       },
       "overall_latency": 6.006471291009802,
-      "score": "0",
       "bert_score_f1": 1.0000001192092896,
       "f1_score": [
         1.0,
@@ -6292,7 +6263,6 @@
         "global_llm": 0.7940401009982452
       },
       "overall_latency": 6.84543924999889,
-      "score": "5",
       "bert_score_f1": 0.7770516276359558,
       "f1_score": [
         0,

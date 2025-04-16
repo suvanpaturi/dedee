@@ -14,6 +14,7 @@ inference_manager = InferenceManager()
 
 class Query(BaseModel):
     query: str
+    model: str
 
 class QueryResponse(BaseModel):
     query: str
@@ -39,7 +40,7 @@ async def handle_query(input: Query):
             return {"query": input.query, "response": inference_response, "latency": global_times}
         '''
         global_times["retrieval_table"]["end_time"] = time.perf_counter()
-        inference_response, method = await inference_manager.run(input.query)
+        inference_response, method = await inference_manager.run(input)
         print("inference_response", inference_response)
         return {"query": input.query, "response": inference_response, "method": method, "latency": global_times}
     except Exception as e:

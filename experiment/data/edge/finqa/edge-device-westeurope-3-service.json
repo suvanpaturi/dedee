@@ -1,0 +1,2082 @@
+[
+    {
+        "query": "What does Item 8 of the report include regarding Legal proceedings?",
+        "response": "Item 8 of the report includes the Notes to Consolidated Financial Statements where Note 19 provides information about Legal proceedings.",
+        "source": "finqa"
+    },
+    {
+        "query": "How can members of a loyalty program earn and redeem miles?",
+        "response": "Members can earn miles through services offered by various partner airlines and companies, and redeem them for flights, upgrades, charitable donations, and other benefits.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did Restructuring and other transformation costs amount to in 2023?",
+        "response": "$175.2 million",
+        "source": "finqa"
+    },
+    {
+        "query": "In which form is the Financial Statement Schedule of IBM's 2023 report found?",
+        "response": "Form 10-K",
+        "source": "finqa"
+    },
+    {
+        "query": "'What was the impact of Tax effects on lululemon Studio charges in 2021'?",
+        "response": "The tax effects on lululemon Studio charges resulted in a decrease of 28,171.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the primary function of Magic: The Gathering Arena?",
+        "response": "Magic: The Gathering Arena is a free-to-play online adaptation of the Magic: The Gathering card game, allowing players to explore fantasy worlds, collect cards, and compete in various game formats and tournaments.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the total net acres managed by Chevron affiliates as mentioned in the table for acreage distribution?",
+        "response": "338 thousand acres",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the magnitude of the increase in net cash used in financing activities from 2022 to 2023, and what caused it?",
+        "response": "Net cash used in financing activities increased by $5,287 million from the year ended December 31, 2022 to $5,951 million for the year ended December 31, 2023, mainly due to the repurchases of common stock for $6,045 million, partially offset by the absence of debt maturities.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the net increase in cash and cash equivalents for UnitedHealthcare in 2023 compared to 2022?",
+        "response": "$72 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the projected amortization expense for intangible assets for fiscal year 2023?",
+        "response": "$1.1 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What is ciltacabtagene autoleucel used for?",
+        "response": "Treatment for relapsed and refractory multiple myeloma with 1-3 PL.",
+        "source": "finqa"
+    },
+    {
+        "query": "What specialized services does Equifax's Workforce Solutions segment offer?",
+        "response": "Equifax's Workforce Solutions segment offers services enabling customers to verify various personal information such as income, employment, educational history, and criminal justice data, along with other employer services such as unemployment claims management, I-9 and onboarding services, and more.",
+        "source": "finqa"
+    },
+    {
+        "query": "How has Google Search evolved since its inception?",
+        "response": "Google Search has evolved from a basic web page search tool into a dynamic, multimodal experience, expanding into mobile web search, introducing Universal Search, and new search modalities like voice and visual search.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of FedEx Corporation's consolidated revenues did jet fuel costs represent in 2023?",
+        "response": "5.0%",
+        "source": "finqa"
+    },
+    {
+        "query": "What change occurred in the calculation of Family metrics beginning in the fourth quarter of 2023?",
+        "response": "Beginning in the fourth quarter of 2023, Family metrics no longer include Messenger Kids users.",
+        "source": "finqa"
+    },
+    {
+        "query": "What results did the company's 2023 goodwill impairment test show for the Health Care Delivery reporting unit's goodwill?",
+        "response": "The 2023 goodwill impairment test results indicated that there was no impairment of the Health Care Delivery reporting unit's goodwill, with the unit's fair value slightly exceeding its carrying value by about 9%.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are Hilton's environmental impact 2030 Goals in terms of reductions?",
+        "response": "To reduce carbon emissions intensity by 75% for managed hotels and 56% for franchised hotels, and to decrease water and waste intensity at operated hotels by 50%.",
+        "source": "finqa"
+    },
+    {
+        "query": "What primary materials are used by CTB for manufacturing its products?",
+        "response": "CTB manufactures its products primarily from galvanized steel, steel wire, stainless steel, and polymer materials.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total net charge-offs as a percentage of average loans and leases outstanding in the first quarter of 2023?",
+        "response": "0.25%",
+        "source": "finqa"
+    },
+    {
+        "query": "Describe the primary retail objective of Starbucks.",
+        "response": "Starbucks aims to be the leading retailer and brand of coffee and tea in each target market by offering high-quality products, complementary food, and a unique customer experience.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors influence the alignment of employee compensation in the company?",
+        "response": "Employee compensation is influenced by position, skill level, experience, and geographic location.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage decline in railroad operating revenues for BNSF in 2023 compared to 2022?",
+        "response": "The railroad operating revenues for BNSF declined by 6.9% in 2023 compared to 2022.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the increase in property, plant, and equipment net value from 2022 to 2023 for the consolidated group?",
+        "response": "An increase from $12,028 million to $12,680 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the increase in the International Operating Margin in fiscal 2023?",
+        "response": "The increase in the International Operating Margin in fiscal 2023 was primarily due to sales leverage and lapping amortization expenses of acquisition-related intangible assets that are now fully amortized.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many preferred shares was the company authorized to issue as of January 28, 2023, and how many were actually issued?",
+        "response": "The company was authorized to issue 10,000,000 preferred shares at a par value of $0.01 each, but no preferred shares were issued as of January 28, 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are some of the items excluded from the guidance for adjusted EBIT according to the company's financial reporting?",
+        "response": "The guidance for adjusted EBIT excludes significant special items such as gains and losses on pension and OPEB remeasurements and on investments in equity securities.",
+        "source": "finqa"
+    },
+    {
+        "query": "By what amount did Moody\u2019s Investors Service upgrade AbbVie\u2019s senior unsecured long-term credit rating in 2023?",
+        "response": "From Baa1 to A3",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the reason for the increase in the contribution from merchandise cost to the gross profit margin in the fiscal year 2022?",
+        "response": "The contribution from merchandise cost to the gross profit margin in the fiscal year 2022 increased due to a higher initial mark-on, which was partially offset by higher freight costs and increased sales of lower margin consumable merchandise in the Family Dollar segment.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the key factors HP considers when making adjustments to inventory valuation?",
+        "response": "HP factors in future demand, market conditions, technology changes, supply constraints, product life cycle and development plans, component cost trends, product pricing, physical deterioration, and quality issues when making adjustments to inventory valuation.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the termination date for AT&T's $12,000 revolving credit agreement?",
+        "response": "November 18, 2028",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the limits set by the Riegle-Neal Act for a BHC acquiring banks located out of its home state?",
+        "response": "The BHC cannot control more than 10% of the total deposits of insured depository institutions in the U.S. or more than 30% or the limit set by state law of the deposits in that state.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the fixed interest rate for the November 2029 fixed-to-floating rate Senior Notes before the reset date?",
+        "response": "6.196%",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the pre-tax cash consideration agreed upon for the sale of all H3C shares held by the company's subsidiaries to UNIS?",
+        "response": "$3.5 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "Where can information about the key ESG programs, goals, commitments, and metrics be found?",
+        "response": "Information about the key ESG programs, goals, commitments, and metrics can be found in the annual Stakeholder Impact Report.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the geographical focus of the General Re Group\u2019s life and health reinsurance business for net premiums written in 2023?",
+        "response": "In 2023, net premiums written for the General Re Group\u2019s life and health reinsurance business were primarily in the Asia-Pacific, U.S., and Western Europe regions.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does eBay's Money Back Guarantee enhance buyer trust and confidence?",
+        "response": "eBay's Money Back Guarantee enhances buyer trust and confidence by ensuring that buyers receive a refund if the item is not delivered, is faulty or damaged, or does not match the listing.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the effect of a 100 basis point decrease in the long-term rate of return on annual net periodic pension benefit expense?",
+        "response": "A 100 basis point decrease in the long-term rate of return on pension assets would increase annual net periodic pension benefit expense by approximately $7 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the total unrecognized tax benefit at the end of 2023?",
+        "response": "The total unrecognized tax benefit at the end of 2023 is $16.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total net revenue for North America in fiscal 2023?",
+        "response": "The total net revenue for North America in fiscal 2023 was $26,569.6 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "How is product warranty liability estimated by the company?",
+        "response": "The company estimates product warranty liability by applying historical claim rate experience to the current field population and dealer inventory.",
+        "source": "finqa"
+    },
+    {
+        "query": "Why does Hewlett Packard Enterprise exclude stock-based compensation expense from its non-GAAP financial measures?",
+        "response": "Hewlett Packard Enterprise excludes stock-based compensation expense from its non-GAAP financial measures primarily because they are non-cash expenses. Additionally, internal benchmarking analyses show that many industry participants and peers also present non-GAAP financial measures excluding stock-based compensation expense.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is discussed under ITEM 3 in a typical financial document?",
+        "response": "Legal proceedings are discussed under ITEM 3.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many shares were repurchased in 2023 and at what average price?",
+        "response": "1,341,000 shares were repurchased in 2023 at an average price of $504.68.",
+        "source": "finqa"
+    },
+    {
+        "query": "How is the Company Adjusted EBIT Margin calculated?",
+        "response": "Company Adjusted EBIT Margin is calculated by dividing Company adjusted EBIT by Company revenue.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does AMC ensure that diversity and inclusion efforts are supported at the executive level?",
+        "response": "AMC appoints officers to serve as Executive Sponsors, ensuring that diversity and inclusion efforts are championed at the highest levels of the company.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of Etsy marketplace GMS was processed through Etsy Payments in 2023?",
+        "response": "94%",
+        "source": "finqa"
+    },
+    {
+        "query": "How does Peloton manage diversity, equity, and inclusion within its organization?",
+        "response": "Peloton fosters a culture of inclusion by creating safe environments for team members and has commitments such as the Peloton Pledge to combat systemic racial inequities.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total cash flow from operating activities for UnitedHealth Group in 2023?",
+        "response": "$29,068 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage change in constant currency revenues for APAC from 2022 to 2023?",
+        "response": "13%",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the increase in the effective tax rate according to the text?",
+        "response": "The increase in the effective tax rate was due to the accrual of U.S. state tax and Canadian withholding taxes on unremitted earnings which are not considered to be permanently reinvested, adjustments upon filing of certain income tax returns, a decrease in deductions for stock-based compensation, and partially offset by a decrease in non-deductible expenses in international jurisdictions.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total gross notional amount and fair value of forward contracts to purchase and to sell as designated cash flow hedges as of March 31, 2023?",
+        "response": "The total gross notional amount for forward contracts to purchase was $371 million with a fair value of $2 million, and for forward contracts to sell, it was $2,255 million with a fair value of $23 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "What recent regulatory changes have impacted the company's operations?",
+        "response": "During the third quarter of fiscal year 2023, the U.S. government announced new license requirements that impact certain exports to China, including Hong Kong and Macau, and Russia of some of the company's data center products.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the primary sources of revenue for Salesforce, Inc. as described in their consolidated financial statements?",
+        "response": "Subscription and support services and professional services contracts",
+        "source": "finqa"
+    },
+    {
+        "query": "What types of alternative work styles does the company offer to its associates?",
+        "response": "The company offers alternative work styles including home, hybrid home, office, hybrid office, and field options, allowing for flexibility according to associates' needs and job requirements.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the potential consequences of the Russia-Ukraine conflict on a company's business?",
+        "response": "The Russia-Ukraine conflict can lead to government interventions related to the energy crisis, potentially impacting a company's business negatively.",
+        "source": "finqa"
+    },
+    {
+        "query": "What type of information is included under the caption \"Legal Proceedings\" in an Annual Report on Form 10-K?",
+        "response": "Information about commitments and contingencies related to legal proceedings is included under the caption \"Legal Proceedings\" in an Annual Report on Form 10-K.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total cash flow from operating activities in 2023 as stated in the summary?",
+        "response": "The total cash flow from operating activities in 2023 was 2,296,164.",
+        "source": "finqa"
+    },
+    {
+        "query": "What financial impacts did the Company report as a result of its Restructuring Plan for the fiscal years ended June 30, 2023 and 2022?",
+        "response": "The Company reported total charges of $332.4 million in 2023 and $611.3 million in 2022 as a result of its Restructuring Plan. This included various cash and non-cash charges such as severance and other personnel costs, exit and disposal costs, professional fees, asset write-downs and write-offs, stock-based compensation expense, and inventory write-offs related to restructuring activities.",
+        "source": "finqa"
+    },
+    {
+        "query": "What financial measures are excluded from Iron Mountain's calculation of Adjusted EBITDA?",
+        "response": "Iron Mountain's calculation of Adjusted EBITDA excludes interest expense, net and provision (benefit) for income taxes, as well as depreciation and amortization expenses.",
+        "source": "finqa"
+    },
+    {
+        "query": "Who is the Chief Financial Officer and since when?",
+        "response": "Richard A. Galanti is the Executive Vice President and Chief Financial Officer, and he has been in this role since 1993.",
+        "source": "finqa"
+    },
+    {
+        "query": "What does the Adjusted Effective Tax Rate measure exclude?",
+        "response": "The Adjusted Effective Tax Rate measure excludes pre-tax special items and tax special items, providing an ongoing rate useful for historical comparisons and forecasting.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the incidence-based concentrate pricing model used by the company?",
+        "response": "The incidence-based concentrate pricing model used by the company adjusts the concentrate price based on factors including bottler pricing, the channels in which the finished products are sold, and the package mix.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the amount of water consumed per square meter at Hilton's properties in 2023?",
+        "response": "0.536 cubic meters",
+        "source": "finqa"
+    },
+    {
+        "query": "Under what circumstances might the period related to the fair value of a hedge contract exceed two months?",
+        "response": "The period might exceed two months in rare circumstances due to extenuating circumstances related to the nature of the forecasted transaction that are outside the control or influence of the entity.",
+        "source": "finqa"
+    },
+    {
+        "query": "By what percentage did the sales of Ubrelvy in the United States increase from 2021 to 2023?",
+        "response": "18.2%",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of global employees at the Company participated in the Our Credo Survey in 2023?",
+        "response": "94%",
+        "source": "finqa"
+    },
+    {
+        "query": "What drove the increase in SM&A expenses in 2023?",
+        "response": "The SM&A expenses in 2023 increased primarily due to higher corporate expenses and a 12.2% rise in advertising expenses in North America.",
+        "source": "finqa"
+    },
+    {
+        "query": "What drives the growth of storage rental revenue in Iron Mountain\u2019s Global RIM Business segment?",
+        "response": "The growth of storage rental revenue in Iron Mountain\u2019s Global RIM Business segment is primarily driven by revenue management and is expected to remain relatively stable in volume in the near term.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the income before income taxes in fiscal year 2023?",
+        "response": "$17,016 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the benefits of Tesla's Supercharger network to electric vehicle owners?",
+        "response": "Tesla's Supercharger network provides quick, reliable charging along well-traveled routes and dense city centers, offering convenient stops for vehicle owners.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the main method used by Hilton to recognize revenue from Hilton Honors point redemptions at owned and leased hotels?",
+        "response": "Hilton recognizes room revenue from Hilton Honors point redemptions at owned and leased hotels, which is included in owned and leased hotels revenues in their consolidated statement of operations.",
+        "source": "finqa"
+    },
+    {
+        "query": "How do the majority of marketers use the company's advertising platform?",
+        "response": "The majority of the company's marketers use a self-service ad platform to launch and manage their advertising campaigns.",
+        "source": "finqa"
+    },
+    {
+        "query": "How is RYBREVANT (amivantamab) used in the treatment of non-small cell lung cancer?",
+        "response": "RYBREVANT is used in combination with chemotherapy for the first-line treatment of adult patients with advanced non-small cell lung cancer that features activating EGFR exon 20 insertion mutations.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total amount of U.S. federal pre-tax net operating loss carryforwards Delta Air Lines had as of December 31, 2023?",
+        "response": "Approximately $4.5 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the Coca-Cola Company approach sustainability matters?",
+        "response": "The Coca-Cola Company acknowledges its role in sustainability by developing and implementing solutions that build resilience across its business, reporting progress in areas such as circular economy of packaging, water stewardship, climate, and more.",
+        "source": "finqa"
+    },
+    {
+        "query": "What events potentially trigger benefits under Mark W. Begor's change in control agreement and the CIC Plan?",
+        "response": "Benefits under Mark W. Begor's change in control agreement and the CIC Plan may be triggered by events such as someone acquiring 20% or more of the company's voting stock, a merger or other business combination where shareholders receive less than two-thirds of the common stock and combined voting power of the new company, the current Board of Directors ceasing to constitute a majority, the sale or disposal of all or substantially all company assets, or the company's liquidation or dissolution.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the year-over-year change in amortization of intangible assets costs from 2022 to 2023?",
+        "response": "The amortization of intangible assets decreased by $3,742 from 2022 to 2023, representing a 42.8 percent decrease.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of the company's workforce holds advanced degrees?",
+        "response": "About 50% of the company's workforce hold advanced degrees.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the increase in revenue in 2023?",
+        "response": "The increase in revenue in 2023 was driven by increased volume and higher realized prices, primarily from sales of Mounjaro\u00ae, Verzenio\u00ae, Jardiance\u00ae, sales of the rights for the olanzapine portfolio, including Zyprexa\u00ae, and Baqsimi\u00ae, partially offset by the absence of revenue from COVID-19 antibodies and lower sales of Alimta\u00ae after generics entered the market in the first half of 2022.",
+        "source": "finqa"
+    },
+    {
+        "query": "When did Janssen Pharmaceuticals, Inc. file litigation against the U.S. Department of Health and Human Services and the Centers for Medicare and Medicaid Services?",
+        "response": "July 2023",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did sales of STELARA amount to in the United States during fiscal 2023?",
+        "response": "approximately $7.0 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What was Kroger's foundational business and what additional facilities does it include?",
+        "response": "Kroger's foundational business is its food retail business, which includes additional facilities like retail pharmacies and fuel centers.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did the company's organizational structure change in terms of segment reporting in the fourth quarter of 2023?",
+        "response": "In the fourth quarter of 2023, the company revised its segment reporting structure to focus on regional markets instead of selling channels. They organized operations into four regional markets: Americas, China Mainland, APAC, and EMEA, and they report three segments: Americas, China Mainland, and Rest of World.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is TECVAYLI used for?",
+        "response": "Treatment of patients with relapsed refractory multiple myeloma with biweekly dosing.",
+        "source": "finqa"
+    },
+    {
+        "query": "When did Shelley L. Reynolds begin serving as Vice President, Worldwide Controller and Principal Accounting Officer?",
+        "response": "April 2007",
+        "source": "finqa"
+    },
+    {
+        "query": "What awards did the company receive in 2022 for environmental and safety achievements?",
+        "response": "EPA WaterSense Partner of the Year, EPA SmartWay High Performer, EPA Safer Choice Partner of the Year, EPA ENERGY STAR Partner of the Year",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the revenue increase percentage for Neuroscience products in 2023 compared to the previous year?",
+        "response": "3.6%",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the characteristics of the agreements referred to as \"participating bottler CBAs\"?",
+        "response": "Participating bottler CBAs have a term of 10 years and are renewable indefinitely for additional successive terms of 10 years each. They are substantially similar to EPB CBAs but differ in certain core performance requirements.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are some of the key elements that management considers when making critical accounting estimates for Garmin?",
+        "response": "Management considers historical experience and various other assumptions judged to be reasonable under the circumstances.",
+        "source": "finqa"
+    },
+    {
+        "query": "How is 'Litigation and Contingencies' information incorporated into ITEM 3?",
+        "response": "'Litigation and Contingencies' information is incorporated into ITEM 3 by referencing Note 14 in the Consolidated Financial Statements, which is included in ITEM 8.",
+        "source": "finqa"
+    },
+    {
+        "query": "What drove the 22% increase in NIKE Direct revenues in fiscal 2023?",
+        "response": "The 22% increase in NIKE Direct revenues in fiscal 2023 was driven by a 23% growth in digital sales and a 28% increase in comparable store sales.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the Company's total net sales and net income during 2023?",
+        "response": "The Company's total net sales were $383.3 billion and net income was $97.0 billion during 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does Delta Air Lines allocate the sales consideration from their marketing agreements with American Express?",
+        "response": "Delta allocates the consideration to the individual products and services delivered based on estimated selling prices using a discounted cash flow analysis.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are some of the main competitive factors in the interactive entertainment industry?",
+        "response": "Key competitive factors in the interactive entertainment industry include the ability to attract creative and technical talent, game quality and ease of use, innovation, compatibility with various consoles and distribution channels, brand recognition, reputation, reliability, security, creativity, price, marketing, and quality of customer service.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of total revenue was attributed to beverage sales in the fiscal year ended October 1, 2023?",
+        "response": "60%",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the top three geographic exposures for Schwab's holdings as of the end of 2022?",
+        "response": "France at $5.1 billion, the United Kingdom at $4.8 billion, and Canada at $1.7 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total principal repayments of financing obligations for 2023?",
+        "response": "The total principal repayments of financing obligations for 2023 was $271 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "When was Alex G. Balazs appointed as the Executive Vice President and Chief Technology Officer?",
+        "response": "September 5, 2023",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the vesting schedule for stock option and RSU awards under the 2023 Plan?",
+        "response": "Stock option and RSU awards under the 2023 Plan generally vest according to a three-year graded vesting schedule. One-third of the award becomes vested on the first anniversary of the grant date, another third on the second anniversary, and the final third on the third anniversary of the grant date.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the significant benefits offered by Garmin to its employees for talent attraction and retention?",
+        "response": "Garmin offers various programs for talent attraction and retention such as stock compensation, savings plans, healthcare and insurance benefits, health saving and flexible spending accounts, paid time off, family leave, and an Employee Stock Purchase Plan.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the main aspects of GameStop's transformation in the early 2020s?",
+        "response": "The main aspects of GameStop's transformation involved rebuilding its infrastructure and strengthening its value proposition through investments in enterprise systems, technology capabilities, store leaders and associates, and product offerings.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the fair value of shares vested in 2023, 2022, and 2021?",
+        "response": "The fair value of shares vested totaled $106,243 in 2023, $105,668 in 2022, and $52,008 in 2021.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the key focus areas related to employee engagement at The Hershey Company?",
+        "response": "The Hershey Company focuses on continuous listening surveys, quarterly enterprise and team town halls, and training and resources for safety to enhance employee engagement.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the depreciation methods and useful life estimates for buildings, furniture, and computer equipment as mentioned in the company's accounting policies?",
+        "response": "The company records depreciation using the straight-line method. The estimated useful lives for depreciation are 8 to 40 years for buildings and improvements, 3 to 8 years for furniture and equipment, and 3 to 5 years for computer equipment.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did professional services expenses increase in 2023 from the previous year?",
+        "response": "Slightly, mainly due to increased utilization of professional services to support business growth.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the estimated unrecognized deferred income tax liability related to indefinitely reinvested foreign earnings as of fiscal year 2023?",
+        "response": "$206 million",
+        "source": "finqa"
+    },
+    {
+        "query": "In which part of the Annual Report on Form 10-K are the legal proceedings described?",
+        "response": "Legal proceedings are described in Part II, Item 8 of the Annual Report on Form 10-K.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage growth did LinkedIn revenue experience?",
+        "response": "LinkedIn revenue grew by 10%.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the increase in gross margin in 2023?",
+        "response": "The increase was primarily due to the benefit recognized from tax credits under the AMPTC, an increase in ASP driven by a favorable product mix, and cost management improvements including lower shipping costs.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much federal net operating loss carryforwards did the company have at the end of 2023, and how much of it is expected to be realized?",
+        "response": "The company had federal net operating loss carryforwards of $109.6 million at the end of 2023, of which $88.7 million is expected to be realized.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the allowance for loan and lease losses at Bank of America as of December 31, 2022?",
+        "response": "$12,682 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How often does Chevron conduct employee surveys to assess the health of its culture?",
+        "response": "Chevron regularly conducts employee surveys throughout the year to assess the health of its culture.",
+        "source": "finqa"
+    },
+    {
+        "query": "Until when are the transitional arrangements for Basel III frameworks in the EU and U.K. applicable?",
+        "response": "The transitional arrangements are applicable until 2030 in the EU and 2032 in the U.K.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did the valuation allowance related to certain deferred tax assets change from fiscal year 2022 to 2023?",
+        "response": "The valuation allowance increased by $573 million from fiscal year 2022 to 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the components referred to in Item 8 of financial documents?",
+        "response": "Item 8 of financial documents refers to Financial Statements and Supplementary Data.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the title of Item 8 which contains page information in a financial document?",
+        "response": "Financial Statements and Supplementary Data",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company manage currency rate exposure according to the text?",
+        "response": "The company manages currency rate exposure primarily using forward contracts and currency swaps.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of risk-weighted assets did the TLAC (Total Loss-Absorbing Capacity) represent at Bank of America as of December 31, 2023?",
+        "response": "29.0%",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the expected rate of return on plan assets for Delta Air Lines' pension plans in the year ended December 31, 2023?",
+        "response": "7.00%",
+        "source": "finqa"
+    },
+    {
+        "query": "How does Eli Lilly and Company contribute to its long-term success?",
+        "response": "Eli Lilly and Company's long-term success depends on its ability to continually discover or acquire, develop, and commercialize innovative medicines.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much of the lease obligations is payable within 12 months as of December 31, 2023?",
+        "response": "$136 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How many countries were included in HP's annual pay equity assessment in fiscal year 2023?",
+        "response": "17",
+        "source": "finqa"
+    },
+    {
+        "query": "What role did Daniel J. Bartlett hold before becoming Executive Vice President, Corporate Affairs at Walmart in June 2013?",
+        "response": "Chief Executive Officer and President of U.S. Operations at Hill & Knowlton, Inc.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the key risks and uncertainties mentioned that could impact the validity of DaVita's forward-looking statements?",
+        "response": "The risks and uncertainties that could impact the validity of DaVita's forward-looking statements include macroeconomic conditions, changes in marketplace dynamics, labor market conditions, evolving monetary policies, impact of the COVID-19 pandemic, legislative and regulatory changes, and competition in the dialysis industry.",
+        "source": "finqa"
+    },
+    {
+        "query": "What major transformation goals is GameStop focusing on?",
+        "response": "GameStop is focusing on establishing omnichannel retail excellence and achieving profitability while leveraging its brand to support growth and create long-term value for its shareholders.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the company's environmental sustainability strategies?",
+        "response": "The company's strategies include using renewable electricity, reducing virgin petroleum-based plastic in packaging, increasing the recyclability or reusability of packaging, responsible sourcing of key forest-based commodities, improving water usage efficiency in operations, and driving a global portfolio of water restoration projects to address water scarcity.",
+        "source": "finqa"
+    },
+    {
+        "query": "How are IBM\u2019s 2023 Annual Report to Stockholders' financial statements made a part of Form 10-K?",
+        "response": "They are incorporated by reference.",
+        "source": "finqa"
+    },
+    {
+        "query": "By what percentage did lululemon's net revenue grow in China Mainland between 2022 and 2023?",
+        "response": "Lululemon's net revenue in China Mainland grew by 67.2% between 2022 and 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did the number of Fiber Broadband Connections change from 2021 to 2023?",
+        "response": "Fiber Broadband Connections increased from 5,992 in 2021 to 8,307 in 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "On what date was the report on the Consolidated Financial Statements issued?",
+        "response": "February 16, 2024",
+        "source": "finqa"
+    },
+    {
+        "query": "In which section of the financial documents can information about legal proceedings be found?",
+        "response": "Information about legal proceedings can be found under the captions 'Legal Matters' and 'Government Investigations, Audits and Reviews' in Note 12 of the Notes to the Consolidated Financial Statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "How do public health outbreaks like the COVID-19 pandemic impact the distribution and manufacturing of medicines?",
+        "response": "Public health outbreaks, epidemics, or pandemics like the COVID-19 pandemic can cause delays or disruptions in distribution, increase costs related to distributions and procurement, and impact the construction or acquisition of manufacturing capacity.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the total future minimum lease payments for Comcast's operating leases as of December 31, 2023?",
+        "response": "$10,351 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the PCAOB ID number of PricewaterhouseCoopers LLP as mentioned in Item 8?",
+        "response": "The PCAOB ID number of PricewaterhouseCoopers LLP is 238.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did net cash provided by operating activities increase in 2022 compared to 2021?",
+        "response": "Net cash provided by operating activities increased by $183.3 million in 2022 compared to 2021.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did Japan net sales decrease in 2023 compared to 2022?",
+        "response": "$1.7 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What accounting guidance did the company adopt in fiscal 2022 and what was its impact on the consolidated financial statements?",
+        "response": "The company adopted SAB 121 during fiscal 2022, which had no impact on the consolidated financial statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage increase in the consumer credit payments volume for Visa Inc. from 2021 to 2022?",
+        "response": "25%",
+        "source": "finqa"
+    },
+    {
+        "query": "Where can you find more detailed information about legal proceedings mentioned in Item 3?",
+        "response": "Note 11, 'Commitments and Contingencies'",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the maturity dates for the 2031 Notes and the 2051 Notes mentioned in terms of potential redemption?",
+        "response": "The maturity dates are September 1, 2031, for the 2031 Notes, and June 1, 2051, for the 2051 Notes.",
+        "source": "finqa"
+    },
+    {
+        "query": "What strategies does the company adopt to maintain a leadership position in the exhibition industry?",
+        "response": "The company's strategies include unique marketing outreach, digital technology integration, innovative theatre amenities, selective market expansion, and strategic theatre closures, along with exploring acquisitions to extend the AMC brand.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total net deferred tax assets as of March 31, 2023, after accounting for valuation allowance and deferred tax liabilities?",
+        "response": "$2,461 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What consequences could arise from engaging in prohibited activities under state fraud and abuse laws?",
+        "response": "Violations could result in criminal, civil, or administrative sanctions, loss of licensure, exclusion from Medicaid and other healthcare programs, and materially adverse impacts on a business's operations and financial condition.",
+        "source": "finqa"
+    },
+    {
+        "query": "What methods does the company use to estimate the costs of product liability, property, and vehicle insurance risks?",
+        "response": "The company uses methods involving analyses of historical trends and actuarial methods to estimate the costs of product liability, property, and vehicle insurance risks.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factor is used to capitalize operating leases in the calculation of pre-tax invested capital, and how is rent treated in this calculation for fiscal year 2023?",
+        "response": "Rent is multiplied by a factor of six to capitalize operating leases in the determination of pre-tax invested capital. In 2023, this resulted in an addition of $2,438,388 to the calculated pre-tax invested capital.",
+        "source": "finqa"
+    },
+    {
+        "query": "What documentation is filed as part of the report according to Item 8?",
+        "response": "The Report of Independent Registered Public Accounting Firm, the Financial Statements, the accompanying Notes to the Financial Statements, and the Financial Statement Schedule",
+        "source": "finqa"
+    },
+    {
+        "query": "What community and social impact initiatives does The Hershey Company engage in?",
+        "response": "The Hershey Company participates in philanthropy and volunteerism, partnering with local organizations to address community needs and supports employee-led fundraising and volunteer activities.",
+        "source": "finqa"
+    },
+    {
+        "query": "What types of overnight package delivery services does FedEx Express offer in the U.S.?",
+        "response": "FedEx Express offers three types of U.S. domestic overnight package delivery services: FedEx First Overnight, FedEx Priority Overnight, and FedEx Standard Overnight.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the net change in short-term payments or borrowings in 2023 compared to 2022?",
+        "response": "The net change was an increase of $613.4 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "What criterion must companies meet to join the Billion Dollar Roundtable Inc.?",
+        "response": "spend $1.0 billion or more annually with minority- and woman-owned suppliers",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the evolution of the online world impact Alphabet's business?",
+        "response": "The evolution of the online world has positively impacted Alphabet's business by contributing to the growth of its revenues, although growth has slowed post-COVID-19 pandemic.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many votes is each share of Class B common stock entitled to?",
+        "response": "15 votes",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of Microsoft's global workforce does the expanded pay equity data cover in the most recent report?",
+        "response": "The expanded pay equity data in the most recent report covers 99.8% of Microsoft's global workforce.",
+        "source": "finqa"
+    },
+    {
+        "query": "What amount did AMC Entertainment Holdings, Inc. list in long-lived assets impairment charges for U.S. theatres in the year 2023?",
+        "response": "$49.2 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the main purpose of the market price risk management policy described?",
+        "response": "The primary purpose of the market price risk management policy is to quantify, evaluate, and mitigate market-based risks through strategies like hedging transactions.",
+        "source": "finqa"
+    },
+    {
+        "query": "What fraction of Salesforce employees feel a sense of pride in their work?",
+        "response": "Based on the most recent survey, 90 percent of responding employees at Salesforce indicated that they feel a sense of pride working at the company.",
+        "source": "finqa"
+    },
+    {
+        "query": "Why are the outcomes of various legal proceedings and claims inherently uncertain?",
+        "response": "The outcomes are inherently uncertain because they arise in the ordinary course of business and involve various legal proceedings and claims.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many Class A common stock shares were issued as a result of warrant exercises during the year ended December 31, 2023?",
+        "response": "5.6 million shares of Class A common stock were issued as a result of warrant exercises.",
+        "source": "finqa"
+    },
+    {
+        "query": "What actions have governments in Asia taken regarding domestic payments systems?",
+        "response": "Governments in countries like China, India, Indonesia, Thailand, and Vietnam promote domestic payments systems and certain issuers by imposing regulations that favor domestic providers, impose local ownership requirements on processors, require data localization, or mandate that domestic processing be done within the country.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total gross fair value of derivatives as of December 2023 before netting adjustments in the consolidated financial statements?",
+        "response": "$422,232 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How does Procter & Gamble assess its market share according to the management's discussion and analysis?",
+        "response": "Procter & Gamble assesses its market share through a combination of vendor-purchased traditional brick-and-mortar and online data in key markets, along with internal estimates. They measure quarter and fiscal year-to-date market shares.",
+        "source": "finqa"
+    },
+    {
+        "query": "What legal restrictions might apply to a pharmacy benefit manager's (PBM) practices regarding drug reimbursement and pricing?",
+        "response": "PBMs are regulated at both federal and state levels, with laws like the False Claims Act and Anti-Kickback Statutes governing their activities. Additionally, state laws may govern the disclosure, receipt, and retention of rebates, changes to drug formularies, pricing practices including MAC and AWP, and other critical operations. These laws could significantly impact the ability of PBMs to set pricing, reimbursement rates, and potentially face penalties if not compliant.",
+        "source": "finqa"
+    },
+    {
+        "query": "Which Item provides detailed information on Legal Proceedings according to the given context?",
+        "response": "Part II, Item 8, \u201cFinancial Statements and Supplementary Data\u2014Note 14\u2014Commitments and Contingencies\u2014Legal Proceedings\u201d",
+        "source": "finqa"
+    },
+    {
+        "query": "How many stores does GameStop have as of January 28, 2023?",
+        "response": "As of January 28, 2023, GameStop had a total of 4,413 stores across all of its segments.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the impact of new competitors on Walmart International?",
+        "response": "New, well-funded competitors entering the market intensify competition for Walmart International, especially as some competitors have longer histories, more customers, and greater brand recognition. These competitors may also secure more favorable terms from suppliers and devote more resources to business development.",
+        "source": "finqa"
+    },
+    {
+        "query": "What features will the development from the Second Development Agreement contain?",
+        "response": "The development will include a hotel tower with luxury rooms and suites, a rooftop attraction, convention and meeting facilities, and a live entertainment arena with approximately 15,000 seats.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of the company's full-year revenues were earned in the second half of 2023?",
+        "response": "In 2023, approximately 56% of the company's full-year revenues were earned in the second half of the year.",
+        "source": "finqa"
+    },
+    {
+        "query": "Where can the company's reports filed with the SEC be accessed?",
+        "response": "The company's reports filed with the SEC can be accessed on their Investor Relations website or on the SEC's website.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the main goal of Gilead Sciences, Inc.?",
+        "response": "The main goal of Gilead Sciences, Inc. is to create a healthier world for all people by advancing innovative medicines to prevent and treat life-threatening diseases.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the significant inputs to the valuation of Goldman Sachs' unsecured short- and long-term borrowings?",
+        "response": "The significant inputs to the valuation of Goldman Sachs' unsecured short- and long-term borrowings include the amount and timing of expected future cash flows, interest rates, the credit spreads of the firm, and commodity prices for prepaid commodity transactions.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage increase in research and development expenses from 2022 to 2023?",
+        "response": "15%",
+        "source": "finqa"
+    },
+    {
+        "query": "What challenges do solar and battery storage providers face in some U.S. states and jurisdictions?",
+        "response": "Regulatory challenges to sales of electricity and non-sale equipment leases such as leases and PPAs",
+        "source": "finqa"
+    },
+    {
+        "query": "How much gross proceeds did AMC raise from its at-the-market offerings during 2023?",
+        "response": "$790.0 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the maximum net debt-to-EBITDA ratio that AT&T must maintain under its Revolving Credit Agreement?",
+        "response": "3.75-to-1",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the total number of Mobility subscribers served by the company as of December 31, 2023?",
+        "response": "242 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How many new stores did the company open in the U.S. during fiscal 2022?",
+        "response": "Two",
+        "source": "finqa"
+    },
+    {
+        "query": "How many shares of common stock were repurchased in fiscal year 2023?",
+        "response": "During the fiscal year ended October 1, 2023, 10.0 million shares of common stock were repurchased.",
+        "source": "finqa"
+    },
+    {
+        "query": "What purposes can off-balance sheet arrangements serve for a business?",
+        "response": "Off-balance sheet arrangements can serve a variety of business purposes including securitizations, underwriting client securitization transactions, providing secondary market liquidity, making investments in assets such as nonperforming debt, real estate, equity securities, and offering credit-linked and asset-repackaged notes.",
+        "source": "finqa"
+    },
+    {
+        "query": "What kind of applications now support RTX technology?",
+        "response": "Many leading 3D design and content creation applications now support RTX technology.",
+        "source": "finqa"
+    },
+    {
+        "query": "When did IBM change its name from C-T-R to its current name?",
+        "response": "IBM changed its name from C-T-R to International Business Machines Corporation in 1924.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the significance of the Company\u2019s trademarks to their businesses?",
+        "response": "The trademarks are considered to be of material importance in the operation of the Company's businesses.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much is the company required to invest in non-gaming projects by December 2032?",
+        "response": "The company is required to invest an additional 5.56 billion patacas in non-gaming investment projects by December 2032.",
+        "source": "finqa"
+    },
+    {
+        "query": "In what capacity does Jonathan J. Rubinstein currently serve at Bridgewater Associates, LP?",
+        "response": "Former co-CEO",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors are considered in estimating a reserve for future product returns?",
+        "response": "Several factors are considered in estimating a reserve for future product returns, including historical return rates, expiration dates by product, estimated levels of inventory in wholesale and retail channels, and any specifically identified anticipated returns due to factors like the loss of patent exclusivity, product recalls, and changes in the competitive environment.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did interest expenses and interest income compare in the fiscal years 2023 and 2022?",
+        "response": "Interest income in the fiscal year 2023 increased to $1.3 billion from $0.5 billion in 2022, and interest expense increased to $0.8 billion in 2023 from $0.3 billion in 2022.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the total impairment charges for the fiscal year ended June 30, 2022, and how did they affect the carrying value of the affected asset groups?",
+        "response": "The total impairment charges for the fiscal year ended June 30, 2022, were $57.6 million for Connected Fitness assets, $21.3 million for manufacturing equipment, $19.0 million for Peloton Output Park, and $15.9 million for acquired technology. These charges reduced the carrying value of these asset groups from $222.9 million to $109.1 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many fixed income securities does the Fixed Income and Data Services segment evaluate pricing for?",
+        "response": "nearly three million",
+        "source": "finqa"
+    },
+    {
+        "query": "What was a significant AI achievement by Google's DeepMind in 2020?",
+        "response": "In 2020, Google DeepMind's AlphaFold system solved a 50-year-old protein folding challenge.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the total proceeds from debt issues by the company during fiscal 2023?",
+        "response": "$4,969 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How is the fair value of stock option grants estimated?",
+        "response": "The fair value of stock option grants is estimated using the Black-Scholes option pricing model.",
+        "source": "finqa"
+    },
+    {
+        "query": "What principle governs Macao under the Basic Law after December 20, 1999?",
+        "response": "'One country, two systems' is the principle under which Macao is governed according to the Basic Law, after becoming a Special Administrative Region of China on December 20, 1999.",
+        "source": "finqa"
+    },
+    {
+        "query": "What actions does a company take if there is a change in their business projections or economic environment regarding long-lived assets?",
+        "response": "If there is a change in business projections or the economic environment, the company undertakes additional testing as needed, which could lead to an impairment of long-lived assets if the assets are found not to be recoverable.",
+        "source": "finqa"
+    },
+    {
+        "query": "What measures has Enphase Energy, Inc. taken to improve customer service in 2023?",
+        "response": "Enphase Energy, Inc. has improved features in their Service Manager, continued to provide 24/7 support globally, and expanded the network of field service technicians in the United States, Europe, and Australia to enhance customer service.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the major capabilities of Google Cloud that cater to customer needs?",
+        "response": "Google Cloud offers key capabilities such as AI-optimized infrastructure, cybersecurity, databases, analytics, collaboration tools via Google Workspace, and an AI platform with services for developing and deploying applications.",
+        "source": "finqa"
+    },
+    {
+        "query": "Why did the current portion of long-term debt increase in 2023 compared to 2022?",
+        "response": "Due to certain debt instruments becoming due within the next twelve months",
+        "source": "finqa"
+    },
+    {
+        "query": "What process is followed when impairment indicators for fixed assets are identified?",
+        "response": "Fixed assets are reviewed for impairment when indicators of impairment exist. If an indicator is present, assets and liabilities are grouped at the lowest level where cash flows are largely independent. Impairment is measured if undiscounted cash flows do not exceed the carrying value by comparing the fair value to the carrying value.",
+        "source": "finqa"
+    },
+    {
+        "query": "What speeds does the company's domestic broadband service offer on its HFC network as of 2023?",
+        "response": "The company offers downstream speeds up to 2 gigabits per second on its HFC network.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the net earnings attributable to UnitedHealth Group common shareholders in 2023?",
+        "response": "$22,381 million",
+        "source": "finqa"
+    },
+    {
+        "query": "By how much did Americas net sales decrease in 2023 compared to 2022?",
+        "response": "$7.1 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "Where can the Financial Statement Schedule related to IBM's Form 10-K be found?",
+        "response": "On page S-1",
+        "source": "finqa"
+    },
+    {
+        "query": "How much cash did Etsy, Inc. pay for interest in the year ended December 31, 2023?",
+        "response": "$9,315",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage decrease in the automotive gross margin from 2022 to 2023?",
+        "response": "The automotive gross margin decreased from 28.5% to 19.4%, which is a decrease of 9.1%.",
+        "source": "finqa"
+    },
+    {
+        "query": "What does VOBA represent in the context of business acquisitions involving long-duration contracts?",
+        "response": "VOBA represents the estimated fair value of the future profits of the in-force long duration contracts.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the main factors influencing competition for the company's products?",
+        "response": "The main factors influencing competition include efficacy, safety, tolerability, acceptance by doctors, patient compliance, ease of use, price, insurance and reimbursement coverage, distribution, and marketing.",
+        "source": "finqa"
+    },
+    {
+        "query": "When were the most recent qualitative assessments for goodwill impairment performed?",
+        "response": "The most recent qualitative assessments were performed for the years ended December 31, 2023, 2022, and 2021.",
+        "source": "finqa"
+    },
+    {
+        "query": "What elements define Ford Credit's balance sheet liquidity profile?",
+        "response": "The cumulative maturities of its finance receivables, investment in operating leases, and cash, less the cumulative debt maturities over upcoming annual periods.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does ERISA affect state and local laws related to employee benefit plans?",
+        "response": "ERISA generally preempts most state and local laws that relate to employee benefit plans, although the extent of the preemption is subject to court review.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total cash and cash equivalents at Bank of America on December 31, after recording all annual transactions?",
+        "response": "$230,203",
+        "source": "finqa"
+    },
+    {
+        "query": "In 2023, what was the total amount of vendor financing payments?",
+        "response": "$5,742 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What specific rule did Visa and Mastercard enforce regarding ATM access fees that led to a consumer class action?",
+        "response": "Visa and Mastercard enforced a rule stating that if an ATM operator chooses to charge consumers an access fee for a Visa or Plus transaction, that fee cannot be greater than the access fee charged for transactions on other networks.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many shares were available for grant under the Restated 2005 Plan as of July 31, 2023?",
+        "response": "19.0 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total amount returned to shareholders by The Home Depot in fiscal 2022?",
+        "response": "over $14 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the main types of operations the Company is engaged in?",
+        "response": "The Company is primarily engaged in operating membership warehouses.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage increase in net premiums written from 2022 to 2023?",
+        "response": "13.7%",
+        "source": "finqa"
+    },
+    {
+        "query": "What services does UnitedHealthcare Community & State provide?",
+        "response": "UnitedHealthcare Community & State provides diversified health care benefits products and services to state programs for the economically disadvantaged, the medically underserved, and those without employer-funded health care coverage.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the violations that GM self-disclosed to the EPA related to?",
+        "response": "Requirements for the import of new chemical substances under the Toxic Substances Control Act (TSCA)",
+        "source": "finqa"
+    },
+    {
+        "query": "What happens when the carrying amount of an asset group exceeds its estimated undiscounted net future cash flows at Peloton?",
+        "response": "At Peloton, if the carrying amount of an asset group exceeds its estimated undiscounter net future cash flows, an impairment charge is recognized for the amount by which the carrying amount exceeds its fair value.",
+        "source": "finqa"
+    },
+    {
+        "query": NaN,
+        "response": NaN,
+        "source": "finqa"
+    },
+    {
+        "query": "What measures does the Coca-Cola system take to maintain consistency in product safety and quality?",
+        "response": "The Coca-Cola system ensures consistency in safety and quality through strong governance, compliance with regulations and standards, staying current with new regulations and industry best practices, and maintaining an integrated quality management program.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage growth in people served by the Optum Health segment from 2022 to 2023?",
+        "response": "1%",
+        "source": "finqa"
+    },
+    {
+        "query": "What contributed to the reduction in asset impairments and abandonments and restructuring costs in 2023?",
+        "response": "The reduction in 2023 was due to last year's higher impairments, while current year noncash charges were mainly from severance, restructuring, and the abandonment of non-deployed wireless equipment in preparation for deploying an open radio access network (Open RAN).",
+        "source": "finqa"
+    },
+    {
+        "query": "How is Iron Mountain addressing the decline in activity rates in their Records and Data Management services?",
+        "response": "Iron Mountain addresses the decline in activity rates in their Records and Data Management services by focusing on archival storage, as stored records, and tapes are becoming less active.",
+        "source": "finqa"
+    },
+    {
+        "query": "What does the term 'Acquired brands' refer to and how does it affect the reported volumes?",
+        "response": "'Acquired brands' refers to brands that the company has acquired in the past 12 months, which generally have not had their unit case volume or concentrate sales volume reported or recognized in periods prior to the transaction closing. Thus, volumes related to an acquired brand are incremental to prior year volume.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the definition of the quarterly minimum consolidated interest coverage ratio required by the company?",
+        "response": "The quarterly minimum consolidated interest coverage ratio required by the company is defined as the ratio of consolidated earnings before interest, taxes, and rents to consolidated interest expense plus consolidated rents, and it should be no less than 2.5:1.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the ethnic diversity percentage of Hilton's U.S. workforce as of December 31, 2023?",
+        "response": "72 percent",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the effect of a 10% increase in the estimate of the ETV of a mile on the total operating revenue for 2023?",
+        "response": "It would decrease the total operating revenue by less than 1%.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did cash and cash equivalents increase by the end of 2023 compared to the end of 2022?",
+        "response": "$3,021",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors are considered when projecting future cash flows for goodwill impairment reviews?",
+        "response": "Projected future cash flows are based on management's knowledge of the current operating environment, inflation, business valuations, the economy, market competition, and the integration of recently acquired businesses.",
+        "source": "finqa"
+    },
+    {
+        "query": "What financial valuation method was primarily used to determine the fair value of customer relationships, customer backlog, and corporate trade names in a specified financial report?",
+        "response": "The income approach was primarily used. Specifically, customer relationships used the with and without method, customer backlog used the multi-period excess earnings method, and corporate trade names used the relief from royalty method.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total amount of loans and leases at Bank of America by the end of 2023, excluding those accounted for under the fair value option?",
+        "response": "$1,050.2 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the main ingredients used in the company's products?",
+        "response": "The main ingredients used in the company's products include various sweeteners like high fructose corn syrup (HFCS), sucrose, aspartame, acesulfame potassium, sucralose, saccharin, cyclamate, and steviol glycosides, as well as ascorbic acid, citric acid, phosphoric acid, caffeine, caramel color, water, and other raw materials like orange and other fruit juices.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did the total room revenues for The Venetian Macao change from 2022 to 2023?",
+        "response": "The total room revenues for The Venetian Macao increased from $55 million in 2022 to $191 million in 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of HP's full-time leadership positions were held by women in the fiscal year 2023?",
+        "response": "32.7%",
+        "source": "finqa"
+    },
+    {
+        "query": "What technologies is FedEx Ground implementing to maximize operational efficiency?",
+        "response": "FedEx Ground is implementing advanced automated unloading and sorting technologies, effective yard management systems with GPS and geofences, six-sided camera-based bar code scanning, dynamic scheduling tools, and automated route optimization.",
+        "source": "finqa"
+    },
+    {
+        "query": "What do the Commitments and Contingencies in Note 16 of a 10-K involve?",
+        "response": "They involve detailed information about certain legal proceedings of the company.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company assess uncertain tax positions?",
+        "response": "The company assesses uncertain tax positions by determining if it is more likely than not that the tax position will be sustained on examination by the taxing authorities based on the technical merits of the position.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the reported outstanding balance of the residential mortgage portfolio as of December 31, 2023?",
+        "response": "$228,403 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the interest rate applicable to draws under the Term Loan as mentioned?",
+        "response": "5.46%",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company ensure legal compliance regarding employee compensation?",
+        "response": "The company ensures legal compliance with employee compensation laws by adhering to regulations in all states and countries where it operates.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the expiration dates of the Five-Year and Three-Year Credit Agreements?",
+        "response": "The Five-Year Credit Agreement expires in March 2026, and the Three-Year Credit Agreement expires in March 2025.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the primary reason for the net cash used in investing activities in 2022?",
+        "response": "The net cash used in investing activities in 2022 amounted to $371.9 million, mainly due to the purchase of marketable securities, acquisitions of companies, and investments in facility improvements and technology enhancements.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much total space does an average The Home Depot store encompass including its garden area?",
+        "response": "approximately 128,000 square feet",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the aspects of the EU Pillar Two Directive adopted in December 2022?",
+        "response": "It provides for a minimum effective tax rate of 15%.",
+        "source": "finqa"
+    },
+    {
+        "query": "What role did Mr. Cox hold directly before becoming Chief Financial Officer at Hewlett Packard Enterprise?",
+        "response": "Senior Vice President, Corporate Controller, Chief Tax Officer, and Principal Accounting Officer",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the significance of reporting financial results on a constant currency basis?",
+        "response": "Reporting financial results on a constant currency basis allows for assessing a company's financial performance without the impact of fluctuations in foreign currency exchange rates, providing a clearer comparison of year-on-year performance.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does Item 3 of the Annual Report on Form 10-K connect to information about legal proceedings?",
+        "response": "It refers to Note 14 in Item 8 for disclosures about legal proceedings.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the operating revenue for the twelve months ended December 31, 2023?",
+        "response": "$5,265.2 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of cost can a qualifying homeowner deduct for installing residential solar systems under the ITC until 2032?",
+        "response": "30%",
+        "source": "finqa"
+    },
+    {
+        "query": "How did NVIDIA pivot its GPU architecture usage beyond PC graphics?",
+        "response": "NVIDIA leveraged its GPU architecture to create platforms for scientific computing, AI, data science, AV, robotics, metaverse, and 3D internet applications.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors affect the Company's ability to increase Health Care Benefits segment revenues?",
+        "response": "The ability to increase Health Care Benefits segment revenues is influenced by factors such as overall quality, service quality, cost, product design, financial stability, provider network breadth and quality, and member support and care management programs.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total net income tax benefit HP received related to foreign tax audit matters?",
+        "response": "$11 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company compete with traditional utility companies in the solar energy market?",
+        "response": "The company competes with traditional utility companies primarily based on price and the ease by customers can switch to electricity generated by solar energy systems.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the major factors contributing to the decrease in gross margin for NIKE in fiscal 2023?",
+        "response": "The decrease in gross margin for NIKE in fiscal 2023 was primarily due to higher NIKE Brand product costs, elevated inbound freight and logistics costs, product mix, lower margin in the NIKE Direct business due to higher promotional activity, unfavorable foreign currency exchange rates, and lower off-price margin.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company generate the majority of its revenue?",
+        "response": "The company generates substantially all of its revenue from advertising, mainly by displaying ad products on platforms like Facebook, Instagram, Messenger, and third-party mobile applications.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did achieving sustainability-linked targets impact Ford's pricing in the third quarter of 2023?",
+        "response": "Ford outperformed the 2022 targets for all three of the sustainability-linked metrics, which favorably impacted pricing in the third quarter of 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What measures does Chipotle employ to ensure high food safety standards?",
+        "response": "Chipotle implements food safety and quality assurance measures including natural inhibitors, advanced technologies, enhanced restaurant procedures, food safety certifications, internal and third-party inspections, small grower support, and ingredient traceability.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage increase in pre-tax earnings for McLane in 2023 compared to 2022?",
+        "response": "67.9%",
+        "source": "finqa"
+    },
+    {
+        "query": "What impact do inductive charging ASIC devices have on mobile and wearable devices?",
+        "response": "Inductive charging ASIC devices improve the charging efficiency and integration of power solutions in mobile and wearable devices.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the profit per common share for Caterpillar Inc. in 2023?",
+        "response": "$20.24",
+        "source": "finqa"
+    },
+    {
+        "query": "What was Gilead's total revenue in 2023?",
+        "response": "$27.1 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors influence the company's remaining performance obligation?",
+        "response": "Factors include seasonality, timing of renewals, average contract terms, foreign currency exchange rates, fluctuations in new business growth, and acquisitions.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the three main purposes of a company's financial reporting policies and procedures?",
+        "response": "The three main purposes of a company's financial reporting policies and procedures are: 1) to maintain records that reflect the transactions and dispositions of the company's assets accurately and fairly in reasonable detail, 2) to ensure that transactions are recorded as necessary for the preparation of financial statements in accordance with generally accepted accounting principles and are made only with management and directors' authorization, and 3) to provide reasonable assurance regarding the prevention or timely detection of unauthorized use of the company's assets that could materially affect the financial statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company compensate for the limitations of using non-GAAP financial measures?",
+        "response": "The company compensates for the limitations of using non-GAAP financial measures by providing reconciliations of these measures to the most comparable GAAP measures.",
+        "source": "finqa"
+    },
+    {
+        "query": "Name the two laptop models included in the Company's Mac line.",
+        "response": "The two laptop models included in the Company's Mac line are MacBook Air and MacBook Pro.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the notional amount of written credit derivatives offset by purchased credit derivatives as reported in 2023?",
+        "response": "$432,083 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What transformation is planned for Le Jardin located at The Londoner Macao?",
+        "response": "Le Jardin is to undergo a transformation into a garden-themed attraction spanning approximately 50,000 square meters, featuring an iconic conservatory and themed green spaces.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the nature of the involvement in legal proceedings described?",
+        "response": "The involvement in legal proceedings described pertains to claims and proceedings that arise in the ordinary course of business.",
+        "source": "finqa"
+    },
+    {
+        "query": "How were the opioid litigation charges reflected in the Company's financial statements in 2022?",
+        "response": "The opioid litigation charges are reflected within the Corporate/Other segment of the Company's financial statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "How can one locate information on legal proceedings within the Consolidated Financial Statements?",
+        "response": "One can locate information on legal proceedings within Note 15 of the Consolidated Financial Statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the projected impacts of adopting the expanded risk-based capital approach as proposed?",
+        "response": "The adoption of the expanded risk-based capital approach is estimated to consume the capital buffer between the company's minimum regulatory requirements and its current CET1 risk-based capital ratio. The actual impact could materially differ from current estimates due to future rulemaking, changes in regulatory requirements, and management decisions regarding financial strategies.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did the Total Remaining Deal Value of contracts with commercial customers increase from December 31, 2022, to December 31, 2023?",
+        "response": "The Total Remaining Deal Value of contracts with commercial customers increased from $2.0 billion as of December 31, 2022, to $2.1 billion as of December 31, 2023, representing a 7% increase.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the core development principles included in the leadership curriculums mentioned?",
+        "response": "The core development principles included in the mentioned leadership curriculums are managing for inclusion and building resilient and high performing teams.",
+        "source": "finqa"
+    },
+    {
+        "query": "How many retail locations does CVS Health Corporation operate as of December 31, 2023?",
+        "response": "As of December 31, 2023, CVS Health Corporation operates over 9,000 retail locations.",
+        "source": "finqa"
+    },
+    {
+        "query": "What must clinical trials generally submit to begin testing a device in humans?",
+        "response": "Clinical trials generally require the submission of an application for an investigational device exemption (IDE).",
+        "source": "finqa"
+    },
+    {
+        "query": "What is Project Matterhorn and what are its goals for Iron Mountain?",
+        "response": "Project Matterhorn is a global program initiated by Iron Mountain to accelerate the growth of its business by transforming its operating model and adopting a solution-based sales approach. The project aims to optimize shared services and best practices to better meet customer needs.",
+        "source": "finqa"
+    },
+    {
+        "query": "What criteria were used to audit Salesforce, Inc.'s internal control over financial reporting as of January 31, 2023?",
+        "response": "Internal Control \u2013 Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework)",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total amount remaining for share repurchases as of December 31, 2023?",
+        "response": "$36.3 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total pre-tax restructuring expense associated with the Orthopaedics franchise in 2023?",
+        "response": "The total pre-tax restructuring expense associated with the Orthopaedics franchise in the fiscal year 2023 was $0.3 billion.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much has the company estimated for future remediation costs under the clean-up orders?",
+        "response": "The company has recorded an estimated environmental liability of approximately $4.8 million for anticipated future remediation costs under the clean-up orders.",
+        "source": "finqa"
+    },
+    {
+        "query": "What types of investments primarily compose Enphase Energy, Inc.'s cash, cash equivalents, and marketable securities portfolio as of December 31, 2023?",
+        "response": "U.S. treasuries, money market mutual funds, corporate notes, commercial paper, bonds, and deposits.",
+        "source": "finqa"
+    },
+    {
+        "query": "What does the DMA in the European Union require from companies like the one mentioned in the text?",
+        "response": "The DMA imposes new restrictions and requirements on companies, including in areas such as the combination of data across services, mergers and acquisitions, and product design.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of the 2023 Gross Merchandise Sales was generated from mobile devices?",
+        "response": "68% of Etsy's 2023 consolidated Gross Merchandise Sales came from purchases made on mobile devices.",
+        "source": "finqa"
+    },
+    {
+        "query": "What information is contained in Item 8 of a financial document?",
+        "response": "Item 8 contains the Financial Statements and Supplementary Data.",
+        "source": "finqa"
+    },
+    {
+        "query": "What methodologies are used to determine the fair value of an asset group when it is not considered recoverable?",
+        "response": "Methodologies include internally-developed discounted cash flow models, appraisals, recent transaction comparisons, and, if available, current estimated net sales proceeds from pending offers.",
+        "source": "finqa"
+    },
+    {
+        "query": "What item number in the Annual Report on Form 10-K discusses legal proceedings?",
+        "response": "Item 3",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the amount of net earnings attributable to The Kroger Co. for the year ended January 28, 2023?",
+        "response": "$2,244 million",
+        "source": "finqa"
+    },
+    {
+        "query": "As of October 29, 2023, what is the amount of the gross unrecognized tax benefits for Broadcom Inc. as reported?",
+        "response": "$4,655 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the net cash flows provided by investing activities for Hasbro in 2023?",
+        "response": "$117.6 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What are some of the risk factors associated with raw material supplies for a vehicle manufacturer?",
+        "response": "The risk factors associated with raw material supplies for a vehicle manufacturer include uncertainties that could impact the availability in sufficient quantities and at cost-effective prices.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company determine the valuation allowance for balances recoverable from unrated reinsurers?",
+        "response": "The company may determine a rating equivalent based on their analysis of the reinsurer that considers an assessment of the creditworthiness of the particular entity, industry benchmarks, or other factors as considered appropriate, then apply the applicable default factor for that rating class. For balances recoverable from unrated reinsurers below a certain threshold, a default factor of 34.0 percent is generally applied.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the content source for the information requested by Item 3 concerning Legal Proceedings?",
+        "response": "The content source for the information requested by Item 3 concerning Legal Proceedings is Note 19 of the Notes to Consolidated Financial Statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "In addition to environmental compliance, what other types of laws is the company subject to?",
+        "response": "The company is also subject to various federal, state, and international laws and regulations related to cybersecurity, privacy, and data protection.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much interest accrued on the unrecognized tax benefits at December 30, 2023?",
+        "response": "$2,127",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the effective income tax rate for the year ended December 31, 2023?",
+        "response": "24.2%",
+        "source": "finqa"
+    },
+    {
+        "query": "When was NIKE, Inc. incorporated and under the laws of which state?",
+        "response": "NIKE, Inc. was incorporated in 1967 under the laws of the State of Oregon.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the impact of fuel price volatility on Sam's Club segment's operating results?",
+        "response": "Fuel price volatility impacted the operating results of Sam's Club segment by affecting its net sales results due to the volatile nature of fuel prices.",
+        "source": "finqa"
+    },
+    {
+        "query": "What unique feature did fiscal year 2021 have compared to 2023 and 2022?",
+        "response": "Fiscal year 2021 included 53 weeks, whereas 2023 and 2022 each had 52 weeks.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the enrollment periods for Medicare Advantage and stand-alone prescription drug plans?",
+        "response": "At December 31, 2023, the company provided health insurance coverage under CMS contracts to approximately 5,408,900 individual Medicare Advantage members, including approximately 851,300 members in Florida. These Florida contracts accounted for premiums revenue of approximately $14.9 billion, which represented approximately 19% of the company's individual Medicare Advantage premiums revenue.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of Etsy's total Gross Merchandise Sales in 2023 was contributed by the core Etsy marketplace?",
+        "response": "88.0% of Etsy's total Gross Merchandise Sales in 2023 was contributed by the core Etsy marketplace.",
+        "source": "finqa"
+    },
+    {
+        "query": "What long-term trends have contributed to Alphabet's financial results?",
+        "response": "Long-term trends contributing to Alphabet's financial results include the shift of users' behaviors and advertising online, increased competition for user engagement and advertisers, diverse devices and modalities used to access Alphabet's products, and evolving online advertising affecting monetization.",
+        "source": "finqa"
+    },
+    {
+        "query": "In which part and item of a 10-K filing is detailed information regarding certain legal proceedings included?",
+        "response": "Detailed information regarding certain legal proceedings is included in Item 8 of Part II of a 10-K filing.",
+        "source": "finqa"
+    },
+    {
+        "query": "Which categories primarily saw lower net sales in Greater China in 2023?",
+        "response": "Mac and iPhone",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors could affect the company's obligation for collecting and remitting lodging taxes?",
+        "response": "The company's obligation for collecting and remitting lodging taxes could be affected by factors such as determining or being asserted by a tax authority that they have a responsibility to collect lodging and related taxes on transactions, new ordinances and taxes subjecting their operations to such taxes, or the resolution of historic claims through negotiation.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage increase in total research and development expenses from 2022 to 2023?",
+        "response": "6.7%",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the referred pages in the Annual Report for discussing adverse effects of legal proceedings on the company?",
+        "response": "Pages 12 and 17",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the global gender equity status at Meta in July 2023?",
+        "response": "As of July 2023, Meta confirmed that they have pay equity across genders globally.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did interest expense and other net change from fiscal 2021 to fiscal 2022?",
+        "response": "decreased by $36.4 million or 135.3%",
+        "source": "finqa"
+    },
+    {
+        "query": "What unique training opportunities does Intuit offer to its employees to promote diversity and inclusion?",
+        "response": "Intuit offers specialized training for its employees including DEI workshops, C-suite training on racial equity, and programs on unconscious bias and leading inclusively, aimed at promoting a diverse and inclusive workplace.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the year-over-year change in cost of revenue in 2023?",
+        "response": "$84.1 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What updates took effect in 2021 regarding Australian federal legislation on credit reporting?",
+        "response": "In 2021, Australian federal legislation mandated banks to supply comprehensive credit information to credit reporting bodies like Equifax, introduced obligations for disclosure, storage, and reporting for credit reporting bodies, allowed up to four free credit reports per year to consumers, permitted the inclusion of financial hardship information in credit reports, and required a governmental review of the credit reporting system by October 1, 202250",
+        "source": "finqa"
+    },
+    {
+        "query": "What fiscal year did the Corporate Alternative Minimum Tax (Corporate AMT) become effective for Hewlett Packard Enterprise as stated in their Form 10-K?",
+        "response": "The Corporate Alternative Minimum Tax became effective for Hewlett Packard Enterprise beginning in fiscal 2024.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the company intend to help build the metaverse?",
+        "response": "The company intends to build the metaverse by moving beyond 2D screens towards immersive experiences like augmented and virtual reality.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the financial impact of the TSAs and TMAs on Johnson & Johnson's consolidated statements of earnings for fiscal year 2023?",
+        "response": "The financial impact of the Transition Services Agreements (TSAs) and the Trade Manufacturing Agreements (TMAs) on Johnson & Johnson's consolidated statements of earnings for fiscal year 2023 was immaterial.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the purpose of Peloton's research and development expenses?",
+        "response": "Peloton's research and development expenses primarily focus on personnel and facilities-related expenses, consulting and contractor expenses, tooling and prototype materials, software platform expenses, and depreciation of property and equipment. They facilitate the development of internal-use software and other innovative features.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage of nonperforming home equity loans that were current on their payments at December 31, 2023?",
+        "response": "57 percent",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the purpose of the unused credit facility fee payments, and what is their total as of June 30, 2023?",
+        "response": "The purpose of the unused credit facility fee payments is to cover commitment fees for unused portions of revolving loans. As of June 30, 2023, the total fee payments due were $5.0 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors influenced the decrease in the effective tax rate for fiscal year 2023?",
+        "response": "The decrease was primarily due to increased tax benefits of the FDII deduction, stock-based compensation, and the U.S. federal research tax credit, relative to lower profitability. It was partially offset by an increase in the proportion of earnings subject to U.S. tax and the one-time benefits of the Domestication.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the main therapeutic areas focused on by the Innovative Medicine segment of Johnson & Johnson?",
+        "response": "Immunology, Infectious Diseases, Neuroscience, Oncology, Cardiovascular and Metabolism, and Pulmonary Hypertension",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the effective fiscal year for the accounting standards update (ASU) 2023-09 issued by the FASB in December 2023 regarding income tax disclosures?",
+        "response": "Fiscal year 2025",
+        "source": "finqa"
+    },
+    {
+        "query": "Which consolidated financial statements should be read in conjunction with the discussion in Item 7?",
+        "response": "The consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K.",
+        "source": "finqa"
+    },
+    {
+        "query": "What comprised the Cigna integration expenses for 2023?",
+        "response": "The Cigna integration expenses for 2023 amounted to $69 million and primarily consisted of legal and professional fees and other costs directly associated with the integration activities of the Cigna acquisition.",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of total revenues did STELARA account for in fiscal 2023 for the Company?",
+        "response": "12.8%",
+        "source": "finqa"
+    },
+    {
+        "query": "What determines the recording of the benefits of uncertain tax positions in the Company's financial statements?",
+        "response": "The benefits of uncertain tax positions are recorded in the Company's consolidated financial statements only after determining that there is a more-likely-than-not probability that the uncertain tax positions will withstand challenges from tax authorities.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the revised maximum leverage ratios under the Senior Credit Facilities for the periods specified and in connection with certain material acquisitions?",
+        "response": "From the fourth quarter of 2022 through the fourth quarter of 2023, the maximum leverage ratio is 4.25 to 1.0. Starting from the first quarter of 2024, it is 3.75 to 1.0 for each fiscal quarter thereafter. Additionally, the company can elect to increase the maximum leverage ratio by 0.5 to 1.0 for certain material acquisitions, subject to a maximum leverage ratio of 4.75 to 1.0.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the 3% revenue increase in 2023 compared to 2022?",
+        "response": "Revenue increased due to revenue from recently acquired companies and I-9 and onboarding services, partially offset by lower tax credit revenue and a decrease in unemployment claims revenue.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much has the company repurchased of its own stock in the fiscal year 2023?",
+        "response": "In the fiscal year 2023, the company repurchased $2.5 billion of its Common Stock.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the net income of Electronic Arts Inc. for the fiscal year ended March 31, 2023?",
+        "response": "$802 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the primary drivers for changes in gross margin in fiscal year 2023?",
+        "response": "The primary drivers for the increased gross margin in fiscal year 2023 were a mix shift towards Printing, lower commodity and logistics costs in Personal Systems, partially offset by foreign currency impacts and competitive pricing.",
+        "source": "finqa"
+    },
+    {
+        "query": "What previous roles did Mike Spanos hold before becoming the Chief Operating Officer of Delta in June 2023?",
+        "response": "President and Chief Executive Officer of Six Flags Entertainment Corporation, Chief Executive Officer for PepsiCo in the Asia, Middle East, and North Africa regions",
+        "source": "finqa"
+    },
+    {
+        "query": "In which regions are Benjamin Moore's coatings available?",
+        "response": "Benjamin Moore's coatings are available in more than 72 countries globally including the U.S. and Canada.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the expected benefits of Marina Bay Sands' extensive renovation and expansion plans?",
+        "response": "The extensive renovation and expansion of Marina Bay Sands are expected to enhance the leisure and business tourism appeal of the property, potentially leading to increased revenue and profit through higher visitation and improved facilities.",
+        "source": "finqa"
+    },
+    {
+        "query": "What section from item 8 addresses financial information?",
+        "response": "Financial Statements and Supplementary Data.",
+        "source": "finqa"
+    },
+    {
+        "query": "What does Note 14 cover in financial statements?",
+        "response": "Note 14 covers 'Litigation and Contingencies' in financial statements.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are exploratory wells and how do they differ from development wells?",
+        "response": "Exploratory wells are drilled to find and produce crude oil or natural gas in unknown areas, including delineation and appraisal wells. They differ from development wells, which are drilled within known productive areas.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the components of the Studios Segment\u2019s programming and production costs?",
+        "response": "Amortization of film and TV production and acquisition costs, residuals and participations expenses, and distribution expenses",
+        "source": "finqa"
+    },
+    {
+        "query": "What financial statement component includes the components of net periodic benefit cost other than the service cost for HP Inc.?",
+        "response": "Interest and other, net",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the increase in the 2023 benefit ratio compared to 2022?",
+        "response": "The increase was due to investments in the benefit design of Medicare Advantage products, higher Medicare Advantage utilization trends, and the impact of continued individual Medicare Advantage growth following the Annual Election Period.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the total authorization for stock repurchases as of June 14, 2023?",
+        "response": "$35.7 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What are investments primarily valued at net asset value categorized as?",
+        "response": "Investments valued at net asset value are primarily categorized as equity and fixed income collective funds.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the estimated percentage improvements in fuel efficiency per seat mile for Delta's new aircraft delivered since 2019 compared to retired ones?",
+        "response": "28%",
+        "source": "finqa"
+    },
+    {
+        "query": "What potential impact could the public disclosure of insurer-negotiated price concessions have on drug costs for patients?",
+        "response": "The public disclosure of insurer- or PBM-negotiated price concessions may lead to drug manufacturers reducing discounts or rebates, resulting in higher drug costs for patients.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the increase (decrease) in cash, cash equivalents, and restricted cash for the company?",
+        "response": "$(28)",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the outcome of the U.S. Supreme Court's decision on June 30, 2022, regarding the EPA's authority to regulate GHG emissions under the Clean Air Act?",
+        "response": "The U.S. Supreme Court held that the generation shifting approach in the Clean Power Plan exceeded the powers granted to the EPA by Congress.",
+        "source": "finqa"
+    },
+    {
+        "query": "When was Intuit originally incorporated, and in which state?",
+        "response": "March 1984 in California",
+        "source": "finqa"
+    },
+    {
+        "query": "What was Berkshire Hathaway's net cash flow from operating activities for the year 2023?",
+        "response": "Berkshire Hathaway's net cash flow from operating activities for the year 2023 was $49,196 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the key strategies eBay uses to enhance its marketplace experience?",
+        "response": "eBay enhances its marketplace experience by leveraging technology, focusing on category experiences, and growing first-party advertising revenue.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the ending balance of Goldman Sachs' level 3 other secured financings in 2023?",
+        "response": "$136 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How is the equity income from joint ventures accounted for in the financial statements?",
+        "response": "The equity income from joint ventures is not consolidated into the financial statements. Instead, the proportionate share of the earnings from each joint venture is reflected as Equity income.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the standard of proof used in inter partes reviews (IPR) compared to federal district courts?",
+        "response": "Lower",
+        "source": "finqa"
+    },
+    {
+        "query": "When did ASU 2021-08 become effective for public business entities?",
+        "response": "ASU 2021-08 became effective for all public business entities for annual periods beginning after December 15, 2022.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the impact of a 10 percent weakening of the U.S. dollar on the 2024 expected cash flow for ME&T operations?",
+        "response": "Approximately $200 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did the gain from the sale of assets contribute to the Channel Development operating margin increase in fiscal 2023?",
+        "response": "The gain from the sale of assets contributed approximately 480 basis points to the increase in the Channel Development operating margin in fiscal 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the increase in operating income margin in fiscal 2022?",
+        "response": "The increase in operating income margin in fiscal 2022 was due to an increase in gross profit margin, partially offset by an increase in the selling, general and administrative expense rate.",
+        "source": "finqa"
+    },
+    {
+        "query": "How can restrictive measures on international trade impact the Company?",
+        "response": "Restrictive measures on international trade, such as tariffs and other controls on imports or exports, can adversely impact the Company's operations and supply chain. This can limit the Company\u2019s ability to offer and distribute its products and services to customers and may require the Company to change suppliers, restructure business relationships, and cease offering certain third-party applications. Implementing these changes can be costly, time-consuming, and disruptive to operations.",
+        "source": "finqa"
+    },
+    {
+        "query": "How does the specific legislation regarding the acquisition of voting stock affect The Hershey Company?",
+        "response": "This legislation makes it more difficult for a third party to acquire a majority of the Company's outstanding voting stock, which may delay or prevent a change in control of the Company.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the net interest income for the first quarter of 2023?",
+        "response": "$14,448 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the gross realized losses on sales of AFS debt securities in 2023?",
+        "response": "$514 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the primary reasons for the 18% increase in revenue in 2023 compared to 2022?",
+        "response": "The 18% increase in revenue in 2023 compared to 2022 was primarily due to a 14% increase in Nights and Experiences Booked combined with higher Average Daily Rates (ADRs).",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the Path to Pro program related to?",
+        "response": "training and connecting the next generation of skilled tradespeople to industry leaders",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the net income of the company for the year ending December 31, 2023?",
+        "response": "$5,240.4 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What agency was GM's Ultium Cells LLC joint venture required to report potential violations to in February 2023?",
+        "response": "Environmental Protection Agency (EPA)",
+        "source": "finqa"
+    },
+    {
+        "query": "What are Alphabet's primary business segments and how are they reported?",
+        "response": "Alphabet reports its primary businesses in two main segments: Google Services and Google Cloud. Additionally, all non-Google businesses are collectively reported as Other Bets.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the increase in UnitedHealthcare's Medicare Advantage individuals served from 2022 to 2023?",
+        "response": "590 thousand",
+        "source": "finqa"
+    },
+    {
+        "query": "What factors contributed to the change in effective income tax rate from continuing operations attributable to DaVita Inc. in 2023?",
+        "response": "The change was primarily due to decreases in nondeductible advocacy expenses and benefits from tax returns finalized during the year, partially offset by nondeductible costs related to a legal matter and a reduction in benefits recognized for stock compensation.",
+        "source": "finqa"
+    },
+    {
+        "query": "What industries rely on PCC\u2019s nickel and titanium alloy products?",
+        "response": "PCC's nickel and titanium alloy products are used in the commercial and military aerospace, power generation, energy, medical, and industrial end markets.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total net charge-off amount for consumer loans and leases in 2023?",
+        "response": "The total net charge-offs for consumer loans and leases amounted to $3.1 billion in 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the seasonal fluctuations in Garmin's net sales?",
+        "response": "Garmin's net sales are subject to seasonal fluctuation, with higher consumer product sales in the fourth quarter during the holiday season and to a lesser extent in the second quarter, which corresponds to the spring and summer season.",
+        "source": "finqa"
+    },
+    {
+        "query": "How is the information for Item 3 on Legal proceedings disclosed in this report?",
+        "response": "The information for Item 3 on Legal proceedings is disclosed by referencing Note 19 in the Notes to Consolidated Financial Statements included in Item 8.",
+        "source": "finqa"
+    },
+    {
+        "query": "Where can the consolidated financial statements and accompanying notes be found in the Annual Report on Form 10-K?",
+        "response": "They can be found immediately following Part IV.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much did the company invest in purchasing forward caps to mitigate interest rate risks through 2026?",
+        "response": "$4,500 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What kind of assets are included in the measurement of fair value on a nonrecurring basis and what are the unobservable inputs used?",
+        "response": "Assets such as leasehold improvements, property, and equipment are included, with unobservable inputs including the discount rate, projected restaurant revenues and expenses, and sublease income.",
+        "source": "finqa"
+    },
+    {
+        "query": "What contributed to the increase in general and administrative expenses in fiscal year 2023?",
+        "response": "The increase was primarily due to $44 million of accelerated amortization and depreciation, a $14 million increase in personnel-related costs, and a $36 million decrease in contracted services.",
+        "source": "finqa"
+    },
+    {
+        "query": "In which part and item of the Annual Report on Form 10-K can the consolidated financial statements be found?",
+        "response": "The consolidated financial statements can be found in Part IV, Item 15(a)(1) of the Annual Report on Form 10-K.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the purpose of NIKE's Consumer Direct Acceleration strategy?",
+        "response": "The Consumer Direct Acceleration strategy is aimed at creating more premium, consistent, and seamless consumer experiences, primarily focusing on digital channels and owned stores, along with select wholesale partners.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did occupancy and Average Daily Rate (ADR) change year-over-year at the end of 2023?",
+        "response": "At the end of 2023, occupancy improved by 4.6 percentage points and Average Daily Rate (ADR) increased by 5.4 percent compared to the previous year.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the revenue recognition policy mentioned for the transactions?",
+        "response": "Revenue is recognized at the earlier of receipt of customer acceptance or expiration of the acceptance period.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total store count for the Dollar Tree segment at the beginning of the report year?",
+        "response": "At the beginning of the report year, the total store count for the Dollar Tree segment was 8,061.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the amount and structure of the bank credit facilities available to support the company's commercial paper program as of 2023?",
+        "response": "The bank credit facilities available to support the company's commercial paper program in 2023 included an $8.0 billion facility split between a $3.2 billion five-year facility and a $4.8 billion 364-day facility.",
+        "source": "finqa"
+    },
+    {
+        "query": "What technological feature helps protect digital transactions in the Visa Token Service?",
+        "response": "The Visa Token Service enhances digital transaction security by replacing 16-digit Visa account numbers with a token that includes a surrogate account number and cryptographic information.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did the company's net income change from 2022 to 2023?",
+        "response": "The company's net income increased from $397,362 in 2022 to $438,936 in 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "How much was allocated to Goldman Sachs' deferred tax assets as of December 2023?",
+        "response": "$10.19 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "When was AbbVie Inc. incorporated and when did it become an independent publicly-traded company?",
+        "response": "AbbVie Inc. was incorporated in Delaware on April 10, 2012, and it became an independent, publicly-traded company on January 1, 2013.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the expected total repurchase amount of the company's common stock in 2023 and 2024?",
+        "response": "$2.5 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the percentage of net revenue from lululemon's women's and men's ranges in 2023?",
+        "response": "In 2023, lululemon's women's range accounted for 64% of net revenue, and their men's range represented 23% of net revenue.",
+        "source": "finqa"
+    },
+    {
+        "query": "How are the assets in a rabbi trust classified in relation to the company's financial balance sheets?",
+        "response": "The assets held in the rabbi trust are designated as trading securities.",
+        "source": "finqa"
+    },
+    {
+        "query": "How is Dynamics' revenue mainly driven?",
+        "response": "Dynamics' revenue is primarily driven by the number of users licensed, the consumption of applications, an expansion in the average revenue per user, and the ongoing shift to Dynamics 365, which includes cloud-based business applications like Power Apps and Power Automate.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the increase in earnings from operations for Optum from 2022 to 2023?",
+        "response": "$1,887 million",
+        "source": "finqa"
+    },
+    {
+        "query": "Why does the company maintain a valuation allowance against its California research and development credit deferred tax assets?",
+        "response": "The company maintains a valuation allowance against its California research and development credit deferred tax assets due to the uncertainty regarding their realizability as they have not met the 'more likely than not' realization criteria. This is particularly because the company expects research and development tax credit generation to exceed its ability to use the credits in future years.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the likelihood of realizing deferred tax assets according to the company's belief?",
+        "response": "The company believes it is more likely than not that it will generate sufficient taxable income to realize the deferred tax assets.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did AT&T expand its communications operations and offerings through acquisitions mentioned in its history?",
+        "response": "AT&T expanded its communications footprint and operations through mergers with Pacific Telesis Group in 1997, Ameritech Corporation in 1999, and acquisitions of ATTC in 2005, BellSouth in 2006, Leap Wireless International in 2014, properties in Mexico and DIRECTV in 2015.",
+        "source": "finqa"
+    },
+    {
+        "query": "How did Converse's wholesale revenues change on a currency-neutral basis in fiscal 2023 compared to fiscal 2022?",
+        "response": "Converse's wholesale revenues increased 7% on a currency-neutral basis in fiscal 2023 compared to fiscal 2022.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was Electronic Arts Inc.'s total assets as of March 31, 2023?",
+        "response": "$13,459 million",
+        "source": "finqa"
+    },
+    {
+        "query": "How did Hershey's net sales and net income perform in 2022, and what drove these results?",
+        "response": "In 2022, Hershey\u2019s net sales and net income increased, primarily due to price increases on certain products across its portfolio.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total amount the company was required to deposit into the Consumer Restitution Fund in 2022?",
+        "response": "$345.0 million",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the primary business activities of the ALLDATA segment operated by the Company?",
+        "response": "The primary business activities of the ALLDATA segment include producing, selling, and maintaining diagnostic, repair, collision, and shop management software used in the automotive repair industry.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the foundational components of JPMorgan Chase's corporate culture?",
+        "response": "The foundational components of JPMorgan Chase's corporate culture include its purpose, values, and guiding \"Business Principles\".",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the impairment charges recorded for Depop and Elo7 in the third quarter of 2022?",
+        "response": "Depop and Elo7 recorded impairment charges of $897.9 million and $147.1 million respectively.",
+        "source": "finqa"
+    },
+    {
+        "query": "Where is the Financial Statement Schedule located in IBM\u2019s Form 10-K for 2023?",
+        "response": "Page S-1",
+        "source": "finqa"
+    },
+    {
+        "query": "How is the adjusted after-tax return on invested capital (ROIC) calculated in the financial analysis?",
+        "response": "The adjusted after-tax ROIC is calculated by taking the after-tax operating profit (excluding rent), dividing by invested capital, which includes a factor to capitalize operating leases.",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the net earnings to common shareholders for Goldman Sachs' Asset & Wealth Management in 2023?",
+        "response": "The net earnings to common shareholders for Goldman Sachs' Asset & Wealth Management in 2023 were $952 million.",
+        "source": "finqa"
+    },
+    {
+        "query": "What changes to tax legislation were enacted by Switzerland's Federal Council in 2023?",
+        "response": "In 2023, Switzerland's Federal Council passed legislation implementing a federal minimum tax of 15% starting in 2024.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the total amortization expense for The Hershey Company in 2021?",
+        "response": "$52,124",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the primary reason for the increase in shipping costs in 2023 compared to the previous year?",
+        "response": "The primary reason for the increase in shipping costs in 2023 compared to the previous year was due to increased sales which led to increased product and shipping costs.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the authorized amount for the 2023 Repurchase Program of Enphase Energy, Inc.'s common stock?",
+        "response": "Up to $1.0 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "How did the products gross margin percentage change from 2022 to 2023?",
+        "response": "It increased from 36.3% in 2022 to 36.5% in 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "What amount did NVIDIA total in inventory provisions and purchase obligations in fiscal year 2023?",
+        "response": "Inventory provisions for excess inventory and purchase obligations totaled $2.17 billion in fiscal year 2023.",
+        "source": "finqa"
+    },
+    {
+        "query": "How have changes by Apple and Google affected the company's advertising capabilities?",
+        "response": "Changes by Apple and Google, such as product updates and data use policies, have reduced the ability to collect and use data for targeting and measuring advertising, negatively impacting advertising revenue as marketers reduce their spending.",
+        "source": "finqa"
+    },
+    {
+        "query": "What amount was authorized for common stock repurchase by the company's Board in February 2024?",
+        "response": "$2.0 billion",
+        "source": "finqa"
+    },
+    {
+        "query": "What types of secured credit facilities are available to banking subsidiaries under the Federal Home Loan Bank (FHLB)?",
+        "response": "Banking subsidiaries have secured credit facilities available under the FHLB that are dependent on the value of their First Mortgages, Home Equity Lines of Credit (HELOCs), and certain investment securities that are pledged as collateral.",
+        "source": "finqa"
+    },
+    {
+        "query": "What types of coverage does political risk insurance provide for commercial lenders?",
+        "response": "Political risk insurance for commercial lenders covers missed scheduled loan repayments due to acts like confiscation, expropriation, nationalization by the host government, currency inconvertibility, exchange transfer restrictions, and war or other acts of political violence.",
+        "source": "finqa"
+    },
+    {
+        "query": "What are the expected influences on AWS revenue growth rates given the current macroeconomic environment?",
+        "response": "The current macroeconomic environment and enterprise customer cost optimization efforts are expected to impact AWS revenue growth rates.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the title of Item 8 as mentioned in the document?",
+        "response": "Financial Statements and Supplementary Data",
+        "source": "finqa"
+    },
+    {
+        "query": "What percentage of net sales did online sales represent in fiscal 2022?",
+        "response": "14.2%",
+        "source": "finqa"
+    },
+    {
+        "query": "What were the primary causes for the deterioration in the funded status of the U.S. pension plans in 2023?",
+        "response": "The primary causes for the deterioration in the funded status of the U.S. pension plans in 2023 were service and interest costs, a decrease in discount rates, plan amendments, partially offset by actual returns on plan assets and contributions.",
+        "source": "finqa"
+    },
+    {
+        "query": "What was the gross margin percentage in 2023?",
+        "response": "The gross margin percentage in 2023 was 10.57%.",
+        "source": "finqa"
+    },
+    {
+        "query": "What is the total number of PowerUp Rewards members as of January 28, 2023?",
+        "response": "As of January 28, 2023, the PowerUp Rewards loyalty program had approximately 56.7 million members.",
+        "source": "finqa"
+    }
+]
