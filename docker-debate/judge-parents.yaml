@@ -27,7 +27,7 @@ spec:
             cpu: "2"
 
       - name: judge
-        image: dedeeregistry.azurecr.io/judge:v2.3
+        image: dedeeregistry.azurecr.io/judge:v2.5
         imagePullPolicy: Always
         ports:
         - containerPort: 5001

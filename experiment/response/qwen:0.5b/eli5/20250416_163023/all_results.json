@@ -1,0 +1,63 @@
+{
+    "metadata": {
+        "llm_name": "qwen:0.5b",
+        "dataset_name": "eli5",
+        "total_queries": 2,
+        "test_date": "2025-04-16 16:31:43",
+        "timestamp": "20250416_163023"
+    },
+    "results": [
+        {
+            "query": "What allows electric cars to accelerate faster than gasoline-powered cars?",
+            "predicted_response": "Electric cars can accelerate faster than gasoline-powered cars primarily because electric motors deliver instant torque. This means that the full power of the motor is available immediately from a standstill, unlike internal combustion engines, which need to build up power through increasing RPMs.",
+            "method": "global-llm",
+            "actual_response": "A electric engine can provide full torque (the force that cause the rotation of the tires) from then start to rotate from stationary. A combustion engine have low tork at low RPM and max torque and a quite high RPM To be more correct the electric engines torque will change when the rpm changes but is it a flatter curve then for a combustion engine so in most/all RPM depending on the combustion engine a electric engine have more torque and therefore faster acceleration",
+            "source": "sentence-transformers/eli5",
+            "latency": {
+                "retrieval_table": {
+                    "start_time": 76980.628585367,
+                    "end_time": 76980.62861567
+                },
+                "tree_retrieval": {
+                    "start_time": 76980.62862137,
+                    "end_time": 76987.983230558
+                },
+                "debate": {
+                    "start_time": 76987.983407268,
+                    "end_time": 77014.688753708
+                },
+                "global_llm": {
+                    "start_time": 77014.688755808,
+                    "end_time": 77015.91431623
+                }
+            },
+            "overall_latency": 35.55199820903363
+        },
+        {
+            "query": "What causes milk to have a \"smell\"?",
+            "predicted_response": "Milk develops a \"smell\" primarily due to the growth of bacteria that produce lactic acid as they break down lactose, the sugar in milk. This bacterial activity leads to the sour smell associated with spoiled milk. Additionally, other bacteria and enzymes can",
+            "method": "global-llm",
+            "actual_response": "It is hard to know for certain and hard ot answer your question without smelling what you smell. Smell is basically small particles of whatever it is you are smelling, entering your oral and nasal cavity (Taste plays a role in smell - meaning when you smell a fart you are kinda tasting it too..). These small particles then, enter into [olfactory bulb](_URL_0_), stimulate your neurons through the olfactory nerve. These then send signals to your brain which you interpret as a smell. The reason you may get a bigger whiff out of the milk jug is because you have a higher, purer concentration of whatever chemicals in the milk you are actually smelling. Whereas in your cereal, that smell is diluted by the sugary, wheaty smell of cornflakes. SOURCE: Dental education, numerous anatomy and physiology classes.",
+            "source": "sentence-transformers/eli5",
+            "latency": {
+                "retrieval_table": {
+                    "start_time": 77016.054906103,
+                    "end_time": 77016.055054814
+                },
+                "tree_retrieval": {
+                    "start_time": 77016.055060314,
+                    "end_time": 77023.279805975
+                },
+                "debate": {
+                    "start_time": 77023.279981089,
+                    "end_time": 77059.700956412
+                },
+                "global_llm": {
+                    "start_time": 77059.700958413,
+                    "end_time": 77060.920374947
+                }
+            },
+            "overall_latency": 44.937545332999434
+        }
+    ]
+}
