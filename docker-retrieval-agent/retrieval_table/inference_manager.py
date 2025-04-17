@@ -12,6 +12,7 @@ class InferenceManager:
         
         query = input.query
         model = input.model
+        judge_model = input.judge_model
         
         global_times["tree_retrieval"]["start_time"] = time.perf_counter()
         retrieved_knowledge = self.retriever.comprehensive_search(query)
@@ -28,6 +29,7 @@ class InferenceManager:
         debate_request = DebateRequest(
             query=query,
             model=model,
+            judge_model=judge_model,
             total_rounds=3,
             retrieved_knowledge=retrieved_knowledge
         )

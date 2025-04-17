@@ -1090,11 +1090,6 @@
         "source": "finqa"
     },
     {
-        "query": "How is Alphabet investing in its future growth and infrastructure?",
-        "response": NaN,
-        "source": "finqa"
-    },
-    {
         "query": "What specific note in a Form 10-K provides details on legal proceedings?",
         "response": "Note 17 \u2013 Contingencies provides details on legal proceedings in a Form 10-K.",
         "source": "finqa"

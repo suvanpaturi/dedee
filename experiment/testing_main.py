@@ -14,7 +14,7 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
     task = progress.add_task(f"Querying: {query}", start=False)
     progress.start_task(task)
     start_time = time.perf_counter()
-    result = await client.post(f"{BASE_URL}/query/", json={"query": query, "model": model})
+    result = await client.post(f"{BASE_URL}/query/", json={"query": query, "model": model, "judge_model": "gemma:2b"})
     result = result.json()
     end_time = time.perf_counter()
     progress.stop_task(task)
@@ -29,9 +29,9 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
  
 async def main():
  
-    llm_name = "gemma:2b"
-    dataset_name = "eli5"
-    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'
+    llm_name = "qwen:0.5b"
+    dataset_name = "finqa"
+    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/finqa/testset.json'
     
     with open(test_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)

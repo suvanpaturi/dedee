@@ -15,6 +15,7 @@ inference_manager = InferenceManager()
 class Query(BaseModel):
     query: str
     model: str
+    judge_model: str
 
 class QueryResponse(BaseModel):
     query: str

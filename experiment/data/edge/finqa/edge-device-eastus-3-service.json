@@ -1155,11 +1155,6 @@
         "source": "finqa"
     },
     {
-        "query": NaN,
-        "response": "The main components of Alphabet Inc.'s operating expenses include compensation expenses for R&D, sales, marketing, and administrative employees, depreciation, third-party services fees for consulting and outsourced services, and expenses related to advertising and promotional activities.",
-        "source": "finqa"
-    },
-    {
         "query": "What was the net cash impact from investing activities for the year ended December 31, 2023?",
         "response": "Net cash provided by (used in) investing activities for the year ended December 31, 2023 was -$49,833 million.",
         "source": "finqa"

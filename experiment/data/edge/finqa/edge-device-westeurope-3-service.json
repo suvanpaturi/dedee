@@ -1085,11 +1085,6 @@
         "source": "finqa"
     },
     {
-        "query": NaN,
-        "response": NaN,
-        "source": "finqa"
-    },
-    {
         "query": "What measures does the Coca-Cola system take to maintain consistency in product safety and quality?",
         "response": "The Coca-Cola system ensures consistency in safety and quality through strong governance, compliance with regulations and standards, staying current with new regulations and industry best practices, and maintaining an integrated quality management program.",
         "source": "finqa"

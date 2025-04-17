@@ -29,6 +29,7 @@ active_debates: Dict[str, Dict] = {}
 class DebateRequest():
     query: str
     model: str
+    judge_model: str
     total_rounds: int = TOTAL_ROUNDS
     retrieved_knowledge: List[Dict] = field(default_factory=list)
 
@@ -100,7 +101,7 @@ async def start_debate(request: DebateRequest):
                 judge_response = requests.post(JUDGE_URL, json={
                     "query": request.query,
                     "responses": all_responses,
-                    "model": request.model,
+                    "model": request.judge_model,
                 })
                 final_verdict = judge_response.json()
             except Exception as e:
