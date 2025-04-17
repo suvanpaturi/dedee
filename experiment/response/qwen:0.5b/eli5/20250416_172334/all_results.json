@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "llm_name": "qwen:0.5b",
+        "dataset_name": "eli5",
+        "total_queries": 4,
+        "test_date": "2025-04-16 17:25:50",
+        "timestamp": "20250416_172334"
+    },
+    "results": [
+        {
+            "query": "What allows electric cars to accelerate faster than gasoline-powered cars?",
+            "predicted_response": "Electric cars can accelerate faster than gasoline-powered cars primarily because electric motors deliver instant torque. Unlike internal combustion engines, which require time to build up power, electric motors provide maximum torque from a standstill, allowing for rapid acceleration. Additionally, electric vehicles often",
+            "method": "global-llm",
+            "actual_response": "A electric engine can provide full torque (the force that cause the rotation of the tires) from then start to rotate from stationary. A combustion engine have low tork at low RPM and max torque and a quite high RPM To be more correct the electric engines torque will change when the rpm changes but is it a flatter curve then for a combustion engine so in most/all RPM depending on the combustion engine a electric engine have more torque and therefore faster acceleration",
+            "source": "sentence-transformers/eli5",
+            "latency": {
+                "retrieval_table": {
+                    "start_time": 80172.077223496,
+                    "end_time": 80172.077251499
+                },
+                "tree_retrieval": {
+                    "start_time": 80172.077255099,
+                    "end_time": 80172.079011331
+                },
+                "debate": {
+                    "start_time": 79822.747690317,
+                    "end_time": 79852.544851911
+                },
+                "global_llm": {
+                    "start_time": 80172.079014931,
+                    "end_time": 80173.310967417
+                }
+            },
+            "overall_latency": 1.4267879169783555
+        },
+        {
+            "query": "What causes milk to have a \"smell\"?",
+            "predicted_response": "Milk develops a \"smell\" primarily due to the growth of bacteria that break down lactose and other components, producing lactic acid and other compounds. This process, known as spoilage, results in the sour odor commonly associated with spoiled milk. Additionally",
+            "method": "global-llm",
+            "actual_response": "It is hard to know for certain and hard ot answer your question without smelling what you smell. Smell is basically small particles of whatever it is you are smelling, entering your oral and nasal cavity (Taste plays a role in smell - meaning when you smell a fart you are kinda tasting it too..). These small particles then, enter into [olfactory bulb](_URL_0_), stimulate your neurons through the olfactory nerve. These then send signals to your brain which you interpret as a smell. The reason you may get a bigger whiff out of the milk jug is because you have a higher, purer concentration of whatever chemicals in the milk you are actually smelling. Whereas in your cereal, that smell is diluted by the sugary, wheaty smell of cornflakes. SOURCE: Dental education, numerous anatomy and physiology classes.",
+            "source": "sentence-transformers/eli5",
+            "latency": {
+                "retrieval_table": {
+                    "start_time": 80173.386964729,
+                    "end_time": 80173.386993231
+                },
+                "tree_retrieval": {
+                    "start_time": 80173.386996031,
+                    "end_time": 80180.3662061
+                },
+                "debate": {
+                    "start_time": 80180.366369012,
+                    "end_time": 80223.729336574
+                },
+                "global_llm": {
+                    "start_time": 80223.729338374,
+                    "end_time": 80225.484997005
+                }
+            },
+            "overall_latency": 52.17852220899658
+        },
+        {
+            "query": "Which forms of Earth life might be able to live on Mars?",
+            "predicted_response": "Certain extremophiles, which are organisms that thrive in extreme conditions on Earth, might be able to survive on Mars. These include some types of bacteria, fungi, and lichens that can withstand high radiation, low temperatures, and limited water availability.",
+            "method": "global-llm",
+            "actual_response": "The Martian soil is well suited for a few types of vegetables like asparagus and turnips. However, the temperature and lack of water and CO2 would prohibit just planting them on the open surface. [Link](_URL_0_)  As for just tossing some life from earth out on to the surface of Mars and expecting it to survive, I do not know of anything, perhaps some chemeosynthetic extremophile that lives in the rock or ice here of earth might be able to survive for a while. Probably nothing would thrive though.",
+            "source": "sentence-transformers/eli5",
+            "latency": {
+                "retrieval_table": {
+                    "start_time": 80225.567264745,
+                    "end_time": 80225.567294747
+                },
+                "tree_retrieval": {
+                    "start_time": 80225.567298647,
+                    "end_time": 80232.481386533
+                },
+                "debate": {
+                    "start_time": 80232.481543445,
+                    "end_time": 80269.134942818
+                },
+                "global_llm": {
+                    "start_time": 80269.134945118,
+                    "end_time": 80272.421325285
+                }
+            },
+            "overall_latency": 46.93418770900462
+        },
+        {
+            "query": "Why do numerous companies opt to incorporate in Delaware?",
+            "predicted_response": "Numerous companies opt to incorporate in Delaware due to its business-friendly legal environment, well-established and flexible corporate laws, and the Court of Chancery, which specializes in corporate law and provides efficient and expert resolution of business disputes. Additionally, Delaware offers",
+            "method": "global-llm",
+            "actual_response": "Lower taxes. Arbitration rules that favor the companies.",
+            "source": "sentence-transformers/eli5",
+            "latency": {
+                "retrieval_table": {
+                    "start_time": 80272.505709906,
+                    "end_time": 80272.505740508
+                },
+                "tree_retrieval": {
+                    "start_time": 80272.505744909,
+                    "end_time": 80279.974528795
+                },
+                "debate": {
+                    "start_time": 80279.974689206,
+                    "end_time": 80305.951066086
+                },
+                "global_llm": {
+                    "start_time": 80305.951068087,
+                    "end_time": 80307.550416399
+                }
+            },
+            "overall_latency": 35.12511279195314
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 import os
 from openai import AsyncOpenAI
 
-api_key = os.environ.get("OPENAI_API_KEY")
+api_key = "test"
 
 class GlobalLLM:
     def __init__(self):

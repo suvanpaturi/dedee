@@ -1,5 +1,17 @@
 #!/bin/bash
 
+set -e  # Exit on error
+set -u  # Treat unset vars as error
+
+echo "🔧 Building and pushing retrieval-table Docker image..."
+
+docker buildx build --platform linux/amd64 \
+  -t dedeeregistry.azurecr.io/retrieval-table:latest \
+  -t dedeeregistry.azurecr.io/retrieval-table:v4.2 \
+  --push ./retrieval_table
+
+echo "✅ Docker image pushed to dedeeregistry.azurecr.io"
+
 # Define the regions and AKS cluster names
 declare -A CLUSTERS
 CLUSTERS["eastus"]="retrieval-agent-eastus"
