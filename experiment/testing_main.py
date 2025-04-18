@@ -31,9 +31,9 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
  
 async def main():
  
-    llm_name = "gemma:2b"
+    llm_name = "qwen2.5:3b"
     dataset_name = "finqa"
-    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/finqa/testset.json'
+    test_json_path = '/Users/siveshkannan/Documents/VSCode/dedee_main/dedee/experiment/data/test/finqa/testset.json'
     
     with open(test_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
