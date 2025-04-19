@@ -38,7 +38,7 @@ spec:
             memory: "16Gi"
             nvidia.com/gpu: 1
       - name: judge
-        image: dedeeregistry.azurecr.io/judge:v2.5
+        image: dedeeregistry.azurecr.io/judge:v2.6
         imagePullPolicy: Always
         ports:
         - containerPort: 5001

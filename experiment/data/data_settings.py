@@ -1,3 +1,2 @@
 
-dataset = "finqa"
-#"hotpot_qa"
+dataset = "squad"
