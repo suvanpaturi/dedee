@@ -4,7 +4,9 @@ import json
 import httpx
 import os
 from datetime import datetime
-from rich.progress import Progress, SpinnerColumn, TextColumn
+from rich.progress import (
+    Progress, SpinnerColumn, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
+)
  
 BASE_URL = "http://retrieval-agent-traffic.trafficmanager.net:5001"
 #BASE_URL = "http://localhost:5001"
@@ -14,7 +16,7 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
     task = progress.add_task(f"Querying: {query}", start=False)
     progress.start_task(task)
     start_time = time.perf_counter()
-    result = await client.post(f"{BASE_URL}/query/", json={"query": query, "model": model, "judge_model": "gemma:2b"})
+    result = await client.post(f"{BASE_URL}/query/", json={"query": query, "model": model, "judge_model": "mistral:7b"})
     result = result.json()
     end_time = time.perf_counter()
     progress.stop_task(task)
@@ -29,9 +31,9 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
  
 async def main():
  
-    llm_name = "qwen:0.5b"
+    llm_name = "qwen2.5:3b"
     dataset_name = "finqa"
-    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/finqa/testset.json'
+    test_json_path = '/Users/siveshkannan/Documents/VSCode/dedee_main/dedee/experiment/data/test/finqa/testset.json'
     
     with open(test_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -61,9 +63,7 @@ async def main():
                     "latency": result["latency"],
                     "overall_latency": result["overall_latency"]
                 }
-                
                 query_results.append(query_result)
-                # print(f"Processed query: {query}")
     
     consolidated_results = {
         "metadata": {
