@@ -1,0 +1,1262 @@
+[
+    {
+        "query": "In what year can the earliest used of redhead be traced to?",
+        "response": "1510",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the earliest year the term \"redhead\" was used?"
+    },
+    {
+        "query": "What country did Kerry visit as a student?",
+        "response": "Switzerland",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which nation did Kerry travel to during her student years?"
+    },
+    {
+        "query": "In what area of Greenland can glaciers move 20-30m per day?",
+        "response": "Jakobshavn Isbræ",
+        "source": "rajpurkar/squad",
+        "modified_query": "Where in Greenland do glaciers advance 20-30 meters daily?"
+    },
+    {
+        "query": "What are these statutes essential to?",
+        "response": "freedom of speech",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the purpose of these statutes?"
+    },
+    {
+        "query": "What locations on Egypt's northern coast are major tourist destinations for recreational tourism?",
+        "response": "Dahab, Ras Sidr, Marsa Alam, Safaga",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which places on Egypt's northern coast are popular for recreational tourism?"
+    },
+    {
+        "query": "Whitehead believed that reality should be regarded as what?",
+        "response": "experiential",
+        "source": "rajpurkar/squad",
+        "modified_query": "How did Whitehead suggest reality should be perceived?"
+    },
+    {
+        "query": "What is the name of the industry association that represents all cable companies in Washington?",
+        "response": "The National Cable & Telecommunications Association",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which organization represents all cable companies in Washington?"
+    },
+    {
+        "query": "Who resigned their position in 1839? ",
+        "response": "Melbourne",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who stepped down from their role in 1839?"
+    },
+    {
+        "query": "What can be achieved without building high or getting rid of common areas?",
+        "response": "high density",
+        "source": "rajpurkar/squad",
+        "modified_query": "What can be accomplished without constructing tall structures or eliminating shared spaces?"
+    },
+    {
+        "query": "What despcription was assigned to minority leader in part?",
+        "response": "He is spokesman for his party and enunciates its policies.",
+        "source": "rajpurkar/squad",
+        "modified_query": "What description was partially given to the minority leader?"
+    },
+    {
+        "query": "As Prussia sought to incorporated several German kingdoms, what stance did France assume?",
+        "response": "strongly opposed to any further alliance of German states",
+        "source": "rajpurkar/squad",
+        "modified_query": "What position did France take as Prussia aimed to integrate various German kingdoms?"
+    },
+    {
+        "query": "Where is the Indo-Greek Kingdom?",
+        "response": "South Asia",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which location was the Indo-Greek Kingdom situated?"
+    },
+    {
+        "query": "What helped with better fuse setting?",
+        "response": "range measurement",
+        "source": "rajpurkar/squad",
+        "modified_query": "What contributed to improved fuse setting?"
+    },
+    {
+        "query": "What method is used to test software under a specific load?",
+        "response": "Load testing",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which technique is employed to evaluate software performance under a particular load?"
+    },
+    {
+        "query": "How many cubic meters of growing stock forest are there on the planet?",
+        "response": "434 billion",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the global volume of growing stock forest in cubic meters?"
+    },
+    {
+        "query": "What is the old Quantum  theory?",
+        "response": "a collection of results which predate modern quantum mechanics, but were never complete or self-consistent.",
+        "source": "rajpurkar/squad",
+        "modified_query": "What was the original Quantum theory?"
+    },
+    {
+        "query": "Who is the current administrator of Norfolk Island?",
+        "response": "Gary Hardgrave",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who currently holds the position of administrator on Norfolk Island?"
+    },
+    {
+        "query": "What annual sporting competition features the Wanamaker Mile?",
+        "response": "Millrose Games",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which yearly sports event includes the Wanamaker Mile?"
+    },
+    {
+        "query": "What notable battle occurred in 731?",
+        "response": "Battle of the Defile",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which significant battle took place in 731?"
+    },
+    {
+        "query": "What device seemed well-suited for Link's arrow shooting ability?",
+        "response": "Wii Remote",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which device appeared ideal for Link's arrow shooting skill?"
+    },
+    {
+        "query": "Along with Reims, where is a notable Gothic cathedral in France located?",
+        "response": "Chartres",
+        "source": "rajpurkar/squad",
+        "modified_query": "In addition to Reims, which city in France is home to a famous Gothic cathedral?"
+    },
+    {
+        "query": "Which US state also donated territory to Washington, D.C., but had it returned?",
+        "response": "Virginia",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which state contributed land to Washington, D.C., but later had it returned?"
+    },
+    {
+        "query": "For what reason did Sting and other artists cancel their scheduled performances in Kazakhstan? ",
+        "response": "human rights concerns",
+        "source": "rajpurkar/squad",
+        "modified_query": "Why did Sting and other artists call off their planned shows in Kazakhstan?"
+    },
+    {
+        "query": "When did Britain finish paying back the US loan?",
+        "response": "2006",
+        "source": "rajpurkar/squad",
+        "modified_query": "When did Britain complete repayment of the US loan?"
+    },
+    {
+        "query": "What value do users need to know when encoding their music to help avoid them having to do tests on each piece of music?",
+        "response": "quality setting",
+        "source": "rajpurkar/squad",
+        "modified_query": "What information should users know when encoding music to prevent testing each track individually?"
+    },
+    {
+        "query": "What does CRA stand for?",
+        "response": "Community Reinvestment Act",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the full form of CRA?"
+    },
+    {
+        "query": "What type of annelids are very different from others?",
+        "response": "leeches and their closest relatives",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which annelid species differ significantly from the rest?"
+    },
+    {
+        "query": "Who owned the building at 29 East 32nd Street between 1890 and 1917?",
+        "response": "Grolier Club",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was the owner of the building at 29 East 32nd Street from 1890 to 1917?"
+    },
+    {
+        "query": "What can Parliament supplement the amendment proposed by the citizens with?",
+        "response": "a counter-proposal",
+        "source": "rajpurkar/squad",
+        "modified_query": "What additions can Parliament make to the citizen-proposed amendment?"
+    },
+    {
+        "query": "\"There's an app for that!\",  what have been different technologies been created to do?",
+        "response": "assist hunters",
+        "source": "rajpurkar/squad",
+        "modified_query": "What purposes have various technologies been developed to serve, as suggested by the phrase \"There's an app for that\"?"
+    },
+    {
+        "query": "How many Indian cities have been selected to be developed as a smart city?",
+        "response": "hundred",
+        "source": "rajpurkar/squad",
+        "modified_query": "How many cities in India have been chosen for smart city development?"
+    },
+    {
+        "query": "What is Liaoning classifed as?",
+        "response": "a training ship",
+        "source": "rajpurkar/squad",
+        "modified_query": "How is Liaoning categorized?"
+    },
+    {
+        "query": "How many proteins is typical flagellum consist os?",
+        "response": "20 proteins",
+        "source": "rajpurkar/squad",
+        "modified_query": "How many proteins typically make up a flagellum?"
+    },
+    {
+        "query": "What's the equivalent of Universities of Technology in French-speaking areas?",
+        "response": "Instituts de technologie",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are Universities of Technology called in French-speaking regions?"
+    },
+    {
+        "query": "Which of Alexanders commanders were the first to visit Bahrain?",
+        "response": "Nearchus",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who among Alexander's commanders was the first to reach Bahrain?"
+    },
+    {
+        "query": "Which building under construction will surpass Comcast Center?",
+        "response": "Comcast Innovation and Technology Center",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which under-construction building will exceed the height of Comcast Center?"
+    },
+    {
+        "query": "How is the God of Dvaita different from that of Advaita in actions?",
+        "response": "takes on a personal role",
+        "source": "rajpurkar/squad",
+        "modified_query": "How do the actions of the God in Dvaita differ from those in Advaita?"
+    },
+    {
+        "query": "Who was elected Prime Minister in 1999?",
+        "response": "Ehud Barak",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who became the Prime Minister in 1999?"
+    },
+    {
+        "query": "What UK company did Microsoft partner with to bring IPTV to the 360?",
+        "response": "BT",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which UK company did Microsoft collaborate with to introduce IPTV to the 360?"
+    },
+    {
+        "query": "When was a Title IX complaint filed against Yale?",
+        "response": "March 2011",
+        "source": "rajpurkar/squad",
+        "modified_query": "When did someone file a Title IX complaint against Yale?"
+    },
+    {
+        "query": "MundoFox is an example of what?",
+        "response": "Spanish-language television networks",
+        "source": "rajpurkar/squad",
+        "modified_query": "What type of entity is MundoFox?"
+    },
+    {
+        "query": "What is adjacent the abbey?",
+        "response": "Palace of Westminster",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is next to the abbey?"
+    },
+    {
+        "query": "Which company produced the Twin Famicom and the 19SC111 TV?",
+        "response": "Sharp Corporation",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who manufactured the Twin Famicom and the 19SC111 TV?"
+    },
+    {
+        "query": "What is a treaty concluded among several countries?",
+        "response": "A multilateral treaty",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is an agreement made between multiple nations called?"
+    },
+    {
+        "query": "When was the Gallipoli Campaign?",
+        "response": "1915",
+        "source": "rajpurkar/squad",
+        "modified_query": "In what year did the Gallipoli Campaign occur?"
+    },
+    {
+        "query": "What is the name of the historical flag of Alsace?",
+        "response": "Rot-un-Wiss",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is Alsace's historical flag called?"
+    },
+    {
+        "query": "Israel's legislative body is called what?",
+        "response": "the Knesset",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the name of Israel's legislative body?"
+    },
+    {
+        "query": "What was the name of the nomad tribes that hunted bison?",
+        "response": "Jornado",
+        "source": "rajpurkar/squad",
+        "modified_query": "What were the nomadic tribes called that hunted bison?"
+    },
+    {
+        "query": "What scientific field did Wohler discover?",
+        "response": "organic chemistry",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which scientific discipline did Wohler make a discovery?"
+    },
+    {
+        "query": "How does Oklahoma's crude oil reserves rank among states?",
+        "response": "fifth",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is Oklahoma's ranking in crude oil reserves compared to other states?"
+    },
+    {
+        "query": "Through what Period did Queen Victoria reign? ",
+        "response": "1837 to January 1901",
+        "source": "rajpurkar/squad",
+        "modified_query": "During which era did Queen Victoria rule?"
+    },
+    {
+        "query": "Where did a large number of British Colonist come to florida from ",
+        "response": "coming from South Carolina, Georgia and England though there was also a group of settlers who came from the colony of Bermuda",
+        "source": "rajpurkar/squad",
+        "modified_query": "From where did many British colonists migrate to Florida?"
+    },
+    {
+        "query": "When did an investigation occur under school casualties?",
+        "response": "December 2008",
+        "source": "rajpurkar/squad",
+        "modified_query": "When was an investigation conducted regarding school casualties?"
+    },
+    {
+        "query": "What is it called when individuals of the more abundant sex compete with each other for the privilege to mate?",
+        "response": "intrasexual competition",
+        "source": "rajpurkar/squad",
+        "modified_query": "What term describes the competition among individuals of the more numerous sex for mating opportunities?"
+    },
+    {
+        "query": "The smaller streams are used for what?",
+        "response": "draining the surrounding land",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are the smaller streams used for?"
+    },
+    {
+        "query": "How many miles is Catalina Highway?",
+        "response": "25",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the length of Catalina Highway in miles?"
+    },
+    {
+        "query": "What is the main reason consulting pharmacists are increasingly working directly with patients?",
+        "response": "because many elderly people are now taking numerous medications but continue to live outside of institutional settings",
+        "source": "rajpurkar/squad",
+        "modified_query": "Why are consulting pharmacists more frequently engaging directly with patients?"
+    },
+    {
+        "query": "What did later Romans invest in rather than grave offerings?",
+        "response": "monumental endowments",
+        "source": "rajpurkar/squad",
+        "modified_query": "What did Romans prioritize over grave offerings in later times?"
+    },
+    {
+        "query": "Madonna was criticized for her performance of which song in the VMA?",
+        "response": "\"Like a Virgin\"",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which song did Madonna face criticism for performing at the VMA?"
+    },
+    {
+        "query": "What are most commercial ores?",
+        "response": "sulfides",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which ores are most commonly used commercially?"
+    },
+    {
+        "query": "What is solar energy?",
+        "response": "radiant light and heat from the Sun",
+        "source": "rajpurkar/squad",
+        "modified_query": "How would you define solar energy?"
+    },
+    {
+        "query": "What is the name of the earliest dynastic Sumerian king?",
+        "response": "Etana",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was the first king of the Sumerian dynasty?"
+    },
+    {
+        "query": "What type of heritage does Tyneside have?",
+        "response": "shipbuilding",
+        "source": "rajpurkar/squad",
+        "modified_query": "What kind of heritage is associated with Tyneside?"
+    },
+    {
+        "query": "What did Gautama spend the rest of his life doing after reaching enlightenment?",
+        "response": "he spent the rest of his life teaching the path of awakening he had discovered",
+        "source": "rajpurkar/squad",
+        "modified_query": "How did Gautama dedicate his life following his enlightenment?"
+    },
+    {
+        "query": "Along with the Renaissance, during what period were the Middle Ages disparaged?",
+        "response": "Enlightenment",
+        "source": "rajpurkar/squad",
+        "modified_query": "During which era, alongside the Renaissance, were the Middle Ages criticized?"
+    },
+    {
+        "query": "Who were the bushi class?",
+        "response": "ancient Japanese soldiers from traditional warrior families",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who made up the bushi class?"
+    },
+    {
+        "query": "Climate in the state depends mainly on what?",
+        "response": "elevation of the terrain",
+        "source": "rajpurkar/squad",
+        "modified_query": "What primarily influences the state's climate?"
+    },
+    {
+        "query": "Where is Al-Rashid Islamic Institute?",
+        "response": "Cornwall, Ontario",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which location can Al-Rashid Islamic Institute be found?"
+    },
+    {
+        "query": "Who disarmed Japan's Buddhist monks?",
+        "response": "Oda Nobunaga",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who stripped Japan's Buddhist monks of their weapons?"
+    },
+    {
+        "query": "Which sports center started in 1952?",
+        "response": "Wutaishan Sports Center",
+        "source": "rajpurkar/squad",
+        "modified_query": "What sports facility was established in 1952?"
+    },
+    {
+        "query": "Who did the Normans team up with in Anatolia?",
+        "response": "Turkish forces",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who were the Normans' allies in Anatolia?"
+    },
+    {
+        "query": "In what geographic portion of Florida is Miami located?",
+        "response": "southeastern",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which part of Florida is Miami situated?"
+    },
+    {
+        "query": "What was the black death originally blamed on?",
+        "response": "the heavens",
+        "source": "rajpurkar/squad",
+        "modified_query": "What was initially thought to be the cause of the Black Death?"
+    },
+    {
+        "query": "What property of treaties must often be interpreted when it's not clear?",
+        "response": "The language",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which aspect of treaties frequently requires interpretation when unclear?"
+    },
+    {
+        "query": "Churches filled up with monuments to what?",
+        "response": "monuments to the prosperous",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are churches filled with monuments to?"
+    },
+    {
+        "query": "What are urs?",
+        "response": "fairs held at the shrines of Sufi saints",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are yours?"
+    },
+    {
+        "query": "Who did not know about the potential revenue that the programme could have raised initially?",
+        "response": "the public",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was unaware of the initial potential revenue the program could generate?"
+    },
+    {
+        "query": "Beside a palm, what tree appears on the crest?",
+        "response": "laurel",
+        "source": "rajpurkar/squad",
+        "modified_query": "What tree, other than a palm, is featured on the crest?"
+    },
+    {
+        "query": "For which work is Mary Wollstonecraft best known?",
+        "response": "A Vindication of the Rights of Woman (1791)",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is Mary Wollstonecraft's most famous work?"
+    },
+    {
+        "query": "What does the capabilities approach look at poverty as a form of?",
+        "response": "capability deprivation",
+        "source": "rajpurkar/squad",
+        "modified_query": "How does the capabilities approach view poverty?"
+    },
+    {
+        "query": "India produced which early architectural text?",
+        "response": "Shilpa Shastras",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which early architectural text originated in India?"
+    },
+    {
+        "query": "In what year did Fresno experience the most rainfall?",
+        "response": "1885",
+        "source": "rajpurkar/squad",
+        "modified_query": "During which year did Fresno receive the highest amount of rainfall?"
+    },
+    {
+        "query": "What are some of the more common triggers?",
+        "response": "allergens, smoke (tobacco and other), air pollution, non selective beta-blockers, and sulfite-containing foods",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are some of the most frequent triggers?"
+    },
+    {
+        "query": "How long is the cycle of rebirth discussed in the Vedas?",
+        "response": "4,320,000 years",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the duration of the rebirth cycle mentioned in the Vedas?"
+    },
+    {
+        "query": "What sends a point in the square to the relating point under the symmetry? ",
+        "response": "functions",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which transformation maps a point in the square to its corresponding point under symmetry?"
+    },
+    {
+        "query": "What helped to advance the Greek way of life beyond its boarders ?",
+        "response": "the trading and colonizing activities of the Greek tribes and city states spread the Greek culture, religion and language",
+        "source": "rajpurkar/squad",
+        "modified_query": "What contributed to spreading Greek culture beyond its borders?"
+    },
+    {
+        "query": "What is man always seen as?",
+        "response": "an image of God",
+        "source": "rajpurkar/squad",
+        "modified_query": "How is man consistently perceived?"
+    },
+    {
+        "query": "How do DNA changes affect plants?",
+        "response": "express themselves\") differently",
+        "source": "rajpurkar/squad",
+        "modified_query": "In what ways do genetic alterations impact plants?"
+    },
+    {
+        "query": "A tragedy typically involved what subject matter?",
+        "response": "historical or mythological themes",
+        "source": "rajpurkar/squad",
+        "modified_query": "What themes are commonly explored in a tragedy?"
+    },
+    {
+        "query": "How many Academy Awards did 'Jaws' win?",
+        "response": "three",
+        "source": "rajpurkar/squad",
+        "modified_query": "How many Oscars did 'Jaws' receive?"
+    },
+    {
+        "query": "Where does Oklahoma have a fine Egyptian art collection?",
+        "response": "Mabee-Gerrer Museum of Art in Shawnee",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which location in Oklahoma can you find a notable Egyptian art collection?"
+    },
+    {
+        "query": "Who funds these homeless shelters?",
+        "response": "the city",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who provides financial support for these homeless shelters?"
+    },
+    {
+        "query": "What type of group were the \"king's friends\"?",
+        "response": "neo-Tory",
+        "source": "rajpurkar/squad",
+        "modified_query": "What kind of group were the \"king's friends\"?"
+    },
+    {
+        "query": "Since Luther believed that the Turks were sent by God, what was their purpose?",
+        "response": "destroy the antichrist",
+        "source": "rajpurkar/squad",
+        "modified_query": "What purpose did Luther believe God had for sending the Turks?"
+    },
+    {
+        "query": "What has pain sometimes been used as an argument to allow terminally ill patients the right to do?",
+        "response": "end their lives",
+        "source": "rajpurkar/squad",
+        "modified_query": "For what purpose has pain occasionally been cited as a reason to grant terminally ill patients a right?"
+    },
+    {
+        "query": "How is all university landscape waste used?",
+        "response": "composted",
+        "source": "rajpurkar/squad",
+        "modified_query": "How is all waste from university landscaping utilized?"
+    },
+    {
+        "query": "Who managed the Cubs in 1969?",
+        "response": "Leo Durocher",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was the Cubs' manager in 1969?"
+    },
+    {
+        "query": "In what product did  various compounds of zinc show little difference in absorption?",
+        "response": "maize tortillas",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which product did zinc compounds exhibit minimal differences in absorption?"
+    },
+    {
+        "query": "Under what condition might the polarization of the dielectric be unable to follow the voltage?",
+        "response": "driven with a time-varying voltage that changes rapidly",
+        "source": "rajpurkar/squad",
+        "modified_query": "When might the dielectric's polarization fail to keep up with the voltage?"
+    },
+    {
+        "query": "What modern-day country is South-West Africa?",
+        "response": "Namibia",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the current name of the country formerly known as South-West Africa?"
+    },
+    {
+        "query": "How often does the XPT to Sydney depart?",
+        "response": "twice a day",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the frequency of XPT departures to Sydney?"
+    },
+    {
+        "query": "Do antibiotics interact with birth control pills?",
+        "response": "The majority of studies indicate antibiotics do interfere with contraceptive pills",
+        "source": "rajpurkar/squad",
+        "modified_query": "Can antibiotics affect the effectiveness of birth control pills?"
+    },
+    {
+        "query": "How many propositions make up the separationist position on the Establishment Clause?",
+        "response": "two",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the number of propositions that constitute the separationist stance on the Establishment Clause?"
+    },
+    {
+        "query": "What neighborhood is also known as Jhamel?",
+        "response": "Jhamsikhel",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which area is referred to as Jhamel?"
+    },
+    {
+        "query": "How many Methodist houses of worship exist in Plymouth?",
+        "response": "over twenty",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the number of Methodist churches in Plymouth?"
+    },
+    {
+        "query": "Where did the next settlement of people on Norfolk Island settle from?",
+        "response": "the Pitcairn Islands",
+        "source": "rajpurkar/squad",
+        "modified_query": "From where did the next group of settlers on Norfolk Island originate?"
+    },
+    {
+        "query": "What record label signed the winner of season fourteen of American Idol?",
+        "response": "Big Machine Records",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which record company signed the season fourteen winner of American Idol?"
+    },
+    {
+        "query": "Who was the leader of Egypt at the time of the Suez Crisis?",
+        "response": "Gamal Abdel Nasser",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who governed Egypt during the Suez Crisis?"
+    },
+    {
+        "query": "What Doctor was first referred to as \"his secret\"?",
+        "response": "the War Doctor",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which Doctor was initially called \"his secret\"?"
+    },
+    {
+        "query": "In what year was the final Greek resistance?",
+        "response": "88 BC",
+        "source": "rajpurkar/squad",
+        "modified_query": "When did the last Greek resistance occur?"
+    },
+    {
+        "query": "The Sand Bernardino - Riverside area maintains what kind of district?",
+        "response": "business",
+        "source": "rajpurkar/squad",
+        "modified_query": "What type of district does the San Bernardino - Riverside area have?"
+    },
+    {
+        "query": "Who are the leaders of each house given the responsibility of informing their group of the governor-generals actions?",
+        "response": "President of the Senate and the Speaker of the House of Representatives",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who are the heads of each house tasked with updating their group on the governor-general's actions?"
+    },
+    {
+        "query": "General Dupuy revealed the motives for Napoleon's religious tolerance after the death of which religious figure?",
+        "response": "Pope Pius VI",
+        "source": "rajpurkar/squad",
+        "modified_query": "After the death of which religious figure did General Dupuy disclose Napoleon's reasons for religious tolerance?"
+    },
+    {
+        "query": "What is found on the Start Screen?",
+        "response": "a customizable array of tiles linking to various apps and desktop programs",
+        "source": "rajpurkar/squad",
+        "modified_query": "What appears on the Start Screen?"
+    },
+    {
+        "query": "What did Philo's views on the absence of instruments clash with?",
+        "response": "Jewish scriptures",
+        "source": "rajpurkar/squad",
+        "modified_query": "What did Philo's opinions on the lack of instruments conflict with?"
+    },
+    {
+        "query": "In what year was A Study of High Definition Television Systems released?",
+        "response": "1979",
+        "source": "rajpurkar/squad",
+        "modified_query": "When was A Study of High Definition Television Systems published?"
+    },
+    {
+        "query": "How much value was one dollar meant to be equivalent to?",
+        "response": "a Spanish milled dollar",
+        "source": "rajpurkar/squad",
+        "modified_query": "What was the intended equivalent value of one dollar?"
+    },
+    {
+        "query": "What would be the reduction in deisease incedence if there was better water and sanitation?",
+        "response": "22–27% reduction in disease incidence",
+        "source": "rajpurkar/squad",
+        "modified_query": "How much would disease incidence decrease with improved water and sanitation?"
+    },
+    {
+        "query": "What might the Government require a teacher have before being allowed to teach?",
+        "response": "certification by a recognized body",
+        "source": "rajpurkar/squad",
+        "modified_query": "What qualifications might the Government mandate for a teacher to begin teaching?"
+    },
+    {
+        "query": "Who was Foot replaced by?",
+        "response": "Neil Kinnock",
+        "source": "rajpurkar/squad",
+        "modified_query": "By whom was Foot replaced?"
+    },
+    {
+        "query": "How far is to the neighboring capitol of Canelones?",
+        "response": "46 kilometres",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the distance to Canelones' neighboring capital?"
+    },
+    {
+        "query": "What did Jefferson draft his Statute of Religious Freedom in opposition to?",
+        "response": "a bill",
+        "source": "rajpurkar/squad",
+        "modified_query": "Against what was Jefferson's Statute of Religious Freedom drafted?"
+    },
+    {
+        "query": "Whose art influence Madonna?",
+        "response": "Frida Kahlo",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who are the artists that influenced Madonna?"
+    },
+    {
+        "query": "What is the smalled work force sector?",
+        "response": "Industry and manufacturing",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which sector has the smallest workforce?"
+    },
+    {
+        "query": "What Gran Turismo game was shown in 2007 but not released until after 2007?",
+        "response": "Gran Turismo 5 Prologue",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which Gran Turismo game was unveiled in 2007 but released later?"
+    },
+    {
+        "query": "What years did the civil war take place?",
+        "response": "1992 to 1997",
+        "source": "rajpurkar/squad",
+        "modified_query": "During which years was the civil war fought?"
+    },
+    {
+        "query": "Along with lemon yellow, what color is produced in uranium glass?",
+        "response": "orange-red",
+        "source": "rajpurkar/squad",
+        "modified_query": "What color, besides lemon yellow, is found in uranium glass?"
+    },
+    {
+        "query": "What game played in both Britain and America has become increasingly popular in pubs?",
+        "response": "pool",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which game, popular in both Britain and America, is gaining popularity in pubs?"
+    },
+    {
+        "query": "What venue in Miami was a candidate for the site of Super Bowl 50?",
+        "response": "Sun Life Stadium",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which location in Miami was considered for hosting Super Bowl 50?"
+    },
+    {
+        "query": "When did John die?",
+        "response": "18 October",
+        "source": "rajpurkar/squad",
+        "modified_query": "What year did John pass away?"
+    },
+    {
+        "query": "What did Popper argue was objective and independent of its subject?",
+        "response": "knowledge",
+        "source": "rajpurkar/squad",
+        "modified_query": "What did Popper claim to be objective and independent of its subject?"
+    },
+    {
+        "query": "Who is known for the thought that humanity is the most important thing in the world?",
+        "response": "Wu of Zhou",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who is recognized for the belief that humanity holds the utmost importance in the world?"
+    },
+    {
+        "query": "What is does ECCE refer to in the Swazi educational system?",
+        "response": "early childhood care and education",
+        "source": "rajpurkar/squad",
+        "modified_query": "What does ECCE mean in the context of Swazi education?"
+    },
+    {
+        "query": "What fell out of favor during this time?",
+        "response": "Wood-panelling",
+        "source": "rajpurkar/squad",
+        "modified_query": "What became unpopular during this period?"
+    },
+    {
+        "query": "Which art was important in religious symbolism and as a decoration in the Ottoman empire?",
+        "response": "carpet weaving",
+        "source": "rajpurkar/squad",
+        "modified_query": "What type of art held significance in religious symbolism and decoration during the Ottoman Empire?"
+    },
+    {
+        "query": "When was the International Chopin Piano Competition established?",
+        "response": "1927",
+        "source": "rajpurkar/squad",
+        "modified_query": "In what year was the International Chopin Piano Competition founded?"
+    },
+    {
+        "query": "When did Seoul Semiconductor release the first high DC voltage LED?",
+        "response": "2009",
+        "source": "rajpurkar/squad",
+        "modified_query": "In what year did Seoul Semiconductor launch the first high DC voltage LED?"
+    },
+    {
+        "query": "What created the differentiation of Protestant branches?",
+        "response": "how they have been influenced by important movements since the Reformation",
+        "source": "rajpurkar/squad",
+        "modified_query": "What led to the formation of different Protestant branches?"
+    },
+    {
+        "query": "What is a common background for a Japanese wrestler? ",
+        "response": "legitimate martial arts",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is a typical background for a Japanese wrestler?"
+    },
+    {
+        "query": "What did Germany add to the 20 mm to make it more effective?",
+        "response": "a 3.7 cm",
+        "source": "rajpurkar/squad",
+        "modified_query": "What enhancement did Germany make to the 20 mm to increase its effectiveness?"
+    },
+    {
+        "query": "How many certifications did RIAA give Beyoncé?",
+        "response": "64",
+        "source": "rajpurkar/squad",
+        "modified_query": "How many RIAA certifications has Beyoncé received?"
+    },
+    {
+        "query": "How did Lothar Wolfgang Nordheim describe von Neumann? ",
+        "response": "\"fastest mind I ever met\",",
+        "source": "rajpurkar/squad",
+        "modified_query": "How did Lothar Wolfgang Nordheim characterize von Neumann?"
+    },
+    {
+        "query": "When was the centrality of the \"separation\" concept to the Religion Clauses of the Constitution made explicit?",
+        "response": "1947",
+        "source": "rajpurkar/squad",
+        "modified_query": "When was the importance of \"separation\" to the Constitution's Religion Clauses clearly stated?"
+    },
+    {
+        "query": "What effect does bronchial thermoplasty have?",
+        "response": "it appears to decrease the subsequent rate.",
+        "source": "rajpurkar/squad",
+        "modified_query": "How does bronchial thermoplasty impact patients?"
+    },
+    {
+        "query": "Randomly chosen people from different groups may be more similar to each other than with members of their own what?",
+        "response": "cluster",
+        "source": "rajpurkar/squad",
+        "modified_query": "Randomly selected individuals from various groups might share more similarities with each other than with members of their own what?"
+    },
+    {
+        "query": "Who was the religious leader of the original Puritan settlers?",
+        "response": "Reverend John Davenport",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who led the Puritans as their religious figure during their initial settlement?"
+    },
+    {
+        "query": "What happened to Sky's agreement in 2006.",
+        "response": "Sky's monopoly was broken from August 2006 when Setanta Sports was awarded rights to show two out of the six packages of matches available.",
+        "source": "rajpurkar/squad",
+        "modified_query": "What occurred with Sky's contract in 2006?"
+    },
+    {
+        "query": "What has an equivalence between mass and space-time?",
+        "response": "General relativity",
+        "source": "rajpurkar/squad",
+        "modified_query": "What relates mass to space-time?"
+    },
+    {
+        "query": "The RAF bombed what Germany coast?",
+        "response": "Wilhelmshaven",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which German coast did the RAF bomb?"
+    },
+    {
+        "query": "What are the three levels of higher learning in Estonia?",
+        "response": "bachelor's, master's, and doctoral studies",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are the three tiers of higher education in Estonia?"
+    },
+    {
+        "query": "What class carrier is the Sao Paulo?",
+        "response": "Clemenceau",
+        "source": "rajpurkar/squad",
+        "modified_query": "What class does the Sao Paulo aircraft carrier belong to?"
+    },
+    {
+        "query": "By what other name is abstract expressionism known?",
+        "response": "the New York School",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is another name for abstract expressionism?"
+    },
+    {
+        "query": "What did the civil war leave the state of Afghanistan's economy in?",
+        "response": "one of the poorest countries on earth",
+        "source": "rajpurkar/squad",
+        "modified_query": "What was the impact of the civil war on Afghanistan's economy?"
+    },
+    {
+        "query": "What other two famous performers were part of the Super Bowl 50 halftime?",
+        "response": "Beyoncé and Bruno Mars",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who were the two other renowned artists in the Super Bowl 50 halftime show?"
+    },
+    {
+        "query": "Who was considered to be the first choice in the NFL draft of 1998?",
+        "response": "Manning",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was the top pick in the 1998 NFL draft?"
+    },
+    {
+        "query": "What year was Temüjin, who became Genghis Khan, likely born?",
+        "response": "1162",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which year was Temüjin, later known as Genghis Khan, probably born?"
+    },
+    {
+        "query": "Home has free, won, and what third type of content?",
+        "response": "premium",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the third type of content available at Home besides free and won?"
+    },
+    {
+        "query": "Who were the defending champions of the Arena Football League?",
+        "response": "San Jose SaberCats",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who held the Arena Football League championship title previously?"
+    },
+    {
+        "query": "What civilization did the pottery belong to?",
+        "response": "Timucua",
+        "source": "rajpurkar/squad",
+        "modified_query": "To which civilization did the pottery belong?"
+    },
+    {
+        "query": "What neighborhood is the Marriott Starr Pass Resort & Spa in?",
+        "response": "Starr Pass",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which neighborhood is the Marriott Starr Pass Resort & Spa located?"
+    },
+    {
+        "query": "Beyond getting money, bribes are also used to cause what to others?",
+        "response": "harm",
+        "source": "rajpurkar/squad",
+        "modified_query": "Besides obtaining money, what is another purpose of using bribes against others?"
+    },
+    {
+        "query": "What was the length of a term that a king would be elected for in the Roman Kingdom?",
+        "response": "life term",
+        "source": "rajpurkar/squad",
+        "modified_query": "For how long was a king elected in the Roman Kingdom?"
+    },
+    {
+        "query": "Which major political figure condemned The Times in 1944 for not supporting the British Army?",
+        "response": "Winston Churchill",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was the prominent political leader who criticized The Times in 1944 for not backing the British Army?"
+    },
+    {
+        "query": "When was The Russian Revolution?",
+        "response": "1917",
+        "source": "rajpurkar/squad",
+        "modified_query": "In what year did The Russian Revolution occur?"
+    },
+    {
+        "query": "How many Chinese troops were involved in the rescue efforts?",
+        "response": "135,000",
+        "source": "rajpurkar/squad",
+        "modified_query": "What was the number of Chinese troops participating in the rescue efforts?"
+    },
+    {
+        "query": "According to the Encyclopedia Britannica, what is the total area of the US in miles?",
+        "response": "3,676,486 sq mi",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the US's total area in miles, as stated by the Encyclopedia Britannica?"
+    },
+    {
+        "query": "In what part of France was Cluny Abbey founded?",
+        "response": "Mâcon",
+        "source": "rajpurkar/squad",
+        "modified_query": "Where in France was Cluny Abbey established?"
+    },
+    {
+        "query": "What did Josel ask the city of Strasbourg to forbid the sale of?",
+        "response": "Luther's anti-Jewish works",
+        "source": "rajpurkar/squad",
+        "modified_query": "What did Josel request the city of Strasbourg to ban from being sold?"
+    },
+    {
+        "query": "Who was the moderator of the first debate between Kerry and Bush?",
+        "response": "Jim Lehrer",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who moderated the initial debate between Bush and Kerry?"
+    },
+    {
+        "query": "What status does Catalan Countries have?",
+        "response": "no official status",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the status of the Catalan Countries?"
+    },
+    {
+        "query": "When did hostilities in the Persian Gulf War begin?",
+        "response": "January 1991",
+        "source": "rajpurkar/squad",
+        "modified_query": "When did the Persian Gulf War hostilities start?"
+    },
+    {
+        "query": "What turned into the goal of the student body?",
+        "response": "winning the big game",
+        "source": "rajpurkar/squad",
+        "modified_query": "What became the student body's objective?"
+    },
+    {
+        "query": "When was the Mann Act passed?",
+        "response": "June 25, 1910",
+        "source": "rajpurkar/squad",
+        "modified_query": "In what year was the Mann Act enacted?"
+    },
+    {
+        "query": "How are judges appointed?",
+        "response": "elected by the voters",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the process for appointing judges?"
+    },
+    {
+        "query": "Which angel announced to Mary that she was to be the mother of the Messiah?",
+        "response": "Gabriel",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who informed Mary that she would give birth to the Messiah?"
+    },
+    {
+        "query": "Who founded organizations like the FA?",
+        "response": "Former public schoolboys",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who established groups such as the FA?"
+    },
+    {
+        "query": "Which British monarch appears above the frame around the arches and entrance?",
+        "response": "Queen Victoria",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which British king or queen is depicted above the frame surrounding the arches and entrance?"
+    },
+    {
+        "query": "What type of philosopher was Hobbes?",
+        "response": "empiricist",
+        "source": "rajpurkar/squad",
+        "modified_query": "What kind of philosopher was Hobbes?"
+    },
+    {
+        "query": "How many works of art currently reside in the National Museum?",
+        "response": "200,000",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the current number of artworks housed in the National Museum?"
+    },
+    {
+        "query": "The Holiday Festival of Lights are held where?",
+        "response": "James Island County Park",
+        "source": "rajpurkar/squad",
+        "modified_query": "Where is the Holiday Festival of Lights held?"
+    },
+    {
+        "query": "Buckingham Palace was untouched during which war?",
+        "response": "World War I",
+        "source": "rajpurkar/squad",
+        "modified_query": "During which war was Buckingham Palace left undamaged?"
+    },
+    {
+        "query": "What was IBM's operating margin in 2004?",
+        "response": "16.8%",
+        "source": "rajpurkar/squad",
+        "modified_query": "What was IBM's 2004 operating margin?"
+    },
+    {
+        "query": "What is a notable restaurant in Little Havana?",
+        "response": "Versailles",
+        "source": "rajpurkar/squad",
+        "modified_query": "Can you name a well-known restaurant in Little Havana?"
+    },
+    {
+        "query": "In what year did the Tenth Doctor appear in the Sarah Jane series?",
+        "response": "2009",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which year did the Tenth Doctor feature in the Sarah Jane series?"
+    },
+    {
+        "query": "When did Blair announce he was quitting?",
+        "response": "September 2006",
+        "source": "rajpurkar/squad",
+        "modified_query": "When did Blair declare his resignation?"
+    },
+    {
+        "query": "Which contestant was best known for his bad audition of \"She Bangs\"?",
+        "response": "William Hung",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who became famous for his poor rendition of \"She Bangs\" during an audition?"
+    },
+    {
+        "query": "What does the tree live on?",
+        "response": "sapling-sized sprouts",
+        "source": "rajpurkar/squad",
+        "modified_query": "What sustains the tree?"
+    },
+    {
+        "query": "What does Zugunruhe mean in English?",
+        "response": "migratory restlessness",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the English translation of Zugunruhe?"
+    },
+    {
+        "query": "What happened after Kanye made his controversial statement?",
+        "response": "Rick Kaplan cut off the microphone and then cut away to Chris Tucker",
+        "source": "rajpurkar/squad",
+        "modified_query": "What occurred following Kanye's controversial remark?"
+    },
+    {
+        "query": "When did the Kievan state break up into twelve seperate principalities?",
+        "response": "12th century,",
+        "source": "rajpurkar/squad",
+        "modified_query": "When did the Kievan state divide into twelve distinct principalities?"
+    },
+    {
+        "query": "What religions does Nigeria have besides the top two?",
+        "response": "a tiny minority of adherents of Animism and other religions",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are Nigeria's religions apart from the two most prominent ones?"
+    },
+    {
+        "query": "The government of Saint Helena produces it's own what?",
+        "response": "coinage and banknotes",
+        "source": "rajpurkar/squad",
+        "modified_query": "What does the government of Saint Helena produce independently?"
+    },
+    {
+        "query": "Where is the lake located in Atenco?",
+        "response": "Federal District",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which location can the lake in Atenco be found?"
+    },
+    {
+        "query": "What other massive agency's creation was the DHS compared to?",
+        "response": "the Department of Defense",
+        "source": "rajpurkar/squad",
+        "modified_query": "To which other large agency's formation was the DHS likened?"
+    },
+    {
+        "query": "What does the Sieve of Eratosthenes do?",
+        "response": "compute primes",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the function of the Sieve of Eratosthenes?"
+    },
+    {
+        "query": "Who created Minecraft?",
+        "response": "Markus \"Notch\" Persson",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who is the creator of Minecraft?"
+    },
+    {
+        "query": "Whose effigy was placed on a ship on wheels?",
+        "response": "Nerthus or Freyr",
+        "source": "rajpurkar/squad",
+        "modified_query": "On whose likeness was the ship on wheels modeled?"
+    },
+    {
+        "query": "Where do Eleonora's falcon breed?",
+        "response": "Mediterranean islands",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which location do Eleonora's falcons nest?"
+    },
+    {
+        "query": "What do some dictionaries have?",
+        "response": "sub-index",
+        "source": "rajpurkar/squad",
+        "modified_query": "What features do certain dictionaries include?"
+    },
+    {
+        "query": "What is designing as it applies to built environments?",
+        "response": "architectural lighting design",
+        "source": "rajpurkar/squad",
+        "modified_query": "How is designing defined in the context of built environments?"
+    },
+    {
+        "query": "What is the LGBT newspaper called?",
+        "response": "Seattle Gay News",
+        "source": "rajpurkar/squad",
+        "modified_query": "What is the name of the LGBT newspaper?"
+    },
+    {
+        "query": "What has happened to the local dialects in the French speaking regions?",
+        "response": "have almost disappeared",
+        "source": "rajpurkar/squad",
+        "modified_query": "What changes have occurred in the local dialects of French-speaking areas?"
+    },
+    {
+        "query": "Why is this particular rule so controversial?",
+        "response": "the Fish and Wildlife Service (FWS) loses much ability to further protect a species if the mitigation measures by the landowner prove insufficient.",
+        "source": "rajpurkar/squad",
+        "modified_query": "What makes this specific rule contentious?"
+    },
+    {
+        "query": "In what four years was England eliminated from the UEFA European Championship in the first round?",
+        "response": "1980, 1988, 1992 and 2000",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which four years did England exit the UEFA European Championship at the group stage?"
+    },
+    {
+        "query": "Who was buried in the abbey on 4 April 1727?",
+        "response": "Isaac Newton",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who was interred in the abbey on April 4, 1727?"
+    },
+    {
+        "query": "What has disappeared, then been recreated in order to perform music of the period?",
+        "response": "authentic instruments",
+        "source": "rajpurkar/squad",
+        "modified_query": "What vanished and was later reconstructed to play period music?"
+    },
+    {
+        "query": "What is one of the toughest derbies in the world, run in Egypt?",
+        "response": "The Cairo Derby",
+        "source": "rajpurkar/squad",
+        "modified_query": "Which is one of the most challenging derbies held in Egypt?"
+    },
+    {
+        "query": "When did relevant warnings and research on CDOs appear in an article by Donnelly and Embrechts?",
+        "response": "2006",
+        "source": "rajpurkar/squad",
+        "modified_query": "In which article by Donnelly and Embrechts did warnings and research on CDOs first appear?"
+    },
+    {
+        "query": "Who is at the center of all mystical experiences?",
+        "response": "Christ",
+        "source": "rajpurkar/squad",
+        "modified_query": "Who is the focal point of all mystical experiences?"
+    },
+    {
+        "query": "What does gastric juice consist of?",
+        "response": "hydrochloric acid and pepsin",
+        "source": "rajpurkar/squad",
+        "modified_query": "What are the components of gastric juice?"
+    }
+]
