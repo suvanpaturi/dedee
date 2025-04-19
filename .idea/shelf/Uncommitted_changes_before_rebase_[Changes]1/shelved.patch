@@ -1,0 +1,31 @@
+Index: experiment/testing_main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import asyncio\nimport time\nimport json\nimport httpx\nimport os\nfrom datetime import datetime\nfrom rich.progress import Progress, SpinnerColumn, TextColumn\n \nBASE_URL = \"http://retrieval-agent-traffic.trafficmanager.net:5001\"\n#BASE_URL = \"http://localhost:5001\"\n \nasync def query_retrieval_agent(client: httpx.AsyncClient, query: str, progress: Progress):\n    \"\"\"Send a query to the retrieval agent and measure the latency.\"\"\"\n    task = progress.add_task(f\"Querying: {query}\", start=False)\n    progress.start_task(task)\n    start_time = time.perf_counter()\n    result = await client.post(f\"{BASE_URL}/query/\", json={\"query\": query})\n    result = result.json()\n    end_time = time.perf_counter()\n    progress.stop_task(task)\n    overall_latency = end_time - start_time\n    return {\n        \"query\": query,\n        \"response\": result.get('response', \"No Response\"),\n        \"method\": result.get('method', \"unknown\"),\n        \"latency\": result.get('latency', {}),\n        \"overall_latency\": overall_latency\n        }\n \nasync def main():\n \n    llm_name = \"gemma:2b\"\n    dataset_name = \"hotpot_qa\"\n    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'\n    \n    with open(test_json_path, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n    \n    data_dict = {d[\"query\"]: d for d in data}\n    \n    timeout = httpx.Timeout(180.0)\n    \n    timestamp = time.strftime(\"%Y%m%d_%H%M%S\")\n    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'\n    os.makedirs(output_dir, exist_ok=True)\n    \n    query_results = []\n    \n    async with httpx.AsyncClient(timeout=timeout) as client:\n        with Progress(SpinnerColumn(), TextColumn(\"[progress.description]{task.description}\")) as progress:\n            for item in data:\n                result = await query_retrieval_agent(client, item[\"query\"], progress)\n                \n                query = result[\"query\"]\n                query_result = {\n                    \"query\": query,\n                    \"predicted_response\": result[\"response\"],\n                    \"method\": result[\"method\"],\n                    \"actual_response\": data_dict[query][\"response\"],\n                    \"source\": data_dict[query][\"source\"],\n                    \"latency\": result[\"latency\"],\n                    \"overall_latency\": result[\"overall_latency\"]\n                }\n                \n                query_results.append(query_result)\n                # print(f\"Processed query: {query}\")\n    \n    consolidated_results = {\n        \"metadata\": {\n            \"llm_name\": llm_name,\n            \"dataset_name\": dataset_name,\n            \"total_queries\": len(query_results),\n            \"test_date\": time.strftime(\"%Y-%m-%d %H:%M:%S\"),\n            \"timestamp\": timestamp\n        },\n        \"results\": query_results\n    }\n    \n    with open(f'{output_dir}/all_results.json', 'w', encoding='utf-8') as f:\n        json.dump(consolidated_results, f, ensure_ascii=False, indent=4)\n    \n    print(f\"Testing complete. Processed {len(query_results)} queries.\")\n    print(f\"Results saved to {output_dir}\")\n    print(f\"Timestamp: {timestamp}\")\n \nif __name__ == \"__main__\":\n    asyncio.run(main())
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/experiment/testing_main.py b/experiment/testing_main.py
+--- a/experiment/testing_main.py	(revision 22b431ac689b65ae4eeda9b3b9380ee8511ccf6d)
++++ b/experiment/testing_main.py	(date 1744789067094)
+@@ -30,8 +30,8 @@
+ async def main():
+  
+     llm_name = "gemma:2b"
+-    dataset_name = "hotpot_qa"
+-    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'
++    dataset_name = "eli5"
++    test_json_path = '/Users/aashidutt/Downloads/dedee/experiment/data/test/eli5/testset1.json' # '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'
+     
+     with open(test_json_path, 'r', encoding='utf-8') as f:
+         data = json.load(f)
+@@ -41,7 +41,8 @@
+     timeout = httpx.Timeout(180.0)
+     
+     timestamp = time.strftime("%Y%m%d_%H%M%S")
+-    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
++    # output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
++    output_dir = f'experiment/response/{llm_name}/{dataset_name}/{timestamp}'
+     os.makedirs(output_dir, exist_ok=True)
+     
+     query_results = []

@@ -1,0 +1,52 @@
+Index: experiment/testing_main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import asyncio\nimport time\nimport json\nimport httpx\nimport os\nfrom datetime import datetime\nfrom rich.progress import Progress, SpinnerColumn, TextColumn\n \nBASE_URL = \"http://retrieval-agent-traffic.trafficmanager.net:5001\"\n#BASE_URL = \"http://localhost:5001\"\n \nasync def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: str, progress: Progress):\n    \"\"\"Send a query to the retrieval agent and measure the latency.\"\"\"\n    task = progress.add_task(f\"Querying: {query}\", start=False)\n    progress.start_task(task)\n    start_time = time.perf_counter()\n    result = await client.post(f\"{BASE_URL}/query/\", json={\"query\": query, \"model\": model, \"judge_model\": \"gemma:2b\"})\n    result = result.json()\n    end_time = time.perf_counter()\n    progress.stop_task(task)\n    overall_latency = end_time - start_time\n    return {\n        \"query\": query,\n        \"response\": result.get('response', \"No Response\"),\n        \"method\": result.get('method', \"unknown\"),\n        \"latency\": result.get('latency', {}),\n        \"overall_latency\": overall_latency\n        }\n \nasync def main():\n \n    llm_name = \"qwen:0.5b\"\n    dataset_name = \"finqa\"\n    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/finqa/testset.json'\n    \n    with open(test_json_path, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n    \n    data_dict = {d[\"query\"]: d for d in data}\n    \n    timeout = httpx.Timeout(300.0)\n    \n    timestamp = time.strftime(\"%Y%m%d_%H%M%S\")\n    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'\n    os.makedirs(output_dir, exist_ok=True)\n    \n    query_results = []\n    \n    async with httpx.AsyncClient(timeout=timeout) as client:\n        with Progress(SpinnerColumn(), TextColumn(\"[progress.description]{task.description}\")) as progress:\n            for item in data:\n                result = await query_retrieval_agent(client, item[\"query\"], llm_name, progress)\n                \n                query = result[\"query\"]\n                query_result = {\n                    \"query\": query,\n                    \"predicted_response\": result[\"response\"],\n                    \"method\": result[\"method\"],\n                    \"actual_response\": data_dict[query][\"response\"],\n                    \"source\": data_dict[query][\"source\"],\n                    \"latency\": result[\"latency\"],\n                    \"overall_latency\": result[\"overall_latency\"]\n                }\n                \n                query_results.append(query_result)\n                # print(f\"Processed query: {query}\")\n    \n    consolidated_results = {\n        \"metadata\": {\n            \"llm_name\": llm_name,\n            \"dataset_name\": dataset_name,\n            \"total_queries\": len(query_results),\n            \"test_date\": time.strftime(\"%Y-%m-%d %H:%M:%S\"),\n            \"timestamp\": timestamp\n        },\n        \"results\": query_results\n    }\n    \n    with open(f'{output_dir}/all_results.json', 'w', encoding='utf-8') as f:\n        json.dump(consolidated_results, f, ensure_ascii=False, indent=4)\n    \n    print(f\"Testing complete. Processed {len(query_results)} queries.\")\n    print(f\"Results saved to {output_dir}\")\n    print(f\"Timestamp: {timestamp}\")\n \nif __name__ == \"__main__\":\n    asyncio.run(main())
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/experiment/testing_main.py b/experiment/testing_main.py
+--- a/experiment/testing_main.py	(revision 4206892783ffafd6ebb43ff418f87952588ad126)
++++ b/experiment/testing_main.py	(date 1744882811952)
+@@ -29,9 +29,9 @@
+  
+ async def main():
+  
+-    llm_name = "qwen:0.5b"
++    llm_name = "gemma:2b" #qwen:0.5b
+     dataset_name = "finqa"
+-    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/finqa/testset.json'
++    test_json_path = '/Users/aashidutt/Downloads/dedee/experiment/data/test/finqa/testset.json'
+     
+     with open(test_json_path, 'r', encoding='utf-8') as f:
+         data = json.load(f)
+@@ -41,7 +41,7 @@
+     timeout = httpx.Timeout(300.0)
+     
+     timestamp = time.strftime("%Y%m%d_%H%M%S")
+-    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
++    output_dir = f'/Users/aashidutt/Downloads/dedee/experiment/response/{llm_name}/{dataset_name}/{timestamp}'
+     os.makedirs(output_dir, exist_ok=True)
+     
+     query_results = []
+Index: docker-debate/model.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#!/bin/bash\n\nset -e  # Exit on error\nset -u  # Treat unset vars as error\n\nNAMESPACE=default\n\n# Parent model\nMODEL_NAME_TO_REMOVE=\"qwen:0.5b\"\nMODEL_NAME=\"qwen:0.5b\"\n\n# Judge model\nJUDGE_MODEL_TO_REMOVE=\"gemma:2b\"\nJUDGE_MODEL=\"gemma:2b\"\n\ndelete_and_pull_model() {\n  local pod_name=$1\n  local role_name=$2\n  local model_to_remove=$3\n  local model_to_pull=$4\n\n  if [ -n \"$pod_name\" ]; then\n    echo \"Checking and deleting existing model ($model_to_remove) for $role_name...\"\n    kubectl exec \"$pod_name\" -- ollama rm \"$model_to_remove\" || echo \"Model not found, skipping delete\"\n\n    echo \"Pulling latest model ($model_to_pull) for $role_name...\"\n    kubectl exec \"$pod_name\" -- ollama pull \"$model_to_pull\"\n  else\n    echo \"No $role_name pod found. Skipping.\"\n  fi\n}\n\necho \"Switching to AKS cluster (East US)...\"\naz aks get-credentials --resource-group dedee --name edge-eastus --overwrite-existing\n\necho \"Updating Judge...\"\nJUDGE_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep judge | awk '{print $1}')\ndelete_and_pull_model \"$JUDGE_POD\" \"Judge\" \"$JUDGE_MODEL_TO_REMOVE\" \"$JUDGE_MODEL\"\n\necho \"Updating Parent (East US)...\"\nPARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')\ndelete_and_pull_model \"$PARENT_POD\" \"Parent-EastUS\" \"$MODEL_NAME_TO_REMOVE\" \"$MODEL_NAME\"\n\necho \"Switching to AKS cluster (West US)...\"\naz aks get-credentials --resource-group dedee --name edge-westus --overwrite-existing\n\necho \"Updating Parent (West US)...\"\nPARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')\ndelete_and_pull_model \"$PARENT_POD\" \"Parent-WestUS\" \"$MODEL_NAME_TO_REMOVE\" \"$MODEL_NAME\"\n\necho \"Switching to AKS cluster (West Europe)...\"\naz aks get-credentials --resource-group dedee --name edge-westeurope --overwrite-existing\n\necho \"Updating Parent (West Europe)...\"\nPARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')\ndelete_and_pull_model \"$PARENT_POD\" \"Parent-WestEurope\" \"$MODEL_NAME_TO_REMOVE\" \"$MODEL_NAME\"\n\necho \"✅ Pulled and refreshed model across all parents and judge.\"\n\n# Return to East US context and show pod/svc status\naz aks get-credentials --resource-group dedee --name edge-eastus --overwrite-existing\nkubectl get pods\nkubectl get svc\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docker-debate/model.sh b/docker-debate/model.sh
+--- a/docker-debate/model.sh	(revision 4206892783ffafd6ebb43ff418f87952588ad126)
++++ b/docker-debate/model.sh	(date 1744865494051)
+@@ -6,8 +6,8 @@
+ NAMESPACE=default
+ 
+ # Parent model
+-MODEL_NAME_TO_REMOVE="qwen:0.5b"
+-MODEL_NAME="qwen:0.5b"
++MODEL_NAME_TO_REMOVE="qwen:0.5b" #qwen:0.5b
++MODEL_NAME="gemma:2b" #gemma:2b
+ 
+ # Judge model
+ JUDGE_MODEL_TO_REMOVE="gemma:2b"

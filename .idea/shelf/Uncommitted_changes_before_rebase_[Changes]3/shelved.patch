@@ -1,0 +1,84 @@
+Index: experiment/testing_main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import asyncio\nimport time\nimport json\nimport httpx\nimport os\nfrom datetime import datetime\nfrom rich.progress import Progress, SpinnerColumn, TextColumn\n \nBASE_URL = \"http://retrieval-agent-traffic.trafficmanager.net:5001\"\n#BASE_URL = \"http://localhost:5001\"\n \nasync def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: str, progress: Progress):\n    \"\"\"Send a query to the retrieval agent and measure the latency.\"\"\"\n    task = progress.add_task(f\"Querying: {query}\", start=False)\n    progress.start_task(task)\n    start_time = time.perf_counter()\n    result = await client.post(f\"{BASE_URL}/query/\", json={\"query\": query, \"model\": model})\n    result = result.json()\n    end_time = time.perf_counter()\n    progress.stop_task(task)\n    overall_latency = end_time - start_time\n    return {\n        \"query\": query,\n        \"response\": result.get('response', \"No Response\"),\n        \"method\": result.get('method', \"unknown\"),\n        \"latency\": result.get('latency', {}),\n        \"overall_latency\": overall_latency\n        }\n \nasync def main():\n \n    llm_name = \"gemma:2b\"\n    dataset_name = \"eli5\"\n    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'\n    \n    with open(test_json_path, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n    \n    data_dict = {d[\"query\"]: d for d in data}\n    \n    timeout = httpx.Timeout(300.0)\n    \n    timestamp = time.strftime(\"%Y%m%d_%H%M%S\")\n    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'\n    os.makedirs(output_dir, exist_ok=True)\n    \n    query_results = []\n    \n    async with httpx.AsyncClient(timeout=timeout) as client:\n        with Progress(SpinnerColumn(), TextColumn(\"[progress.description]{task.description}\")) as progress:\n            for item in data:\n                result = await query_retrieval_agent(client, item[\"query\"], llm_name, progress)\n                \n                query = result[\"query\"]\n                query_result = {\n                    \"query\": query,\n                    \"predicted_response\": result[\"response\"],\n                    \"method\": result[\"method\"],\n                    \"actual_response\": data_dict[query][\"response\"],\n                    \"source\": data_dict[query][\"source\"],\n                    \"latency\": result[\"latency\"],\n                    \"overall_latency\": result[\"overall_latency\"]\n                }\n                \n                query_results.append(query_result)\n                # print(f\"Processed query: {query}\")\n    \n    consolidated_results = {\n        \"metadata\": {\n            \"llm_name\": llm_name,\n            \"dataset_name\": dataset_name,\n            \"total_queries\": len(query_results),\n            \"test_date\": time.strftime(\"%Y-%m-%d %H:%M:%S\"),\n            \"timestamp\": timestamp\n        },\n        \"results\": query_results\n    }\n    \n    with open(f'{output_dir}/all_results.json', 'w', encoding='utf-8') as f:\n        json.dump(consolidated_results, f, ensure_ascii=False, indent=4)\n    \n    print(f\"Testing complete. Processed {len(query_results)} queries.\")\n    print(f\"Results saved to {output_dir}\")\n    print(f\"Timestamp: {timestamp}\")\n \nif __name__ == \"__main__\":\n    asyncio.run(main())
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/experiment/testing_main.py b/experiment/testing_main.py
+--- a/experiment/testing_main.py	(revision 9c9279c3661c1f6e17388e5172a639992d649497)
++++ b/experiment/testing_main.py	(date 1744864517895)
+@@ -29,28 +29,48 @@
+  
+ async def main():
+  
+-    llm_name = "gemma:2b"
++    llm_name = "qwen:0.5b"
+     dataset_name = "eli5"
+-    test_json_path = '/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/data/test/hotpotqa/testset.json'
++    test_json_path = '/Users/aashidutt/Downloads/dedee/experiment/data/test/eli5/testset.json'
+     
+     with open(test_json_path, 'r', encoding='utf-8') as f:
+         data = json.load(f)
+     
+     data_dict = {d["query"]: d for d in data}
+     
+-    timeout = httpx.Timeout(300.0)
++    timeout = httpx.Timeout(500.0)
+     
+     timestamp = time.strftime("%Y%m%d_%H%M%S")
+-    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
++    output_dir = f'/Users/aashidutt/Downloads/dedee/experiment/response/{llm_name}/{dataset_name}/{timestamp}'
+     os.makedirs(output_dir, exist_ok=True)
+     
+     query_results = []
+     
+     async with httpx.AsyncClient(timeout=timeout) as client:
+         with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}")) as progress:
++            # for item in data:
++            #     result = await query_retrieval_agent(client, item["query"], llm_name, progress)
+             for item in data:
+-                result = await query_retrieval_agent(client, item["query"], llm_name, progress)
+-                
++                try:
++                    result = await query_retrieval_agent(client, item["query"], llm_name, progress)
++                except httpx.TimeoutException:
++                    print(f"Timeout: {item['query']}")
++                    result = {
++                        "query": item["query"],
++                        "response": "Timeout occurred",
++                        "method": "timeout",
++                        "latency": {},
++                        "overall_latency": None
++                    }
++                except Exception as e:
++                    print(f"Error processing query: {item['query']} — {str(e)}")
++                    result = {
++                        "query": item["query"],
++                        "response": f"Error: {str(e)}",
++                        "method": "error",
++                        "latency": {},
++                        "overall_latency": None
++                    }
+                 query = result["query"]
+                 query_result = {
+                     "query": query,
+Index: docker-debate/model.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#!/bin/bash\n\nset -e  # Exit on error\nset -u  # Treat unset vars as error\n\nNAMESPACE=default\nMODEL_NAME=\"gemma:2b\"\n\ndelete_and_pull_model() {\n  local pod_name=$1\n  local role_name=$2\n\n  if [ -n \"$pod_name\" ]; then\n    echo \"Checking and deleting existing model for $role_name...\"\n    kubectl exec \"$pod_name\" -- ollama rm \"$MODEL_NAME\" || echo \"Model not found, skipping delete\"\n\n    echo \"Pulling latest model for $role_name...\"\n    kubectl exec \"$pod_name\" -- ollama pull \"$MODEL_NAME\"\n  else\n    echo \"No $role_name pod found. Skipping.\"\n  fi\n}\n\necho \"Switching to AKS cluster (East US)...\"\naz aks get-credentials --resource-group dedee --name edge-eastus --overwrite-existing\n\necho \"Updating Judge...\"\nJUDGE_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep judge | awk '{print $1}')\ndelete_and_pull_model \"$JUDGE_POD\" \"Judge\"\n\necho \"Updating Parent (East US)...\"\nPARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')\ndelete_and_pull_model \"$PARENT_POD\" \"Parent-EastUS\"\n\necho \"Switching to AKS cluster (West US)...\"\naz aks get-credentials --resource-group dedee --name edge-westus --overwrite-existing\n\necho \"Updating Parent (West US)...\"\nPARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')\ndelete_and_pull_model \"$PARENT_POD\" \"Parent-WestUS\"\n\necho \"Switching to AKS cluster (West Europe)...\"\naz aks get-credentials --resource-group dedee --name edge-westeurope --overwrite-existing\n\necho \"Updating Parent (West Europe)...\"\nPARENT_POD=$(kubectl get pods --namespace $NAMESPACE --no-headers | grep parent | awk '{print $1}')\ndelete_and_pull_model \"$PARENT_POD\" \"Parent-WestEurope\"\n\necho \"✅ Pulled and refreshed model across all parents and judge.\"\n\n# Return to East US context and show pod/svc status\naz aks get-credentials --resource-group dedee --name edge-eastus --overwrite-existing\nkubectl get pods\nkubectl get svc\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docker-debate/model.sh b/docker-debate/model.sh
+--- a/docker-debate/model.sh	(revision 9c9279c3661c1f6e17388e5172a639992d649497)
++++ b/docker-debate/model.sh	(date 1744864517895)
+@@ -4,7 +4,7 @@
+ set -u  # Treat unset vars as error
+ 
+ NAMESPACE=default
+-MODEL_NAME="gemma:2b"
++MODEL_NAME="qwen:0.5b" #gemma:2b , phi3:latest
+ 
+ delete_and_pull_model() {
+   local pod_name=$1
