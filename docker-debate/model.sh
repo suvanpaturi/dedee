@@ -6,12 +6,12 @@ set -u  # Treat unset vars as error
 NAMESPACE=default
 
 # Parent model
-MODEL_NAME_TO_REMOVE="qwen:0.5b"
-MODEL_NAME="qwen:0.5b"
+MODEL_NAME_TO_REMOVE="phi3:3.8b"
+MODEL_NAME="qwen2.5:3b"
 
 # Judge model
-JUDGE_MODEL_TO_REMOVE="gemma:2b"
-JUDGE_MODEL="gemma:2b"
+JUDGE_MODEL_TO_REMOVE="mistral:7b"
+JUDGE_MODEL="mistral:7b"
 
 delete_and_pull_model() {
   local pod_name=$1

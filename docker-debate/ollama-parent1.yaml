@@ -12,20 +12,31 @@ spec:
       labels:
         app: parent-ollama
     spec:
+      nodeSelector:
+        workload: gpu
+      tolerations:
+      - key: "sku"
+        operator: "Equal"
+        value: "gpu"
+        effect: "NoSchedule"
       containers:
       - name: ollama
         image: ollama/ollama:latest
         command: ["ollama", "serve"]
         ports:
         - containerPort: 11434
+        env:
+        - name: OLLAMA_MODELS
+          value: "gemma:3b"
         resources:
           requests:
-            memory: "3Gi"
-            cpu: "1"
+            cpu: "3"
+            memory: "8Gi"
+            nvidia.com/gpu: 1
           limits:
-            memory: "4Gi"
-            cpu: "2"
-
+            cpu: "4"
+            memory: "12Gi"
+            nvidia.com/gpu: 1
       - name: parent
         image: dedeeregistry.azurecr.io/parent:v2.6
         ports:
@@ -34,7 +45,14 @@ spec:
         - name: PARENT_ID
           value: "eastus"
         - name: OLLAMA_MODEL
-          value: "gemma:2b"
+          value: "gemma:3b"
+        resources:
+          requests:
+            cpu: "50m"       
+            memory: "256Mi"
+          limits:
+            cpu: "250m"      
+            memory: "512Mi"
 ---
 apiVersion: v1
 kind: Service
