@@ -1,2 +1,2 @@
 
-dataset = "squad"
+dataset = "science_qa"

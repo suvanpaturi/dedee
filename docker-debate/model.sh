@@ -7,7 +7,7 @@ NAMESPACE=default
 
 # Parent model
 MODEL_NAME_TO_REMOVE="phi3:3.8b"
-MODEL_NAME="qwen2.5:3b"
+MODEL_NAME="gemma:2b"
 
 # Judge model
 JUDGE_MODEL_TO_REMOVE="mistral:7b"
