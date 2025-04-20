@@ -10,6 +10,7 @@ from collections import Counter
 from evaluate import load
 
 bert = load("bertscore")
+rogue = load("rouge")
 
 spec = importlib.util.spec_from_file_location('helper_llm', './experiment/helper_llm.py')
 helper_llm = importlib.util.module_from_spec(spec)
@@ -21,11 +22,13 @@ prompt = """
     - relevancy
     - correctness
     - similarity to actual answer
-    Give a rating from 0 to 5.
-    5 = answer is relevant and answers the given query. 
-    0 = answer is not relevant and does not answer the given query.
+    Give a rating from 1 to 5.
+    5 = answer is relevant, answers the given query, and adds to actual answer. It is a good quality answer.
+    3 = answer is relevant and somewhat answers query, but is not a good quality answer.
+    1 = answer is not relevant and does not answer the given query.
+    - 2 and 4 are in between.
     
-    Provide only the rating.
+    Provide ONLY the rating.
     
     Given question: {question}
     Given answer: {answer}
@@ -39,6 +42,10 @@ llm.set_prompt(prompt=prompt, type="evaluation")
 def get_bert_scores(predictions, actual):
     bert_scores = bert.compute(predictions=predictions, references=actual, lang="en")
     return bert_scores
+
+def get_rogue_scores(predictions, actual):
+    rogue_scores = rogue.compute(predictions=predictions, references=actual, lang="en")
+    return rogue_scores
 
 def normalize_answer(s):
     def remove_articles(text):
@@ -122,7 +129,7 @@ async def evaluate(file_path: Path):
             "overall_latency": item["overall_latency"],
         })
     
-    rating_results = llm.process_batch(data=eval_results)
+    rating_results = await llm.process_batch(data=eval_results)
     for i, result in enumerate(rating_results):
         eval_results[i]["score"] = result["score"]
 
@@ -131,14 +138,16 @@ async def evaluate(file_path: Path):
     # Compute BERTScore
     predictions = [item["predicted_response"] for item in eval_results]
     references = [item["actual_response"] for item in eval_results]
-    bert_scores = get_bert_scores(predictions, references)  # e.g. returns dict with 'f1'
+    bert_scores = get_bert_scores(predictions, references)
+    rogue_scores = get_rogue_scores(predictions, references)
 
     # Compute traditional token-overlap F1
     f1_scores = [get_f1_score(pred, ref) for pred, ref in zip(predictions, references)]
 
-    for i, (bert_f1, f1) in enumerate(zip(bert_scores["f1"], f1_scores)):
-        eval_results[i]["bert_score_f1"] = bert_f1
+    for i, (bert, f1, rogue) in enumerate(zip(bert_scores["f1"], f1_scores, rogue_scores)):
+        eval_results[i]["bert_score"] = bert["f1"]
         eval_results[i]["f1_score"] = f1
+        eval_results[i]["rouge_score"] = rogue["rougeL"]
         
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"results": eval_results}, f, indent=2)
