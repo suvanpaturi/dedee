@@ -21,15 +21,22 @@ def judge(data: JudgeRequest):
     print(f"Responses: {data.responses}")
     formatted_responses = "\n\n".join([f"{r.parent_id} says: {r.response}" for r in data.responses])
     final_prompt = f"""
-    You are the debate judge. You are given multiple responses to the query '{data.query}'.
-    Based on these, pick the best final answer.
-
+    You are a debate judge tasked with producing the best possible answer to the following question, based on multiple responses.
+    
+    Question: {data.query}
+    
     Responses:
     {formatted_responses}
-
-    Your task:
-    - Do NOT include any additional information or explanations.
-    - If no responses, just state "No Answer" nothing else.
+    
+    Instructions:
+    - Carefully review all responses.
+    - If one response clearly stands out as the best, use it as the final answer.
+    - If combining parts of multiple responses leads to a better, more complete answer, synthesize them into one cohesive response.
+    - Do not include speaker names, labels, or attribution.
+    - Do not add explanations, reasoning, or extra commentary.
+    - If the responses are insufficient or contradictory, respond with exactly: No Answer
+    
+    Final Answer:
     """
 
     print(f"Final prompt: {final_prompt}")

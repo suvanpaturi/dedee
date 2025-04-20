@@ -1,0 +1,2082 @@
+[
+    {
+        "query": "How many drugs were approved in 2007?",
+        "response": "18 approvals",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Along with Surry Nuclear Generating Station, what is Richmond's main electricity generator?",
+        "response": "North Anna Nuclear Generating Station",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is consumed in excessive amounts during Lent?",
+        "response": "alcohol",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many people would be in the orchestra Kondo imagined using for the soundtrack?",
+        "response": "50",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Underground electrolytic malfunctions in hydraulic elevators can result in the destruction of what? ",
+        "response": "the cylinder and bulkhead",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What happened to Apollo 13?",
+        "response": "oxygen tank explosion in transit to the Moon",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many 24-hour rapid transit systems are located in New York?",
+        "response": "three",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was T.H. Huxley promoting?",
+        "response": "scientific naturalism",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What competition is the predecessor to the UEFA Cup-Europa League?",
+        "response": "Inter-Cities Fairs Cup",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What do chloroplasts do like mitochondria?",
+        "response": "generate ATP energy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what part of a tree's cross-section is heartwood visible?",
+        "response": "growth rings",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is another name for the smoke room?",
+        "response": "snug",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How did the final Song emperor die?",
+        "response": "drowned",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What use of unmarked cars is controversial?",
+        "response": "for traffic law enforcement",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the name of the astrologer that visited Gautama's father?",
+        "response": "Asita",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What organization said some countries might be spending as much as $150 billion each year on TB?",
+        "response": "World Bank",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who donated land to Everton FC in 1882?",
+        "response": "J. Cruitt",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What surrounds chloroplasts?",
+        "response": "two innermost lipid-bilayer membranes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What religious group was in charge of Rome's sacred flame?",
+        "response": "Vestals",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who do abmigrating birds return with?",
+        "response": "the new population",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Eisenhower have in common with presidents Taylor, Grant, Taft and Hoover?",
+        "response": "did not have prior elected office",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which ocean ranged the majority of the northern hemisphere in the Silurian period?",
+        "response": "Panthalassa",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What percentage of those elected from 1868 to 1876 were Freemen?",
+        "response": "26%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What percentage of worldwide drugs are derived from nature?",
+        "response": "about 80%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who developed a far east trade and began to frequent the island?",
+        "response": "the Dutch",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "According to the 2000 United States Census, what was the population density?",
+        "response": "3,569.8 people per square mile",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Whose game did Parker Brothers model the board game after?",
+        "response": "Charles Darrow",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Living in association with ants is called what?",
+        "response": "myrmecophilous",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what year did San Diego officially become a city?",
+        "response": "1850",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What reason did the executive give for Shell's January 2014 announcement?",
+        "response": "the project is \"under review\" due to both market and internal issues.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many homicides were there in New York City in 2014?",
+        "response": "328",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What designation does the Globalization and World Cities Study Group give Houston?",
+        "response": "global city",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who designed the plaster work in the Art Library?",
+        "response": "Reuben Townroe",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the second satellite for the BeiDou-1 system launched?",
+        "response": "December 21, 2000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In 1960 did people believe an infant was able to remember things?",
+        "response": "Up until the middle of the 1980s it was assumed that infants could not encode, retain, and retrieve information.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What do the Armenians see the events of 1915-1917 as?",
+        "response": "state-sponsored mass killings, or genocide",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which Indie band said Beyonc\u00e9 was an inspiration for one of hteir albums?",
+        "response": "White Rabbits",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does 'esperienza' mean?",
+        "response": "experiment",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What other massive agency's creation was the DHS compared to?",
+        "response": "the Department of Defense",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How strong is the rule of law in most Asian countries?",
+        "response": "weak or nonexistent",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How much was embezzled from the Nigerian government in 1960-1999?",
+        "response": "More than $400 billion",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Popper argue was objective and independent of its subject?",
+        "response": "knowledge",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What outsold the NES in Europe and South America?",
+        "response": "Sega's Master System",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who gave Chopin money in the last years of his life?",
+        "response": "Jane Stirling",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is one way the city tried to combat crime?",
+        "response": "installation of 11,000 security cameras",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What locale in Memphis is know as the place where blues was born?",
+        "response": "Beale Street",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What island territory voluntarily joined the US as a colony in 1898?",
+        "response": "Hawaii",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of schools is NYC now working on shrinking?",
+        "response": "large middle schools",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How much did enrollment increase?",
+        "response": "increased by about 70%.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who manages the distribution of the funds obtained by the sale of the stamps?",
+        "response": "Migratory Bird Conservation Commission",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What root problem can cause starch buildup?",
+        "response": "Waterlogged roots",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Americans with African ancestry have always been classified as what race?",
+        "response": "black (historically) or African American",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Do adolescents demonstrate intended behavior moving towards the ideal or feared self?",
+        "response": "ideal",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What animals where domesticated in Burma for industry use ?",
+        "response": "elephants, which are also tamed or bred in captivity for use as work animals",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was the first American to win the Nobel Memorial Prize in Economic Sciences?",
+        "response": "Paul Samuelson",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the honor granted a Vestal ?",
+        "response": "religious",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which Primate can be found in the national park?",
+        "response": "lowland gorillas",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what other languages is this pattern found?",
+        "response": "Italian and Portuguese",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Toxocariasis can lead to what in humans?",
+        "response": "retinal damage and decreased vision.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Hounds were used for what purpose?",
+        "response": "to pursue",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The second truth is?",
+        "response": "the origin of dukkha can be known",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What directly opposes the force applied to move an object across a surface?",
+        "response": "kinetic friction force",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the name of Victoria's eighth child?",
+        "response": "Leopold",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How does Pascal Boyer believe that gods and other supernatural beings behave?",
+        "response": "much like people",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What theory claims that popular belief was based on fiction?",
+        "response": "Euhemerus' theory",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which organization identified GE as the fourth largest corporate producer of air pollution in the US?",
+        "response": "Political Economy Research Institute",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many titles does the library have?",
+        "response": "3,000,000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What key event in 1938 pushed Popper into exile from Austria?",
+        "response": "the Anschluss",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was the head of the Registration Committee in 1934?",
+        "response": "Harry Barnes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "School desegregation in the United States led to an increased number of students of what ethnicity in public schools?",
+        "response": "African-American",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who wrapped a Tibetan flag around her body and later waved it?",
+        "response": "Christina Chan",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What military organization was based in Devonport until 1941?",
+        "response": "Western Approaches Command",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many languages are used in the Congo?",
+        "response": "62",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of wood was used on the inside ?",
+        "response": "maple",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How were older notions of race used?",
+        "response": "to explain differences in human behaviour or social status",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did Napoleon iii visit London?",
+        "response": "April 1855",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was an African American president elected?",
+        "response": "2008",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is an estimate of losses to economics?",
+        "response": "US$75 billion",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did the international acts do?",
+        "response": "encouraged major changes to the workforce",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who designed the Vince Lombardi Trophy?",
+        "response": "Tiffany & Co.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is one way that videocalling can be used?",
+        "response": "personal videocalls to inmates",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who is the new President for Imperial College?",
+        "response": "Alice Gast",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where was Julia Tuttle born?",
+        "response": "Cleveland",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did Francis approve John XXIII for canonization?",
+        "response": "5 July 2013",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why do research findings believe the Internet has a negative effect on teen physical health?",
+        "response": "time spent using the Internet replaces time doing physical activities",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was Glover's first single?",
+        "response": "I Am Beautiful",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What London breweries each own many pubs?",
+        "response": "Young's and Fuller's",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What can be attributed to BYU's high percentage of second language proficient students?",
+        "response": "45 percent of the student body at BYU has been missionaries for LDS Church",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What town is the Q Inn located in?",
+        "response": "Stalybridge",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "List three natural attractions of Nanjing.",
+        "response": "lush green parks, natural scenic lakes, small mountains",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Is is said that some early schools of buddhism had how many pitakas?",
+        "response": "five or seven",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which group made up the bulk of the Han tax base?",
+        "response": "landowner-cultivators",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did disembursements from the Permanent Fund begin?",
+        "response": "1982",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who form the largest group of Chinese in Indonesia?",
+        "response": "Hokkien speakers",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What ideal does Estonia hold towards the environment?",
+        "response": "closeness to nature",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many inhabitants does Egypt have?",
+        "response": "over 90 million",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is a term for the Church of England and churches that align with it?",
+        "response": "the Anglican Communion",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In theory when can one attain Nirvana during practice?",
+        "response": "at any point",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was radio introduced in Namibia?",
+        "response": "1969",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What EQ settings were known to have issues with bass distortion?",
+        "response": "R&B, Rock, Acoustic, and Bass Booster",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the hard rock style that emerged in the early 1990s?",
+        "response": "grunge",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who designed the Emerald necklace?",
+        "response": "Frederick Law Olmsted",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What new country did the Lancaster House Agreement recognize?",
+        "response": "Mau Mau Uprising",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What years did the civil war take place?",
+        "response": "1992 to 1997",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Austrian want in the Treaty of Hubertusburg",
+        "response": "The Austrians wanted at least to retain Glatz",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Jellyfish and sea anemones belong to which group/",
+        "response": "cnidarians",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How would you say \"sons\" in Dutch?",
+        "response": "zonen",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What might the Government require a teacher have before being allowed to teach?",
+        "response": "certification by a recognized body",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Income level was found to have a signification correlation to which outcome in the study?",
+        "response": "nutrition literacy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the purpose of the fruit walls built by French and English farmers?",
+        "response": "acted as thermal masses and accelerated ripening by keeping plants warm",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What structural benefit is offered by the Gothic vault?",
+        "response": "channels the weight onto the bearing piers or columns at a steep angle",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what fields has Dibben published two books and other papers?",
+        "response": "philosophy of management and business ethics",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did the major military operation end?",
+        "response": "25 October 1922",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the second most massive Neptunian moon? ",
+        "response": "Proteus",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What band headlined half-time during Super Bowl 50?",
+        "response": "Coldplay",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What structure of Yale University, listed on the National Register of Historic Places, holds the distinction of being the oldest building on campus?",
+        "response": "Connecticut Hall",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The choice of seals, or chamber geometry ,for example impact a pump. Together these are options are called what?",
+        "response": "vacuum technique",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What are Catalan and Valencian considered to be in the language?",
+        "response": "two standard varieties",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the directive NOT intended for?",
+        "response": "legitimize file-sharing",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what year did ZZ Top release Eliminator?",
+        "response": "1983",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many CDS were sold by Idol contestants up to 2010?",
+        "response": "47 million",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what geographic portion of Florida is Miami located?",
+        "response": "southeastern",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why did Feynman give up alcohol?",
+        "response": "he did not want to do anything that could damage his brain",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where does the Grand Canal of China end?",
+        "response": "Hangzhou",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who aided the Americans and Chinese during the advance in northern Burma?",
+        "response": "Chindits",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "From what ancient region did kuul application come?",
+        "response": "Land of Punt",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which mountains associated with the USA were formed near the equator on  Pangaea during the Devonian?",
+        "response": "the northern Appalachian Mountains",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What are the anti-Catalan attitudes in Valencia and Ibiza?",
+        "response": "ingrained diglossic attitudes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which country did Rewe-Zentrale AG wish to import from?",
+        "response": "France",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What school did the boys who defended the Queen with umbrellas attend? ",
+        "response": "Eton College",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where were the symbols carved on?",
+        "response": "pieces of bone and turtle shell",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where did the Armenian Genocide occur?",
+        "response": "Anatolia",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What part of the insect has been up for debate?",
+        "response": "wings",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What country did Sergel's play tour around in and perform in 2006?",
+        "response": "the UK",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the minority leader position created? ",
+        "response": "20th-century",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What content of a grapes skin can be affected by soil composition, climate, and cultivation practices? ",
+        "response": "Phenolic content",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was Jacob's son?",
+        "response": "Joseph",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the largest tagma of an insect?",
+        "response": "abdomen",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who discovered an association between the value E and quantum energy?",
+        "response": "Einstein",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What advantage would taking St. John's have provided for the French?",
+        "response": "the expedition would have strengthened France's hand at the negotiating table",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the outcome of anticipating the scientific and philosophical problems Whitehead proposed?",
+        "response": "novel solutions",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the name of one of Apple's unsuccessful products?",
+        "response": "Power Mac G4 Cube",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The author uses which adjective to describe the mercados?",
+        "response": "omnipresent",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Martin Luther do during 1510 to 1520?",
+        "response": "lectured",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is one thing, according to the text, that domesticated dogs use humans for?",
+        "response": "to solve their problems for them.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is varied about Houston's population?",
+        "response": "ethnic and religious backgrounds",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What university was Lok-Ham Chan a professor at?",
+        "response": "the University of Washington",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where is the Gold State Coach kept?",
+        "response": "the Royal Mews",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In which century did metalwork become popular in Hyderabad?",
+        "response": "the 18th century",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did System R work on to change the way data was stored?",
+        "response": "multi-table systems",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did the securitization markets supported by the shadow banking systems start to close down?",
+        "response": "spring of 2007",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the relationship similarity to Ladin?",
+        "response": "76%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the estimated number of Buddhists in the world?",
+        "response": "488 million[web 1] and 535 million",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was accused of lightening Beyonc\u00e9's skin for an advertisement?",
+        "response": "L'Or\u00e9al",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The issues of what era did Tesla's article talk about?",
+        "response": "post-World War I",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which province in Pakistan borders the other 3 provinces?",
+        "response": "Punjab",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who headed the Anglican reforms in the middle of the 16th century?",
+        "response": "Archbishop of Canterbury Thomas Cranmer",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the name of the university's core curriculum?",
+        "response": "the Common Core",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What publication's partial reprinting gave the book wide public exposure?",
+        "response": "Reader's Digest Condensed Books",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Besides new cotton fibers, what type of fibers can be used to make cotton products?",
+        "response": "recycled or recovered cotton",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who were two of the founders of the United Methodist Church?",
+        "response": "John Wesley and Charles Wesley",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many Tibetans died during the Great Leap Forward?",
+        "response": "between 200,000 and 1,000,000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What team did Arsenal play at the time of the radio broadcast in 1927?",
+        "response": "Sheffield United",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the ISCII standard? ",
+        "response": "128 code points",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what courts can federal habeas corpus suits be brought?",
+        "response": "federal",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many homes does PGW serve?",
+        "response": "500,000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which group rides around in open carts through the streets?",
+        "response": "The Choirs",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "For what event did Elizabeth appear in a film as part of the opening ceremonies?",
+        "response": "London Olympics",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Prior to and during the advent of legalized gaming, what happened to many of the hotels in Atlantic City?",
+        "response": "demolished",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many lines does Metromover have?",
+        "response": "three",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was Rome not demanding of in religion of foreign areas of the empire?",
+        "response": "centralised legal requirement",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was in charge of the HMS Pique?",
+        "response": "Rear Admiral David Price",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of view do Christians take on God?",
+        "response": "trinitarian",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who prevented the Almohads from entering Valencia?",
+        "response": "Ibn Mardanis",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What kind of fibers are in the latewood of good oak, making it very firm?",
+        "response": "thick-walled",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the bronze age?",
+        "response": "prehistoric period",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many seats do Democrats hold in the state US Senate's seats?",
+        "response": "one",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who do coordinating lead authors report to?",
+        "response": "the Working Group chairs",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What are cytokinins responsible for in plants?",
+        "response": "control of cell division",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What new domain designation should a museum use?",
+        "response": ".museum",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Martin's father view his entering the cloister as a waste of?",
+        "response": "Luther's education",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The segregation of science writing means that articles in those subjects primarily appear where?",
+        "response": "journals",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "For the first quarter of 2009, what was the annualized rate of decline in GDP in Mexico?",
+        "response": "21.5%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Israel is a leading country of what development?",
+        "response": "solar energy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who announced over the Radio that the president had been arrested?",
+        "response": "Lieutenant Colonel Amadou Toumani Tour\u00e9",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What year did Dell's enterprise revenue make up a large chunk of its profit?",
+        "response": "1998",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does a plant get out of forming fruit?",
+        "response": "seed-dispersal",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What marked the conclusion of The Great War?",
+        "response": "treaties of Versailles, St-Germain, Neuilly, Trianon and S\u00e8vres",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What kind of acid forms fecal pellets?",
+        "response": "uric acid",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is in high demand in this country?",
+        "response": "cheap and affordable goods",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the original name of the famous rifle manufacturing companies in New Haven?",
+        "response": "New Haven Arms Company",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who plays female roles in Yueju?",
+        "response": "actresses",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the name of the group that waged war in the Baltic?",
+        "response": "Catholic German Teutonic Knights",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did the other British states and colonies set the year start date to January 1?",
+        "response": "1752",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What would the deputy endorse the concerns with?",
+        "response": "seal and signature",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was appointed to command the Allied forces in Southeast Asia in 1942?",
+        "response": "General Sir Archibald Wavell",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the value of the contract between Under Armour and Notre Dame?",
+        "response": "almost $100 million",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Around what year did settlement begin to occur in St. John's?",
+        "response": "1630",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who had exponential larger naval forces?",
+        "response": "British naval forces",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the largest ship constructed in Antiquity?",
+        "response": "Ptolemaic Tessarakonteres",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was Marion Crawford to the princesses?",
+        "response": "governess",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Along with wedding receptions, when is xalwo often consumed?",
+        "response": "Eid celebrations",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is another work of Avicenna that is said to not be his creation?",
+        "response": "the Declaratio",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What movie sci-fi franchise returned to Marvel in 2015?",
+        "response": "Star Wars",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How much of the world's child labour does India's workers contribute to?",
+        "response": "one-fourth",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does the acronym PCR expand to?",
+        "response": "polymerase chain reaction",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What types of houses are designed by Fresno architects?",
+        "response": "Storybook houses",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What team did Barcelona defeat to win the 2015 FIFA World Cup Final?",
+        "response": "River Plate",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the first Scottish Masonic lodge opened in Iraq?",
+        "response": "1923",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did the kingdom split?",
+        "response": "930 BCE",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The word Vacuum stems from what Latin adjective?",
+        "response": "vacuus",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did the first model for communication consist of?",
+        "response": "sender, channel, and receiver",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How is alcohol measured in the human body?",
+        "response": "blood alcohol concentration",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many different indigenous languages are spoken in the Americas?",
+        "response": "At least a thousand",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who created Compact Disc prototypes in the 1970s?",
+        "response": "Philips and Sony",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "As technology advances, what is another higher bit rate that is beginning to spread?",
+        "response": "320 kbit/s",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who runs Plymouth's railroad station?",
+        "response": "Great Western Railway",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What covers crimes of human against human?",
+        "response": "Tort law",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "According to German historian Reinhart Koselleck, which two social structures left a decisive imprint on the Age of Enlightenment?",
+        "response": "the Republic of Letters and the Masonic lodges",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Mandarin has stops and affricates that are distinguished by what?",
+        "response": "aspiration",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many major North American sports leagues are there?",
+        "response": "four",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "As the French were hard-hit by the Prussian artillery, what continued to show up to the battlefield?",
+        "response": "more Prussian troops",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Beyonce voiced a character in which animated film?",
+        "response": "Epic",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What institution has helped farmers grow new pigeon pea varieties?",
+        "response": "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How is Japanese wrestling similar to American?",
+        "response": "outcome of the matches remains predetermined",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the Achaemenid Empire's official language?",
+        "response": "Imperial Aramaic",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How old was John XXIII upon his death?",
+        "response": "81",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where did Nasser and his wife live after they were married?",
+        "response": "Manshiyat al-Bakri",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who wrote that the legislative branch was the predominate branch of government?",
+        "response": "James Madison",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "On which Valencia metro line did the derailment occur?",
+        "response": "1",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who can collect taxes in Oklahoma?",
+        "response": "Both county and municipal governments",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who discovered morphine?",
+        "response": "Friedrich Sert\u00fcrner",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was influenced by  Jan Baudouin de Courtenay?",
+        "response": "Ferdinand de Saussure",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where was Genghis Khan likely born?",
+        "response": "Del\u00fc\u00fcn Boldog",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What hardware component did CNET have the biggest problem with, even comparing it to an old credit card reader?",
+        "response": "disc-loader",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did the hacker use to acquire the software?",
+        "response": "stolen credit card",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What theater did the Second Australian Imperial Force come from before they relieved the reserve battalions in New Guinea?",
+        "response": "Mediterranean",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What religious tradition may be a problem for Alaskan Jews?",
+        "response": "observance of halakha",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What value do users need to know when encoding their music to help avoid them having to do tests on each piece of music?",
+        "response": "quality setting",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Out of a labor force of about 141,000 what was the unemployment rate?",
+        "response": "13.8%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Active flight ability has played what kind of role for insects?",
+        "response": "important",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what area of Italy is the largest collection of mosaics in the world?",
+        "response": "Sicily",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What percent of Georgia use Russian as their main language?",
+        "response": "1%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why did parties that relied on donations or subscriptions run into problems?",
+        "response": "increased scrutiny of donations there has been a long-term decline in party memberships",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What fields have increased in influence on pharmacy in the United States?",
+        "response": "pharmaceutical care or clinical pharmacy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How big was the French-British army?",
+        "response": "25,000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which company worked with Apple in creating the user interface for the iPod?",
+        "response": "Pixo",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What are the most popular spectator sports in Israel?",
+        "response": "association football and basketball",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The group of creatures that can sense electric fields is what?",
+        "response": "fish",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What body carried out on-site inspection of member schools of the RIBA Board?",
+        "response": "Visiting Board",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Along with Whitsand Bay and Cawsand, what Plymouth-area beaches are popular with tourists?",
+        "response": "Kingsand",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "During which prehistoric age was the Greek language invented?",
+        "response": "Bronze",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many Greeks do they believe would be an accurate number for census numbers ?",
+        "response": "World Council of Hellenes Abroad put the figure at around 7 million worldwide",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the common 14th-century word for dogs for those who spoke English?",
+        "response": "hound",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What are the two branches of the Cordilleran system?",
+        "response": "Rocky Mountain System and the Pacific Mountain System",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many categories of existence are there in Dvaitadvaita?",
+        "response": "three",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the street address of the headquarters of Verizon Communciations?",
+        "response": "140 West Street",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What British nobleman attempted to retain European alliances following the Seven Years' War?",
+        "response": "Lord Sandwich",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which terminal was expanded in the San Diego International Airport in 2013?",
+        "response": "Terminal 2",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does FOB stand for?",
+        "response": "forward operating bases",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What kind of mines are found in Khetri and Jhunjhunu ?",
+        "response": "copper mines",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many tackles did Von Miller get during the game?",
+        "response": "5",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What expedition discovered coal on Antarctica?",
+        "response": "Nimrod Expedition",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In Schmidberger v Austria, the Court of Justice came to the conclusion that Austria didn't infringe upon article 34 by failing to ban a what?",
+        "response": "a protest that blocked heavy traffic",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Are there any purebreed lines for poultry today?",
+        "response": "with the exception of the white Leghorn, most commercial birds are of hybrid origin.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "abb\u00e9 Jean Meslier lived from what year to what year?",
+        "response": "1664-1729",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does civil disobedience relate to?",
+        "response": "the state and its laws",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What company did Beyonc\u00e9 contract with to sell clothing in England?",
+        "response": "Topshop",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the goal of Tibetan Buddhism?",
+        "response": "Buddhahood or rainbow body",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was Eugene Atget known for photographing?",
+        "response": "street scenes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Bi-racial would be coded as what?",
+        "response": "Mixture",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The Tethys sea developed during what period of time? ",
+        "response": "Jurassic Period",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What branch of anthropology studies human behavior and the relation between primates?",
+        "response": "Evolutionary",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which parade started in 1924?",
+        "response": "America's Thanksgiving Parade",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What victorious uprising is celebrated in the Jewish festival Hanukkah?",
+        "response": "Maccabean Revolt of Judas Maccabeus",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In which verbs in Czech is the action the verb describes still ongoing?",
+        "response": "imperfective",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why do cells easily stain with dyes?",
+        "response": "electrostatic attraction",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The shadow banking system could not provide funds to mortgage firms and other corporations without the ability to obtain which funds?",
+        "response": "investor funds",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Warner filed a countersuit stating that who lost 10 of millions of dollars on its own?",
+        "response": "Maverick",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What were the three parts of Kublai's government?",
+        "response": "civil, military, and censorial offices",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does Islamic philosophy more clearly explain than Aristotelianism?",
+        "response": "essence and existence",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How similar was the sound of a orthodontic  record to a radio?",
+        "response": "sounded like",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How does Oklahoma's crude oil reserves rank among states?",
+        "response": "fifth",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Ebert think of 'The Color Purple'?",
+        "response": "proclaimed it the best film of the year and later entered it into his Great Films archive",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what year did Pius XII deliver a radio address announcing Montini's papal appointment?",
+        "response": "1954",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How long did the Scottish Panama colony survive?",
+        "response": "two years",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why do the cellular hosts of some viruses not have to wait for transcription to synthesize their proteins?",
+        "response": "Because they use RNA to store genes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did Philo's views on the absence of instruments clash with?",
+        "response": "Jewish scriptures",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does a ski-jump ramp convert in order to be successful?",
+        "response": "some of the forward rolling movement of the aircraft into vertical velocity",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which system of measurement was standardized?",
+        "response": "metric system",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What percentage of the Estonia language includes Low Saxon words?",
+        "response": "about 15 percent",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is often determined by entropy considerations?",
+        "response": "direction of transformations in energy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the Marzpanate era?",
+        "response": "428\u2013636",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What percentage of Andhra Pradesh's IT infrastructure exports originated from Cyberabad in 2013?",
+        "response": "98%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of bird does Norfolk Island have few of?",
+        "response": "land",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the market value of the endowment the college received on July 31, 2015?",
+        "response": "\u00a3512.4 million",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who descended from Romance-speaking Vlachs?",
+        "response": "Gorals",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many times has the Premier League won the World Cup (FIFA Club) during that same time period?",
+        "response": "won by Premier league clubs once (Manchester United in 2008)",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What other religions form a small percentage?",
+        "response": "Buddhism and Sikhism",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What has the government invested in to help supply water for Cyprus?",
+        "response": "desalination plants",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Sedimentary rock can be turned into which of the three types of rock?",
+        "response": "metamorphic rock",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who officially awarded the pope the Balzan Prize?",
+        "response": "Italian President Antonio Segni",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "On January 7, 2016, it was confirmed that which start would join Coldplay for the halftime show?",
+        "response": "Beyonc\u00e9",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which parts of the Yang-Mills theories did Feynman help explain?",
+        "response": "QCD and the electro-weak theory",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was considered to be the first choice in the NFL draft of 1998?",
+        "response": "Manning",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which tree species has become a problem for Galicia?",
+        "response": "eucalyptus tree",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The shared milieu inhabited by all Marvel heroes and villains is known as?",
+        "response": "the Marvel Universe",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the project called that is trying to build a realistic, detailed computer model of the human brain?",
+        "response": "the Human Brain Project",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many Macintoshes had Apple sold after one year?",
+        "response": "280,000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What football team is Utrecht home to",
+        "response": "Utrecht is home to the premier league (professional) football club FC Utrecht",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many different breeds are there?",
+        "response": "hundreds",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is contained in the numbered articles of a treaty?",
+        "response": "the substance of the parties' actual agreement",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What do the katharos vase and vine refer to?",
+        "response": "the eucharist",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many submissions does the initiative have?",
+        "response": "over 3,000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was the Sao Paulo first commissioned by in 1963?",
+        "response": "the French Navy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What has partical physics made to describe sub-atomic forces?",
+        "response": "Standard Model",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what form is the information or content sent in a simple model?",
+        "response": "spoken language",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What tower was Leonard W. Hatton Jr attempting to evacuate?",
+        "response": "South Tower",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many marines were killed in the attack?",
+        "response": "241",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What school did Kanye West go to in 1997?",
+        "response": "Chicago's American Academy of Art",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What numbered season did Arenafootball2 in 2009?",
+        "response": "tenth",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the German Empire founded?",
+        "response": "1871",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What happens to the right channel in a player that doesn't recognize AC-3?",
+        "response": "garbage (static) output",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What time period did the eastward spread of Brahmanism start?",
+        "response": "2nd or 3rd centuries",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "On what date was the Aviation School founded?",
+        "response": "3 July 1912",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What did the Native American tribes accomplish in the later Pontiac's War?",
+        "response": "; a subsequent conflict, known as Pontiac's War, was also unsuccessful in returning them to their pre-war status.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who is said to be the builder of the labyrinth?",
+        "response": "Daedalus",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who did King William IV hired to finish the work after Nash was fired?",
+        "response": "Edward Blore",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who ignored Lord Raglan's advice to advance?",
+        "response": "The local commanders",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When Burke said the Indian problems 'began in commerce', where did he say the problems ended in?",
+        "response": "empire",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In which year was the Arms and Ammunitions (Amemndment) Bill adopted?",
+        "response": "2011",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why is tort law hard to standardize?",
+        "response": "immense size and diversity",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who does the evaluations for drugs in the United Kingdom?",
+        "response": "European Medicines Agency",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who listed her at number 17 in their list of  Top 20 hot 100 Songwriters?",
+        "response": "Billboard magazine",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did hostilities in the Persian Gulf War begin?",
+        "response": "January 1991",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who is the current captian of the cricket team?",
+        "response": "Rakep Patel",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the Allied invasion of Normandy called?",
+        "response": "Operation Overlord",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does the Castro culture's name mean?",
+        "response": "Culture of the Castles",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the record heat spike in Multan?",
+        "response": "54 \u00b0C",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why are there more poor people in the United States and Europe than China?",
+        "response": "greater tendency to take on debts",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "The immigration was in accordance to what?",
+        "response": "One Million Plan",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Patriarch cardinals are not given what title?",
+        "response": "a suburbicarian see",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "For what did the college pay a substancial sum and donate 4.5 hectres of land?",
+        "response": "in return for exclusive use of the facilities during the daytime only",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the new name given to the RSFSR on December 25, 1991?",
+        "response": "Russian Federation",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where does Internet archive run a datacenter?",
+        "response": "Sun Microsystems' California campus",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where is the site of the original colonial settlement of Kingston, Norfolk Islands, currently located?",
+        "response": "Slaughter Bay and Emily Bay",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What items had been historically traded in Hyderabad?",
+        "response": "pearl and diamond",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the average number of pups in a litter?",
+        "response": "about six",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was Queen Victorias father?",
+        "response": "Prince Edward, Duke of Kent and Strathearn",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What shortages were caused by the blockade?",
+        "response": "petrol and food",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In what period did film versions of Inner Sanctum Mysteries appear?",
+        "response": "1943\u201345",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did Motley Crue's album Shout At The Devil come out?",
+        "response": "1983",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What proclamation abolished protestantism in France?",
+        "response": "Edict of Fontainebleau",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does 'gram-negative' mean?",
+        "response": "they have two cell membranes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What ancient group used bitumen extraction?",
+        "response": "Romans",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was seen as the liberator of Yugoslavia?",
+        "response": "Tito",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many ships did the Yuan send to invade Japan?",
+        "response": "900",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How long since the Sichuan area has had  a severe quake?",
+        "response": "30 years",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was the UK emloyment eequality (sexual orientation) regulations law take effect?",
+        "response": "2003,",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is designing as it applies to built environments?",
+        "response": "architectural lighting design",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What should man's nature be centered on?",
+        "response": "the One",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who did the migrating Shakyas pretend to be?",
+        "response": "Koliyas",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What takes part on the east side of the main park every Sunday?",
+        "response": "a very popular street market",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In which period did North and South America become linked?",
+        "response": "Pliocene",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When does 31 Days of Oscar occur?",
+        "response": "month preceding the Academy Awards",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the name for the state secondary schools begun by Napoleon that were intended to standardize education across France?",
+        "response": "lyc\u00e9es",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What year did the Blackstone Group express interest in acquiring Dell?",
+        "response": "2013",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is commonly contrasted with empiricism?",
+        "response": "rationalism",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How much of Nigeria's male population can read?",
+        "response": "75.7%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How is all university landscape waste used?",
+        "response": "composted",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What have several anthropologists noted about Western artistic endeavors and their place in non-Western contexts?",
+        "response": "do not exist",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What controls the conferencing while its active on the signaling plane?",
+        "response": "The MC",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Whom did Queen Victoria consider her \"best and kindest adviser\"? ",
+        "response": "uncle Leopold",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What branch of linguistics is phonology distinguished from?",
+        "response": "phonetics",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of transmitter is used in the iTrip?",
+        "response": "FM",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does Hegel mean by \"object\"?",
+        "response": "any external entity",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who was Victorias private secretary during the years following her accident at Windsor?",
+        "response": "Sir Henry Ponsonby",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In 2001, what percent of Nigeria's population followed local religions?",
+        "response": "10%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What aren't considered valid when performed by other denominations?",
+        "response": "previous baptisms",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was Paul Vi's nickname during his papacy?",
+        "response": "the Pilgrim Pope",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What percentage of the Swazi population are Christian?",
+        "response": "83%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How do adolescents use online technology?",
+        "response": "experiment with emerging identities and to broaden their peer groups",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How big was the crew of a bomber?",
+        "response": "four to five crewmen",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many costumes were in the Costiff collection?",
+        "response": "178",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What was the SNES called in Japan?",
+        "response": "Super Famicom",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What happened in 1893 that destroyed most of the mosaics in the mosque?",
+        "response": "a fire",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many fleet carriers did the U.S. Fifth Fleet have?",
+        "response": "15",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is lowered in children who have pets?",
+        "response": "absenteeism from school",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of responsiveness can be used without a brain?",
+        "response": "reflexes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where is it always warm enough for food supply?",
+        "response": "In the tropics",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When did the Russo-Persian War end?",
+        "response": "1828",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What position did Schwarzenegger briefly hold at Muscle & Fitness and Flex?",
+        "response": "executive editor",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Who did Paul VI feel was most important in the Catholic Hierarchy?",
+        "response": "papacy",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In the College of Cardinals, the elected Dean needs the approval of who?",
+        "response": "the Pope",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "To whom did Luther send a letter containing his 95 Theses?",
+        "response": "Archbishop Albrecht",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the issue with underdots and their placement? ",
+        "response": "often be placed incorrectly",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What concept did Hayek dislike?",
+        "response": "social justice",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Along with aristocratic writers, where do contemporary written descriptions of peasants come from?",
+        "response": "law codes",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many students were killed in Xinhua?",
+        "response": "5,335",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What type of people was the new paper supposed to attract?",
+        "response": "'social radicals'",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Where is the BCCI based?",
+        "response": "Pakistan",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How many bookstalls are located along the Seine?",
+        "response": "250",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which Referendum allowed Indigenous Australians to be counted in the Census?",
+        "response": "1967 Referendum",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "In Germany, wind power accounts for what percentage of electricity generated?",
+        "response": "6%",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "When was this writing penned?",
+        "response": "afterlife",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What song did Beyonc\u00e9 perform at the 2009 inauguration of Obama?",
+        "response": "America the Beautiful",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What year did ABC's \"TGIF\" end?",
+        "response": "2000",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is the name of the historical site that site next to Yale's campus?",
+        "response": "Grove Street Cemetery",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Which of the Czech dialects is the only one distinguished in the nationwide surveys by the Czech Statistical Office?",
+        "response": "Moravian",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Why was Jaws nearly shut down?",
+        "response": "delays and budget over-runs",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Throughout what area did purges of Titoites occur?",
+        "response": "Eastern bloc",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What does Bonilla-Silva contend racism is about more than anything else?",
+        "response": "group power",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "How should consumers of the research approach these findings?",
+        "response": "should be cautious in generalizing these findings.",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What sports teams have been in Raleigh?",
+        "response": "Raleigh IceCaps of the ECHL (1991\u20131998); Carolina Cobras of the Arena Football",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "Federalism combines what two types of government?",
+        "response": "general government (the central or 'federal' government) with regional governments",
+        "source": "rajpurkar/squad"
+    },
+    {
+        "query": "What is denoted when the specified contrast condition is met?",
+        "response": "The exposure Hm, in lux-s",
+        "source": "rajpurkar/squad"
+    }
+]
