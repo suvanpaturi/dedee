@@ -5,6 +5,8 @@ import pandas as pd
 eli5 = "sentence-transformers/eli5"
 squad = "rajpurkar/squad"
 hotpotqa = "hotpot_qa"
+finqa = "virattt/financial-qa-10K"
+scienceqa = "KonstantyM/science_qa"
 
 class QA_Pair:
     def __init__(self, question, answer, source):
@@ -40,7 +42,7 @@ def hotpotqa_to_csv():
     
 def get_finqa_to_csv():
     data = []
-    finqa_dataset = load_dataset("virattt/financial-qa-10K")['train']
+    finqa_dataset = load_dataset(finqa)['train']
     print(finqa_dataset)
     for f in finqa_dataset:
         print(f)
@@ -48,12 +50,21 @@ def get_finqa_to_csv():
     data = pd.DataFrame(data)
     data['source'] = "finqa"
     data.to_csv('./experiment/data/extracted/finqa.csv', index=False)
-    
-def get_harry_potter_to_csv():
-    x = 1
 
+def get_scienceqa_to_csv():
+    dataset = load_dataset(scienceqa, split="train[:10000]")
+    rows = []
+    for item in dataset:
+        query = item.get("question", "").strip()
+        response = item.get("answer", "").strip()
+        source = "science_qa"
+        rows.append({"query": query, "response": response, "source": source})
+    df = pd.DataFrame(rows)
+    df.to_csv('./experiment/data/extracted/scienceqa.csv', index=False)
+    
 #------RUN-------
 #eli5_to_csv()
 #squad_to_csv()
 #hotpotqa_to_csv()
-get_finqa_to_csv()
+#get_finqa_to_csv()
+#get_scienceqa_to_csv()
