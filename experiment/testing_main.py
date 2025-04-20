@@ -32,8 +32,8 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
 async def main():
  
     llm_name = "qwen2.5:3b"
-    dataset_name = "finqa"
-    test_json_path = '/Users/siveshkannan/Documents/VSCode/dedee_main/dedee/experiment/data/test/finqa/testset.json'
+    dataset_name = "squad"
+    test_json_path = '/Users/aashidutt/Downloads/dedee/experiment/data/test/squad/testset.json'
     
     with open(test_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -43,7 +43,7 @@ async def main():
     timeout = httpx.Timeout(300.0)
     
     timestamp = time.strftime("%Y%m%d_%H%M%S")
-    output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
+    output_dir = f'/Users/aashidutt/Downloads/dedee/experiment/response/{llm_name}/{dataset_name}/{timestamp}'
     os.makedirs(output_dir, exist_ok=True)
     
     query_results = []
