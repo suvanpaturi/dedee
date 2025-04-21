@@ -1,2 +1,2 @@
 
-dataset = "science_qa"
+dataset = "science_qas"
