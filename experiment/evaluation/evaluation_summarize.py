@@ -8,12 +8,13 @@ all_cases = []
 debate_cases = []
 
 def get_metrics(dataset, model, results):
-    average_overall_latency = sum([result['latency'] for result in results]) / len(results)
+    average_overall_latency = sum([result['overall_latency'] for result in results]) / len(results)
     average_debate_latency = sum([result['latency']['debate'] for result in results]) / len(results)
     average_tree_latency = sum([result['latency']["tree_retrieval"] for result in results]) / len(results)
-    average_f1 = sum([result[ "f1_score"][0] for result in results]) / len(results)
+    average_f1 = sum([result[ "f1_score"] for result in results]) / len(results)
     average_bert_score = sum([result["bert_score"] for result in results]) / len(results)
     average_rogue_score = sum([result["rouge_score"] for result in results]) / len(results)
+    average_bleurt_score = sum([result["bleurt_score"] for result in results]) / len(results)
     average_llm_critic_score = sum([result["score"] for result in results]) / len(results)
     return {
         "dataset": dataset,
@@ -24,6 +25,7 @@ def get_metrics(dataset, model, results):
         "average_f1": average_f1,
         "average_bert_score": average_bert_score,
         "average_rogue_score": average_rogue_score,
+        "average_bleurt_score": average_bleurt_score,
         "average_llm_critic_score": average_llm_critic_score
     }
 

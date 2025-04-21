@@ -6,11 +6,13 @@ import numpy as np
 import importlib.util
 import string
 import re
+import time
 from collections import Counter
 from evaluate import load
 
 bert = load("bertscore")
-rogue = load("rouge")
+rouge = load("rouge")
+bleurt = load("bleurt", checkpoint="bleurt-large-512")
 
 spec = importlib.util.spec_from_file_location('helper_llm', './experiment/helper_llm.py')
 helper_llm = importlib.util.module_from_spec(spec)
@@ -43,9 +45,16 @@ def get_bert_scores(predictions, actual):
     bert_scores = bert.compute(predictions=predictions, references=actual, lang="en")
     return bert_scores
 
-def get_rogue_scores(predictions, actual):
-    rogue_scores = rogue.compute(predictions=predictions, references=actual, lang="en")
-    return rogue_scores
+def get_rouge_scores(predictions, actual):
+    scores = []
+    for pred, ref in zip(predictions, actual):
+        result = rouge.compute(predictions=[pred], references=[ref])
+        scores.append(result["rougeL"])
+    return scores
+    
+def get_bleurt_scores(predictions, actual):
+    bleurt_scores = bleurt.compute(predictions=predictions, references=actual)
+    return bleurt_scores["scores"]
 
 def normalize_answer(s):
     def remove_articles(text):
@@ -100,15 +109,18 @@ def calculate_latencies(latency_data):
     return l
 
 def convert_to_eval_path(file_path: Path) -> Path:
-    relative = file_path.relative_to("experiment/response")
+    file_path = file_path.resolve()
+    anchor = Path("experiment/response").resolve()
+
+    relative = file_path.relative_to(anchor)
     model, dataset, _, filename = relative.parts
     return Path("experiment/evaluation") / model / dataset / filename
 
-async def evaluate(file_path: Path):
+def evaluate(file_path: Path):
     eval_results = []
     
     print(f"Evaluating: {file_path}")
-    await asyncio.sleep(0.1)
+    time.sleep(5)
 
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -124,45 +136,37 @@ async def evaluate(file_path: Path):
             "predicted_response": item["predicted_response"],
             "method": item["method"],
             "actual_response": item["actual_response"],
-            "source": "hotpot_qa",
+            "source": item["source"],
             "latency": calculate_latencies(item["latency"]),
             "overall_latency": item["overall_latency"],
         })
     
-    rating_results = await llm.process_batch(data=eval_results)
-    for i, result in enumerate(rating_results):
-        eval_results[i]["score"] = result["score"]
+    
+    #NEED TO FIX
+    rating_results = llm.process_batch(data=eval_results)
+    if len(rating_results) == len(eval_results):
+        for i, result in enumerate(rating_results):
+            eval_results[i]["score"] = result["score"]
 
-    await asyncio.sleep(5)
-
-    # Compute BERTScore
     predictions = [item["predicted_response"] for item in eval_results]
     references = [item["actual_response"] for item in eval_results]
-    bert_scores = get_bert_scores(predictions, references)
-    rogue_scores = get_rogue_scores(predictions, references)
+    
+    bert_scores = get_bert_scores(predictions, references)["f1"]
+    rouge_scores = get_rouge_scores(predictions, references)
+    bleurt_scores = get_bleurt_scores(predictions, references)
 
-    # Compute traditional token-overlap F1
-    f1_scores = [get_f1_score(pred, ref) for pred, ref in zip(predictions, references)]
-
-    for i, (bert, f1, rogue) in enumerate(zip(bert_scores["f1"], f1_scores, rogue_scores)):
-        eval_results[i]["bert_score"] = bert["f1"]
+    # Token-overlap F1
+    f1_scores = [get_f1_score(pred, ref)[0] for pred, ref in zip(predictions, references)]
+    
+    for i, (bert, f1, rogue, bleurt) in enumerate(zip(bert_scores, f1_scores, rouge_scores, bleurt_scores)):
+        eval_results[i]["bert_score"] = bert
         eval_results[i]["f1_score"] = f1
-        eval_results[i]["rouge_score"] = rogue["rougeL"]
-        
+        eval_results[i]["rouge_score"] = rogue
+        eval_results[i]["bleurt_score"] = bleurt
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"results": eval_results}, f, indent=2)
-    
-async def run_evaluate(root_dir: str):
-    tasks = []
-    root = Path(root_dir)
-    for model_dir in root.iterdir():
-        if model_dir.is_dir():
-            for dataset_dir in model_dir.iterdir():
-                if dataset_dir.is_dir():
-                    latest = latest_run(dataset_dir)
-                    if latest:
-                        for file in latest.glob("*.json"):
-                            tasks.append(asyncio.create_task(evaluate(file)))  
-    await asyncio.gather(*tasks)
 
-asyncio.run(run_evaluate("./experiment/response"))
+path = Path("/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/qwen2.5:3b/squad/20250419_155529/all_results.json")
+
+if __name__ == "__main__":
+    evaluate(path)
