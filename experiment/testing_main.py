@@ -31,16 +31,16 @@ async def query_retrieval_agent(client: httpx.AsyncClient, query: str, model: st
  
 async def main():
  
-    llm_name = "gemma:2b"
-    dataset_name = "hotpotqa"
-    test_json_path = '/Users/siveshkannan/Documents/VSCode/dedee_main/dedee/experiment/data/test/hotpotqa/testset.json'
+    llm_name = "qwen2.5:3b"
+    dataset_name = "science_qa"
+    test_json_path = '/Users/siveshkannan/Documents/VSCode/dedee_main/dedee/experiment/data/test/science_qa/testset.json'
     
     with open(test_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     data_dict = {d["query"]: d for d in data}
     
-    timeout = httpx.Timeout(300.0)
+    timeout = httpx.Timeout(3000.0)
     
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     output_dir = f'./experiment/response/{llm_name}/{dataset_name}/{timestamp}'
