@@ -1,15 +1,20 @@
 
 import json
-import asyncio
+from tqdm import tqdm
 from pathlib import Path
 import numpy as np
 import importlib.util
 import string
 import re
+import time
 from collections import Counter
 from evaluate import load
+#from questeval.questeval_metric import QuestEval
 
 bert = load("bertscore")
+rouge = load("rouge")
+bleurt = load("bleurt", "bleurt-large-512")
+#questeval = QuestEval(no_cuda=True)
 
 spec = importlib.util.spec_from_file_location('helper_llm', './experiment/helper_llm.py')
 helper_llm = importlib.util.module_from_spec(spec)
@@ -21,11 +26,13 @@ prompt = """
     - relevancy
     - correctness
     - similarity to actual answer
-    Give a rating from 0 to 5.
-    5 = answer is relevant and answers the given query. 
-    0 = answer is not relevant and does not answer the given query.
+    Give a rating from 1 to 5.
+    5 = answer is relevant, answers the given query, and extends actual answer. It is a good quality answer.
+    3 = answer is relevant and somewhat answers query, but is not a good quality answer.
+    1 = answer is not relevant and does not answer the given query.
+    - 2 and 4 are in between.
     
-    Provide only the rating.
+    Provide ONLY the rating.
     
     Given question: {question}
     Given answer: {answer}
@@ -39,6 +46,30 @@ llm.set_prompt(prompt=prompt, type="evaluation")
 def get_bert_scores(predictions, actual):
     bert_scores = bert.compute(predictions=predictions, references=actual, lang="en")
     return bert_scores
+
+def get_rouge_scores(predictions, actual):
+    scores = []
+    for pred, ref in zip(predictions, actual):
+        result = rouge.compute(predictions=[pred], references=[ref])
+        scores.append(result["rougeL"])
+    return scores
+    
+def get_bleurt_scores(predictions, actual):
+    bleurt_scores = bleurt.compute(predictions=predictions, references=actual)
+    return bleurt_scores["scores"]
+
+'''
+def get_questeval_scores(predictions, actual, questions):
+    scores = []
+    for question, answer in zip(questions, predictions, actual):
+        result = questeval.compute_all(
+            hypothesis=answer,
+            references=[answer],
+            sources=[question]
+        )
+    scores.append(result['fscore'])
+    return scores
+'''
 
 def normalize_answer(s):
     def remove_articles(text):
@@ -93,15 +124,32 @@ def calculate_latencies(latency_data):
     return l
 
 def convert_to_eval_path(file_path: Path) -> Path:
-    relative = file_path.relative_to("experiment/response")
+    file_path = file_path.resolve()
+    anchor = Path("experiment/response").resolve()
+
+    relative = file_path.relative_to(anchor)
     model, dataset, _, filename = relative.parts
     return Path("experiment/evaluation") / model / dataset / filename
 
-async def evaluate(file_path: Path):
+def evaluate(file_path: str):
     eval_results = []
-    
+    file_path = Path(file_path)
     print(f"Evaluating: {file_path}")
-    await asyncio.sleep(0.1)
+    
+    steps = [
+        "Reading file",
+        "Calculating latencies",
+        "Calculating BERT",
+        "Calculating Rouge",
+        "Calculating BLEURT",
+        "Calculating F1,"
+        "Writing scores to file"
+    ]
+    
+    pbar = tqdm(total=len(steps), desc="Evaluating", bar_format="{l_bar}{bar} [Step {n_fmt}/{total_fmt}] {desc}")
+    pbar.set_description("Reading file")
+
+    time.sleep(5)
 
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -110,6 +158,10 @@ async def evaluate(file_path: Path):
 
     output_path = convert_to_eval_path(file_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    pbar.update(1)
+
+    
+    pbar.set_description("Calculating latencies")
 
     for item in results:
         eval_results.append({
@@ -117,43 +169,112 @@ async def evaluate(file_path: Path):
             "predicted_response": item["predicted_response"],
             "method": item["method"],
             "actual_response": item["actual_response"],
-            "source": "hotpot_qa",
+            "source": item["source"],
             "latency": calculate_latencies(item["latency"]),
             "overall_latency": item["overall_latency"],
         })
+    pbar.update(1)
     
+    #NEED TO FIX
+    '''
     rating_results = llm.process_batch(data=eval_results)
-    for i, result in enumerate(rating_results):
-        eval_results[i]["score"] = result["score"]
-
-    await asyncio.sleep(5)
-
-    # Compute BERTScore
+    if len(rating_results) == len(eval_results):
+        for i, result in enumerate(rating_results):
+            eval_results[i]["score"] = result["score"]
+    '''
+    
     predictions = [item["predicted_response"] for item in eval_results]
     references = [item["actual_response"] for item in eval_results]
-    bert_scores = get_bert_scores(predictions, references)  # e.g. returns dict with 'f1'
+    questions = [item["query"] for item in eval_results]
+    
+    pbar.set_description("Calculating BERT")
+    bert_scores = get_bert_scores(predictions, references)["f1"]
+    pbar.update(1)
+    
+    pbar.set_description("Calculating Rouge")
+    rouge_scores = get_rouge_scores(predictions, references)
+    pbar.update(1)
+    
+    pbar.set_description("Calculating BLEURT")
+    bleurt_scores = get_bleurt_scores(predictions, references)
+    pbar.update(1)
+    #questeval_scores = get_questeval_scores(predictions, references, questions)
+    
+    # Token-overlap F1
+    pbar.set_description("Calculating F1")
+    f1_scores = [get_f1_score(pred, ref)[0] for pred, ref in zip(predictions, references)]
+    pbar.update(1)
+    
+    pbar.update(1)
+    print("BERT Scores: ", len(bert_scores))
+    print("F1 Scores: ", len(f1_scores))
+    print("Rouge Scores: ", len(rouge_scores))
+    print("BLEURT Scores: ", len(bleurt_scores))
+    #print("QuestEval Scores: ", len(questeval_scores))
+    
+    pbar.set_description("Writing scores to file")
 
-    # Compute traditional token-overlap F1
-    f1_scores = [get_f1_score(pred, ref) for pred, ref in zip(predictions, references)]
-
-    for i, (bert_f1, f1) in enumerate(zip(bert_scores["f1"], f1_scores)):
-        eval_results[i]["bert_score_f1"] = bert_f1
-        eval_results[i]["f1_score"] = f1
-        
+    for i in range(len(eval_results)):
+        eval_results[i]["bert_score"] = bert_scores[i]
+        eval_results[i]["f1_score"] = f1_scores[i]
+        eval_results[i]["rouge_score"] = rouge_scores[i]
+        eval_results[i]["bleurt_score"] = bleurt_scores[i]
+        #eval_results[i]["questeval_score"] = questeval_scores[i]
+               
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"results": eval_results}, f, indent=2)
-    
-async def run_evaluate(root_dir: str):
-    tasks = []
-    root = Path(root_dir)
-    for model_dir in root.iterdir():
-        if model_dir.is_dir():
-            for dataset_dir in model_dir.iterdir():
-                if dataset_dir.is_dir():
-                    latest = latest_run(dataset_dir)
-                    if latest:
-                        for file in latest.glob("*.json"):
-                            tasks.append(asyncio.create_task(evaluate(file)))  
-    await asyncio.gather(*tasks)
+        
+    pbar.update(1)
+    pbar.close()
+#----------FINAQA-------------
+#gemma2b 
+path_finqa_gemma = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/gemma:2b/finqa/20250418_102834/all_results.json"
+#phi3:3b
+path_finqa_phi3 = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/finqa/20250418_123737/all_results.json"
+#qwen2.5:3b
+path_finqa_qwen = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/qwen2.5:3b/finqa/20250418_144247/all_results.json"
 
-asyncio.run(run_evaluate("./experiment/response"))
+
+#----------HOTPOTQA-------------
+#gemma2b 
+path_hotpota_gemma = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/gemma:2b/hotpotqa/20250418_215412/all_results.json"
+#phi3:3b
+path_hotpota_phi3 = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/hotpotqa/20250418_191823/all_results.json"
+#qwen2.5:3b
+path_hotpota_qwen = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/qwen2.5:3b/hotpotqa/20250418_173120/all_results.json"
+
+
+#----------SQUAD-------------
+#gemma2b 
+path_squad_gemma = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/gemma:2b/squad/20250419_211347/all_results.json"
+#phi3:3b
+path_squad_phi3 = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/squad/20250419_220937/all_results.json"
+#qwen2.5:3b
+path_squad_qwen = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/qwen2.5:3b/squad/20250419_235112/all_results.json"
+
+
+#----------ScienceQA-------------
+
+#gemma2b 
+path_scienceqa_gemma = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/gemma:2b/science_qa/20250420_001136/all_results.json"
+#phi3:3b
+path_scienceqa_phi3 = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/science_qa/20250421_100032/all_results.json"
+#qwen2.5:3b
+path_scienceqa_qwen = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/qwen2.5:3b/science_qa/20250420_172413/all_results.json"
+
+if __name__ == "__main__":
+    #evaluate(path_finqa_gemma)
+    #evaluate(path_finqa_phi3)
+    #evaluate(path_finqa_qwen)
+    
+    #evaluate(path_hotpota_gemma)
+    #evaluate(path_hotpota_phi3)
+    #evaluate(path_hotpota_qwen)
+    
+    #evaluate(path_squad_gemma)
+    #evaluate(path_squad_phi3)
+    #evaluate(path_squad_qwen)
+    
+    #evaluate(path_scienceqa_gemma)
+    #evaluate(path_scienceqa_phi3)
+    evaluate(path_scienceqa_qwen)

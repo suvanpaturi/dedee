@@ -55,7 +55,7 @@ class HelperLLM:
         except Exception as e:
             return {}
         
-    def process_batch(self, data, batch_size=30, max_attempts=3):
+    def process_batch(self, data, batch_size=60, max_attempts=5):
         all_results = []
         for i in range(0, len(data), batch_size):
             batch = data[i:i+batch_size]
@@ -66,7 +66,7 @@ class HelperLLM:
             
             with get_openai_callback() as cb:
                 try:
-                    for attempt in range(max_attempts):
+                    for _ in range(max_attempts):
                         try:
                             batch_results = self.chain.batch(inputs)
                             for j, result in enumerate(batch_results):
@@ -87,7 +87,7 @@ class HelperLLM:
                             break
                         except RateLimitError:
                             print("Rate limit error, retrying...")
-                            time.sleep(2)
+                            time.sleep()
                             continue
                 except Exception as e:
                     print(f"Error processing batch {i//batch_size + 1}: {e}")
