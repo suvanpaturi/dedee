@@ -87,7 +87,7 @@ class HelperLLM:
                             break
                         except RateLimitError:
                             print("Rate limit error, retrying...")
-                            time.sleep(5)
+                            time.sleep()
                             continue
                 except Exception as e:
                     print(f"Error processing batch {i//batch_size + 1}: {e}")

@@ -15,10 +15,12 @@ def get_metrics(dataset, model, results):
     average_bert_score = sum([result["bert_score"] for result in results]) / len(results)
     average_rogue_score = sum([result["rouge_score"] for result in results]) / len(results)
     average_bleurt_score = sum([result["bleurt_score"] for result in results]) / len(results)
-    average_llm_critic_score = sum([result["score"] for result in results]) / len(results)
+    #average_llm_critic_score = sum([result["score"] for result in results]) / len(results)
     return {
         "dataset": dataset,
         "model": model,
+        "number_of_debate_cases": len([x for x in results if x['method'] == 'debate']),
+        "total_cases": len(results),
         "average_overall_latency": average_overall_latency,
         "average_debate_latency": average_debate_latency,
         "average_tree_latency": average_tree_latency,
@@ -26,7 +28,7 @@ def get_metrics(dataset, model, results):
         "average_bert_score": average_bert_score,
         "average_rogue_score": average_rogue_score,
         "average_bleurt_score": average_bleurt_score,
-        "average_llm_critic_score": average_llm_critic_score
+        "average_llm_critic_score": 0
     }
 
 def analyze(root_folder):
@@ -53,8 +55,11 @@ def analyze(root_folder):
                                 debate_cases.append(debate_metrics)
                             
     df = pd.DataFrame(all_cases)
+    print(df)
     df.to_csv('./experiment/evaluation/all_cases.csv', index=False)
+    
     df = pd.DataFrame(debate_cases)
+    print(df)
     df.to_csv('./experiment/evaluation/debate_cases.csv', index=False)
     
 if __name__ == "__main__":
