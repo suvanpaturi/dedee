@@ -1,2 +1,2 @@
 
-dataset = "science_qas"
+dataset = "finqa"

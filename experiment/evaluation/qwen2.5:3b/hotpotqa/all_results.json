@@ -16,7 +16,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9549390077590942
+      "bleurt_score": 0.9549390077590942,
+      "score": "5"
     },
     {
       "query": "Warriors' Path State Park is named for a network of trails in eastern North America that was used by Native Americans who ran through where?",
@@ -34,7 +35,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0000680685043335
+      "bleurt_score": 1.0000680685043335,
+      "score": "5"
     },
     {
       "query": "Rediscovered is the fifth studio album by English-Norwegian pop group A1, the album was released on which date in Norway, two singles have thus far been released from the album: \"Just Three Words\", featuring singer Annie Khalid?",
@@ -52,7 +54,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0249285697937012
+      "bleurt_score": 1.0249285697937012,
+      "score": "5"
     },
     {
       "query": "American actor Blair Redford was succeeded in the role of Scotty Grainger on \"The Young and the Restless\" by what actor?",
@@ -70,7 +73,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8353296518325806
+      "bleurt_score": 0.8353296518325806,
+      "score": "5"
     },
     {
       "query": "Just the Way You Are is a 1984 American comedy-drama film starring which American actress and singer?",
@@ -88,7 +92,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9695796966552734
+      "bleurt_score": 0.9695796966552734,
+      "score": "5"
     },
     {
       "query": "What type of vegetation does Fothergilla and Clerodendrum have in common?",
@@ -106,7 +111,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.85068678855896
+      "bleurt_score": 0.85068678855896,
+      "score": "5"
     },
     {
       "query": "Which television personality from The Real Housewives of New Jersey won second partnership with Mike Malinon on the Famous Food series? ",
@@ -124,7 +130,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8967127799987793
+      "bleurt_score": 0.8967127799987793,
+      "score": "5"
     },
     {
       "query": "What is the name of this high-speed banked oval that this motor racing circuit in Melbourne, Victoria, Australia, had where 2001 Calder Park V8 Supercar round took place?",
@@ -142,7 +149,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8934822082519531
+      "bleurt_score": 0.8934822082519531,
+      "score": "5"
     },
     {
       "query": "What is the name of the episode from the \"Walking Dead\" where Rosita Espinosa and the others find the Alexandria Safe Zone?",
@@ -160,7 +168,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.041592001914978
+      "bleurt_score": 1.041592001914978,
+      "score": "5"
     },
     {
       "query": "What hip hop artist recorded a studio album that won a Guild of Music Supervisors Award in 2016?",
@@ -178,7 +187,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9607939720153809
+      "bleurt_score": 0.9607939720153809,
+      "score": "5"
     },
     {
       "query": "The Bawku municipal district is part of what region?",
@@ -196,7 +206,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8667877912521362
+      "bleurt_score": 0.8667877912521362,
+      "score": "1"
     },
     {
       "query": "Who was born first, Michael Powell, or Ralph Bakshi?",
@@ -214,7 +225,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9466145038604736
+      "bleurt_score": 0.9466145038604736,
+      "score": "5"
     },
     {
       "query": "What city was formerly home to \"Maggie\", who's best remembered for exhorting the crew in Lifeboat No. 6 to return to the debris field of the 1912 sinking of RMS \"Titanic\" to look for survivors?",
@@ -232,7 +244,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0653029680252075
+      "bleurt_score": 1.0653029680252075,
+      "score": "5"
     },
     {
       "query": "English actor John Alderton plays Thomas Watkins in which British TV drama series?",
@@ -250,7 +263,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1096564531326294
+      "bleurt_score": 1.1096564531326294,
+      "score": "5"
     },
     {
       "query": "Yuen Woo-ping and Louis Le Prince, have which mutual industry occupation?",
@@ -268,7 +282,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8745043277740479
+      "bleurt_score": 0.8745043277740479,
+      "score": "5"
     },
     {
       "query": "Which commuter airline with its head office in the Isle of Man Airport was sometimes operated by Links Air?",
@@ -286,7 +301,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8496679663658142
+      "bleurt_score": 0.8496679663658142,
+      "score": "5"
     },
     {
       "query": "Big Eyes is a 2014 American biographical film directed by Tim Burton, and starring which Austrian-German actor?",
@@ -304,7 +320,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9330005645751953
+      "bleurt_score": 0.9330005645751953,
+      "score": "5"
     },
     {
       "query": "Who created the character that Mel Blanc was the voice for?",
@@ -322,7 +339,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9220067262649536
+      "bleurt_score": 0.9220067262649536,
+      "score": "5"
     },
     {
       "query": "What year did the Gulf War begin that required the force of the 101st Airborne Division Artillery?",
@@ -340,7 +358,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8424602150917053
+      "bleurt_score": 0.8424602150917053,
+      "score": "5"
     },
     {
       "query": "What Christmas-themed entertainment program has existed since 1955 and is rival to Google Santa Tracker?",
@@ -358,7 +377,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0408939123153687
+      "bleurt_score": 1.0408939123153687,
+      "score": "5"
     },
     {
       "query": "In what year was the Ghanaian footballer who graduated from the SC Bastia Reserves and Academy born?",
@@ -376,7 +396,8 @@
       "bert_score": 1.0000007152557373,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.823843777179718
+      "bleurt_score": 0.823843777179718,
+      "score": "5"
     },
     {
       "query": "Which prehistoric period of Mesopotamia were the majority of the remains from found in Tell al-Ubaid?",
@@ -394,7 +415,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9401489496231079
+      "bleurt_score": 0.9401489496231079,
+      "score": "5"
     },
     {
       "query": "What is the nationality of the filmmaker that wrote and directed The Sinister Urge?",
@@ -412,7 +434,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0165787935256958
+      "bleurt_score": 1.0165787935256958,
+      "score": "5"
     },
     {
       "query": "Joyce Carman Barkhouse, was a children's writer, of which nationality, best known for writing historical fiction, and is the aunt of Margaret Atwood, a Canadian poet, novelist, literary critic, essayist, inventor, and environmental activist?",
@@ -430,7 +453,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9664840698242188
+      "bleurt_score": 0.9664840698242188,
+      "score": "5"
     },
     {
       "query": "The actress that played Jackie Clunes in the series \"Hotel Babylon\" was part of what short-lived pop duo?",
@@ -448,7 +472,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9116129279136658
+      "bleurt_score": 0.9116129279136658,
+      "score": "5"
     },
     {
       "query": "David Berman was a partner with what mobster who was a driving force behind the development of the Las Vegas Strip?",
@@ -466,7 +491,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.011507272720337
+      "bleurt_score": 1.011507272720337,
+      "score": "5"
     },
     {
       "query": "Who is Gladys Louise Smith's husband, often confused with Charles R. Rogers?",
@@ -484,7 +510,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9953044652938843
+      "bleurt_score": 0.9953044652938843,
+      "score": "5"
     },
     {
       "query": "Where is Hawthornden Castle located relative to a castle 9 miles south of Edinburgh?",
@@ -502,7 +529,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0610570907592773
+      "bleurt_score": 1.0610570907592773,
+      "score": "5"
     },
     {
       "query": "Cantabrian mythology was likely diluted by what Iron Age mythology?",
@@ -520,7 +548,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.934363067150116
+      "bleurt_score": 0.934363067150116,
+      "score": "5"
     },
     {
       "query": "What do Padmarajan and Wanda Jakubowska have in common?",
@@ -538,7 +567,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.798487663269043
+      "bleurt_score": 0.798487663269043,
+      "score": "5"
     },
     {
       "query": "Who is the songwriter for \"The Lion and the Cobra\" and also recorded at The Lodge?",
@@ -556,7 +586,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9569342136383057
+      "bleurt_score": 0.9569342136383057,
+      "score": "5"
     },
     {
       "query": "Which member of the girl group Miss A under JYP Entertainment also stars in the South Korean television drama While You Were Sleeping?",
@@ -574,7 +605,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8676551580429077
+      "bleurt_score": 0.8676551580429077,
+      "score": "5"
     },
     {
       "query": "What is the literal translation of the full name of the gun that replaced the Arsenal submachine gun in Estonian service in 1938?",
@@ -592,7 +624,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0501903295516968
+      "bleurt_score": 1.0501903295516968,
+      "score": "5"
     },
     {
       "query": "On 30 November 2004, Jakubko made his international debut for Slovakia in the 1\u20130 victory over Hungary at the 2004 King's Cup, Jakubko played 6 minutes at the 2010 FIFA World Cup against the Netherlands and earned a penalty kick, which was successfully taken by which Slovak football player who currently plays for \u0160K Slovan Bratislava?",
@@ -610,7 +643,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8860594630241394
+      "bleurt_score": 0.8860594630241394,
+      "score": "5"
     },
     {
       "query": "Which war took place first Korean War or The Meuse-Argonne Offensive ?",
@@ -628,7 +662,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9865690469741821
+      "bleurt_score": 0.9865690469741821,
+      "score": "5"
     },
     {
       "query": "Chuck Versus the Cougars, is the fourth episode of the second season of \"Chuck\", Heather's nerdy husband Mark Ratner, is played by which American actor, born on September 13, 1980?",
@@ -646,7 +681,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9251750111579895
+      "bleurt_score": 0.9251750111579895,
+      "score": "5"
     },
     {
       "query": "Who created the show with an episode called \"How to Eat with Your Butt\"?",
@@ -664,7 +700,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9808944463729858
+      "bleurt_score": 0.9808944463729858,
+      "score": "5"
     },
     {
       "query": "Darren Criss wrote music an lyrics for a \"Harry Potter\" based parody, for what Chicago based musical theater company?",
@@ -682,7 +719,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9389419555664062
+      "bleurt_score": 0.9389419555664062,
+      "score": "5"
     },
     {
       "query": "Who had more pseudonyms, Robert Ludlum or Clement Greenberg?",
@@ -700,7 +738,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9279748201370239
+      "bleurt_score": 0.9279748201370239,
+      "score": "5"
     },
     {
       "query": "Which South Korean singer born in 1986 appeares as a guest to the Seoul Concert?",
@@ -718,7 +757,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9679455757141113
+      "bleurt_score": 0.9679455757141113,
+      "score": "5"
     },
     {
       "query": "What Victoria's Secret Angel did Anna Kaiser personal train?",
@@ -736,7 +776,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9470604658126831
+      "bleurt_score": 0.9470604658126831,
+      "score": "5"
     },
     {
       "query": "The High German consonant shift  took place in the Germanic family of languages that is larger than which other two branches?",
@@ -754,7 +795,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0349270105361938
+      "bleurt_score": 1.0349270105361938,
+      "score": "5"
     },
     {
       "query": "What was the name of the man who Carol Kane played the wife of who was a lovable-but-goofy mechanic in a television series?",
@@ -772,7 +814,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9134877324104309
+      "bleurt_score": 0.9134877324104309,
+      "score": "5"
     },
     {
       "query": "The actor playing Father Gabriel Stokes was born when?",
@@ -790,7 +833,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0973937511444092
+      "bleurt_score": 1.0973937511444092,
+      "score": "5"
     },
     {
       "query": "Which country aided Finland in Operation Stella Polaris against the Soviet Union?",
@@ -808,7 +852,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.895686686038971
+      "bleurt_score": 0.895686686038971,
+      "score": "5"
     },
     {
       "query": "What British games manufacturer publishes \"White Dwarf,\" a magazine which gave Dragons of Mystery a middling review?",
@@ -826,7 +871,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.937210738658905
+      "bleurt_score": 0.937210738658905,
+      "score": "5"
     },
     {
       "query": "Sugarcult and Morphine are both what types of groups?",
@@ -844,7 +890,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8264415264129639
+      "bleurt_score": 0.8264415264129639,
+      "score": "5"
     },
     {
       "query": "Who directed the film that was shot in or around Leland, North Carolina in 1986",
@@ -862,7 +909,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9091697931289673
+      "bleurt_score": 0.9091697931289673,
+      "score": "5"
     },
     {
       "query": "The Bethune\u2013Cookman Wildcats, are the athletic teams that represent which private, co-ed, historically black university located in Daytona Beach, Florida?",
@@ -880,7 +928,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9686837792396545
+      "bleurt_score": 0.9686837792396545,
+      "score": "5"
     },
     {
       "query": "Which genus contains more species, Philadelphus or Sarracenia?",
@@ -898,7 +947,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8730278611183167
+      "bleurt_score": 0.8730278611183167,
+      "score": "5"
     },
     {
       "query": "Are Nangpai Gosum and Noshaq in the same mountain range?",
@@ -916,7 +966,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "What former city, now the fourth-largest Russian city, was the Belarusian State Technological University evacuated to in 1941?",
@@ -934,7 +985,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9222826957702637
+      "bleurt_score": 0.9222826957702637,
+      "score": "5"
     },
     {
       "query": "What is the name of the person who created  a cartoon animation in 1977 based on a 1937 book by J.R.R Tolkein? ",
@@ -952,7 +1004,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9977755546569824
+      "bleurt_score": 0.9977755546569824,
+      "score": "5"
     },
     {
       "query": "Jeremy Mortimer is a British director and producer of radio dramas, for which organization, and is the son of Sir John Clifford, and Penelope Mortimer and the half-brother of Emily Mortimer?",
@@ -970,7 +1023,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.934847354888916
+      "bleurt_score": 0.934847354888916,
+      "score": "5"
     },
     {
       "query": "Between Fred C. Newmeyer and Diminas Dagogo, who has more diverse film-making experiences?",
@@ -988,7 +1042,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9591736793518066
+      "bleurt_score": 0.9591736793518066,
+      "score": "5"
     },
     {
       "query": "Both Twin Tin Bots and Star Wars Epic Duels are what type of games?",
@@ -1006,7 +1061,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9615570902824402
+      "bleurt_score": 0.9615570902824402,
+      "score": "5"
     },
     {
       "query": "Which Swedish author and teacher wrote the 1912 novel Thy Soul Shall Bear Witness! ?",
@@ -1024,7 +1080,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9527775049209595
+      "bleurt_score": 0.9527775049209595,
+      "score": "1"
     },
     {
       "query": "Were Katie White and Donnie Munro in the same band?",
@@ -1042,7 +1099,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Newspapers in Australia: there are 2 national and 10 state/territory daily newspapers, 35 regional dailies and 470 other regional and suburban newspapers, most major metropolitan newspapers are owned either by News Limited, a subsidiary of which American multinational mass media corporation headquartered in ?",
@@ -1060,7 +1118,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.94246506690979
+      "bleurt_score": 0.94246506690979,
+      "score": "5"
     },
     {
       "query": "What year was the coached the Idaho Vandals born?",
@@ -1078,7 +1137,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8465872406959534
+      "bleurt_score": 0.8465872406959534,
+      "score": "5"
     },
     {
       "query": "Sharon Thomas' children include an AMerican actor who is known for his role as Superman, and for being the host of what show?",
@@ -1096,7 +1156,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0804824829101562
+      "bleurt_score": 1.0804824829101562,
+      "score": "5"
     },
     {
       "query": "Donker Mag is an album by what African hip hop group?",
@@ -1114,7 +1175,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.780769407749176
+      "bleurt_score": 0.780769407749176,
+      "score": "5"
     },
     {
       "query": "Which superbowl did Scott Green officiate that was between the Carolina Panthers and New England Patriots?",
@@ -1132,7 +1194,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0106738805770874
+      "bleurt_score": 1.0106738805770874,
+      "score": "5"
     },
     {
       "query": "How densely populated is this state, where one of the last actions, Battle of Point Judith, took place, compared to other U.S. states?",
@@ -1150,7 +1213,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1071434020996094
+      "bleurt_score": 1.1071434020996094,
+      "score": "5"
     },
     {
       "query": "What was the population as of the 2010 census of the county in which Pilsen, Kansas is located?",
@@ -1168,7 +1232,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0099185705184937
+      "bleurt_score": 1.0099185705184937,
+      "score": "5"
     },
     {
       "query": "Palentown is a hamlet in a county named for a province of what nationality?",
@@ -1186,7 +1251,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8654470443725586
+      "bleurt_score": 0.8654470443725586,
+      "score": "5"
     },
     {
       "query": "What film starring Vladimir Korenov features cameras by Eduard Rozovsky?",
@@ -1204,7 +1270,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9611837863922119
+      "bleurt_score": 0.9611837863922119,
+      "score": "5"
     },
     {
       "query": "What award did Ladies vs Ricky Bahl actress, Parineeti Chopra win?",
@@ -1222,7 +1289,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.015744686126709
+      "bleurt_score": 1.015744686126709,
+      "score": "5"
     },
     {
       "query": "What Austrian composer of Um Mitternacht was best known for his symphonies, masses, and motels?",
@@ -1240,7 +1308,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9360824227333069
+      "bleurt_score": 0.9360824227333069,
+      "score": "5"
     },
     {
       "query": "The 1953 Ta\u00e7a de Portugal Final was won by a team from which Portuguese city ?",
@@ -1258,7 +1327,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8380438685417175
+      "bleurt_score": 0.8380438685417175,
+      "score": "5"
     },
     {
       "query": "Mark Duckens first attended which third-largest university in Kansas?",
@@ -1276,7 +1346,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0071351528167725
+      "bleurt_score": 1.0071351528167725,
+      "score": "5"
     },
     {
       "query": "HispanicTV is a Latin American cable television channel that broadcasts Hispanic music videos, its format includes Merengue, a type of music and dance originating in which country, which has become a very popular genre throughout Latin America, and also in several major cities in the United States which have Hispanic communities?",
@@ -1294,7 +1365,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9444332718849182
+      "bleurt_score": 0.9444332718849182,
+      "score": "5"
     },
     {
       "query": "What characteristics do Lutherville and Baltimore County share? ",
@@ -1312,7 +1384,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.03714120388031
+      "bleurt_score": 1.03714120388031,
+      "score": "5"
     },
     {
       "query": "Which alliance was formed in January 2016 in which the Value Alliance is second to when we talk of  low-cost carriers",
@@ -1330,7 +1403,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9592816233634949
+      "bleurt_score": 0.9592816233634949,
+      "score": "5"
     },
     {
       "query": "What professional wrestler is also known as Triple H?",
@@ -1348,7 +1422,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9772068858146667
+      "bleurt_score": 0.9772068858146667,
+      "score": "5"
     },
     {
       "query": "In between Epidendrum and Convolvulus,which one has more than 1,500 species?",
@@ -1366,7 +1441,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8969458341598511
+      "bleurt_score": 0.8969458341598511,
+      "score": "5"
     },
     {
       "query": "What amusement and water park has the Alpine Bobsled roller coaster but is separate from the Six Flags brand?",
@@ -1384,7 +1460,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9905661344528198
+      "bleurt_score": 0.9905661344528198,
+      "score": "5"
     },
     {
       "query": "When was the person who discovered Palomar 4 in 1949 born?",
@@ -1402,7 +1479,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1132935285568237
+      "bleurt_score": 1.1132935285568237,
+      "score": "5"
     },
     {
       "query": "Do Sun Tiantian and Tom Gullikson have the same nationality ?",
@@ -1420,7 +1498,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Which country did the footballer, who played striker for the Atl\u00e9tico Madrid, play for the national team?",
@@ -1438,7 +1517,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8418546915054321
+      "bleurt_score": 0.8418546915054321,
+      "score": "5"
     },
     {
       "query": "Who directed Reefer Madness (1936), Louis J. Gasnier or Joseph Henabery?",
@@ -1456,7 +1536,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9341359734535217
+      "bleurt_score": 0.9341359734535217,
+      "score": "5"
     },
     {
       "query": "In between University of Michigan and Universidade Positivo which one was moved to Ann Arbor in 1837?",
@@ -1474,7 +1555,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0319796800613403
+      "bleurt_score": 1.0319796800613403,
+      "score": "5"
     },
     {
       "query": "In the CBS television sitcome Double Rush, Johnny Verona, manager of a bicycle delivery service in New York City was played by an actor of what nationality?",
@@ -1492,7 +1574,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0165787935256958
+      "bleurt_score": 1.0165787935256958,
+      "score": "5"
     },
     {
       "query": "Which city, located about 12 miles north of Detroit city limits, was the location of the Olympian Motors Company? ",
@@ -1510,7 +1593,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.977678656578064
+      "bleurt_score": 0.977678656578064,
+      "score": "5"
     },
     {
       "query": "What genre does Telemark and Quickstep have in common?",
@@ -1528,7 +1612,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9775230288505554
+      "bleurt_score": 0.9775230288505554,
+      "score": "5"
     },
     {
       "query": "What was the birth date of a film director who wrote a film based on the anthropomorphic concept that all toys, unknown to humans, are secretly alive?",
@@ -1546,7 +1631,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.110102891921997
+      "bleurt_score": 1.110102891921997,
+      "score": "5"
     },
     {
       "query": "What genre of music is represented here?",
@@ -1564,7 +1650,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8264415264129639
+      "bleurt_score": 0.8264415264129639,
+      "score": "5"
     },
     {
       "query": "Rodelinda and La vida breve, are which type of drama?",
@@ -1582,7 +1669,8 @@
       "bert_score": 0.9999995231628418,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8434150218963623
+      "bleurt_score": 0.8434150218963623,
+      "score": "5"
     },
     {
       "query": "Who was born last, Dave Peverett or Jang Hyun-seung?",
@@ -1600,7 +1688,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9796105623245239
+      "bleurt_score": 0.9796105623245239,
+      "score": "5"
     },
     {
       "query": "Did Thomas Schlamme and Hobart Henley share the same nationality?",
@@ -1618,7 +1707,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9939087629318237
+      "bleurt_score": 0.9939087629318237,
+      "score": "5"
     },
     {
       "query": "Who is the English-American actress, singer, and songwriter starring in the 1995 Disney family sports",
@@ -1636,7 +1726,8 @@
       "bert_score": 0.7820153832435608,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.8343455195426941
+      "bleurt_score": -0.8343455195426941,
+      "score": "1"
     },
     {
       "query": "For which 1931 Pre-Code Western film did Danish costume designer and art director Max R\u00e9e win",
@@ -1654,7 +1745,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8500890135765076
+      "bleurt_score": 0.8500890135765076,
+      "score": "5"
     },
     {
       "query": "Who is older, Carol Kane or Andy Kaufman?",
@@ -1672,7 +1764,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8823525905609131
+      "bleurt_score": 0.8823525905609131,
+      "score": "5"
     },
     {
       "query": "Which Japanese music genre classic from 1983 by Anri did MAX cover for their 32nd",
@@ -1690,7 +1783,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9638586044311523
+      "bleurt_score": 0.9638586044311523,
+      "score": "1"
     },
     {
       "query": "Who appeared in both \"Bridesmaids\" and \"Alice in Wonderland\"?",
@@ -1708,7 +1802,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8723713159561157
+      "bleurt_score": 0.8723713159561157,
+      "score": "5"
     },
     {
       "query": "What is the birth year of Umberto Agnelli's father, the Italian industrialist?",
@@ -1726,7 +1821,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0648176670074463
+      "bleurt_score": 1.0648176670074463,
+      "score": "5"
     },
     {
       "query": "What was the previous name of the building opposite the Rockefeller Building?",
@@ -1744,7 +1840,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9406125545501709
+      "bleurt_score": 0.9406125545501709,
+      "score": "5"
     },
     {
       "query": "At which institution did the Trinity College Quirks perform with a collegiate a cappella group founded at",
@@ -1762,7 +1859,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9117114543914795
+      "bleurt_score": 0.9117114543914795,
+      "score": "1"
     },
     {
       "query": "Where did the renowned psychoanalyst linked to the University of Chicago primarily work as a psychiatry professor",
@@ -1780,7 +1878,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0208362340927124
+      "bleurt_score": 1.0208362340927124,
+      "score": "5"
     },
     {
       "query": "On which island is the Southwest Harbor Public Library located?",
@@ -1798,7 +1897,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9511778354644775
+      "bleurt_score": 0.9511778354644775,
+      "score": "5"
     },
     {
       "query": "Which stadium is named in honor of Darrell Royal, the former coach of the 1976 Texas",
@@ -1816,7 +1916,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9806436896324158
+      "bleurt_score": 0.9806436896324158,
+      "score": "5"
     },
     {
       "query": "What is the seating capacity of the stadium where Drew Weber's baseball team plays?",
@@ -1834,7 +1935,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0439777374267578
+      "bleurt_score": 1.0439777374267578,
+      "score": "5"
     },
     {
       "query": "On what date did the American singer featured in Dierks Bentley's song \"Different for Girls\"",
@@ -1852,7 +1954,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1177552938461304
+      "bleurt_score": 1.1177552938461304,
+      "score": "5"
     },
     {
       "query": "Who was the original lead guitarist of the band whose song was combined with \"Bridge over Troubled Water",
@@ -1870,7 +1973,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9074494242668152
+      "bleurt_score": 0.9074494242668152,
+      "score": "5"
     },
     {
       "query": "How many original games exist in the tactical RPG franchise created by the Japanese company behind the \"Wars\"",
@@ -1888,7 +1992,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8816438913345337
+      "bleurt_score": 0.8816438913345337,
+      "score": "5"
     },
     {
       "query": "Which \"Bleeding Love\" singer, born in Islington, London, and a BRIT School",
@@ -1906,7 +2011,8 @@
       "bert_score": 0.8320837020874023,
       "f1_score": 0.25,
       "rouge_score": 0.2222222222222222,
-      "bleurt_score": -0.5689024925231934
+      "bleurt_score": -0.5689024925231934,
+      "score": "5"
     },
     {
       "query": "In which industry did both Ted Sharks and Carlos Reygadas work?",
@@ -1924,7 +2030,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8060846328735352
+      "bleurt_score": 0.8060846328735352,
+      "score": "5"
     },
     {
       "query": "Which system, Atari or Comx-35, has probably influenced modern computer technology the most?",
@@ -1942,7 +2049,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8275765180587769
+      "bleurt_score": 0.8275765180587769,
+      "score": "5"
     },
     {
       "query": "What did Ethiopia gain from the battle where Giuseppe Arimondi was killed?",
@@ -1960,7 +2068,8 @@
       "bert_score": 0.9999992847442627,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8112908601760864
+      "bleurt_score": 0.8112908601760864,
+      "score": "5"
     },
     {
       "query": "Are both Bidens and Browningia considered barbed plants?",
@@ -1978,7 +2087,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9939087629318237
+      "bleurt_score": 0.9939087629318237,
+      "score": "5"
     },
     {
       "query": "How many people did the shooter of Adrian Pracon kill at the summer camp?",
@@ -1996,7 +2106,8 @@
       "bert_score": 0.9999995231628418,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7986478805541992
+      "bleurt_score": 0.7986478805541992,
+      "score": "5"
     },
     {
       "query": "Which album is the third release by the band whose debut was \"Songs for a Tailor\"?",
@@ -2014,7 +2125,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0239025354385376
+      "bleurt_score": 1.0239025354385376,
+      "score": "1"
     },
     {
       "query": "On which record label did Buffalo Springfield release a song recorded in 1966?",
@@ -2032,7 +2144,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9082839488983154
+      "bleurt_score": 0.9082839488983154,
+      "score": "5"
     },
     {
       "query": "Which documentary came out earlier, The Life of Birds or Genghis Blues?",
@@ -2050,7 +2163,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.058996558189392
+      "bleurt_score": 1.058996558189392,
+      "score": "5"
     },
     {
       "query": "Who is the American cinematographer renowned for his work on a 1998 romantic comedy-drama directed",
@@ -2068,7 +2182,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9852161407470703
+      "bleurt_score": 0.9852161407470703,
+      "score": "5"
     },
     {
       "query": "What does the daughter of Tesco's founder do for a living?",
@@ -2086,7 +2201,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9272141456604004
+      "bleurt_score": 0.9272141456604004,
+      "score": "5"
     },
     {
       "query": "Which French composer wrote the music for La princesse de Navarre?",
@@ -2104,7 +2220,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9680697917938232
+      "bleurt_score": 0.9680697917938232,
+      "score": "5"
     },
     {
       "query": "Which defensive midfielder or center back was signed by the same person who signed Carlos Tevez?",
@@ -2122,7 +2239,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9175139665603638
+      "bleurt_score": 0.9175139665603638,
+      "score": "5"
     },
     {
       "query": "Are both the Delta\u2013Mendota Canal and Union Canal located in the US?",
@@ -2140,7 +2258,8 @@
       "bert_score": 0.8152626156806946,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1143325567245483
+      "bleurt_score": -1.1143325567245483,
+      "score": "5"
     },
     {
       "query": "Which actress starred in the 2008 film directed by Baz Luhrmann?",
@@ -2158,7 +2277,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.907455325126648
+      "bleurt_score": 0.907455325126648,
+      "score": "5"
     },
     {
       "query": "Which rapper was featured on a Hot 100 track from the album Beyonce released during Destiny's Child's",
@@ -2176,7 +2296,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.954384446144104
+      "bleurt_score": 0.954384446144104,
+      "score": "5"
     },
     {
       "query": "Which band, associated with Mike Peters, was established in Dunfermline, Fife, in ",
@@ -2194,7 +2315,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9725942015647888
+      "bleurt_score": 0.9725942015647888,
+      "score": "5"
     },
     {
       "query": "Who from The Hurricane Heist cast was also in the 2015 Fantastic Four?",
@@ -2212,7 +2334,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9319850206375122
+      "bleurt_score": 0.9319850206375122,
+      "score": "5"
     },
     {
       "query": "What dish does Dunn's Famous Deli and Steakhouse offer that involves brining, partially drying,",
@@ -2230,7 +2353,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8352065086364746
+      "bleurt_score": 0.8352065086364746,
+      "score": "5"
     },
     {
       "query": "Do both Pete Loeffler and Chris Robinson sing in American rock bands?",
@@ -2248,7 +2372,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9939087629318237
+      "bleurt_score": 0.9939087629318237,
+      "score": "5"
     },
     {
       "query": "At which venue does Bill Fennelly's team host their home games?",
@@ -2266,7 +2391,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9068467617034912
+      "bleurt_score": 0.9068467617034912,
+      "score": "5"
     },
     {
       "query": "In which town in Rensselaer County, New York, is the village of Valley Falls",
@@ -2284,7 +2410,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9018649458885193
+      "bleurt_score": 0.9018649458885193,
+      "score": "5"
     },
     {
       "query": "Which college in Dobbs Ferry, New York, did Dr. Donald Grunewald preside",
@@ -2302,7 +2429,8 @@
       "bert_score": 0.770291268825531,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9373446702957153
+      "bleurt_score": -0.9373446702957153,
+      "score": "1"
     },
     {
       "query": "What class of submarine was the non-nuclear U-32?",
@@ -2320,7 +2448,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0334125757217407
+      "bleurt_score": 1.0334125757217407,
+      "score": "5"
     },
     {
       "query": "Which village, known as a tourist spot, is located next to Rydal Water?",
@@ -2338,7 +2467,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8544213771820068
+      "bleurt_score": 0.8544213771820068,
+      "score": "5"
     },
     {
       "query": "What character did Imogen Poots portray in the 2007 British sci-fi horror movie ",
@@ -2356,7 +2486,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7785904407501221
+      "bleurt_score": 0.7785904407501221,
+      "score": "5"
     },
     {
       "query": "In which discipline did American World Cup alpine ski racer Mikaela Shiffrin specialize?",
@@ -2374,7 +2505,8 @@
       "bert_score": 0.7693762183189392,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.945117712020874
+      "bleurt_score": -0.945117712020874,
+      "score": "1"
     },
     {
       "query": "Who nominated Abdul Rashid Dostum politically?",
@@ -2392,7 +2524,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9868972301483154
+      "bleurt_score": 0.9868972301483154,
+      "score": "5"
     },
     {
       "query": "Between Mad Gab and Blokus, which game supports more players?",
@@ -2410,7 +2543,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9497285485267639
+      "bleurt_score": 0.9497285485267639,
+      "score": "5"
     },
     {
       "query": "In which city was the band that released the album War All the Time formed?",
@@ -2428,7 +2562,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9376994967460632
+      "bleurt_score": 0.9376994967460632,
+      "score": "5"
     },
     {
       "query": "Which actor, originally named Charles Dennis Buchinsky, appeared in a Leslie Nielsen comedy?",
@@ -2446,7 +2581,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9034733772277832
+      "bleurt_score": 0.9034733772277832,
+      "score": "5"
     },
     {
       "query": "What type of bands are The Golden Seals and Galaxie 500?",
@@ -2464,7 +2600,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9538560509681702
+      "bleurt_score": 0.9538560509681702,
+      "score": "5"
     },
     {
       "query": "Which Darren Aronofsky film is inspired by a Russian ballet?",
@@ -2482,7 +2619,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8829970359802246
+      "bleurt_score": 0.8829970359802246,
+      "score": "1"
     },
     {
       "query": "What role did the deputy head of the Abwehr's counter-espionage bureau, who collaborated",
@@ -2500,7 +2638,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7642332315444946
+      "bleurt_score": 0.7642332315444946,
+      "score": "1"
     },
     {
       "query": "What was the code name for the Allied operation on D-Day during WWII?",
@@ -2518,7 +2657,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9749497175216675
+      "bleurt_score": 0.9749497175216675,
+      "score": "5"
     },
     {
       "query": "What genre of music do the American bands Wavves and Jimmy Eat World play?",
@@ -2536,7 +2676,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8264415264129639
+      "bleurt_score": 0.8264415264129639,
+      "score": "5"
     },
     {
       "query": "Who produced the song featuring Thomas DeCarlo Callaway, Ludacris, and Trick Daddy?",
@@ -2554,7 +2695,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8707555532455444
+      "bleurt_score": 0.8707555532455444,
+      "score": "5"
     },
     {
       "query": "Which occurred first in our nation's history, the Seven Days Battles or the Battle of Manila?",
@@ -2572,7 +2714,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0194156169891357
+      "bleurt_score": 1.0194156169891357,
+      "score": "5"
     },
     {
       "query": "Which media company's owner described Kim Swift as one of the industry's most recognized women?",
@@ -2590,7 +2733,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8765804767608643
+      "bleurt_score": 0.8765804767608643,
+      "score": "5"
     },
     {
       "query": "In which city are both the Great Palace Mosaic Museum and Hirami Ahmet Pasha Mosque located?",
@@ -2608,7 +2752,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8573285937309265
+      "bleurt_score": 0.8573285937309265,
+      "score": "5"
     },
     {
       "query": "On what date did the TV series featuring Will Mellor as Steve Connolly first air?",
@@ -2626,7 +2771,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.032664179801941
+      "bleurt_score": 1.032664179801941,
+      "score": "5"
     },
     {
       "query": "When was the longtime companion of Adolf Hitler, who became his wife for less than 40 hours and",
@@ -2644,7 +2790,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.055433750152588
+      "bleurt_score": 1.055433750152588,
+      "score": "5"
     },
     {
       "query": "Which movie came out earlier, The Saved or Grey Gardens?",
@@ -2662,7 +2809,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8906793594360352
+      "bleurt_score": 0.8906793594360352,
+      "score": "5"
     },
     {
       "query": "To Catch a Predator focused on impersonating individuals under the age of consent, which varies based on what",
@@ -2680,7 +2828,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9362858533859253
+      "bleurt_score": 0.9362858533859253,
+      "score": "5"
     },
     {
       "query": "What position does the person Claude Mongeau replaced as President and CEO of Canadian National Railway currently hold",
@@ -2698,7 +2847,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9913446307182312
+      "bleurt_score": 0.9913446307182312,
+      "score": "5"
     },
     {
       "query": "Which English actress, born in 1946, starred in the TV adaptation of the children's historical novel",
@@ -2716,7 +2866,8 @@
       "bert_score": 0.8044309616088867,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.3467053174972534
+      "bleurt_score": -1.3467053174972534,
+      "score": "1"
     },
     {
       "query": "Which gulf borders both Anna Maria Island and the city of Anna Maria?",
@@ -2734,7 +2885,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0239185094833374
+      "bleurt_score": 1.0239185094833374,
+      "score": "5"
     },
     {
       "query": "In which 2010 drama did the assistant director to Karan Johar, featured in the \"",
@@ -2752,7 +2904,8 @@
       "bert_score": 0.7759892344474792,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.0882083177566528
+      "bleurt_score": -1.0882083177566528,
+      "score": "1"
     },
     {
       "query": "In which third Macintosh model was an analog board utilized?",
@@ -2770,7 +2923,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8796991109848022
+      "bleurt_score": 0.8796991109848022,
+      "score": "5"
     },
     {
       "query": "Which 1998 American-Australian Neo-noir sci-fi film directed by Alex Proyas featured",
@@ -2788,7 +2942,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9278202652931213
+      "bleurt_score": 0.9278202652931213,
+      "score": "5"
     },
     {
       "query": "Who is the artist behind the song \"Give it 2 U\" featuring rapper Kendrick Lamar?",
@@ -2806,7 +2961,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9373178482055664
+      "bleurt_score": 0.9373178482055664,
+      "score": "5"
     },
     {
       "query": "Which TV series united director Coky Giedroyc with executive producer John Logan?",
@@ -2824,7 +2980,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9867947101593018
+      "bleurt_score": 0.9867947101593018,
+      "score": "5"
     },
     {
       "query": "In which film does a song from Beaucoup Fish's fifth album appear, featuring Arnold Schwarzenegger?",
@@ -2842,7 +2999,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.961822509765625
+      "bleurt_score": 0.961822509765625,
+      "score": "5"
     },
     {
       "query": "Which American media company, founded as a newsweekly magazine in 1933, consistently ranks the College",
@@ -2860,7 +3018,8 @@
       "bert_score": 0.8715670108795166,
       "f1_score": 0.13114754098360656,
       "rouge_score": 0.1515151515151515,
-      "bleurt_score": -0.26716920733451843
+      "bleurt_score": -0.26716920733451843,
+      "score": "5"
     },
     {
       "query": "Which creation is Joe Francis, one of the celebrities represented by attorney Roy Black, known for?",
@@ -2878,7 +3037,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0458608865737915
+      "bleurt_score": 1.0458608865737915,
+      "score": "5"
     },
     {
       "query": "What is the author's nationality of the book featuring Eeyore?",
@@ -2896,7 +3056,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8582646250724792
+      "bleurt_score": 0.8582646250724792,
+      "score": "5"
     },
     {
       "query": "What was the population of the city housing the National Archives and Library of Ethiopia according to the 200",
@@ -2914,7 +3075,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.029091477394104
+      "bleurt_score": 1.029091477394104,
+      "score": "5"
     },
     {
       "query": "What was the club that Andre Melendez and his killer were both members of?",
@@ -2932,7 +3094,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8814582824707031
+      "bleurt_score": 0.8814582824707031,
+      "score": "5"
     },
     {
       "query": "The High Deeds of Finn MacCool is a tale that usually originates from which tradition?",
@@ -2950,7 +3113,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0133200883865356
+      "bleurt_score": 1.0133200883865356,
+      "score": "5"
     },
     {
       "query": "Who was the captain of the Dutchman in a Jerry Bruckheimer film?",
@@ -2968,7 +3132,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9451062083244324
+      "bleurt_score": 0.9451062083244324,
+      "score": "5"
     },
     {
       "query": "Which English actress, a three-time Olivier Award winner, starred in the 1981 BBC series Sons",
@@ -2986,7 +3151,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9955615997314453
+      "bleurt_score": 0.9955615997314453,
+      "score": "5"
     },
     {
       "query": "Is tennis the sport associated with both Rafael Nadal and Kimberly Po?",
@@ -3004,7 +3170,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9939087629318237
+      "bleurt_score": 0.9939087629318237,
+      "score": "5"
     },
     {
       "query": "On what date was Hunter Greene selected in the MLB draft?",
@@ -3022,7 +3189,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1106019020080566
+      "bleurt_score": 1.1106019020080566,
+      "score": "5"
     },
     {
       "query": "How often was the main figure in Sal Paolantonio's most famous ESPN work chosen for the",
@@ -3040,7 +3208,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1359784603118896
+      "bleurt_score": 1.1359784603118896,
+      "score": "5"
     },
     {
       "query": "Whose professional scope is broader, Jos\u00e9 Echegaray or Graham Swift?",
@@ -3058,7 +3227,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9209491610527039
+      "bleurt_score": 0.9209491610527039,
+      "score": "5"
     },
     {
       "query": "What political ideology underpins The National Action Party?",
@@ -3076,7 +3246,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8563617467880249
+      "bleurt_score": 0.8563617467880249,
+      "score": "5"
     },
     {
       "query": "Which movie was released earlier, Dumbo or The Country Bears?",
@@ -3094,7 +3265,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8123106956481934
+      "bleurt_score": 0.8123106956481934,
+      "score": "5"
     },
     {
       "query": "Which airline in Bulgaria acquired Hemus Air?",
@@ -3112,7 +3284,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9608780145645142
+      "bleurt_score": 0.9608780145645142,
+      "score": "5"
     },
     {
       "query": "Who was the actor and stuntman featured in Horrorween?",
@@ -3130,7 +3303,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9451524019241333
+      "bleurt_score": 0.9451524019241333,
+      "score": "5"
     },
     {
       "query": "Which company was responsible for producing both Toby Tyler and Honey, I Shrunk the Kids?",
@@ -3148,7 +3322,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9562462568283081
+      "bleurt_score": 0.9562462568283081,
+      "score": "5"
     },
     {
       "query": "In which state is Australia's largest power station, Eraring Power Station, located, which is supplied by",
@@ -3166,7 +3341,8 @@
       "bert_score": 0.8586093187332153,
       "f1_score": 0.375,
       "rouge_score": 0.35294117647058826,
-      "bleurt_score": -0.09810487926006317
+      "bleurt_score": -0.09810487926006317,
+      "score": "5"
     },
     {
       "query": "In which city was the main campus of the university affiliated with Excel Engineering College situated?",
@@ -3184,7 +3360,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9681370258331299
+      "bleurt_score": 0.9681370258331299,
+      "score": "5"
     },
     {
       "query": "After which American animated series created by Adam Reed and Matt Thompson for Adult Swim did Adam Reed begin developing",
@@ -3202,7 +3379,8 @@
       "bert_score": 0.8025470972061157,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.2437762022018433
+      "bleurt_score": -1.2437762022018433,
+      "score": "1"
     },
     {
       "query": "From which college, affiliated with the Thurgood Marshall College Fund, did Wayne A. Cauth",
@@ -3220,7 +3398,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0214483737945557
+      "bleurt_score": 1.0214483737945557,
+      "score": "5"
     },
     {
       "query": "Is comedy a genre associated with both John Korty and Charley Chase?",
@@ -3238,7 +3417,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Which Penn State Nittany Lions quarterback led to Terrelle Pryor being benched?",
@@ -3256,7 +3436,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9168159365653992
+      "bleurt_score": 0.9168159365653992,
+      "score": "5"
     },
     {
       "query": "Who was the other decathlete, besides the one from Montana, that Dan & Dave were supposed",
@@ -3274,7 +3455,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9298559427261353
+      "bleurt_score": 0.9298559427261353,
+      "score": "5"
     },
     {
       "query": "What kind of forum was launched by a former Soviet leader?",
@@ -3292,7 +3474,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0712664127349854
+      "bleurt_score": 1.0712664127349854,
+      "score": "5"
     },
     {
       "query": "In what year was the company that built the Comet wooden roller coaster at Hersheypark founded?",
@@ -3310,7 +3493,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8725833892822266
+      "bleurt_score": 0.8725833892822266,
+      "score": "5"
     },
     {
       "query": "What 18th-century frontier fort located at today's Cumberland, Maryland, USA, served as a key",
@@ -3328,7 +3512,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9504185318946838
+      "bleurt_score": 0.9504185318946838,
+      "score": "5"
     },
     {
       "query": "Which was released earlier, the TV series Eden of the East or the film Mary and Max?",
@@ -3346,7 +3531,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9549006223678589
+      "bleurt_score": 0.9549006223678589,
+      "score": "5"
     },
     {
       "query": "Which movie was shot earlier, Mysterious Castles of Clay or London Can Take It!?",
@@ -3364,7 +3550,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0602781772613525
+      "bleurt_score": 1.0602781772613525,
+      "score": "5"
     },
     {
       "query": "What is the land area in square kilometers of the country where Daniel Negusie alleged he was compelled",
@@ -3382,7 +3569,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9861491918563843
+      "bleurt_score": 0.9861491918563843,
+      "score": "5"
     },
     {
       "query": "Do The Darling Buds and Shinedown originate from the same country?",
@@ -3400,7 +3588,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Who is the son of the chemist with the highest Hirsch index among living chemists in 201",
@@ -3418,7 +3607,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9175256490707397
+      "bleurt_score": 0.9175256490707397,
+      "score": "5"
     },
     {
       "query": "In which country was the Wometco Home Theater (WHT) pay television service, owned by",
@@ -3436,7 +3626,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.013780117034912
+      "bleurt_score": 1.013780117034912,
+      "score": "5"
     },
     {
       "query": "Who was born on January 1, 1951, and starred in the 1994 movie",
@@ -3454,7 +3645,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9046232104301453
+      "bleurt_score": 0.9046232104301453,
+      "score": "5"
     },
     {
       "query": "Which American business executive served as the eighth Secretary of Defense and was known for assembling the Whiz Kids",
@@ -3472,7 +3664,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9327315092086792
+      "bleurt_score": 0.9327315092086792,
+      "score": "5"
     },
     {
       "query": "For which two professional hockey teams did both Ray Ferraro and Pat Verbeek play?",
@@ -3490,7 +3683,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0137442350387573
+      "bleurt_score": 1.0137442350387573,
+      "score": "5"
     },
     {
       "query": "What did a British Royal Navy officer famously chart during his 1791-95 expedition in 179",
@@ -3508,7 +3702,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9231618642807007
+      "bleurt_score": 0.9231618642807007,
+      "score": "5"
     },
     {
       "query": "Are Frou Frou and Portishead considered electronic bands?",
@@ -3526,7 +3721,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "In which year did Steve Brodie, an actor from El Dorado in Butler County, star in",
@@ -3544,7 +3740,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.807371973991394
+      "bleurt_score": 0.807371973991394,
+      "score": "5"
     },
     {
       "query": "Who established the team Brandon Siler joined following his time with the Chargers?",
@@ -3562,7 +3759,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8889309167861938
+      "bleurt_score": 0.8889309167861938,
+      "score": "5"
     },
     {
       "query": "Who is the current special teams coach for San Diego State who coached the 2009 Montana Grizz",
@@ -3580,7 +3778,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9323924779891968
+      "bleurt_score": 0.9323924779891968,
+      "score": "5"
     },
     {
       "query": "What was the namesake of Germany's large-scale, low-strength fortification unit disbanded in",
@@ -3598,7 +3797,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.91463303565979
+      "bleurt_score": 0.91463303565979,
+      "score": "5"
     },
     {
       "query": "Where is the company that produces the brand once called the Old Oscar Pepper Distillery located?",
@@ -3616,7 +3816,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0041866302490234
+      "bleurt_score": 1.0041866302490234,
+      "score": "5"
     },
     {
       "query": "Which team, coached by the current head coach of the Washington Redskins, participated in Arena Bowl XII?",
@@ -3634,7 +3835,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9260498881340027
+      "bleurt_score": 0.9260498881340027,
+      "score": "5"
     },
     {
       "query": "Which university did Bob Stoops formerly head as a football coach?",
@@ -3652,7 +3854,8 @@
       "bert_score": 0.8727505803108215,
       "f1_score": 0.42857142857142855,
       "rouge_score": 0.4,
-      "bleurt_score": -0.34420540928840637
+      "bleurt_score": -0.34420540928840637,
+      "score": "5"
     },
     {
       "query": "In which 13th episode of The Simpsons' second season did Troy McClure make his first",
@@ -3670,7 +3873,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0063737630844116
+      "bleurt_score": 1.0063737630844116,
+      "score": "5"
     },
     {
       "query": "In which year was the airline based at Heathrow Terminal 3 founded?",
@@ -3688,7 +3892,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8359934091567993
+      "bleurt_score": 0.8359934091567993,
+      "score": "5"
     },
     {
       "query": "In which year was the building located at the end of Pennsylvania Route 3 constructed?",
@@ -3706,7 +3911,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8409801721572876
+      "bleurt_score": 0.8409801721572876,
+      "score": "5"
     },
     {
       "query": "In which year did the fashion designer, for whom Jon Kortajarena has modeled, launch their luxury",
@@ -3724,7 +3930,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8033151626586914
+      "bleurt_score": 0.8033151626586914,
+      "score": "5"
     },
     {
       "query": "Who is the artist behind the sculpture located two miles from Horse Thief Lake?",
@@ -3742,7 +3949,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8981602191925049
+      "bleurt_score": 0.8981602191925049,
+      "score": "5"
     },
     {
       "query": "Who directed the comedy movie featuring the American actress known for playing Erin Hannon in \"The Office\"?",
@@ -3760,7 +3968,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.908699631690979
+      "bleurt_score": 0.908699631690979,
+      "score": "5"
     },
     {
       "query": "Through what does the businessman, who chairs the company distributing Polo and Ralph Lauren products in Asia, control",
@@ -3778,7 +3987,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9253196716308594
+      "bleurt_score": 0.9253196716308594,
+      "score": "5"
     },
     {
       "query": "What novel by Lucia St. Clair Robson features General Benedict Arnold's second wife?",
@@ -3796,7 +4006,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9458023905754089
+      "bleurt_score": 0.9458023905754089,
+      "score": "5"
     },
     {
       "query": "Who was the first woman to be promoted to Master Chief Petty Officer in the US Navy: Anna",
@@ -3814,7 +4025,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9675893783569336
+      "bleurt_score": 0.9675893783569336,
+      "score": "5"
     },
     {
       "query": "Which English dancer, judge, and coach joined Bruno Tonioli, Craig Revel Horwood, and Dar",
@@ -3832,7 +4044,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9506138563156128
+      "bleurt_score": 0.9506138563156128,
+      "score": "5"
     },
     {
       "query": "Who was the producer most recognized for A Christmas Story in 1983?",
@@ -3850,7 +4063,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9188973903656006
+      "bleurt_score": 0.9188973903656006,
+      "score": "5"
     },
     {
       "query": "Who is the \"50 Ways to Kill Your Mammy\" radio and TV personality who presented Baz's",
@@ -3868,7 +4082,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9419294595718384
+      "bleurt_score": 0.9419294595718384,
+      "score": "5"
     },
     {
       "query": "Which band, \"VHS or Beta\" or \"Knuckle Puck,\" hails from a",
@@ -3886,7 +4101,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9963864088058472
+      "bleurt_score": 0.9963864088058472,
+      "score": "5"
     },
     {
       "query": "What year was Garrett Borns' music director born?",
@@ -3904,7 +4120,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.83614182472229
+      "bleurt_score": 0.83614182472229,
+      "score": "5"
     },
     {
       "query": "For which role did a Jenny Wiley Theatre alumnus win the Tony Award for Best Featured Actor in a",
@@ -3922,7 +4139,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9620040655136108
+      "bleurt_score": 0.9620040655136108,
+      "score": "5"
     },
     {
       "query": "Which of Co-Ro Food or Pocari Sweat is produced in Asia?",
@@ -3940,7 +4158,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9169942140579224
+      "bleurt_score": 0.9169942140579224,
+      "score": "5"
     },
     {
       "query": "How many candidates did the political party focused on halting the relocation of South Australia's largest hospital field?",
@@ -3958,7 +4177,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8789811134338379
+      "bleurt_score": 0.8789811134338379,
+      "score": "5"
     },
     {
       "query": "Were Ernst Messerschmid and Reinhold Ewald both astronauts for the ESA?",
@@ -3976,7 +4196,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "In which series did Faye Elaine Marsay play a notable role, and who directed it?",
@@ -3994,7 +4215,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8916386365890503
+      "bleurt_score": 0.8916386365890503,
+      "score": "1"
     },
     {
       "query": "The British sitcom featuring Sharon Horgan and Rob Delaney is produced by a man famous for working with",
@@ -4012,7 +4234,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9170712828636169
+      "bleurt_score": 0.9170712828636169,
+      "score": "5"
     },
     {
       "query": "In which 2004 \"The Fairly Oddparents\" TV movie did Alec Baldwin guest star?",
@@ -4030,7 +4253,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0073872804641724
+      "bleurt_score": 1.0073872804641724,
+      "score": "5"
     },
     {
       "query": "What was the cause of death for Uganda's President from 1971 to 1979, known",
@@ -4048,7 +4272,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0539895296096802
+      "bleurt_score": 1.0539895296096802,
+      "score": "5"
     },
     {
       "query": "Who directed the fantasy film featuring Australian actor Heathcliff Andrew Ledger?",
@@ -4066,7 +4291,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9490910768508911
+      "bleurt_score": 0.9490910768508911,
+      "score": "5"
     },
     {
       "query": "In which country is The Butte, a CDP in Matanuska-Susitna",
@@ -4084,7 +4310,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.013780117034912
+      "bleurt_score": 1.013780117034912,
+      "score": "5"
     },
     {
       "query": "Which action-adventure stealth video game, released by Konami Computer Entertainment Japan for the PlayStation in",
@@ -4102,7 +4329,8 @@
       "bert_score": 0.8703668713569641,
       "f1_score": 0.17142857142857143,
       "rouge_score": 0.15,
-      "bleurt_score": -0.05866481363773346
+      "bleurt_score": -0.05866481363773346,
+      "score": "5"
     },
     {
       "query": "In which southern Asian region does the Indian whiting inhabit both the east and west coasts?",
@@ -4120,7 +4348,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0106303691864014
+      "bleurt_score": 1.0106303691864014,
+      "score": "5"
     },
     {
       "query": "Who composed the comic opera \"The Cooper,\" which is in two acts?",
@@ -4138,7 +4367,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9223798513412476
+      "bleurt_score": 0.9223798513412476,
+      "score": "5"
     },
     {
       "query": "What is the commonality between Bob Marley and Timo Kotipelto?",
@@ -4156,7 +4386,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0792993307113647
+      "bleurt_score": 1.0792993307113647,
+      "score": "5"
     },
     {
       "query": "When was the co-assistant coach of Mikel Arteta's team born?",
@@ -4174,7 +4405,8 @@
       "bert_score": 0.8244950175285339,
       "f1_score": 0.35294117647058826,
       "rouge_score": 0.3,
-      "bleurt_score": -1.0598738193511963
+      "bleurt_score": -1.0598738193511963,
+      "score": "5"
     },
     {
       "query": "Which two artists wrote and performed \"Say Say Say\" in 1983?",
@@ -4192,7 +4424,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9822782278060913
+      "bleurt_score": 0.9822782278060913,
+      "score": "5"
     },
     {
       "query": "In what year was the company that owns Mount Keith Mine established?",
@@ -4210,7 +4443,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8516998887062073
+      "bleurt_score": 0.8516998887062073,
+      "score": "5"
     },
     {
       "query": "Which autobiography's author starred in the comedy film Les Patterson Saves the World?",
@@ -4228,7 +4462,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0512415170669556
+      "bleurt_score": 1.0512415170669556,
+      "score": "5"
     },
     {
       "query": "Which ex-professional English footballer played for Gainsborough Trinity in non-league football?",
@@ -4246,7 +4481,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.936334490776062
+      "bleurt_score": 0.936334490776062,
+      "score": "5"
     },
     {
       "query": "Which constituency did the son of Marion Kozak, a British politician and former Labour Party Leader in the",
@@ -4264,7 +4500,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8993169069290161
+      "bleurt_score": 0.8993169069290161,
+      "score": "5"
     },
     {
       "query": "In what year was the film Three Violent People produced?",
@@ -4282,7 +4519,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8174848556518555
+      "bleurt_score": 0.8174848556518555,
+      "score": "5"
     },
     {
       "query": "In which sitcom is the Canadian-American actor known for playing Will Truman featured?",
@@ -4300,7 +4538,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.94417405128479
+      "bleurt_score": 0.94417405128479,
+      "score": "5"
     },
     {
       "query": "What year was the director of the 2015 drama film \"We Are Your Friends\" born?",
@@ -4318,7 +4557,8 @@
       "bert_score": 1.0000007152557373,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.823843777179718
+      "bleurt_score": 0.823843777179718,
+      "score": "5"
     },
     {
       "query": "Which Sunbury, Pennsylvania-based manufacturer, known for award-winning rides since 1994, is building",
@@ -4336,7 +4576,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0470573902130127
+      "bleurt_score": 1.0470573902130127,
+      "score": "5"
     },
     {
       "query": "In what year was Sonny James's hit \"Young Love\" released?",
@@ -4354,7 +4595,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8174848556518555
+      "bleurt_score": 0.8174848556518555,
+      "score": "5"
     },
     {
       "query": "What category do Acantholimon and Podranea share?",
@@ -4372,7 +4614,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8276534676551819
+      "bleurt_score": 0.8276534676551819,
+      "score": "5"
     },
     {
       "query": "What kind of media format is shared by The Santa Clause 3: The Escape Clause and The Cast",
@@ -4390,7 +4633,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8060846328735352
+      "bleurt_score": 0.8060846328735352,
+      "score": "5"
     },
     {
       "query": "What large mammal depicted in the Wildebeest Kuil Rock Art Centre engraving belongs to the five",
@@ -4408,7 +4652,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.929347038269043
+      "bleurt_score": 0.929347038269043,
+      "score": "5"
     },
     {
       "query": "Which actor and photographer starred in Bangalore Naatkal?",
@@ -4426,7 +4671,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9085363149642944
+      "bleurt_score": 0.9085363149642944,
+      "score": "5"
     },
     {
       "query": "Which team was led by Boom Boom as captain in 2016?",
@@ -4444,7 +4690,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9493656158447266
+      "bleurt_score": 0.9493656158447266,
+      "score": "5"
     },
     {
       "query": "In which 2016 South Korean period drama film, written and directed by Cho Jung-rae,",
@@ -4462,7 +4709,8 @@
       "bert_score": 0.7866771817207336,
       "f1_score": 0.048780487804878044,
       "rouge_score": 0.07843137254901959,
-      "bleurt_score": -0.4295963644981384
+      "bleurt_score": -0.4295963644981384,
+      "score": "4"
     },
     {
       "query": "Which English composer, famous for the opera \"The Midsummer Marriage,\" collaborated with Ross Pople",
@@ -4480,7 +4728,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9248656034469604
+      "bleurt_score": 0.9248656034469604,
+      "score": "5"
     },
     {
       "query": "Do Flax and Calamus belong to the same family?",
@@ -4498,7 +4747,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "What does the brewery in Neuhaus's hometown make?",
@@ -4516,7 +4766,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8997742533683777
+      "bleurt_score": 0.8997742533683777,
+      "score": "5"
     },
     {
       "query": "Which American basic cable, internet, and satellite company is Blue Dream Media associated with?",
@@ -4534,7 +4785,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8612695336341858
+      "bleurt_score": 0.8612695336341858,
+      "score": "5"
     },
     {
       "query": "What is shared between Presbyterian University College and Baylor University?",
@@ -4552,7 +4804,8 @@
       "bert_score": 0.8424842953681946,
       "f1_score": 0.15384615384615385,
       "rouge_score": 0.11538461538461539,
-      "bleurt_score": -0.5205081701278687
+      "bleurt_score": -0.5205081701278687,
+      "score": "1"
     },
     {
       "query": "Besides writing, in what field was the author of the text to Lord of All Being, Thron",
@@ -4570,7 +4823,8 @@
       "bert_score": 0.8049553632736206,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.3445745706558228
+      "bleurt_score": -1.3445745706558228,
+      "score": "1"
     },
     {
       "query": "What position did Dan Smith's song achieve on the US \"Billboard\" Hot 100 chart in",
@@ -4588,7 +4842,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0182950496673584
+      "bleurt_score": 1.0182950496673584,
+      "score": "5"
     },
     {
       "query": "Who established the company where Harry Crook worked as a sales representative?",
@@ -4606,7 +4861,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9076889157295227
+      "bleurt_score": 0.9076889157295227,
+      "score": "5"
     },
     {
       "query": "In which sports organization did rookie driver Pastor Maldonado compete with the Williams FW33?",
@@ -4624,7 +4880,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9951697587966919
+      "bleurt_score": 0.9951697587966919,
+      "score": "5"
     },
     {
       "query": "On which animation programming block did American Dad first air?",
@@ -4642,7 +4899,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9406998157501221
+      "bleurt_score": 0.9406998157501221,
+      "score": "5"
     },
     {
       "query": "Are Onyx and Game For Fame in the same genre?",
@@ -4660,7 +4918,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Which magazine has a higher publication frequency, Donna Moderna or Kotiliesi?",
@@ -4678,7 +4937,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.891071081161499
+      "bleurt_score": 0.891071081161499,
+      "score": "5"
     },
     {
       "query": "During the reign of which Roman Emperor, whose conquest of Britain was effective, might Jews have visited Scotland",
@@ -4696,7 +4956,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9904311299324036
+      "bleurt_score": 0.9904311299324036,
+      "score": "5"
     },
     {
       "query": "How many songs are included in the reissue of the third album by the band created in 201",
@@ -4714,7 +4975,8 @@
       "bert_score": 0.8068091869354248,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.404415100812912
+      "bleurt_score": -0.404415100812912,
+      "score": "1"
     },
     {
       "query": "What was the traditional name for the acid that dissolves phenazine?",
@@ -4732,7 +4994,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0070935487747192
+      "bleurt_score": 1.0070935487747192,
+      "score": "5"
     },
     {
       "query": "Are both Fremontodendron and Mitella indigenous to the southwestern U.S. and northwest Mexico?",
@@ -4750,7 +5013,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "In what year was the magazine that published \"A Sound of Thunder\" in 1952 established?",
@@ -4768,7 +5032,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.86974036693573
+      "bleurt_score": 0.86974036693573,
+      "score": "5"
     },
     {
       "query": "In which city was the singer of \"Pacify Her\" raised?",
@@ -4786,7 +5051,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.987844705581665
+      "bleurt_score": 0.987844705581665,
+      "score": "5"
     },
     {
       "query": "What is the second largest city by area in the United States that is also a capital city?",
@@ -4804,7 +5070,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8751521110534668
+      "bleurt_score": 0.8751521110534668,
+      "score": "5"
     },
     {
       "query": "Who had a wider range of roles in the film industry, William Blake Herron or John Carpenter?",
@@ -4822,7 +5089,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.060258150100708
+      "bleurt_score": 1.060258150100708,
+      "score": "1"
     },
     {
       "query": "Which team chose the second overall pick in the 2016 NHL Entry Draft?",
@@ -4840,7 +5108,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9168805480003357
+      "bleurt_score": 0.9168805480003357,
+      "score": "5"
     },
     {
       "query": "When did the American comedy film, co-written by Herschel Alan Weingrod and Murray Salem,",
@@ -4858,7 +5127,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.114695429801941
+      "bleurt_score": 1.114695429801941,
+      "score": "5"
     },
     {
       "query": "What nationality are The Cribs and Julian Cope?",
@@ -4876,7 +5146,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8582646250724792
+      "bleurt_score": 0.8582646250724792,
+      "score": "5"
     },
     {
       "query": "Fred: The Movie featured a professional wrestler and actor who is currently with which wrestling organization?",
@@ -4894,7 +5165,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8768867254257202
+      "bleurt_score": 0.8768867254257202,
+      "score": "5"
     },
     {
       "query": "In which city was the 1990 horror comedy film directed by Claudio Fragasso (as Drake Floyd",
@@ -4912,7 +5184,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7192848920822144
+      "bleurt_score": 0.7192848920822144,
+      "score": "5"
     },
     {
       "query": "Have Shim Eun-jin and Fat Mike worked together on music before?",
@@ -4930,7 +5203,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Which band, formed in 2004 in Orlando, Florida, had an album produced by Ben G",
@@ -4948,7 +5222,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8986860513687134
+      "bleurt_score": 0.8986860513687134,
+      "score": "1"
     },
     {
       "query": "Which engine, originally intended for medium duty trucks and heavy cars, was also used in Chevy's intermediate",
@@ -4966,7 +5241,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.037354588508606
+      "bleurt_score": 1.037354588508606,
+      "score": "5"
     },
     {
       "query": "What Irish band is named after a Dire Straits hit song?",
@@ -4984,7 +5260,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.008423089981079
+      "bleurt_score": 1.008423089981079,
+      "score": "5"
     },
     {
       "query": "The Chronicon terrae Prussiae by Peter of Dusburg, completed in 1326,",
@@ -5002,7 +5279,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.962551474571228
+      "bleurt_score": 0.962551474571228,
+      "score": "5"
     },
     {
       "query": "Who portrayed Thomas Andrews in the movie Titanic?",
@@ -5020,7 +5298,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9368460178375244
+      "bleurt_score": 0.9368460178375244,
+      "score": "5"
     },
     {
       "query": "Did both Alice in Chains and Skin Yard originate as bands in Seattle?",
@@ -5038,7 +5317,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9939087629318237
+      "bleurt_score": 0.9939087629318237,
+      "score": "5"
     },
     {
       "query": "Which political party was the author of \"The Great Illusion\" affiliated with?",
@@ -5056,7 +5336,8 @@
       "bert_score": 0.9999995231628418,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0132943391799927
+      "bleurt_score": 1.0132943391799927,
+      "score": "5"
     },
     {
       "query": "Which American magazine is published by the Meredith Corporation: Reason or Ladies' Home Journal?",
@@ -5074,7 +5355,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0177429914474487
+      "bleurt_score": 1.0177429914474487,
+      "score": "5"
     },
     {
       "query": "Which U.S. elections is Representative Mike Conaway investigating for interference with assistance from Trey Gowdy and",
@@ -5092,7 +5374,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0837736129760742
+      "bleurt_score": 1.0837736129760742,
+      "score": "5"
     },
     {
       "query": "Between which two cities is Slovenia's capital situated?",
@@ -5110,7 +5393,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0322660207748413
+      "bleurt_score": 1.0322660207748413,
+      "score": "5"
     },
     {
       "query": "Which movie, besides the 2007 American computer-animated sci-fi comedy by Walt Disney Animation Studios",
@@ -5128,7 +5412,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0241663455963135
+      "bleurt_score": 1.0241663455963135,
+      "score": "5"
     },
     {
       "query": "Are the Sabueso Espa\u00f1ol and Galgo Espa\u00f1ol good choices for household pets?",
@@ -5146,7 +5431,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325872421264648
+      "bleurt_score": 0.8325872421264648,
+      "score": "5"
     },
     {
       "query": "Who first described Relational Quantum Mechanics and has worked in Italy, the U.S., and France?",
@@ -5164,7 +5450,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9161965847015381
+      "bleurt_score": 0.9161965847015381,
+      "score": "5"
     },
     {
       "query": "Which network broadcasts The Assistants and About a Girl?",
@@ -5182,7 +5469,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9357155561447144
+      "bleurt_score": 0.9357155561447144,
+      "score": "5"
     },
     {
       "query": "Who directed the 2012 film that featured a song by the band Salem?",
@@ -5200,7 +5488,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9462313652038574
+      "bleurt_score": 0.9462313652038574,
+      "score": "5"
     },
     {
       "query": "Which song, co-written by Verse Simmonds, is featured on the 2010 album \"",
@@ -5218,7 +5507,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0860260725021362
+      "bleurt_score": 1.0860260725021362,
+      "score": "5"
     },
     {
       "query": "From which location did Jet Airways express interest in flying to Zero Airport in Ziro, Arunachal Pradesh",
@@ -5236,7 +5526,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8339800238609314
+      "bleurt_score": 0.8339800238609314,
+      "score": "5"
     },
     {
       "query": "What was the death toll in the famine that led to the creation of the U.S. Commission on",
@@ -5254,7 +5545,8 @@
       "bert_score": 0.8148461580276489,
       "f1_score": 0.17647058823529413,
       "rouge_score": 0.09523809523809523,
-      "bleurt_score": -0.4398868978023529
+      "bleurt_score": -0.4398868978023529,
+      "score": "4"
     },
     {
       "query": "Who is the father of the character played by Alfie Allen in \"Game of Thrones\"?",
@@ -5272,7 +5564,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9255588054656982
+      "bleurt_score": 0.9255588054656982,
+      "score": "5"
     },
     {
       "query": "By what name was the founder of the Material World Charitable Foundation commonly known?",
@@ -5290,7 +5583,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0512222051620483
+      "bleurt_score": 1.0512222051620483,
+      "score": "5"
     },
     {
       "query": "Who was a prominent composer of piano music in the latter part of the 20th century: Dmit",
@@ -5308,7 +5602,8 @@
       "bert_score": 0.7508527636528015,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9502518773078918
+      "bleurt_score": -0.9502518773078918,
+      "score": "1"
     },
     {
       "query": "In which year did Nihito Arakawa face the WBC lightweight titleholder in a twelve-round",
@@ -5326,7 +5621,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8118485808372498
+      "bleurt_score": 0.8118485808372498,
+      "score": "5"
     },
     {
       "query": "In \"Finish What Ya Started,\" which instrument did the vocalist of OU812 also play?",
@@ -5344,7 +5640,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0653895139694214
+      "bleurt_score": 1.0653895139694214,
+      "score": "5"
     },
     {
       "query": "Where were both the 2010 Pro Bowl and Super Bowl XLIV held?",
@@ -5362,7 +5659,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9733381271362305
+      "bleurt_score": 0.9733381271362305,
+      "score": "5"
     },
     {
       "query": "Which artist, Simple Kid or Nic Nassuet, has more stage names?",
@@ -5380,7 +5678,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9243736267089844
+      "bleurt_score": 0.9243736267089844,
+      "score": "5"
     },
     {
       "query": "Who collaborated with Bertolt Brecht on the \"play with music\" adaptation of John Gay's \"",
@@ -5398,7 +5697,8 @@
       "bert_score": 0.7770516276359558,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.230488896369934
+      "bleurt_score": -1.230488896369934,
+      "score": "1"
     }
   ]
 }

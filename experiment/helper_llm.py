@@ -55,7 +55,7 @@ class HelperLLM:
         except Exception as e:
             return {}
         
-    def process_batch(self, data, batch_size=60, max_attempts=5):
+    def process_batch(self, data, batch_size=30, max_attempts=5):
         all_results = []
         for i in range(0, len(data), batch_size):
             batch = data[i:i+batch_size]
@@ -84,15 +84,16 @@ class HelperLLM:
                                         "source": batch[j]["source"],
                                         "modified_query": result
                                     })
+                            
                             break
                         except RateLimitError:
                             print("Rate limit error, retrying...")
-                            time.sleep()
+                            time.sleep(30)
                             continue
                 except Exception as e:
                     print(f"Error processing batch {i//batch_size + 1}: {e}")
             print(f"Processed batch {i//batch_size + 1}/{(len(data)+batch_size-1)//batch_size}")
+            time.sleep(30)
          
         return all_results
-            
         
