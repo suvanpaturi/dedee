@@ -16,7 +16,8 @@
       "bert_score": 0.9108797907829285,
       "f1_score": 0.3666666666666667,
       "rouge_score": 0.34782608695652173,
-      "bleurt_score": 0.37370848655700684
+      "bleurt_score": 0.37370848655700684,
+      "score": "4"
     },
     {
       "query": "What factors contributed to the increase in amortization expense in 2023?",
@@ -34,7 +35,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0154262781143188
+      "bleurt_score": 1.0154262781143188,
+      "score": "5"
     },
     {
       "query": "What happens if an FHC does not meet the Federal Reserve's eligibility requirements?",
@@ -52,7 +54,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9260227680206299
+      "bleurt_score": 0.9260227680206299,
+      "score": "5"
     },
     {
       "query": "How could extended disruptions at Garmin's suppliers affect its business?",
@@ -70,7 +73,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0153948068618774
+      "bleurt_score": 1.0153948068618774,
+      "score": "5"
     },
     {
       "query": "How did the International segment's revenue performance in fiscal 2023 compare to fiscal 2022, despite COVID-19 impacts?",
@@ -88,7 +92,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0075756311416626
+      "bleurt_score": 1.0075756311416626,
+      "score": "5"
     },
     {
       "query": "What was the maximum credit amount available under the Amended and Restated Credit Agreement initially?",
@@ -106,7 +111,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0517128705978394
+      "bleurt_score": 1.0517128705978394,
+      "score": "5"
     },
     {
       "query": "What previous roles did Mike Spanos hold before becoming the Chief Operating Officer of Delta in June 2023?",
@@ -124,7 +130,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0126291513442993
+      "bleurt_score": 1.0126291513442993,
+      "score": "5"
     },
     {
       "query": "Where can information about the company's legal proceedings be found in the Annual Report on Form 10-K?",
@@ -142,7 +149,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9875020980834961
+      "bleurt_score": 0.9875020980834961,
+      "score": "5"
     },
     {
       "query": "What section of a document does Item 8 refer to?",
@@ -160,7 +168,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0524141788482666
+      "bleurt_score": 1.0524141788482666,
+      "score": "5"
     },
     {
       "query": "What was the amount of unrecognized tax benefits recorded as of January 28, 2023?",
@@ -178,7 +187,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0478988885879517
+      "bleurt_score": 1.0478988885879517,
+      "score": "5"
     },
     {
       "query": "What new governmental requirements were announced by the U.S. government during the third quarter of fiscal year 2023 that affected NVIDIA?",
@@ -196,7 +206,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9597890377044678
+      "bleurt_score": 0.9597890377044678,
+      "score": "5"
     },
     {
       "query": "What long-term trends have contributed to Alphabet's financial results?",
@@ -214,7 +225,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9772685766220093
+      "bleurt_score": 0.9772685766220093,
+      "score": "5"
     },
     {
       "query": "What trademarks belong to Intel Corporation in the United States?",
@@ -232,7 +244,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0650261640548706
+      "bleurt_score": 1.0650261640548706,
+      "score": "5"
     },
     {
       "query": "How does the company plan to manage its liquidity and finance requirements over the next twelve months?",
@@ -250,7 +263,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9340988397598267
+      "bleurt_score": 0.9340988397598267,
+      "score": "5"
     },
     {
       "query": "Which online platforms offering experiences are mentioned in the text?",
@@ -268,7 +282,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0290501117706299
+      "bleurt_score": 1.0290501117706299,
+      "score": "5"
     },
     {
       "query": "What is the relationship between the ESG goals and the long-term growth strategy?",
@@ -286,7 +301,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0317935943603516
+      "bleurt_score": 1.0317935943603516,
+      "score": "5"
     },
     {
       "query": "What was GEICO's pre-tax underwriting earnings in 2023?",
@@ -304,7 +320,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0603028535842896
+      "bleurt_score": 1.0603028535842896,
+      "score": "5"
     },
     {
       "query": "When does the 364-day facility entered into in August 2023 expire, and what is its total amount?",
@@ -322,7 +339,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0498939752578735
+      "bleurt_score": 1.0498939752578735,
+      "score": "5"
     },
     {
       "query": "What was the total amount of share repurchases made by the company in 2023?",
@@ -340,7 +358,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0502750873565674
+      "bleurt_score": 1.0502750873565674,
+      "score": "5"
     },
     {
       "query": "By what percentage did the company's capital expenditures increase in fiscal 2023 compared to fiscal 2022?",
@@ -358,7 +377,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9554986953735352
+      "bleurt_score": 0.9554986953735352,
+      "score": "5"
     },
     {
       "query": "When does Intuit Inc. make its filed or furnished reports available on its website?",
@@ -376,7 +396,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.010710597038269
+      "bleurt_score": 1.010710597038269,
+      "score": "5"
     },
     {
       "query": "What potential impact could the public disclosure of insurer-negotiated price concessions have on drug costs for patients?",
@@ -394,7 +415,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.007003903388977
+      "bleurt_score": 1.007003903388977,
+      "score": "5"
     },
     {
       "query": "What is the projected duration for pension benefits payment according to the ARP Act for eligible multi-employer plans?",
@@ -412,7 +434,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0915464162826538
+      "bleurt_score": 1.0915464162826538,
+      "score": "5"
     },
     {
       "query": "What technologies does the Company use to ensure employee health across physical, mental, emotional, and financial aspects?",
@@ -430,7 +453,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9845774173736572
+      "bleurt_score": 0.9845774173736572,
+      "score": "5"
     },
     {
       "query": "What was the variation in Ford Pro's EBIT from 2021 to 2022, and what caused this change?",
@@ -448,7 +472,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0399606227874756
+      "bleurt_score": 1.0399606227874756,
+      "score": "5"
     },
     {
       "query": "What was Amazon's total non-operating income (expense) in 2023?",
@@ -466,7 +491,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.053134560585022
+      "bleurt_score": 1.053134560585022,
+      "score": "5"
     },
     {
       "query": "How long is the warranty term for subsequent generations of microinverters?",
@@ -484,7 +510,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1088780164718628
+      "bleurt_score": 1.1088780164718628,
+      "score": "5"
     },
     {
       "query": "What will happen if the proposed revisions on incentive-based payment arrangements are adopted?",
@@ -502,7 +529,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9687885046005249
+      "bleurt_score": 0.9687885046005249,
+      "score": "5"
     },
     {
       "query": "What are the primary costs included in the company's restructuring and asset impairment charges?",
@@ -520,7 +548,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9934906959533691
+      "bleurt_score": 0.9934906959533691,
+      "score": "5"
     },
     {
       "query": "What are included in Part IV, Item 15(a)(1) of the Annual Report on Form 10-K?",
@@ -538,7 +567,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0560551881790161
+      "bleurt_score": 1.0560551881790161,
+      "score": "5"
     },
     {
       "query": "How much cash and how many shares of Broadcom common stock did VMware stockholders receive upon completion of the VMware Merger in November 2023?",
@@ -556,7 +586,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9930599927902222
+      "bleurt_score": 0.9930599927902222,
+      "score": "5"
     },
     {
       "query": "How is diluted earnings per share calculated for Gilead?",
@@ -574,7 +605,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.006885051727295
+      "bleurt_score": 1.006885051727295,
+      "score": "5"
     },
     {
       "query": "What is the primary role of NVIDIA's partner network in system design?",
@@ -592,7 +624,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0018601417541504
+      "bleurt_score": 1.0018601417541504,
+      "score": "5"
     },
     {
       "query": "What was the cash, cash equivalents, and restricted cash at the beginning of the period as noted for GameStop Corp.?",
@@ -610,7 +643,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0889129638671875
+      "bleurt_score": 1.0889129638671875,
+      "score": "5"
     },
     {
       "query": "How does the company recognize stock-based compensation in its financial statements?",
@@ -628,7 +662,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9356180429458618
+      "bleurt_score": 0.9356180429458618,
+      "score": "5"
     },
     {
       "query": "Where can the Financial Statement Schedule for IBM\u2019s 2023 Form 10-K be found?",
@@ -646,7 +681,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0432316064834595
+      "bleurt_score": 1.0432316064834595,
+      "score": "5"
     },
     {
       "query": "How much waste was generated per square meter at Hilton's properties in 2023?",
@@ -664,7 +700,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0960133075714111
+      "bleurt_score": 1.0960133075714111,
+      "score": "5"
     },
     {
       "query": "What were the total net revenues for Goldman Sachs in 2023 compared to 2022, and what were the primary reasons for the difference?",
@@ -682,7 +719,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9559371471405029
+      "bleurt_score": 0.9559371471405029,
+      "score": "5"
     },
     {
       "query": "How is the information on legal proceedings conveyed in the Annual Report on Form 10-K?",
@@ -700,7 +738,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.023456335067749
+      "bleurt_score": 1.023456335067749,
+      "score": "5"
     },
     {
       "query": "What were the total number of IMAX and Dolby Cinema screens operated by AMC as of December 31, 2023?",
@@ -718,7 +757,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0611727237701416
+      "bleurt_score": 1.0611727237701416,
+      "score": "5"
     },
     {
       "query": "What is the relationship of the consolidated financial statements to Part IV of the Annual Report on Form 10-K?",
@@ -736,7 +776,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0520271062850952
+      "bleurt_score": 1.0520271062850952,
+      "score": "5"
     },
     {
       "query": "What is the geographical focus of the General Re Group\u2019s life and health reinsurance business for net premiums written in 2023?",
@@ -754,7 +795,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9849240183830261
+      "bleurt_score": 0.9849240183830261,
+      "score": "5"
     },
     {
       "query": "What was the ratings outlook for Bank of America Corporation in 2023?",
@@ -772,7 +814,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8600153923034668
+      "bleurt_score": 0.8600153923034668,
+      "score": "5"
     },
     {
       "query": "What was the primary driver for the increase in Caterpillar's sales and revenues in 2023?",
@@ -790,7 +833,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0389372110366821
+      "bleurt_score": 1.0389372110366821,
+      "score": "5"
     },
     {
       "query": "What was the total cash, cash equivalents, and short-term investments as of December 30, 2023?",
@@ -808,7 +852,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0517711639404297
+      "bleurt_score": 1.0517711639404297,
+      "score": "5"
     },
     {
       "query": "What was the percentage increase in research and development expense for Enphase Energy in the year ended December 31, 2023?",
@@ -826,7 +871,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9611150026321411
+      "bleurt_score": 0.9611150026321411,
+      "score": "5"
     },
     {
       "query": "What was the percentage increase in net premiums written from 2022 to 2023?",
@@ -844,7 +890,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.008061170578003
+      "bleurt_score": 1.008061170578003,
+      "score": "5"
     },
     {
       "query": "What are some potential consequences for a company if it fails to comply with CMS or state regulations regarding Medicaid and dual eligible programs?",
@@ -862,7 +909,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9468861222267151
+      "bleurt_score": 0.9468861222267151,
+      "score": "5"
     },
     {
       "query": "What impact did the IRS deadline extension in 2023 have on Intuit's fiscal results?",
@@ -880,7 +928,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9832241535186768
+      "bleurt_score": 0.9832241535186768,
+      "score": "1"
     },
     {
       "query": "What was the increase in total lease payments from the base amount to the final amount including interest in 2023?",
@@ -898,7 +947,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0277985334396362
+      "bleurt_score": 1.0277985334396362,
+      "score": "5"
     },
     {
       "query": "How is the average price per ad calculated, and what impact did the year-over-year changes have on advertising revenue in 2023?",
@@ -916,7 +966,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9784854650497437
+      "bleurt_score": 0.9784854650497437,
+      "score": "5"
     },
     {
       "query": "How did Converse's wholesale revenues change on a currency-neutral basis in fiscal 2023 compared to fiscal 2022?",
@@ -934,7 +985,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0550745725631714
+      "bleurt_score": 1.0550745725631714,
+      "score": "5"
     },
     {
       "query": "What is JPMorgan Chase's approach to promoting an inclusive work environment during the recruitment process?",
@@ -952,7 +1004,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0088939666748047
+      "bleurt_score": 1.0088939666748047,
+      "score": "5"
     },
     {
       "query": "What approaches does the company use to analyze goodwill for potential impairment in the quantitative impairment test?",
@@ -970,7 +1023,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0034761428833008
+      "bleurt_score": 1.0034761428833008,
+      "score": "5"
     },
     {
       "query": "What methods does the company use to estimate the costs of product liability, property, and vehicle insurance risks?",
@@ -988,7 +1042,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9625312089920044
+      "bleurt_score": 0.9625312089920044,
+      "score": "5"
     },
     {
       "query": "What methodologies are used to determine the fair value of an asset group when it is not considered recoverable?",
@@ -1006,7 +1061,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0112773180007935
+      "bleurt_score": 1.0112773180007935,
+      "score": "5"
     },
     {
       "query": "What benefits were enhanced by the Company in July 2023?",
@@ -1024,7 +1080,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0351005792617798
+      "bleurt_score": 1.0351005792617798,
+      "score": "5"
     },
     {
       "query": "How did the change in diluted net earnings per common share from 2022 to 2023 compare to the change in net earnings for Procter & Gamble?",
@@ -1042,7 +1099,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0263910293579102
+      "bleurt_score": 1.0263910293579102,
+      "score": "5"
     },
     {
       "query": "What was the purpose of the Company's transaction involving the purchase and subsequent sale of properties in 2021?",
@@ -1060,7 +1118,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.903688371181488
+      "bleurt_score": 0.903688371181488,
+      "score": "5"
     },
     {
       "query": "What recent regulatory changes have impacted the company's operations?",
@@ -1078,7 +1137,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9569088220596313
+      "bleurt_score": 0.9569088220596313,
+      "score": "5"
     },
     {
       "query": "Where in the Annual Report on Form 10-K can the consolidated financial statements and accompanying notes be found?",
@@ -1096,7 +1156,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.060606837272644
+      "bleurt_score": 1.060606837272644,
+      "score": "5"
     },
     {
       "query": "What criteria define the comparable hotels in the company's system?",
@@ -1114,7 +1175,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9132230281829834
+      "bleurt_score": 0.9132230281829834,
+      "score": "5"
     },
     {
       "query": "What legislative development impacts Medicare eligibility age?",
@@ -1132,7 +1194,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.068914771080017
+      "bleurt_score": 1.068914771080017,
+      "score": "5"
     },
     {
       "query": "What is the purpose of Item 8 in the financial document?",
@@ -1150,7 +1213,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.075703740119934
+      "bleurt_score": 1.075703740119934,
+      "score": "5"
     },
     {
       "query": "What is the total unrecognized tax benefit at the end of 2023?",
@@ -1168,7 +1232,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0665138959884644
+      "bleurt_score": 1.0665138959884644,
+      "score": "5"
     },
     {
       "query": "Where can one find the consolidated financial statements mentioned in an Annual Report on Form 10-K?",
@@ -1186,7 +1251,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0318776369094849
+      "bleurt_score": 1.0318776369094849,
+      "score": "5"
     },
     {
       "query": "What is the purpose of Peloton's research and development expenses?",
@@ -1204,7 +1270,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9785972833633423
+      "bleurt_score": 0.9785972833633423,
+      "score": "5"
     },
     {
       "query": "What critical accounting estimates most significantly affect the impairment calculation of long-lived assets?",
@@ -1222,7 +1289,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9409121870994568
+      "bleurt_score": 0.9409121870994568,
+      "score": "5"
     },
     {
       "query": "How does the company manage its exposure to credit and interest rate risks?",
@@ -1240,7 +1308,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9923961758613586
+      "bleurt_score": 0.9923961758613586,
+      "score": "5"
     },
     {
       "query": "What information is mentioned under Item 8 in a financial document?",
@@ -1258,7 +1327,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0524141788482666
+      "bleurt_score": 1.0524141788482666,
+      "score": "5"
     },
     {
       "query": "How much did Family Dollar's consumable merchandise category generate in net sales for the year ending January 28, 2023?",
@@ -1276,7 +1346,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0692335367202759
+      "bleurt_score": 1.0692335367202759,
+      "score": "5"
     },
     {
       "query": "Under what circumstances are unrecognized tax benefits adjusted?",
@@ -1294,7 +1365,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.03867506980896
+      "bleurt_score": 1.03867506980896,
+      "score": "5"
     },
     {
       "query": "What was Kroger's foundational business and what additional facilities does it include?",
@@ -1312,7 +1384,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0192874670028687
+      "bleurt_score": 1.0192874670028687,
+      "score": "5"
     },
     {
       "query": "How many stores does GameStop have as of January 28, 2023?",
@@ -1330,7 +1403,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9707394242286682
+      "bleurt_score": 0.9707394242286682,
+      "score": "5"
     },
     {
       "query": "What was the weighted-average fair value per share of stock options granted in 2021?",
@@ -1348,7 +1422,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.021494746208191
+      "bleurt_score": 1.021494746208191,
+      "score": "5"
     },
     {
       "query": "Under which item are the Exhibits and Financial Statement Schedules listed in the report?",
@@ -1366,7 +1441,8 @@
       "bert_score": 0.8208158016204834,
       "f1_score": 0.2857142857142857,
       "rouge_score": 0.25,
-      "bleurt_score": -1.0645583868026733
+      "bleurt_score": -1.0645583868026733,
+      "score": "5"
     },
     {
       "query": "What unique features does Rinvoq offer for treating inflammatory diseases, and in which regions is it approved?",
@@ -1384,7 +1460,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.992323637008667
+      "bleurt_score": 0.992323637008667,
+      "score": "5"
     },
     {
       "query": "What was the total cash dividends paid in 2022?",
@@ -1402,7 +1479,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0318418741226196
+      "bleurt_score": 1.0318418741226196,
+      "score": "5"
     },
     {
       "query": "What financial instruments does the Company use to minimize the variability in cash flows due to fluctuations in foreign currency exchange rates, commodity prices, or interest rates?",
@@ -1420,7 +1498,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9714492559432983
+      "bleurt_score": 0.9714492559432983,
+      "score": "5"
     },
     {
       "query": "What was the nature of the legal action initiated by Aqua-Chem against the company in Wisconsin on the same day the company filed its lawsuit?",
@@ -1438,7 +1517,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9803299903869629
+      "bleurt_score": 0.9803299903869629,
+      "score": "5"
     },
     {
       "query": "What is the strategic focus of the company's research and development resources?",
@@ -1456,7 +1536,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9581372737884521
+      "bleurt_score": 0.9581372737884521,
+      "score": "5"
     },
     {
       "query": "What was the reason for Salesforce changing its corporate name in March 2022?",
@@ -1474,7 +1555,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0706989765167236
+      "bleurt_score": 1.0706989765167236,
+      "score": "5"
     },
     {
       "query": "What were the main reasons for the reduction in other income (expense), net in 2023?",
@@ -1492,7 +1574,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.03437340259552
+      "bleurt_score": 1.03437340259552,
+      "score": "5"
     },
     {
       "query": "What energy management technologies does the Enphase bidirectional EV charger integrate with?",
@@ -1510,7 +1593,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9747447967529297
+      "bleurt_score": 0.9747447967529297,
+      "score": "5"
     },
     {
       "query": "How much were the unconditional purchase commitments as of December 30, 2023, and how much is expected to be incurred in 2024?",
@@ -1528,7 +1612,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0737555027008057
+      "bleurt_score": 1.0737555027008057,
+      "score": "5"
     },
     {
       "query": "How many fixed income securities does the Fixed Income and Data Services segment evaluate pricing for?",
@@ -1546,7 +1631,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0955369472503662
+      "bleurt_score": 1.0955369472503662,
+      "score": "5"
     },
     {
       "query": "How did the expenses from comparable owned and leased hotels change and what were the contributing factors?",
@@ -1564,7 +1650,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9348968267440796
+      "bleurt_score": 0.9348968267440796,
+      "score": "5"
     },
     {
       "query": "Who provided the report on the financial statements in Item 8, and what is their PCAOB ID?",
@@ -1582,7 +1669,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.021733283996582
+      "bleurt_score": 1.021733283996582,
+      "score": "5"
     },
     {
       "query": "How were overhead costs affected in the fiscal year, according to the text?",
@@ -1600,7 +1688,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.995449423789978
+      "bleurt_score": 0.995449423789978,
+      "score": "5"
     },
     {
       "query": "What regulatory obligations are imposed on U.S. regulated investment advisers under the Investment Advisers Act of 1940?",
@@ -1618,7 +1707,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0028984546661377
+      "bleurt_score": 1.0028984546661377,
+      "score": "5"
     },
     {
       "query": "How do you calculate basic earnings per share?",
@@ -1636,7 +1726,8 @@
       "bert_score": 0.809472382068634,
       "f1_score": 0.034482758620689655,
       "rouge_score": 0.06153846153846154,
-      "bleurt_score": -0.7097641229629517
+      "bleurt_score": -0.7097641229629517,
+      "score": "1"
     },
     {
       "query": "On what date is the audit report for the Consolidated Financial Statements issued?",
@@ -1654,7 +1745,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0864527225494385
+      "bleurt_score": 1.0864527225494385,
+      "score": "5"
     },
     {
       "query": "During which quarters do companies usually experience increased sales because of seasonal and holiday trends?",
@@ -1672,7 +1764,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0819886922836304
+      "bleurt_score": 1.0819886922836304,
+      "score": "5"
     },
     {
       "query": "What was the dollar increase in Procter & Gamble's operating income?",
@@ -1690,7 +1783,8 @@
       "bert_score": 0.9706764817237854,
       "f1_score": 0.7777777777777777,
       "rouge_score": 0.7999999999999999,
-      "bleurt_score": 0.45562171936035156
+      "bleurt_score": 0.45562171936035156,
+      "score": "5"
     },
     {
       "query": "How does Chevron ensure inclusivity in its selection methods?",
@@ -1708,7 +1802,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0314714908599854
+      "bleurt_score": 1.0314714908599854,
+      "score": "5"
     },
     {
       "query": "What strategic shift related to the Mint offering took place in a company on August 1, 2022?",
@@ -1726,7 +1821,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0309628248214722
+      "bleurt_score": 1.0309628248214722,
+      "score": "5"
     },
     {
       "query": "What consequences might arise if the Company's employees or agents do not adhere to relevant laws in its international or other operations?",
@@ -1744,7 +1840,8 @@
       "bert_score": 0.8333636522293091,
       "f1_score": 0,
       "rouge_score": 0.07272727272727271,
-      "bleurt_score": -1.015581488609314
+      "bleurt_score": -1.015581488609314,
+      "score": "1"
     },
     {
       "query": "Which types of investments mainly comprise Goldman Sachs' funds at NAV as of December 2023?",
@@ -1762,7 +1859,8 @@
       "bert_score": 0.7591061592102051,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1057889461517334
+      "bleurt_score": -1.1057889461517334,
+      "score": "1"
     },
     {
       "query": "How is impairment assessed for intangible and long-lived assets?",
@@ -1780,7 +1878,8 @@
       "bert_score": 0.8359907865524292,
       "f1_score": 0.2074074074074074,
       "rouge_score": 0.13986013986013984,
-      "bleurt_score": -0.031248971819877625
+      "bleurt_score": -0.031248971819877625,
+      "score": "3"
     },
     {
       "query": "What other legal regulations, besides environmental compliance, must the company adhere to?",
@@ -1798,7 +1897,8 @@
       "bert_score": 0.779633104801178,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9508169889450073
+      "bleurt_score": -0.9508169889450073,
+      "score": "1"
     },
     {
       "query": "How much did revenue increase in percentage terms for the year ending December 31, 2023, compared to 2022?",
@@ -1816,7 +1916,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0259560346603394
+      "bleurt_score": 1.0259560346603394,
+      "score": "5"
     },
     {
       "query": "What elements might influence the company's evaluation of the collectability of receivables from casino patrons?",
@@ -1834,7 +1935,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9809523224830627
+      "bleurt_score": 0.9809523224830627,
+      "score": "5"
     },
     {
       "query": "How important is pre-exposure prophylaxis (PrEP) in the context of Descovy?",
@@ -1852,7 +1954,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0357483625411987
+      "bleurt_score": 1.0357483625411987,
+      "score": "5"
     },
     {
       "query": "How does the company amortize pension plan gains and losses in its financial statements?",
@@ -1870,7 +1973,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7284736037254333
+      "bleurt_score": 0.7284736037254333,
+      "score": "5"
     },
     {
       "query": "What are HP's three reportable segments?",
@@ -1888,7 +1992,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0656983852386475
+      "bleurt_score": 1.0656983852386475,
+      "score": "5"
     },
     {
       "query": "By what percentage did the revenue for Neuroscience products grow in 2023 compared to the prior year?",
@@ -1906,7 +2011,8 @@
       "bert_score": 0.8700568079948425,
       "f1_score": 0.14285714285714288,
       "rouge_score": 0.2222222222222222,
-      "bleurt_score": -0.4730280637741089
+      "bleurt_score": -0.4730280637741089,
+      "score": "5"
     },
     {
       "query": "How was the $1.5 billion ASR with Barclays Bank PLC allocated in 2022?",
@@ -1924,7 +2030,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0206059217453003
+      "bleurt_score": 1.0206059217453003,
+      "score": "5"
     },
     {
       "query": "Which technological aspect safeguards digital transactions in the Visa Token Service?",
@@ -1942,7 +2049,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0344868898391724
+      "bleurt_score": 1.0344868898391724,
+      "score": "5"
     },
     {
       "query": "What was the tax obligation for uncertain tax positions on August 26, 2023?",
@@ -1960,7 +2068,8 @@
       "bert_score": 0.9211501479148865,
       "f1_score": 0.5454545454545454,
       "rouge_score": 0.48648648648648646,
-      "bleurt_score": -0.05143560469150543
+      "bleurt_score": -0.05143560469150543,
+      "score": "1"
     },
     {
       "query": "What does VOBA mean in business acquisitions with long-term contracts?",
@@ -1978,7 +2087,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0416014194488525
+      "bleurt_score": 1.0416014194488525,
+      "score": "5"
     },
     {
       "query": "Which workouts count as completed for Peloton Members?",
@@ -1996,7 +2106,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.976657509803772
+      "bleurt_score": 0.976657509803772,
+      "score": "5"
     },
     {
       "query": "What difficulties does a company encounter in preserving its market share and pricing?",
@@ -2014,7 +2125,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0367261171340942
+      "bleurt_score": 1.0367261171340942,
+      "score": "5"
     },
     {
       "query": "What elements might influence a company's credit ratings?",
@@ -2032,7 +2144,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9758269190788269
+      "bleurt_score": 0.9758269190788269,
+      "score": "5"
     },
     {
       "query": "Which section of the financial statements details legal proceedings?",
@@ -2050,7 +2163,8 @@
       "bert_score": 0.938421905040741,
       "f1_score": 0.7692307692307692,
       "rouge_score": 0.5517241379310345,
-      "bleurt_score": 0.5910744071006775
+      "bleurt_score": 0.5910744071006775,
+      "score": "5"
     },
     {
       "query": "What was the main goal of the business realignment efforts that incurred costs in recent years?",
@@ -2068,7 +2182,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0037999153137207
+      "bleurt_score": 1.0037999153137207,
+      "score": "5"
     },
     {
       "query": "What steps does the company take to safeguard its intellectual property?",
@@ -2086,7 +2201,8 @@
       "bert_score": 0.8411036133766174,
       "f1_score": 0.20000000000000004,
       "rouge_score": 0.1509433962264151,
-      "bleurt_score": -0.7742816209793091
+      "bleurt_score": -0.7742816209793091,
+      "score": "1"
     },
     {
       "query": "What details are included in Item 8 of a financial document?",
@@ -2104,7 +2220,8 @@
       "bert_score": 0.8717640042304993,
       "f1_score": 0.28571428571428575,
       "rouge_score": 0.2857142857142857,
-      "bleurt_score": -0.19816114008426666
+      "bleurt_score": -0.19816114008426666,
+      "score": "5"
     },
     {
       "query": "How does the company report foreign currency effects on net revenue?",
@@ -2122,7 +2239,8 @@
       "bert_score": 0.8655361533164978,
       "f1_score": 0.20689655172413793,
       "rouge_score": 0.18461538461538463,
-      "bleurt_score": -0.28346487879753113
+      "bleurt_score": -0.28346487879753113,
+      "score": "1"
     },
     {
       "query": "What position did Ellen Copaken occupy at AMC prior to her promotion to Senior Vice President, Marketing in August 2023?",
@@ -2140,7 +2258,8 @@
       "bert_score": 0.864810585975647,
       "f1_score": 0.2857142857142857,
       "rouge_score": 0.2857142857142857,
-      "bleurt_score": -0.5618298649787903
+      "bleurt_score": -0.5618298649787903,
+      "score": "1"
     },
     {
       "query": "How did Schwab money market funds respond to the Federal Reserve's policy changes in 2022?",
@@ -2158,7 +2277,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9984534978866577
+      "bleurt_score": 0.9984534978866577,
+      "score": "5"
     },
     {
       "query": "How has Bank of America simplified its organizational structure?",
@@ -2176,7 +2296,8 @@
       "bert_score": 0.8866859078407288,
       "f1_score": 0.3023255813953488,
       "rouge_score": 0.21505376344086022,
-      "bleurt_score": 0.1347299963235855
+      "bleurt_score": 0.1347299963235855,
+      "score": "5"
     },
     {
       "query": "What seasonal trends occur in the commercial fully-insured products of the Insurance segment?",
@@ -2194,7 +2315,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9929454326629639
+      "bleurt_score": 0.9929454326629639,
+      "score": "5"
     },
     {
       "query": "How does Enphase Energy, Inc. recognize revenue?",
@@ -2212,7 +2334,8 @@
       "bert_score": 0.944547176361084,
       "f1_score": 0.7083333333333334,
       "rouge_score": 0.7636363636363636,
-      "bleurt_score": 0.44209548830986023
+      "bleurt_score": 0.44209548830986023,
+      "score": "5"
     },
     {
       "query": "What was the total of current liabilities reported for the company in the financial document?",
@@ -2230,7 +2353,8 @@
       "bert_score": 0.9017254710197449,
       "f1_score": 0.33333333333333337,
       "rouge_score": 0.375,
-      "bleurt_score": 0.0694730132818222
+      "bleurt_score": 0.0694730132818222,
+      "score": "5"
     },
     {
       "query": "What entitlements do note holders possess if a change in control occurs as per the specified terms?",
@@ -2248,7 +2372,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.022814154624939
+      "bleurt_score": 1.022814154624939,
+      "score": "5"
     },
     {
       "query": "What was Enphase Energy, Inc.'s total stockholders' equity as of the end of 2023?",
@@ -2266,7 +2391,8 @@
       "bert_score": 0.818484902381897,
       "f1_score": 0.125,
       "rouge_score": 0.21052631578947367,
-      "bleurt_score": -0.3905234932899475
+      "bleurt_score": -0.3905234932899475,
+      "score": "4"
     },
     {
       "query": "What was the effective tax rate for Delta Air Lines in 2023?",
@@ -2284,7 +2410,8 @@
       "bert_score": 0.837099552154541,
       "f1_score": 0.16666666666666669,
       "rouge_score": 0.15384615384615385,
-      "bleurt_score": -0.7610775232315063
+      "bleurt_score": -0.7610775232315063,
+      "score": "5"
     },
     {
       "query": "What assumptions affect HP's pension and post-retirement benefit costs and obligations?",
@@ -2302,7 +2429,8 @@
       "bert_score": 0.7814816236495972,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.234781265258789
+      "bleurt_score": -1.234781265258789,
+      "score": "1"
     },
     {
       "query": "How does CARB ensure adherence to its ZEV mandates, and what are the penalties for non-compliance?",
@@ -2320,7 +2448,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0094658136367798
+      "bleurt_score": 1.0094658136367798,
+      "score": "5"
     },
     {
       "query": "What function does the Management's Discussion and Analysis (MD&A) serve in a company's financial reporting?",
@@ -2338,7 +2467,8 @@
       "bert_score": 0.8806740641593933,
       "f1_score": 0.33707865168539325,
       "rouge_score": 0.2692307692307692,
-      "bleurt_score": 0.2438325732946396
+      "bleurt_score": 0.2438325732946396,
+      "score": "5"
     },
     {
       "query": "What was the effective income tax rate for the year ending December 31, 2023, and how does it compare to last year's rate?",
@@ -2356,7 +2486,8 @@
       "bert_score": 0.7657235264778137,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1810848712921143
+      "bleurt_score": -1.1810848712921143,
+      "score": "1"
     },
     {
       "query": "In what year and location did the first Chipotle restaurant open?",
@@ -2374,7 +2505,8 @@
       "bert_score": 0.9510616064071655,
       "f1_score": 0.8888888888888888,
       "rouge_score": 0.8421052631578948,
-      "bleurt_score": 0.09562917053699493
+      "bleurt_score": 0.09562917053699493,
+      "score": "5"
     },
     {
       "query": "What was the percentage decline in Gaming net revenue in 2023?",
@@ -2392,7 +2524,8 @@
       "bert_score": 0.8463125824928284,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.2237037420272827
+      "bleurt_score": -1.2237037420272827,
+      "score": "1"
     },
     {
       "query": "What were Optum Rx's operational earnings in 2023 as a result of higher script volumes?",
@@ -2410,7 +2543,8 @@
       "bert_score": 0.7957323789596558,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9750436544418335
+      "bleurt_score": -0.9750436544418335,
+      "score": "1"
     },
     {
       "query": "How frequently does senior management suggest changes to the capital allocation program to the Board of Directors?",
@@ -2428,7 +2562,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.036171793937683
+      "bleurt_score": 1.036171793937683,
+      "score": "5"
     },
     {
       "query": "What offerings are provided by Walmart Connect?",
@@ -2446,7 +2581,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0391186475753784
+      "bleurt_score": 1.0391186475753784,
+      "score": "5"
     },
     {
       "query": "What is the current number of nephrologists who refer patients to outpatient dialysis centers?",
@@ -2464,7 +2600,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0641371011734009
+      "bleurt_score": 1.0641371011734009,
+      "score": "5"
     },
     {
       "query": "What were Chipotle Mexican Grill's depreciation and amortization expenses in 2023?",
@@ -2482,7 +2619,8 @@
       "bert_score": 0.8433721661567688,
       "f1_score": 0.16666666666666669,
       "rouge_score": 0.2666666666666667,
-      "bleurt_score": -0.6667595505714417
+      "bleurt_score": -0.6667595505714417,
+      "score": "5"
     },
     {
       "query": "Why were $38 million in impairment losses recognized in 2023?",
@@ -2500,7 +2638,8 @@
       "bert_score": 0.9130761623382568,
       "f1_score": 0.48979591836734687,
       "rouge_score": 0.24,
-      "bleurt_score": -0.07475326955318451
+      "bleurt_score": -0.07475326955318451,
+      "score": "4"
     },
     {
       "query": "In a 10-K filing, where is detailed information about specific legal proceedings located?",
@@ -2518,7 +2657,8 @@
       "bert_score": 0.8274074792861938,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.003941535949707
+      "bleurt_score": -1.003941535949707,
+      "score": "1"
     },
     {
       "query": "What is covered under Item 8 in the Annual Report?",
@@ -2536,7 +2676,8 @@
       "bert_score": 0.9117900729179382,
       "f1_score": 0.6086956521739131,
       "rouge_score": 0.56,
-      "bleurt_score": 0.36385104060173035
+      "bleurt_score": 0.36385104060173035,
+      "score": "5"
     },
     {
       "query": "What is the company's perspective on how legal proceedings might affect its financial status?",
@@ -2554,7 +2695,8 @@
       "bert_score": 0.7753956317901611,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.3449459075927734
+      "bleurt_score": -1.3449459075927734,
+      "score": "1"
     },
     {
       "query": "What was Bank of America's total cash and cash equivalents on December 31, post-annual transactions?",
@@ -2572,7 +2714,8 @@
       "bert_score": 0.8090645670890808,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.4662250280380249
+      "bleurt_score": -0.4662250280380249,
+      "score": "1"
     },
     {
       "query": "Which brands manufacture System-on-Module (SOM) and compute and network acceleration boards?",
@@ -2590,7 +2733,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0309489965438843
+      "bleurt_score": 1.0309489965438843,
+      "score": "5"
     },
     {
       "query": "How are vehicle safety regulations evolving internationally?",
@@ -2608,7 +2752,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0198684930801392
+      "bleurt_score": 1.0198684930801392,
+      "score": "5"
     },
     {
       "query": "Why did the number of paused Connected Fitness Subscriptions rise significantly by June 30, 2023?",
@@ -2626,7 +2771,8 @@
       "bert_score": 0.9191641211509705,
       "f1_score": 0.5074626865671642,
       "rouge_score": 0.3888888888888889,
-      "bleurt_score": -0.07599656283855438
+      "bleurt_score": -0.07599656283855438,
+      "score": "5"
     },
     {
       "query": "What is the purpose of ciltacabtagene autoleucel?",
@@ -2644,7 +2790,8 @@
       "bert_score": 0.9771090745925903,
       "f1_score": 0.7317073170731708,
       "rouge_score": 0.7272727272727272,
-      "bleurt_score": 0.7804314494132996
+      "bleurt_score": 0.7804314494132996,
+      "score": "5"
     },
     {
       "query": "What effect does the development of the online world have on Alphabet's business?",
@@ -2662,7 +2809,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0038877725601196
+      "bleurt_score": 1.0038877725601196,
+      "score": "5"
     },
     {
       "query": "How did general and administrative expenses in 2023 differ from the prior year?",
@@ -2680,7 +2828,8 @@
       "bert_score": 0.8643035292625427,
       "f1_score": 0.4375,
       "rouge_score": 0.4324324324324324,
-      "bleurt_score": -0.4259893000125885
+      "bleurt_score": -0.4259893000125885,
+      "score": "4"
     },
     {
       "query": "Which assets are measured at fair value on a nonrecurring basis, and what unobservable inputs are utilized?",
@@ -2698,7 +2847,8 @@
       "bert_score": 0.8668130040168762,
       "f1_score": 0.31999999999999995,
       "rouge_score": 0.2278481012658228,
-      "bleurt_score": -0.3041720390319824
+      "bleurt_score": -0.3041720390319824,
+      "score": "2"
     },
     {
       "query": "What were the total outstanding stock option awards and their weighted average exercise prices at the start and end of 2023?",
@@ -2716,7 +2866,8 @@
       "bert_score": 0.9433586001396179,
       "f1_score": 0.7111111111111111,
       "rouge_score": 0.5090909090909091,
-      "bleurt_score": 0.2778948247432709
+      "bleurt_score": 0.2778948247432709,
+      "score": "5"
     },
     {
       "query": "What was the range of the company's pre-tax restructuring costs in fiscal 2023?",
@@ -2734,7 +2885,8 @@
       "bert_score": 0.9419690370559692,
       "f1_score": 0.5555555555555555,
       "rouge_score": 0.42857142857142855,
-      "bleurt_score": 0.13379476964473724
+      "bleurt_score": 0.13379476964473724,
+      "score": "5"
     },
     {
       "query": "How does Visa characterize its position in the global payments sector?",
@@ -2752,7 +2904,8 @@
       "bert_score": 0.8743733167648315,
       "f1_score": 0.3076923076923077,
       "rouge_score": 0.19999999999999998,
-      "bleurt_score": -0.1031164675951004
+      "bleurt_score": -0.1031164675951004,
+      "score": "4"
     },
     {
       "query": "What were the 2023 provisions for Medicaid and Medicare Rebates, Managed Care Rebates, and Wholesaler Chargebacks?",
@@ -2770,7 +2923,8 @@
       "bert_score": 0.9034863710403442,
       "f1_score": 0.5853658536585366,
       "rouge_score": 0.46808510638297873,
-      "bleurt_score": -0.5288320183753967
+      "bleurt_score": -0.5288320183753967,
+      "score": "1"
     },
     {
       "query": "How do economic changes impact the evaluation of disability insurance claims?",
@@ -2788,7 +2942,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.033513069152832
+      "bleurt_score": 1.033513069152832,
+      "score": "5"
     },
     {
       "query": "What was the pre-tax income for fiscal year 2023?",
@@ -2806,7 +2961,8 @@
       "bert_score": 0.8013796806335449,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.2002215385437012
+      "bleurt_score": -1.2002215385437012,
+      "score": "1"
     },
     {
       "query": "What was the amount of cash obtained from acquisitions in 2023?",
@@ -2824,7 +2980,8 @@
       "bert_score": 0.9244818091392517,
       "f1_score": 0.4761904761904762,
       "rouge_score": 0.5,
-      "bleurt_score": 0.17114077508449554
+      "bleurt_score": 0.17114077508449554,
+      "score": "4"
     },
     {
       "query": "How did Consumer VoIP voice connections evolve between 2021 and 2023?",
@@ -2842,7 +2999,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0630570650100708
+      "bleurt_score": 1.0630570650100708,
+      "score": "5"
     },
     {
       "query": "In which year did the European Central Bank approve two intermediate parent undertakings for the Firm?",
@@ -2860,7 +3018,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8280249834060669
+      "bleurt_score": 0.8280249834060669,
+      "score": "5"
     },
     {
       "query": "What impact do alterations in tax laws and regulations have on the company?",
@@ -2878,7 +3037,8 @@
       "bert_score": 0.855103611946106,
       "f1_score": 0.14492753623188406,
       "rouge_score": 0.13698630136986303,
-      "bleurt_score": -0.14299865067005157
+      "bleurt_score": -0.14299865067005157,
+      "score": "4"
     },
     {
       "query": "Which financial valuation technique was mainly applied to assess the fair value of customer relationships, customer backlog, and corporate trade names in a particular financial report?",
@@ -2896,7 +3056,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9935368299484253
+      "bleurt_score": 0.9935368299484253,
+      "score": "5"
     },
     {
       "query": "How much restricted cash did the Lending Trust and the Charge Trust hold on December 31, 2022?",
@@ -2914,7 +3075,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9980523586273193
+      "bleurt_score": 0.9980523586273193,
+      "score": "5"
     },
     {
       "query": "How does Amazon handle intellectual property?",
@@ -2932,7 +3094,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9933173656463623
+      "bleurt_score": 0.9933173656463623,
+      "score": "5"
     },
     {
       "query": "What impact did comparable sales growth, including fuel, have on Sam's Club's net sales in fiscal 2023?",
@@ -2950,7 +3113,8 @@
       "bert_score": 0.9155591726303101,
       "f1_score": 0.380952380952381,
       "rouge_score": 0.24489795918367344,
-      "bleurt_score": 0.19502656161785126
+      "bleurt_score": 0.19502656161785126,
+      "score": "4"
     },
     {
       "query": "How did the repayments of long-term debt and related payments impact net cash used in financing activities in fiscal 2023?",
@@ -2968,7 +3132,8 @@
       "bert_score": 0.771884560585022,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.4969967603683472
+      "bleurt_score": -1.4969967603683472,
+      "score": "1"
     },
     {
       "query": "How is the estimated fair value of stock option grants determined?",
@@ -2986,7 +3151,8 @@
       "bert_score": 0.8935843110084534,
       "f1_score": 0.3132530120481928,
       "rouge_score": 0.3157894736842105,
-      "bleurt_score": -0.09702564775943756
+      "bleurt_score": -0.09702564775943756,
+      "score": "4"
     },
     {
       "query": "Under what circumstances is AENB prohibited from distributing dividends to TRS without OCC's approval?",
@@ -3004,7 +3170,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9980120658874512
+      "bleurt_score": 0.9980120658874512,
+      "score": "5"
     },
     {
       "query": "What is the main role of the Small Business & Self-Employed segment as outlined?",
@@ -3022,7 +3189,8 @@
       "bert_score": 0.8615970015525818,
       "f1_score": 0.13333333333333333,
       "rouge_score": 0.1492537313432836,
-      "bleurt_score": -0.4294469654560089
+      "bleurt_score": -0.4294469654560089,
+      "score": "1"
     },
     {
       "query": "What is the estimated statutory capital and surplus of global financially regulated subsidiaries as of December 31, 2023?",
@@ -3040,7 +3208,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.050812840461731
+      "bleurt_score": 1.050812840461731,
+      "score": "5"
     },
     {
       "query": "How does Chipotle maintain high food safety standards?",
@@ -3058,7 +3227,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0100510120391846
+      "bleurt_score": 1.0100510120391846,
+      "score": "5"
     },
     {
       "query": "How many common stock shares did the Company buy back and retire in the year ending December 31, 2023?",
@@ -3076,7 +3246,8 @@
       "bert_score": 0.777463436126709,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.6419157981872559
+      "bleurt_score": -1.6419157981872559,
+      "score": "1"
     },
     {
       "query": "How much did net revenue grow in percentage terms from 2021 to 2022?",
@@ -3094,7 +3265,8 @@
       "bert_score": 0.9080836772918701,
       "f1_score": 0.4666666666666667,
       "rouge_score": 0.3636363636363636,
-      "bleurt_score": -0.036392346024513245
+      "bleurt_score": -0.036392346024513245,
+      "score": "4"
     },
     {
       "query": "How did room revenues change due to renovations in 2023?",
@@ -3112,7 +3284,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9946770668029785
+      "bleurt_score": 0.9946770668029785,
+      "score": "5"
     },
     {
       "query": "What was the increase in FedEx's composite package yield in 2023?",
@@ -3130,7 +3303,8 @@
       "bert_score": 0.8465372323989868,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.4482903480529785
+      "bleurt_score": -1.4482903480529785,
+      "score": "1"
     },
     {
       "query": "What was the fiscal 2023 effective tax rate?",
@@ -3148,7 +3322,8 @@
       "bert_score": 0.7782213687896729,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.554128885269165
+      "bleurt_score": -1.554128885269165,
+      "score": "1"
     },
     {
       "query": "What is the name of Item 8 in a financial document?",
@@ -3166,7 +3341,8 @@
       "bert_score": 0.7880006432533264,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.5802056193351746
+      "bleurt_score": -0.5802056193351746,
+      "score": "1"
     },
     {
       "query": "What kinds of transportation equipment are included in XTRA Corporation's fleet?",
@@ -3184,7 +3360,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9983302354812622
+      "bleurt_score": 0.9983302354812622,
+      "score": "5"
     },
     {
       "query": "How much did Johnson & Johnson pay in cash dividends per share in 2023?",
@@ -3202,7 +3379,8 @@
       "bert_score": 0.8351259231567383,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.5860760807991028
+      "bleurt_score": -0.5860760807991028,
+      "score": "1"
     },
     {
       "query": "What was the percentage decline in royalty, contract, and other revenues from 2022 to 2023?",
@@ -3220,7 +3398,8 @@
       "bert_score": 0.801176905632019,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9071114659309387
+      "bleurt_score": -0.9071114659309387,
+      "score": "1"
     },
     {
       "query": "What are the main elements of net revenue costs?",
@@ -3238,7 +3417,8 @@
       "bert_score": 0.8853216767311096,
       "f1_score": 0.3829787234042553,
       "rouge_score": 0.25531914893617025,
-      "bleurt_score": -0.5701434016227722
+      "bleurt_score": -0.5701434016227722,
+      "score": "3"
     },
     {
       "query": "What was Johnson & Johnson's total comprehensive income in 2023?",
@@ -3256,7 +3436,8 @@
       "bert_score": 0.8841749429702759,
       "f1_score": 0.2222222222222222,
       "rouge_score": 0.2857142857142857,
-      "bleurt_score": -0.28591540455818176
+      "bleurt_score": -0.28591540455818176,
+      "score": "5"
     },
     {
       "query": "What was the total asset value of Hasbro, Inc. on December 31, 2023?",
@@ -3274,7 +3455,8 @@
       "bert_score": 0.7953539490699768,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1006900072097778
+      "bleurt_score": -1.1006900072097778,
+      "score": "1"
     },
     {
       "query": "What are the expansion plans for the Ocala, Florida distribution center and their timeline?",
@@ -3292,7 +3474,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0305179357528687
+      "bleurt_score": 1.0305179357528687,
+      "score": "5"
     },
     {
       "query": "What was the percentage increase in eBay's FX-Neutral net revenues from 2022 to 2023?",
@@ -3310,7 +3493,8 @@
       "bert_score": 0.9131113290786743,
       "f1_score": 0.3870967741935484,
       "rouge_score": 0.37333333333333335,
-      "bleurt_score": 0.22926582396030426
+      "bleurt_score": 0.22926582396030426,
+      "score": "3"
     },
     {
       "query": "What is the function of the unused credit facility fee payments, and what is their total amount as of June 30, 2023?",
@@ -3328,7 +3512,8 @@
       "bert_score": 0.7689242362976074,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.4437371492385864
+      "bleurt_score": -1.4437371492385864,
+      "score": "1"
     },
     {
       "query": "What timeline does the company provide for the vesting of stock options and RSUs?",
@@ -3346,7 +3531,8 @@
       "bert_score": 0.9561415314674377,
       "f1_score": 0.7368421052631579,
       "rouge_score": 0.6666666666666666,
-      "bleurt_score": 0.12202085554599762
+      "bleurt_score": 0.12202085554599762,
+      "score": "5"
     },
     {
       "query": "In what years did Mr. Goodarzi head Intuit's Financial Services and professional tax division?",
@@ -3364,7 +3550,8 @@
       "bert_score": 0.8335350751876831,
       "f1_score": 0.35294117647058826,
       "rouge_score": 0.33333333333333337,
-      "bleurt_score": -0.37309300899505615
+      "bleurt_score": -0.37309300899505615,
+      "score": "5"
     },
     {
       "query": "What does 'Glossary of Terms and Acronyms' mean in a financial document?",
@@ -3382,7 +3569,8 @@
       "bert_score": 0.9318574666976929,
       "f1_score": 0.5714285714285715,
       "rouge_score": 0.5090909090909091,
-      "bleurt_score": 0.5917994976043701
+      "bleurt_score": 0.5917994976043701,
+      "score": "5"
     },
     {
       "query": "What is the number of new aircraft Delta Air Lines received in 2023?",
@@ -3400,7 +3588,8 @@
       "bert_score": 0.8107913136482239,
       "f1_score": 0.15384615384615385,
       "rouge_score": 0.14285714285714288,
-      "bleurt_score": -0.7370109558105469
+      "bleurt_score": -0.7370109558105469,
+      "score": "5"
     },
     {
       "query": "What kinds of products are created and sold by Garmin?",
@@ -3418,7 +3607,8 @@
       "bert_score": 0.8343784809112549,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.288912057876587
+      "bleurt_score": -1.288912057876587,
+      "score": "1"
     },
     {
       "query": "In which location is Caterpillar Insurance Co. Ltd. based, and which regulatory body oversees its operations?",
@@ -3436,7 +3626,8 @@
       "bert_score": 0.9606651067733765,
       "f1_score": 0.8275862068965518,
       "rouge_score": 0.8387096774193549,
-      "bleurt_score": 0.88584303855896
+      "bleurt_score": 0.88584303855896,
+      "score": "5"
     },
     {
       "query": "What advantages does Airbnb's AirCover provide for guests?",
@@ -3454,7 +3645,8 @@
       "bert_score": 0.8641517758369446,
       "f1_score": 0.12698412698412698,
       "rouge_score": 0.11940298507462685,
-      "bleurt_score": -0.21605335175991058
+      "bleurt_score": -0.21605335175991058,
+      "score": "1"
     },
     {
       "query": "How does Iron Mountain handle foreign currency changes in its financial statements?",
@@ -3472,7 +3664,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0035723447799683
+      "bleurt_score": 1.0035723447799683,
+      "score": "5"
     },
     {
       "query": "What mainly constitutes unearned revenue in the financial statements discussed?",
@@ -3490,7 +3683,8 @@
       "bert_score": 0.9358812570571899,
       "f1_score": 0.6222222222222222,
       "rouge_score": 0.6222222222222222,
-      "bleurt_score": 0.22519268095493317
+      "bleurt_score": 0.22519268095493317,
+      "score": "5"
     },
     {
       "query": "Which financial indicators have a major impact on the company's net revenues?",
@@ -3508,7 +3702,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0439519882202148
+      "bleurt_score": 1.0439519882202148,
+      "score": "5"
     },
     {
       "query": "What capital categories does FDICIA define for banks insured by the FDIC?",
@@ -3526,7 +3721,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.005104660987854
+      "bleurt_score": 1.005104660987854,
+      "score": "5"
     },
     {
       "query": "How are fiscal years structured in NIKE, Inc.'s reports, and what is their significance?",
@@ -3544,7 +3740,8 @@
       "bert_score": 0.8021352291107178,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.3407635688781738
+      "bleurt_score": -1.3407635688781738,
+      "score": "1"
     },
     {
       "query": "What were the primary factors contributing to the rise in net revenue for fiscal year 2023?",
@@ -3562,7 +3759,8 @@
       "bert_score": 0.841383159160614,
       "f1_score": 0.12987012987012989,
       "rouge_score": 0.09523809523809526,
-      "bleurt_score": -0.7717856168746948
+      "bleurt_score": -0.7717856168746948,
+      "score": "1"
     },
     {
       "query": "On which pages of the Annual Report are the adverse effects of legal proceedings on the company discussed?",
@@ -3580,7 +3778,8 @@
       "bert_score": 0.8523493409156799,
       "f1_score": 0.3636363636363636,
       "rouge_score": 0.32,
-      "bleurt_score": -0.01933567225933075
+      "bleurt_score": -0.01933567225933075,
+      "score": "5"
     },
     {
       "query": "What does Google see as AI's role in society?",
@@ -3598,7 +3797,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9867446422576904
+      "bleurt_score": 0.9867446422576904,
+      "score": "5"
     },
     {
       "query": "What are forward-looking statements in financial documents?",
@@ -3616,7 +3816,8 @@
       "bert_score": 0.9575298428535461,
       "f1_score": 0.6756756756756757,
       "rouge_score": 0.5263157894736842,
-      "bleurt_score": 0.62474125623703
+      "bleurt_score": 0.62474125623703,
+      "score": "5"
     },
     {
       "query": "What proportion of FedEx Express's global pickup-and-delivery vehicle acquisitions will be electric by 2025?",
@@ -3634,7 +3835,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.051120638847351
+      "bleurt_score": 1.051120638847351,
+      "score": "5"
     },
     {
       "query": "How does Meta handle its health and well-being programs?",
@@ -3652,7 +3854,8 @@
       "bert_score": 0.8761586546897888,
       "f1_score": 0.38095238095238093,
       "rouge_score": 0.3243243243243243,
-      "bleurt_score": -0.34040549397468567
+      "bleurt_score": -0.34040549397468567,
+      "score": "1"
     },
     {
       "query": "What further obligations does the company have for remediation beyond the settlement agreements?",
@@ -3670,7 +3873,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0034304857254028
+      "bleurt_score": 1.0034304857254028,
+      "score": "5"
     },
     {
       "query": "What was the Ukraine business's share of consolidated net sales and earnings for the fiscal year ending June 30, 2023?",
@@ -3688,7 +3892,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0260945558547974
+      "bleurt_score": 1.0260945558547974,
+      "score": "5"
     },
     {
       "query": "What were Hershey's net sales and net income outcomes in 2022, and what factors influenced them?",
@@ -3706,7 +3911,8 @@
       "bert_score": 0.8852968215942383,
       "f1_score": 0.39999999999999997,
       "rouge_score": 0.19178082191780818,
-      "bleurt_score": 0.23095248639583588
+      "bleurt_score": 0.23095248639583588,
+      "score": "4"
     },
     {
       "query": "What was the total amount of future minimum lease payments for all non-cancelable operating leases for the company as of December 31, 2023?",
@@ -3724,7 +3930,8 @@
       "bert_score": 0.9040971994400024,
       "f1_score": 0.8,
       "rouge_score": 0.8571428571428571,
-      "bleurt_score": 0.030204012989997864
+      "bleurt_score": 0.030204012989997864,
+      "score": "5"
     },
     {
       "query": "How much cash dividend per share did the company declare for the fiscal year ending October 1, 2023?",
@@ -3742,7 +3949,8 @@
       "bert_score": 0.8755618929862976,
       "f1_score": 0.5,
       "rouge_score": 0.6666666666666666,
-      "bleurt_score": -0.46012231707572937
+      "bleurt_score": -0.46012231707572937,
+      "score": "4"
     },
     {
       "query": "When do the federal research and development tax credits expire in 2023?",
@@ -3760,7 +3968,8 @@
       "bert_score": 0.8184792399406433,
       "f1_score": 0.10526315789473685,
       "rouge_score": 0.1,
-      "bleurt_score": -1.9723305702209473
+      "bleurt_score": -1.9723305702209473,
+      "score": "1"
     },
     {
       "query": "How do structural changes affect the company's unit case volume and concentrate sales volume both overall and within specific geographic segments?",
@@ -3778,7 +3987,8 @@
       "bert_score": 0.7807571887969971,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.4048203229904175
+      "bleurt_score": -1.4048203229904175,
+      "score": "1"
     },
     {
       "query": "What restrictions does the Riegle-Neal Act impose on a BHC acquiring out-of-state banks?",
@@ -3796,7 +4006,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9841189384460449
+      "bleurt_score": 0.9841189384460449,
+      "score": "5"
     },
     {
       "query": "What was the goodwill value for the HPC & AI reporting unit on October 31, 2023?",
@@ -3814,7 +4025,8 @@
       "bert_score": 0.8951047658920288,
       "f1_score": 0.25,
       "rouge_score": 0.3157894736842105,
-      "bleurt_score": -0.6171665191650391
+      "bleurt_score": -0.6171665191650391,
+      "score": "5"
     },
     {
       "query": "What was the company's total employee count at the end of 2023, and how many were involved in research and development?",
@@ -3832,7 +4044,8 @@
       "bert_score": 0.8762856125831604,
       "f1_score": 0.22222222222222224,
       "rouge_score": 0.23255813953488372,
-      "bleurt_score": -0.37422794103622437
+      "bleurt_score": -0.37422794103622437,
+      "score": "1"
     },
     {
       "query": "What is Procter & Gamble's global market share and leadership status in the retail hair care market as mentioned in the text?",
@@ -3850,7 +4063,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.017091155052185
+      "bleurt_score": 1.017091155052185,
+      "score": "5"
     },
     {
       "query": "What was the total unrecognized compensation cost for nonvested stock-based awards as of December 31, 2023?",
@@ -3868,7 +4082,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0128449201583862
+      "bleurt_score": 1.0128449201583862,
+      "score": "5"
     },
     {
       "query": "Where can one find details on Apple's financial performance and shareholder meetings?",
@@ -3886,7 +4101,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.007358431816101
+      "bleurt_score": 1.007358431816101,
+      "score": "5"
     },
     {
       "query": "Who owns the patents for the active ingredients in certain products of the company?",
@@ -3904,7 +4120,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0054618120193481
+      "bleurt_score": 1.0054618120193481,
+      "score": "5"
     },
     {
       "query": "Which accounting method does the company apply for investments in subsidiaries and partnerships where it has significant influence but lacks control?",
@@ -3922,7 +4139,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9451154470443726
+      "bleurt_score": 0.9451154470443726,
+      "score": "5"
     },
     {
       "query": "Where can one find more comprehensive details about the legal proceedings?",
@@ -3940,7 +4158,8 @@
       "bert_score": 0.8554369211196899,
       "f1_score": 0.2909090909090909,
       "rouge_score": 0.2222222222222222,
-      "bleurt_score": -0.25244376063346863
+      "bleurt_score": -0.25244376063346863,
+      "score": "4"
     },
     {
       "query": "What led to the rise in STELARA sales in 2023?",
@@ -3958,7 +4177,8 @@
       "bert_score": 0.8713555335998535,
       "f1_score": 0.3018867924528302,
       "rouge_score": 0.18518518518518515,
-      "bleurt_score": -0.4181443154811859
+      "bleurt_score": -0.4181443154811859,
+      "score": "4"
     },
     {
       "query": "How much did TNT Express spend on business realignment by 2023?",
@@ -3976,7 +4196,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0267223119735718
+      "bleurt_score": 1.0267223119735718,
+      "score": "5"
     },
     {
       "query": "What was the change in general and administrative expenses for merger, acquisition, and other costs between 2022 and 2023?",
@@ -3994,7 +4215,8 @@
       "bert_score": 0.8085717558860779,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.7283104658126831
+      "bleurt_score": -0.7283104658126831,
+      "score": "1"
     },
     {
       "query": "How does the Canadian federal government control vehicle GHG emissions, and what future standards are anticipated?",
@@ -4012,7 +4234,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0026835203170776
+      "bleurt_score": 1.0026835203170776,
+      "score": "5"
     },
     {
       "query": "According to the given data, what was the net investment income for 2023?",
@@ -4030,7 +4253,8 @@
       "bert_score": 0.7772789001464844,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1347270011901855
+      "bleurt_score": -1.1347270011901855,
+      "score": "1"
     },
     {
       "query": "How do you calculate Return on Invested Capital (ROIC)?",
@@ -4048,7 +4272,8 @@
       "bert_score": 0.8767551779747009,
       "f1_score": 0.3142857142857143,
       "rouge_score": 0.2962962962962963,
-      "bleurt_score": -0.12806545197963715
+      "bleurt_score": -0.12806545197963715,
+      "score": "4"
     },
     {
       "query": "What was the percentage increase in net cash used for financing activities from 2022 to 2023?",
@@ -4066,7 +4291,8 @@
       "bert_score": 0.8310499787330627,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1766364574432373
+      "bleurt_score": -1.1766364574432373,
+      "score": "1"
     },
     {
       "query": "What was the average daily natural gas sales by Chevron in the U.S. for 2023?",
@@ -4084,7 +4310,8 @@
       "bert_score": 0.7803794145584106,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.2497224807739258
+      "bleurt_score": -1.2497224807739258,
+      "score": "1"
     },
     {
       "query": "What forms the basis for calculating basic earnings per share?",
@@ -4102,7 +4329,8 @@
       "bert_score": 0.775179386138916,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.3006107807159424
+      "bleurt_score": -1.3006107807159424,
+      "score": "1"
     },
     {
       "query": "What was the pre-tax GAAP income for 2023?",
@@ -4120,7 +4348,8 @@
       "bert_score": 0.7724170684814453,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.2079343795776367
+      "bleurt_score": -1.2079343795776367,
+      "score": "1"
     },
     {
       "query": "What causes interruptions in the pharmaceutical supply chain?",
@@ -4138,7 +4367,8 @@
       "bert_score": 0.9592603445053101,
       "f1_score": 0.7719298245614036,
       "rouge_score": 0.5423728813559322,
-      "bleurt_score": 0.6360917091369629
+      "bleurt_score": 0.6360917091369629,
+      "score": "5"
     },
     {
       "query": "What was the aggregate notional value of foreign currency derivatives outstanding on December 31, 2023?",
@@ -4156,7 +4386,8 @@
       "bert_score": 0.7704647183418274,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.4764955043792725
+      "bleurt_score": -1.4764955043792725,
+      "score": "1"
     },
     {
       "query": "What was the increase in Total Remaining Deal Value for contracts with commercial customers between December 31, 2022, and December 31, 2023?",
@@ -4174,7 +4405,8 @@
       "bert_score": 0.9178489446640015,
       "f1_score": 0.6000000000000001,
       "rouge_score": 0.5185185185185185,
-      "bleurt_score": -0.5653729438781738
+      "bleurt_score": -0.5653729438781738,
+      "score": "1"
     },
     {
       "query": "What elements affect Las Vegas Sands Corp.'s credit loss provisions?",
@@ -4192,7 +4424,8 @@
       "bert_score": 0.9137057662010193,
       "f1_score": 0.4918032786885246,
       "rouge_score": 0.37681159420289856,
-      "bleurt_score": 0.08929221332073212
+      "bleurt_score": 0.08929221332073212,
+      "score": "5"
     },
     {
       "query": "How are warranties reflected in the company's financial statements?",
@@ -4210,7 +4443,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9367433786392212
+      "bleurt_score": 0.9367433786392212,
+      "score": "5"
     },
     {
       "query": "When is the end of the Company's fiscal year?",
@@ -4228,7 +4462,8 @@
       "bert_score": 0.9304179549217224,
       "f1_score": 0.75,
       "rouge_score": 0.761904761904762,
-      "bleurt_score": 0.4490652084350586
+      "bleurt_score": 0.4490652084350586,
+      "score": "4"
     },
     {
       "query": "What is the main source of cash the company uses for its operational and capital expenses?",
@@ -4246,7 +4481,8 @@
       "bert_score": 0.9020160436630249,
       "f1_score": 0.39999999999999997,
       "rouge_score": 0.23076923076923078,
-      "bleurt_score": -0.20124705135822296
+      "bleurt_score": -0.20124705135822296,
+      "score": "5"
     },
     {
       "query": "Where does the information for Item 3 on Legal Proceedings come from?",
@@ -4264,7 +4500,8 @@
       "bert_score": 0.9038327932357788,
       "f1_score": 0.4745762711864407,
       "rouge_score": 0.4307692307692308,
-      "bleurt_score": 0.04846291244029999
+      "bleurt_score": 0.04846291244029999,
+      "score": "4"
     },
     {
       "query": "How much did the reported company pay in cash for income taxes in 2023?",
@@ -4282,7 +4519,8 @@
       "bert_score": 0.9299066662788391,
       "f1_score": 0,
       "rouge_score": 0.3333333333333333,
-      "bleurt_score": -0.053016141057014465
+      "bleurt_score": -0.053016141057014465,
+      "score": "4"
     },
     {
       "query": "What fees are usually part of hotel management and franchise contracts, and how are they organized?",
@@ -4300,7 +4538,8 @@
       "bert_score": 0.886508584022522,
       "f1_score": 0.41791044776119407,
       "rouge_score": 0.2585034013605442,
-      "bleurt_score": -0.618621289730072
+      "bleurt_score": -0.618621289730072,
+      "score": "3"
     },
     {
       "query": "What was the total amount of future minimum lease payments for Comcast's operating leases on December 31, 2023?",
@@ -4318,7 +4557,8 @@
       "bert_score": 0.8718838691711426,
       "f1_score": 0.17391304347826084,
       "rouge_score": 0.2222222222222222,
-      "bleurt_score": -0.462876558303833
+      "bleurt_score": -0.462876558303833,
+      "score": "5"
     },
     {
       "query": "What was Walmart's consolidated net income for fiscal years 2023, 2022, and 2021?",
@@ -4336,7 +4576,8 @@
       "bert_score": 0.9207294583320618,
       "f1_score": 0.7096774193548387,
       "rouge_score": 0.5263157894736842,
-      "bleurt_score": 0.21281181275844574
+      "bleurt_score": 0.21281181275844574,
+      "score": "5"
     },
     {
       "query": "What is AMC's strategy for using compensation and benefits to attract and retain employees?",
@@ -4354,7 +4595,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9933600425720215
+      "bleurt_score": 0.9933600425720215,
+      "score": "5"
     },
     {
       "query": "In what way does the company's membership structure impact its profitability?",
@@ -4372,7 +4614,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9212647676467896
+      "bleurt_score": 0.9212647676467896,
+      "score": "5"
     },
     {
       "query": "What is the authorized amount for additional common stock repurchases as of January 29, 2023?",
@@ -4390,7 +4633,8 @@
       "bert_score": 0.9232786893844604,
       "f1_score": 0.5853658536585366,
       "rouge_score": 0.21739130434782608,
-      "bleurt_score": 0.004923476837575436
+      "bleurt_score": 0.004923476837575436,
+      "score": "4"
     },
     {
       "query": "What are the main revenue streams for the company's Family of Apps segment?",
@@ -4408,7 +4652,8 @@
       "bert_score": 0.7816575765609741,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.4036551713943481
+      "bleurt_score": -1.4036551713943481,
+      "score": "1"
     },
     {
       "query": "What key topics are included in JPMorgan Chase's onboarding training for new employees?",
@@ -4426,7 +4671,8 @@
       "bert_score": 0.8993327617645264,
       "f1_score": 0.325,
       "rouge_score": 0.36363636363636365,
-      "bleurt_score": 0.06849317252635956
+      "bleurt_score": 0.06849317252635956,
+      "score": "3"
     },
     {
       "query": "What was the impact of asset sale gains on the Channel Development operating margin growth in fiscal 2023?",
@@ -4444,7 +4690,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0314418077468872
+      "bleurt_score": 1.0314418077468872,
+      "score": "5"
     },
     {
       "query": "What was the effective tax rate in 2023, and how did it differ from 2022?",
@@ -4462,7 +4709,8 @@
       "bert_score": 0.8613030314445496,
       "f1_score": 0.1935483870967742,
       "rouge_score": 0.16901408450704225,
-      "bleurt_score": -0.24141745269298553
+      "bleurt_score": -0.24141745269298553,
+      "score": "1"
     },
     {
       "query": "Which major currencies, other than the U.S. dollar, present a foreign exchange risk to the company?",
@@ -4480,7 +4728,8 @@
       "bert_score": 0.9301746487617493,
       "f1_score": 0.6428571428571428,
       "rouge_score": 0.4210526315789474,
-      "bleurt_score": 0.13600023090839386
+      "bleurt_score": 0.13600023090839386,
+      "score": "5"
     },
     {
       "query": "What elements are evaluated in forecasting future cash flows for goodwill impairment assessments?",
@@ -4498,7 +4747,8 @@
       "bert_score": 0.9083966016769409,
       "f1_score": 0.5945945945945946,
       "rouge_score": 0.55,
-      "bleurt_score": -0.2567836344242096
+      "bleurt_score": -0.2567836344242096,
+      "score": "5"
     },
     {
       "query": "What key elements greatly influence a vehicle manufacturer's sales and profits?",
@@ -4516,7 +4766,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9809114933013916
+      "bleurt_score": 0.9809114933013916,
+      "score": "5"
     },
     {
       "query": "Were there any significant impairment losses for indefinite-lived intangible assets from the tests in 2023 and 2022?",
@@ -4534,7 +4785,8 @@
       "bert_score": 0.809196412563324,
       "f1_score": 0,
       "rouge_score": 0.07999999999999999,
-      "bleurt_score": -0.49277162551879883
+      "bleurt_score": -0.49277162551879883,
+      "score": "5"
     },
     {
       "query": "Where does Item 3 of the Annual Report on Form 10-K guide the reader for details on legal proceedings?",
@@ -4552,7 +4804,8 @@
       "bert_score": 0.8473812341690063,
       "f1_score": 0.3333333333333333,
       "rouge_score": 0.24390243902439027,
-      "bleurt_score": -0.5202109813690186
+      "bleurt_score": -0.5202109813690186,
+      "score": "4"
     },
     {
       "query": "What was the average stockholders' deficit for the five fiscal years leading up to 2023?",
@@ -4570,7 +4823,8 @@
       "bert_score": 0.899653434753418,
       "f1_score": 0.4666666666666666,
       "rouge_score": 0.41025641025641024,
-      "bleurt_score": 0.3759930729866028
+      "bleurt_score": 0.3759930729866028,
+      "score": "3"
     },
     {
       "query": "What portion of the sales price for Games with Services is assigned to the software license performance obligation?",
@@ -4588,7 +4842,8 @@
       "bert_score": 0.9999994039535522,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0286082029342651
+      "bleurt_score": 1.0286082029342651,
+      "score": "5"
     },
     {
       "query": "What was the total fair value of assets on January 31, 2022, and how is it allocated among the fair value hierarchy levels?",
@@ -4606,7 +4861,8 @@
       "bert_score": 0.8195902705192566,
       "f1_score": 0.05555555555555556,
       "rouge_score": 0.09523809523809523,
-      "bleurt_score": -1.322421908378601
+      "bleurt_score": -1.322421908378601,
+      "score": "1"
     },
     {
       "query": "Who is the main regulatory body overseeing Chubb in Bermuda, and what duties does it perform?",
@@ -4624,7 +4880,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9941818714141846
+      "bleurt_score": 0.9941818714141846,
+      "score": "5"
     },
     {
       "query": "What is the role of the Management's Discussion and Analysis section in the Form 10-K Annual Report?",
@@ -4642,7 +4899,8 @@
       "bert_score": 0.8744677901268005,
       "f1_score": 0.3448275862068966,
       "rouge_score": 0.32380952380952377,
-      "bleurt_score": 0.12546508014202118
+      "bleurt_score": 0.12546508014202118,
+      "score": "5"
     },
     {
       "query": "What primarily caused the rise in Bank of America's credit loss provisions in 2023?",
@@ -4660,7 +4918,8 @@
       "bert_score": 0.8989967107772827,
       "f1_score": 0.4,
       "rouge_score": 0.3243243243243243,
-      "bleurt_score": -0.27929818630218506
+      "bleurt_score": -0.27929818630218506,
+      "score": "5"
     },
     {
       "query": "What led to the rise in operating income margin during fiscal 2022?",
@@ -4678,7 +4937,8 @@
       "bert_score": 0.8690620064735413,
       "f1_score": 0.26666666666666666,
       "rouge_score": 0.2285714285714286,
-      "bleurt_score": -0.3225915729999542
+      "bleurt_score": -0.3225915729999542,
+      "score": "1"
     },
     {
       "query": "What was the total gross unrecognized tax benefit amount on December 30, 2023?",
@@ -4696,7 +4956,8 @@
       "bert_score": 0.8647021651268005,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": 0.06981708109378815
+      "bleurt_score": 0.06981708109378815,
+      "score": "1"
     },
     {
       "query": "What elements are included in the EU Pillar Two Directive adopted in December 2022?",
@@ -4714,7 +4975,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.075520634651184
+      "bleurt_score": 1.075520634651184,
+      "score": "5"
     },
     {
       "query": "What was the difference in Sam's Club's operating income between fiscal 2022 and 2023?",
@@ -4732,7 +4994,8 @@
       "bert_score": 0.9573121666908264,
       "f1_score": 0.6666666666666667,
       "rouge_score": 0.6341463414634146,
-      "bleurt_score": 0.6124892234802246
+      "bleurt_score": 0.6124892234802246,
+      "score": "4"
     },
     {
       "query": "What issues does the company encounter with water usage?",
@@ -4750,7 +5013,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9796968102455139
+      "bleurt_score": 0.9796968102455139,
+      "score": "5"
     },
     {
       "query": "Why was there a decrease in net interest expense during fiscal 2022?",
@@ -4768,7 +5032,8 @@
       "bert_score": 0.9103611707687378,
       "f1_score": 0.5961538461538461,
       "rouge_score": 0.4695652173913043,
-      "bleurt_score": -0.02007676661014557
+      "bleurt_score": -0.02007676661014557,
+      "score": "5"
     },
     {
       "query": "What advantages does Delta Air Lines receive by being part of the SkyTeam alliance?",
@@ -4786,7 +5051,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.965417206287384
+      "bleurt_score": 0.965417206287384,
+      "score": "5"
     },
     {
       "query": "How will the revised depreciation estimate affect the operating income for fiscal year 2024?",
@@ -4804,7 +5070,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.041176676750183
+      "bleurt_score": 1.041176676750183,
+      "score": "5"
     },
     {
       "query": "What main risks does the company retain through self-insurance?",
@@ -4822,7 +5089,8 @@
       "bert_score": 0.9317635893821716,
       "f1_score": 0.7647058823529411,
       "rouge_score": 0.5263157894736842,
-      "bleurt_score": 0.3289977014064789
+      "bleurt_score": 0.3289977014064789,
+      "score": "5"
     },
     {
       "query": "Which metric does Hewlett Packard Enterprise use to evaluate the HPE GreenLake edge-to-cloud platform's performance?",
@@ -4840,7 +5108,8 @@
       "bert_score": 0.783359944820404,
       "f1_score": 0.11764705882352941,
       "rouge_score": 0.08695652173913045,
-      "bleurt_score": -1.5754305124282837
+      "bleurt_score": -1.5754305124282837,
+      "score": "5"
     },
     {
       "query": "When did Mr. Aujla begin his position as Executive Vice President and CFO at Intuit?",
@@ -4858,7 +5127,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9723302721977234
+      "bleurt_score": 0.9723302721977234,
+      "score": "5"
     },
     {
       "query": "What is the core count of the Ryzen Threadripper 7000 Series processors?",
@@ -4876,7 +5146,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0523425340652466
+      "bleurt_score": 1.0523425340652466,
+      "score": "5"
     },
     {
       "query": "Where are AT&T Inc.'s main executive offices located?",
@@ -4894,7 +5165,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0447455644607544
+      "bleurt_score": 1.0447455644607544,
+      "score": "5"
     },
     {
       "query": "What was the outstanding balance of commercial paper on December 31, 2023, along with its weighted average interest rate and maturity?",
@@ -4912,7 +5184,8 @@
       "bert_score": 0.9599100351333618,
       "f1_score": 0.7450980392156864,
       "rouge_score": 0.7540983606557378,
-      "bleurt_score": 0.27261319756507874
+      "bleurt_score": 0.27261319756507874,
+      "score": "5"
     },
     {
       "query": "What products does the company's semiconductor solutions segment provide?",
@@ -4930,7 +5203,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9720378518104553
+      "bleurt_score": 0.9720378518104553,
+      "score": "5"
     },
     {
       "query": "What steps has the company taken to address the growing complexity and volume of data protection laws?",
@@ -4948,7 +5222,8 @@
       "bert_score": 0.7843531370162964,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.0824002027511597
+      "bleurt_score": -1.0824002027511597,
+      "score": "1"
     },
     {
       "query": "What was the cash flow from financing activities in 2023, and how does it compare to 2021 and 2022?",
@@ -4966,7 +5241,8 @@
       "bert_score": 0.8542596101760864,
       "f1_score": 0.2962962962962963,
       "rouge_score": 0.1935483870967742,
-      "bleurt_score": -0.46195173263549805
+      "bleurt_score": -0.46195173263549805,
+      "score": "1"
     },
     {
       "query": "What is the anticipated long-term return rate for equities and bonds in Procter & Gamble's defined benefit retirement plans?",
@@ -4984,7 +5260,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.053011417388916
+      "bleurt_score": 1.053011417388916,
+      "score": "5"
     },
     {
       "query": "What is the number of aircraft Delta Air Lines leased by December 31, 2023, and what are the classifications of these leases?",
@@ -5002,7 +5279,8 @@
       "bert_score": 0.9445605278015137,
       "f1_score": 0.8,
       "rouge_score": 0.4999999999999999,
-      "bleurt_score": 0.6250326633453369
+      "bleurt_score": 0.6250326633453369,
+      "score": "5"
     },
     {
       "query": "How does a 0.75% rise in completion factors impact medical costs due by December 31, 2023?",
@@ -5020,7 +5298,8 @@
       "bert_score": 0.8034391403198242,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.3629902601242065
+      "bleurt_score": -1.3629902601242065,
+      "score": "1"
     },
     {
       "query": "What impact does reclassifying Financial Products' payables as accrued expenses or customer advances have on the financial statements?",
@@ -5038,7 +5317,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0088003873825073
+      "bleurt_score": 1.0088003873825073,
+      "score": "5"
     },
     {
       "query": "What criteria are used to assess the realization of deferred tax assets?",
@@ -5056,7 +5336,8 @@
       "bert_score": 0.8960415720939636,
       "f1_score": 0.345679012345679,
       "rouge_score": 0.3146067415730337,
-      "bleurt_score": 0.06298135221004486
+      "bleurt_score": 0.06298135221004486,
+      "score": "5"
     },
     {
       "query": "What caused the decline in operating expenses as a percentage of revenue in fiscal year 2023?",
@@ -5074,7 +5355,8 @@
       "bert_score": 0.946462869644165,
       "f1_score": 0.65,
       "rouge_score": 0.6666666666666666,
-      "bleurt_score": 0.4127174913883209
+      "bleurt_score": 0.4127174913883209,
+      "score": "5"
     },
     {
       "query": "What were the changes in total revenues for the Health Services segment from 2022 to 2023, and what were the key factors influencing these changes?",
@@ -5092,7 +5374,8 @@
       "bert_score": 0.8336824774742126,
       "f1_score": 0.1509433962264151,
       "rouge_score": 0.13333333333333333,
-      "bleurt_score": -1.0163215398788452
+      "bleurt_score": -1.0163215398788452,
+      "score": "1"
     },
     {
       "query": "What compliance measures does the company implement to ensure accurate diagnosis data in the risk adjustment model?",
@@ -5110,7 +5393,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8971887826919556
+      "bleurt_score": 0.8971887826919556,
+      "score": "5"
     },
     {
       "query": "What were Caterpillar's total commitments for purchasing goods and services as of December 31, 2023?",
@@ -5128,7 +5412,8 @@
       "bert_score": 0.929185688495636,
       "f1_score": 0.8,
       "rouge_score": 0.8571428571428571,
-      "bleurt_score": 0.1972523182630539
+      "bleurt_score": 0.1972523182630539,
+      "score": "1"
     },
     {
       "query": "On what date did Janssen Pharmaceuticals, Inc. initiate a lawsuit against the U.S. Department of Health and Human Services and the Centers for Medicare and Medicaid Services?",
@@ -5146,7 +5431,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9689386487007141
+      "bleurt_score": 0.9689386487007141,
+      "score": "5"
     },
     {
       "query": "What was Procter & Gamble's total restructuring charge for the fiscal year ending June 30, 2023?",
@@ -5164,7 +5450,8 @@
       "bert_score": 0.9011350274085999,
       "f1_score": 0.5128205128205128,
       "rouge_score": 0.32558139534883723,
-      "bleurt_score": 0.15231935679912567
+      "bleurt_score": 0.15231935679912567,
+      "score": "4"
     },
     {
       "query": "What was the net value of provisions for unrealized gains or losses on available-for-sale investments, after income tax, for the year ending December 31, 2023?",
@@ -5182,7 +5469,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0515846014022827
+      "bleurt_score": 1.0515846014022827,
+      "score": "5"
     },
     {
       "query": "How much did aviation services revenues grow in percentage terms from 2022 to 2023?",
@@ -5200,7 +5488,8 @@
       "bert_score": 0.7792624235153198,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1906647682189941
+      "bleurt_score": -1.1906647682189941,
+      "score": "1"
     },
     {
       "query": "In what way is information for legal proceedings shown in financial documents?",
@@ -5218,7 +5507,8 @@
       "bert_score": 0.9615780711174011,
       "f1_score": 0.7755102040816326,
       "rouge_score": 0.7169811320754716,
-      "bleurt_score": 0.751666784286499
+      "bleurt_score": 0.751666784286499,
+      "score": "5"
     },
     {
       "query": "When were the highest COVID-19 vaccine administration rates in 2023 and 2022?",
@@ -5236,7 +5526,8 @@
       "bert_score": 0.8281437754631042,
       "f1_score": 0.0909090909090909,
       "rouge_score": 0.038461538461538464,
-      "bleurt_score": -1.6779872179031372
+      "bleurt_score": -1.6779872179031372,
+      "score": "1"
     },
     {
       "query": "What amount of common stock did the Company buy back in 2023?",
@@ -5254,7 +5545,8 @@
       "bert_score": 0.977510392665863,
       "f1_score": 0.8421052631578948,
       "rouge_score": 0.8695652173913043,
-      "bleurt_score": 0.9212667942047119
+      "bleurt_score": 0.9212667942047119,
+      "score": "5"
     },
     {
       "query": "What were the yearly maturities for the French Term Loans in fiscal 2024 as per the presented schedule?",
@@ -5272,7 +5564,8 @@
       "bert_score": 0.8228697776794434,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1086450815200806
+      "bleurt_score": -1.1086450815200806,
+      "score": "1"
     },
     {
       "query": "What was Intuit Inc.'s operating income in 2023?",
@@ -5290,7 +5583,8 @@
       "bert_score": 0.8767635226249695,
       "f1_score": 0.4,
       "rouge_score": 0.4615384615384615,
-      "bleurt_score": -0.14092262089252472
+      "bleurt_score": -0.14092262089252472,
+      "score": "5"
     },
     {
       "query": "In what ways have Apple's and Google's changes impacted the company's advertising abilities?",
@@ -5308,7 +5602,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0002082586288452
+      "bleurt_score": 1.0002082586288452,
+      "score": "5"
     },
     {
       "query": "What does Walmart Luminate do?",
@@ -5326,7 +5621,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0412571430206299
+      "bleurt_score": 1.0412571430206299,
+      "score": "5"
     },
     {
       "query": "What amount did the company pay back in Senior Notes on July 17, 2023?",
@@ -5344,7 +5640,8 @@
       "bert_score": 0.8058061003684998,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9860614538192749
+      "bleurt_score": -0.9860614538192749,
+      "score": "1"
     },
     {
       "query": "Why does the Federal Financial Institutions Examination Council (FFIEC) and its member agencies examine ICE Mortgage Technology?",
@@ -5362,7 +5659,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9930063486099243
+      "bleurt_score": 0.9930063486099243,
+      "score": "5"
     },
     {
       "query": "What was the total amount for ICE's acquisition of Black Knight, Inc. in 2023?",
@@ -5380,7 +5678,8 @@
       "bert_score": 0.9382497668266296,
       "f1_score": 0.6250000000000001,
       "rouge_score": 0.42105263157894735,
-      "bleurt_score": 0.38431549072265625
+      "bleurt_score": 0.38431549072265625,
+      "score": "5"
     },
     {
       "query": "What are the two main estimates for evaluating warranty liability?",
@@ -5398,7 +5697,8 @@
       "bert_score": 0.8488647937774658,
       "f1_score": 0.2702702702702703,
       "rouge_score": 0.21621621621621623,
-      "bleurt_score": -0.21390895545482635
+      "bleurt_score": -0.21390895545482635,
+      "score": "3"
     }
   ]
 }

@@ -16,7 +16,8 @@
       "bert_score": 0.8367919921875,
       "f1_score": 0.2620689655172414,
       "rouge_score": 0.2122905027932961,
-      "bleurt_score": -0.6128729581832886
+      "bleurt_score": -0.6128729581832886,
+      "score": "3"
     },
     {
       "query": "Frobenius effect on local cohomology?",
@@ -34,7 +35,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7588502764701843
+      "bleurt_score": 0.7588502764701843,
+      "score": "5"
     },
     {
       "query": "What is statistical mechanics?",
@@ -52,7 +54,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.846645712852478
+      "bleurt_score": 0.846645712852478,
+      "score": "5"
     },
     {
       "query": "What controls voltage in transistors?",
@@ -70,7 +73,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7710491418838501
+      "bleurt_score": 0.7710491418838501,
+      "score": "5"
     },
     {
       "query": "How can there be clouds in winter when it is too cold for water to stay a vapor?",
@@ -88,7 +92,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6235971450805664
+      "bleurt_score": 0.6235971450805664,
+      "score": "5"
     },
     {
       "query": "What is the spatial resolution of the data for the internetwork?",
@@ -106,7 +111,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9400662779808044
+      "bleurt_score": 0.9400662779808044,
+      "score": "5"
     },
     {
       "query": "Scattering by a solenoid?",
@@ -124,7 +130,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7626821994781494
+      "bleurt_score": 0.7626821994781494,
+      "score": "5"
     },
     {
       "query": "What is the finite width of qgp bags?",
@@ -142,7 +149,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7792034149169922
+      "bleurt_score": 0.7792034149169922,
+      "score": "5"
     },
     {
       "query": "What is the potential drop through i v in an i-v array?",
@@ -160,7 +168,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8639247417449951
+      "bleurt_score": 0.8639247417449951,
+      "score": "5"
     },
     {
       "query": "Can you multiply triplets in algebra?",
@@ -178,7 +187,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9232907295227051
+      "bleurt_score": 0.9232907295227051,
+      "score": "5"
     },
     {
       "query": "What jet produced hadrons?",
@@ -196,7 +206,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8908795118331909
+      "bleurt_score": 0.8908795118331909,
+      "score": "5"
     },
     {
       "query": "What is the band offset for the inn to gan?",
@@ -214,7 +225,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9123690724372864
+      "bleurt_score": 0.9123690724372864,
+      "score": "5"
     },
     {
       "query": "When is gluon p+p used to measure upsilon?",
@@ -232,7 +244,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7286727428436279
+      "bleurt_score": 0.7286727428436279,
+      "score": "5"
     },
     {
       "query": "What is the laplacian?",
@@ -250,7 +263,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8330322504043579
+      "bleurt_score": 0.8330322504043579,
+      "score": "5"
     },
     {
       "query": "Quantum chaos definition?",
@@ -268,7 +282,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.765055239200592
+      "bleurt_score": 0.765055239200592,
+      "score": "5"
     },
     {
       "query": "Which spectrometers are used to describe the shape of black holes?",
@@ -286,7 +301,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8453657627105713
+      "bleurt_score": 0.8453657627105713,
+      "score": "5"
     },
     {
       "query": "Spiral galaxies scaling relations?",
@@ -304,7 +320,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.776145875453949
+      "bleurt_score": 0.776145875453949,
+      "score": "5"
     },
     {
       "query": "How do you get domain of attraction?",
@@ -322,7 +339,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.738639235496521
+      "bleurt_score": 0.738639235496521,
+      "score": "5"
     },
     {
       "query": "Where is the d0 experiment?",
@@ -340,7 +358,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7809886932373047
+      "bleurt_score": 0.7809886932373047,
+      "score": "5"
     },
     {
       "query": "Strichartz's global definition?",
@@ -358,7 +377,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6730419397354126
+      "bleurt_score": 0.6730419397354126,
+      "score": "5"
     },
     {
       "query": "What is the ground state energy for graphene?",
@@ -376,7 +396,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.985438346862793
+      "bleurt_score": 0.985438346862793,
+      "score": "5"
     },
     {
       "query": "What is the spin dependent phase shift?",
@@ -394,7 +415,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8326517343521118
+      "bleurt_score": 0.8326517343521118,
+      "score": "5"
     },
     {
       "query": "What is the bialgebra structure?",
@@ -412,7 +434,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.671797513961792
+      "bleurt_score": 0.671797513961792,
+      "score": "5"
     },
     {
       "query": "What is the upper limit of k+p -> pi+x reaction?",
@@ -430,7 +453,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8243916034698486
+      "bleurt_score": 0.8243916034698486,
+      "score": "5"
     },
     {
       "query": "What is privilege calculus?",
@@ -448,7 +472,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7009470462799072
+      "bleurt_score": 0.7009470462799072,
+      "score": "5"
     },
     {
       "query": "What is conformal ward theory?",
@@ -466,7 +491,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8444042205810547
+      "bleurt_score": 0.8444042205810547,
+      "score": "5"
     },
     {
       "query": "Which is an example of a quantum dynamics system?",
@@ -484,7 +510,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8612282276153564
+      "bleurt_score": 0.8612282276153564,
+      "score": "5"
     },
     {
       "query": "Which is the definition of bredon cohomology?",
@@ -502,7 +529,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8067269325256348
+      "bleurt_score": 0.8067269325256348,
+      "score": "5"
     },
     {
       "query": "Where are outer halos in a galaxies?",
@@ -520,7 +548,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9040746688842773
+      "bleurt_score": 0.9040746688842773,
+      "score": "5"
     },
     {
       "query": "What is yukawa potential and schroedinger?",
@@ -538,7 +567,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8014442324638367
+      "bleurt_score": 0.8014442324638367,
+      "score": "5"
     },
     {
       "query": "What state of magnetization is constant?",
@@ -556,7 +586,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8299189805984497
+      "bleurt_score": 0.8299189805984497,
+      "score": "5"
     },
     {
       "query": "Who was skyrmed?",
@@ -574,7 +605,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9004812240600586
+      "bleurt_score": 0.9004812240600586,
+      "score": "5"
     },
     {
       "query": "What phase of potassium nitrate is the polarization reversal?",
@@ -592,7 +624,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9676282405853271
+      "bleurt_score": 0.9676282405853271,
+      "score": "5"
     },
     {
       "query": "Which state requires a polynomial ring to be commuting?",
@@ -610,7 +643,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9057892560958862
+      "bleurt_score": 0.9057892560958862,
+      "score": "5"
     },
     {
       "query": "What is sl(2)?",
@@ -628,7 +662,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9633005857467651
+      "bleurt_score": 0.9633005857467651,
+      "score": "5"
     },
     {
       "query": "How is the core radius of dwarf sphs affected by tides?",
@@ -646,7 +681,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7018857598304749
+      "bleurt_score": 0.7018857598304749,
+      "score": "5"
     },
     {
       "query": "Which is a predictor of liver survival?",
@@ -664,7 +700,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7163757681846619
+      "bleurt_score": 0.7163757681846619,
+      "score": "5"
     },
     {
       "query": "What is slow roll scalar?",
@@ -682,7 +719,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8289564251899719
+      "bleurt_score": 0.8289564251899719,
+      "score": "5"
     },
     {
       "query": "What was erdos problem?",
@@ -700,7 +738,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7917442321777344
+      "bleurt_score": 0.7917442321777344,
+      "score": "5"
     },
     {
       "query": "What is inhomogeneous ferrimagnetic?",
@@ -718,7 +757,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8379898071289062
+      "bleurt_score": 0.8379898071289062,
+      "score": "5"
     },
     {
       "query": "Graphene plate structure?",
@@ -736,7 +776,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7570513486862183
+      "bleurt_score": 0.7570513486862183,
+      "score": "5"
     },
     {
       "query": "What is the existence result for bsde?",
@@ -754,7 +795,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7621980905532837
+      "bleurt_score": 0.7621980905532837,
+      "score": "5"
     },
     {
       "query": "What is the terahertz transmission?",
@@ -772,7 +814,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7066305875778198
+      "bleurt_score": 0.7066305875778198,
+      "score": "5"
     },
     {
       "query": "What is statistical arbitrage?",
@@ -790,7 +833,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8538808226585388
+      "bleurt_score": 0.8538808226585388,
+      "score": "5"
     },
     {
       "query": "Is quantum field theory gauge invariant?",
@@ -808,7 +852,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7790969610214233
+      "bleurt_score": 0.7790969610214233,
+      "score": "5"
     },
     {
       "query": "What is icea and why is it useful?",
@@ -826,7 +871,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8119296431541443
+      "bleurt_score": 0.8119296431541443,
+      "score": "5"
     },
     {
       "query": "Which product traps are asymptotically positive?",
@@ -844,7 +890,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7864573001861572
+      "bleurt_score": 0.7864573001861572,
+      "score": "5"
     },
     {
       "query": "How did doctors create my belly button?",
@@ -862,7 +909,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6849424839019775
+      "bleurt_score": 0.6849424839019775,
+      "score": "5"
     },
     {
       "query": "Which phase spins the pulsars?",
@@ -880,7 +928,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7758070230484009
+      "bleurt_score": 0.7758070230484009,
+      "score": "5"
     },
     {
       "query": "Logical logic for neural neural dynamics?",
@@ -898,7 +947,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7574553489685059
+      "bleurt_score": 0.7574553489685059,
+      "score": "5"
     },
     {
       "query": "Are black holes event horizon?",
@@ -916,7 +966,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9270756840705872
+      "bleurt_score": 0.9270756840705872,
+      "score": "5"
     },
     {
       "query": "What is the advantage of inas laser?",
@@ -934,7 +985,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7468104362487793
+      "bleurt_score": 0.7468104362487793,
+      "score": "5"
     },
     {
       "query": "How is the moduli space determined?",
@@ -952,7 +1004,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6422815322875977
+      "bleurt_score": 0.6422815322875977,
+      "score": "5"
     },
     {
       "query": "Which quantum field has superconductivity?",
@@ -970,7 +1023,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7630729675292969
+      "bleurt_score": 0.7630729675292969,
+      "score": "5"
     },
     {
       "query": "What is serre?",
@@ -988,7 +1042,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8217251300811768
+      "bleurt_score": 0.8217251300811768,
+      "score": "5"
     },
     {
       "query": "Which characteristic of a bilayer is associated with the formation of exciton-exciton interactions?",
@@ -1006,7 +1061,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9345520734786987
+      "bleurt_score": 0.9345520734786987,
+      "score": "5"
     },
     {
       "query": "What is axial symmetry of tlcucl3?",
@@ -1024,7 +1080,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7717751264572144
+      "bleurt_score": 0.7717751264572144,
+      "score": "5"
     },
     {
       "query": "Gravitational dragging effects?",
@@ -1042,7 +1099,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7316615581512451
+      "bleurt_score": 0.7316615581512451,
+      "score": "5"
     },
     {
       "query": "How is an off center bar formed?",
@@ -1060,7 +1118,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9223092794418335
+      "bleurt_score": 0.9223092794418335,
+      "score": "5"
     },
     {
       "query": "Why does the vortex glass curve move faster in the ndfeaso superconductors?",
@@ -1078,7 +1137,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7021772861480713
+      "bleurt_score": 0.7021772861480713,
+      "score": "5"
     },
     {
       "query": "What is smooth renyi entropy?",
@@ -1096,7 +1156,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8325202465057373
+      "bleurt_score": 0.8325202465057373,
+      "score": "5"
     },
     {
       "query": "Define the term slow roll inflation?",
@@ -1114,7 +1175,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8026685118675232
+      "bleurt_score": 0.8026685118675232,
+      "score": "5"
     },
     {
       "query": "What type of supernova is a na i?",
@@ -1132,7 +1194,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7476503849029541
+      "bleurt_score": 0.7476503849029541,
+      "score": "5"
     },
     {
       "query": "Why does the blue tilt indicate clusters?",
@@ -1150,7 +1213,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7589503526687622
+      "bleurt_score": 0.7589503526687622,
+      "score": "5"
     },
     {
       "query": "Information geometry definition?",
@@ -1168,7 +1232,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.743137001991272
+      "bleurt_score": 0.743137001991272,
+      "score": "5"
     },
     {
       "query": "Which of the following is similar to a forest diagram?",
@@ -1186,7 +1251,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0211633443832397
+      "bleurt_score": 1.0211633443832397,
+      "score": "5"
     },
     {
       "query": "What is spin polarization in graphene?",
@@ -1204,7 +1270,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8456986546516418
+      "bleurt_score": 0.8456986546516418,
+      "score": "5"
     },
     {
       "query": "What is the role of stellar feedback?",
@@ -1222,7 +1289,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8034937977790833
+      "bleurt_score": 0.8034937977790833,
+      "score": "5"
     },
     {
       "query": "Ferromagnetic elements?",
@@ -1240,7 +1308,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9428097605705261
+      "bleurt_score": 0.9428097605705261,
+      "score": "5"
     },
     {
       "query": "Definition of orbifold in cohomology?",
@@ -1258,7 +1327,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7554785013198853
+      "bleurt_score": 0.7554785013198853,
+      "score": "5"
     },
     {
       "query": "What is helioseism for dynamo?",
@@ -1276,7 +1346,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8426682949066162
+      "bleurt_score": 0.8426682949066162,
+      "score": "5"
     },
     {
       "query": "What atomic particle forms the cross section for the reactions of baryons and strange particles?",
@@ -1294,7 +1365,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7618402242660522
+      "bleurt_score": 0.7618402242660522,
+      "score": "5"
     },
     {
       "query": "What is the primary characteristic of a galaxies winds?",
@@ -1312,7 +1384,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9096739292144775
+      "bleurt_score": 0.9096739292144775,
+      "score": "5"
     },
     {
       "query": "Xmm newton observations?",
@@ -1330,7 +1403,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7274267673492432
+      "bleurt_score": 0.7274267673492432,
+      "score": "5"
     },
     {
       "query": "Why is gravity not a real force?",
@@ -1348,7 +1422,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7380788922309875
+      "bleurt_score": 0.7380788922309875,
+      "score": "5"
     },
     {
       "query": "What is jet groupoids?",
@@ -1366,7 +1441,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.798047661781311
+      "bleurt_score": 0.798047661781311,
+      "score": "5"
     },
     {
       "query": "Where are the cyclotron waves from the solar wind?",
@@ -1384,7 +1460,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6487157940864563
+      "bleurt_score": 0.6487157940864563,
+      "score": "5"
     },
     {
       "query": "What radiation is produced in magnetars?",
@@ -1402,7 +1479,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.753627598285675
+      "bleurt_score": 0.753627598285675,
+      "score": "5"
     },
     {
       "query": "Bell theorem definition?",
@@ -1420,7 +1498,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9594177007675171
+      "bleurt_score": 0.9594177007675171,
+      "score": "5"
     },
     {
       "query": "What radio emission is detected in brightly luminous infrared galaxies?",
@@ -1438,7 +1517,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7226804494857788
+      "bleurt_score": 0.7226804494857788,
+      "score": "5"
     },
     {
       "query": "Galaxies look stationary, so why do scientists say that they rotate?",
@@ -1456,7 +1536,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6474387049674988
+      "bleurt_score": 0.6474387049674988,
+      "score": "5"
     },
     {
       "query": "What is the fermi temperature?",
@@ -1474,7 +1555,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8467507362365723
+      "bleurt_score": 0.8467507362365723,
+      "score": "5"
     },
     {
       "query": "Which layer of a star is responsible for photometric variability?",
@@ -1492,7 +1574,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.768427312374115
+      "bleurt_score": 0.768427312374115,
+      "score": "5"
     },
     {
       "query": "What is quantum turbulent flow in a vortex?",
@@ -1510,7 +1593,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8449381589889526
+      "bleurt_score": 0.8449381589889526,
+      "score": "5"
     },
     {
       "query": "A algebra of almost periodic functions has the hermite property?",
@@ -1528,7 +1612,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7267400026321411
+      "bleurt_score": 0.7267400026321411,
+      "score": "5"
     },
     {
       "query": "Where are mesons produced in a cyclone collision?",
@@ -1546,7 +1631,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6769999265670776
+      "bleurt_score": 0.6769999265670776,
+      "score": "5"
     },
     {
       "query": "What is an isomorphism?",
@@ -1564,7 +1650,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8739284873008728
+      "bleurt_score": 0.8739284873008728,
+      "score": "5"
     },
     {
       "query": "Intrinsic charm at rhic?",
@@ -1582,7 +1669,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7053687572479248
+      "bleurt_score": 0.7053687572479248,
+      "score": "5"
     },
     {
       "query": "What are the tensors involved in diffusion?",
@@ -1600,7 +1688,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8553997278213501
+      "bleurt_score": 0.8553997278213501,
+      "score": "5"
     },
     {
       "query": "What is the trapping effect?",
@@ -1618,7 +1707,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7535285949707031
+      "bleurt_score": 0.7535285949707031,
+      "score": "5"
     },
     {
       "query": "What does ap theory entail?",
@@ -1636,7 +1726,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7023784518241882
+      "bleurt_score": 0.7023784518241882,
+      "score": "5"
     },
     {
       "query": "How are gravity waves detected from neutron stars?",
@@ -1654,7 +1745,8 @@
       "bert_score": 0.9097616076469421,
       "f1_score": 0.4285714285714286,
       "rouge_score": 0.3333333333333333,
-      "bleurt_score": -0.035649314522743225
+      "bleurt_score": -0.035649314522743225,
+      "score": "5"
     },
     {
       "query": "How are andreev, ci, and cors interconnected?",
@@ -1672,7 +1764,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.750594973564148
+      "bleurt_score": 0.750594973564148,
+      "score": "5"
     },
     {
       "query": "What is the lowest energy state of arguo3?",
@@ -1690,7 +1783,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7946460843086243
+      "bleurt_score": 0.7946460843086243,
+      "score": "5"
     },
     {
       "query": "What is the phase field model used for Rayleigh-Taylor instability?",
@@ -1708,7 +1802,8 @@
       "bert_score": 0.905151903629303,
       "f1_score": 0.44843049327354256,
       "rouge_score": 0.37209302325581395,
-      "bleurt_score": -0.20034845173358917
+      "bleurt_score": -0.20034845173358917,
+      "score": "5"
     },
     {
       "query": "At what point does each exit occur in a planar random walk?",
@@ -1726,7 +1821,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7331699132919312
+      "bleurt_score": 0.7331699132919312,
+      "score": "5"
     },
     {
       "query": "How does a Klein-Gordon particle scatter?",
@@ -1744,7 +1840,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.683598518371582
+      "bleurt_score": 0.683598518371582,
+      "score": "5"
     },
     {
       "query": "What is an asymptotic expression for thermal scattering induced by a laser?",
@@ -1762,7 +1859,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9803414344787598
+      "bleurt_score": 0.9803414344787598,
+      "score": "5"
     },
     {
       "query": "What role does co-tunneling play?",
@@ -1780,7 +1878,8 @@
       "bert_score": 0.8974106311798096,
       "f1_score": 0.43809523809523815,
       "rouge_score": 0.2456140350877193,
-      "bleurt_score": 0.027363494038581848
+      "bleurt_score": 0.027363494038581848,
+      "score": "5"
     },
     {
       "query": "What issue does the boundary problem refer to?",
@@ -1798,7 +1897,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8892751932144165
+      "bleurt_score": 0.8892751932144165,
+      "score": "5"
     },
     {
       "query": "Which option explains a dynamic pressure crossover on protein?",
@@ -1816,7 +1916,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8077965378761292
+      "bleurt_score": 0.8077965378761292,
+      "score": "5"
     },
     {
       "query": "What is the primary goal of the apex telescope survey?",
@@ -1834,7 +1935,8 @@
       "bert_score": 0.8533210158348083,
       "f1_score": 0.20512820512820512,
       "rouge_score": 0.1679389312977099,
-      "bleurt_score": -0.2569425702095032
+      "bleurt_score": -0.2569425702095032,
+      "score": "1"
     },
     {
       "query": "At what scale does string cosmology operate?",
@@ -1852,7 +1954,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.735146701335907
+      "bleurt_score": 0.735146701335907,
+      "score": "5"
     },
     {
       "query": "What is the phase mask coronagraph used in EPICS?",
@@ -1870,7 +1973,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8317292928695679
+      "bleurt_score": 0.8317292928695679,
+      "score": "5"
     },
     {
       "query": "What is the deformation of a smooth Deligne-Mumford stack?",
@@ -1888,7 +1992,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8516210317611694
+      "bleurt_score": 0.8516210317611694,
+      "score": "5"
     },
     {
       "query": "What is the concentration of calcium on a planet star?",
@@ -1906,7 +2011,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7375282049179077
+      "bleurt_score": 0.7375282049179077,
+      "score": "5"
     },
     {
       "query": "What is the age-related occurrence of cancer?",
@@ -1924,7 +2030,8 @@
       "bert_score": 0.9370905160903931,
       "f1_score": 0.6015037593984962,
       "rouge_score": 0.5714285714285714,
-      "bleurt_score": 0.272984117269516
+      "bleurt_score": 0.272984117269516,
+      "score": "5"
     },
     {
       "query": "What does achievable rate relay mean?",
@@ -1942,7 +2049,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8040710687637329
+      "bleurt_score": 0.8040710687637329,
+      "score": "5"
     },
     {
       "query": "What defines a Heisenberg antiferromagnet?",
@@ -1960,7 +2068,8 @@
       "bert_score": 0.9234189987182617,
       "f1_score": 0.46153846153846156,
       "rouge_score": 0.418848167539267,
-      "bleurt_score": -0.08616538345813751
+      "bleurt_score": -0.08616538345813751,
+      "score": "5"
     },
     {
       "query": "What theorem necessitates asymptotically flat spacetimes?",
@@ -1978,7 +2087,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9629032611846924
+      "bleurt_score": 0.9629032611846924,
+      "score": "5"
     },
     {
       "query": "Is the integrability of the Painlev\u00e9 expansion confirmed?",
@@ -1996,7 +2106,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8622258901596069
+      "bleurt_score": 0.8622258901596069,
+      "score": "5"
     },
     {
       "query": "What constitutes the essential spectrum?",
@@ -2014,7 +2125,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7592827081680298
+      "bleurt_score": 0.7592827081680298,
+      "score": "5"
     },
     {
       "query": "Does it depend on amplitude?",
@@ -2032,7 +2144,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7450621724128723
+      "bleurt_score": 0.7450621724128723,
+      "score": "5"
     },
     {
       "query": "What is the importance of Steuernagel's experiment?",
@@ -2050,7 +2163,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8214311599731445
+      "bleurt_score": 0.8214311599731445,
+      "score": "5"
     },
     {
       "query": "Is the Ising model with nearest neighbors ferromagnetic?",
@@ -2068,7 +2182,8 @@
       "bert_score": 0.8297771215438843,
       "f1_score": 0.0404040404040404,
       "rouge_score": 0.04310344827586207,
-      "bleurt_score": -1.2777003049850464
+      "bleurt_score": -1.2777003049850464,
+      "score": "2"
     },
     {
       "query": "During which phase do compact stars form clusters?",
@@ -2086,7 +2201,8 @@
       "bert_score": 0.9012286067008972,
       "f1_score": 0.3148148148148149,
       "rouge_score": 0.30000000000000004,
-      "bleurt_score": -0.37463730573654175
+      "bleurt_score": -0.37463730573654175,
+      "score": "5"
     },
     {
       "query": "What makes the superconductor of the Fermi surface distinctive?",
@@ -2104,7 +2220,8 @@
       "bert_score": 0.8806414008140564,
       "f1_score": 0.27586206896551724,
       "rouge_score": 0.15853658536585363,
-      "bleurt_score": -0.19893448054790497
+      "bleurt_score": -0.19893448054790497,
+      "score": "4"
     },
     {
       "query": "What is the quantum field's subvacuum effect?",
@@ -2122,7 +2239,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8470598459243774
+      "bleurt_score": 0.8470598459243774,
+      "score": "5"
     },
     {
       "query": "What is the definition of cyclic Deligne?",
@@ -2140,7 +2258,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7025822401046753
+      "bleurt_score": 0.7025822401046753,
+      "score": "5"
     },
     {
       "query": "What area of congruence is included in the watts theory?",
@@ -2158,7 +2277,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9191981554031372
+      "bleurt_score": 0.9191981554031372,
+      "score": "5"
     },
     {
       "query": "Does the fluctuations theorem apply to entropy production?",
@@ -2176,7 +2296,8 @@
       "bert_score": 0.9273644685745239,
       "f1_score": 0.679245283018868,
       "rouge_score": 0.5975103734439834,
-      "bleurt_score": 0.26896512508392334
+      "bleurt_score": 0.26896512508392334,
+      "score": "4"
     },
     {
       "query": "How is wealth distributed in socioeconomics?",
@@ -2194,7 +2315,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7701232433319092
+      "bleurt_score": 0.7701232433319092,
+      "score": "5"
     },
     {
       "query": "What is the stickiness effect in chaotic systems?",
@@ -2212,7 +2334,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6820213198661804
+      "bleurt_score": 0.6820213198661804,
+      "score": "5"
     },
     {
       "query": "What does the scalar unparticle influence?",
@@ -2230,7 +2353,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8561897277832031
+      "bleurt_score": 0.8561897277832031,
+      "score": "5"
     },
     {
       "query": "What is Horoda's approach for minor fluctuations?",
@@ -2248,7 +2372,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7995591163635254
+      "bleurt_score": 0.7995591163635254,
+      "score": "5"
     },
     {
       "query": "Is Lorentz invariance applicable?",
@@ -2266,7 +2391,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7680097222328186
+      "bleurt_score": 0.7680097222328186,
+      "score": "5"
     },
     {
       "query": "What does fluctuation theory entail?",
@@ -2284,7 +2410,8 @@
       "bert_score": 0.9033799171447754,
       "f1_score": 0.536231884057971,
       "rouge_score": 0.3355704697986577,
-      "bleurt_score": 0.2592986226081848
+      "bleurt_score": 0.2592986226081848,
+      "score": "5"
     },
     {
       "query": "What kind of feedback law is present between two globally asymptotically synchronized systems?",
@@ -2302,7 +2429,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7489843368530273
+      "bleurt_score": 0.7489843368530273,
+      "score": "5"
     },
     {
       "query": "What kind of charge order characterizes the Wigner-Mott transition?",
@@ -2320,7 +2448,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7667664289474487
+      "bleurt_score": 0.7667664289474487,
+      "score": "5"
     },
     {
       "query": "What is the algorithm for eliminating cyclotomic subexpressions?",
@@ -2338,7 +2467,8 @@
       "bert_score": 0.8614487051963806,
       "f1_score": 0.2018348623853211,
       "rouge_score": 0.12499999999999999,
-      "bleurt_score": -0.31928950548171997
+      "bleurt_score": -0.31928950548171997,
+      "score": "2"
     },
     {
       "query": "How does the atiyah hypothesis behave?",
@@ -2356,7 +2486,8 @@
       "bert_score": 0.8785897493362427,
       "f1_score": 0.3050847457627119,
       "rouge_score": 0.2146341463414634,
-      "bleurt_score": -0.36094769835472107
+      "bleurt_score": -0.36094769835472107,
+      "score": "3"
     },
     {
       "query": "What does a singular oscillatory integral refer to?",
@@ -2374,7 +2505,8 @@
       "bert_score": 0.8808256983757019,
       "f1_score": 0.5034013605442177,
       "rouge_score": 0.4,
-      "bleurt_score": -0.0406389981508255
+      "bleurt_score": -0.0406389981508255,
+      "score": "4"
     },
     {
       "query": "What is a gravitoelectric field?",
@@ -2392,7 +2524,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7401217818260193
+      "bleurt_score": 0.7401217818260193,
+      "score": "5"
     },
     {
       "query": "What is considered a universal gift?",
@@ -2410,7 +2543,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8670425415039062
+      "bleurt_score": 0.8670425415039062,
+      "score": "5"
     },
     {
       "query": "What type of perturbation symmetry do iron pnictides exhibit?",
@@ -2428,7 +2562,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7689818143844604
+      "bleurt_score": 0.7689818143844604,
+      "score": "5"
     },
     {
       "query": "What defines a superconformal defect?",
@@ -2446,7 +2581,8 @@
       "bert_score": 0.9401673078536987,
       "f1_score": 0.6190476190476191,
       "rouge_score": 0.4742268041237113,
-      "bleurt_score": 0.36378398537635803
+      "bleurt_score": 0.36378398537635803,
+      "score": "5"
     },
     {
       "query": "What does the tensor mode refer to in quantum cosmology?",
@@ -2464,7 +2600,8 @@
       "bert_score": 0.8642554879188538,
       "f1_score": 0.288135593220339,
       "rouge_score": 0.20289855072463767,
-      "bleurt_score": -0.13935919106006622
+      "bleurt_score": -0.13935919106006622,
+      "score": "1"
     },
     {
       "query": "What constitutes records in the field of science?",
@@ -2482,7 +2619,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7461310029029846
+      "bleurt_score": 0.7461310029029846,
+      "score": "5"
     },
     {
       "query": "How are silicon photomultipliers utilized?",
@@ -2500,7 +2638,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7557147741317749
+      "bleurt_score": 0.7557147741317749,
+      "score": "5"
     },
     {
       "query": "What model type illustrates chromatin's diffusional diffusion?",
@@ -2518,7 +2657,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7723032236099243
+      "bleurt_score": 0.7723032236099243,
+      "score": "5"
     },
     {
       "query": "How would you define credit risk?",
@@ -2536,7 +2676,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8308889865875244
+      "bleurt_score": 0.8308889865875244,
+      "score": "5"
     },
     {
       "query": "What is the chemical nature of epitaxial graphene?",
@@ -2554,7 +2695,8 @@
       "bert_score": 0.8579176068305969,
       "f1_score": 0.1797752808988764,
       "rouge_score": 0.1616161616161616,
-      "bleurt_score": -0.6097717881202698
+      "bleurt_score": -0.6097717881202698,
+      "score": "3"
     },
     {
       "query": "Which photons form an entangled pair?",
@@ -2572,7 +2714,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8130480051040649
+      "bleurt_score": 0.8130480051040649,
+      "score": "5"
     },
     {
       "query": "What is the upper critical field's temperature?",
@@ -2590,7 +2733,8 @@
       "bert_score": 0.8891991972923279,
       "f1_score": 0.453125,
       "rouge_score": 0.3221476510067114,
-      "bleurt_score": -0.008216009475290775
+      "bleurt_score": -0.008216009475290775,
+      "score": "4"
     },
     {
       "query": "What are the principles of quantum mechanics in an open universe?",
@@ -2608,7 +2752,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8017622828483582
+      "bleurt_score": 0.8017622828483582,
+      "score": "5"
     },
     {
       "query": "What is the combination of legendrian knots called?",
@@ -2626,7 +2771,8 @@
       "bert_score": 0.9293662309646606,
       "f1_score": 0.6666666666666667,
       "rouge_score": 0.5942028985507246,
-      "bleurt_score": 0.2721923291683197
+      "bleurt_score": 0.2721923291683197,
+      "score": "5"
     },
     {
       "query": "How do ratchets function?",
@@ -2644,7 +2790,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7871725559234619
+      "bleurt_score": 0.7871725559234619,
+      "score": "5"
     },
     {
       "query": "What does the Borel-Carath\u00e9odory theorem state?",
@@ -2662,7 +2809,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.806164026260376
+      "bleurt_score": 0.806164026260376,
+      "score": "1"
     },
     {
       "query": "What part of a black hole emits radiation?",
@@ -2680,7 +2828,8 @@
       "bert_score": 0.8900913000106812,
       "f1_score": 0.44642857142857145,
       "rouge_score": 0.27906976744186046,
-      "bleurt_score": 0.048475250601768494
+      "bleurt_score": 0.048475250601768494,
+      "score": "4"
     },
     {
       "query": "To which theory is the classical model applied for a quantum state?",
@@ -2698,7 +2847,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9392048120498657
+      "bleurt_score": 0.9392048120498657,
+      "score": "5"
     },
     {
       "query": "Where are black holes located?",
@@ -2716,7 +2866,8 @@
       "bert_score": 0.9458303451538086,
       "f1_score": 0.6610169491525425,
       "rouge_score": 0.6141732283464566,
-      "bleurt_score": 0.3822488784790039
+      "bleurt_score": 0.3822488784790039,
+      "score": "5"
     },
     {
       "query": "What is the basic structure of quantum search?",
@@ -2734,7 +2885,8 @@
       "bert_score": 0.8770648837089539,
       "f1_score": 0.3829787234042554,
       "rouge_score": 0.27906976744186046,
-      "bleurt_score": -0.32029053568840027
+      "bleurt_score": -0.32029053568840027,
+      "score": "5"
     },
     {
       "query": "Which equation of state involves the density and pressure of neutron stars?",
@@ -2752,7 +2904,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9575508832931519
+      "bleurt_score": 0.9575508832931519,
+      "score": "5"
     },
     {
       "query": "Which model connects the spin parameter with galaxy mass?",
@@ -2770,7 +2923,8 @@
       "bert_score": 0.85933917760849,
       "f1_score": 0.23255813953488372,
       "rouge_score": 0.20408163265306123,
-      "bleurt_score": -0.07011903822422028
+      "bleurt_score": -0.07011903822422028,
+      "score": "1"
     },
     {
       "query": "What is the definition of a uniformly spread measure?",
@@ -2788,7 +2942,8 @@
       "bert_score": 0.8591609001159668,
       "f1_score": 0.2549019607843137,
       "rouge_score": 0.20168067226890757,
-      "bleurt_score": -0.30508187413215637
+      "bleurt_score": -0.30508187413215637,
+      "score": "3"
     },
     {
       "query": "How did spiral galaxies evolve over time?",
@@ -2806,7 +2961,8 @@
       "bert_score": 0.8854410648345947,
       "f1_score": 0.34509803921568627,
       "rouge_score": 0.2736842105263158,
-      "bleurt_score": -0.40717899799346924
+      "bleurt_score": -0.40717899799346924,
+      "score": "4"
     },
     {
       "query": "What does the entropy power inequality refer to?",
@@ -2824,7 +2980,8 @@
       "bert_score": 0.9034218192100525,
       "f1_score": 0.5312499999999999,
       "rouge_score": 0.44,
-      "bleurt_score": 0.11006881296634674
+      "bleurt_score": 0.11006881296634674,
+      "score": "4"
     },
     {
       "query": "How does a statistical multifragmentation model differ from a canonical thermodynamic model?",
@@ -2842,7 +2999,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8193739652633667
+      "bleurt_score": 0.8193739652633667,
+      "score": "5"
     },
     {
       "query": "What defines a Cauchy-Stieltjes type function for orthogonal polynomials?",
@@ -2860,7 +3018,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7025307416915894
+      "bleurt_score": 0.7025307416915894,
+      "score": "5"
     },
     {
       "query": "Which neutrino has the least mass?",
@@ -2878,7 +3037,8 @@
       "bert_score": 0.8890784382820129,
       "f1_score": 0.3225806451612903,
       "rouge_score": 0.19999999999999998,
-      "bleurt_score": -0.055498018860816956
+      "bleurt_score": -0.055498018860816956,
+      "score": "4"
     },
     {
       "query": "What kind of force is the Casimir effect?",
@@ -2896,7 +3056,8 @@
       "bert_score": 0.9038328528404236,
       "f1_score": 0.4909090909090909,
       "rouge_score": 0.3720930232558139,
-      "bleurt_score": 0.22798500955104828
+      "bleurt_score": 0.22798500955104828,
+      "score": "5"
     },
     {
       "query": "Which layer of a star is linked to convective mixing?",
@@ -2914,7 +3075,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8558224439620972
+      "bleurt_score": 0.8558224439620972,
+      "score": "5"
     },
     {
       "query": "Are polynomial automorphisms considered stably tame?",
@@ -2932,7 +3094,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8009648323059082
+      "bleurt_score": 0.8009648323059082,
+      "score": "3"
     },
     {
       "query": "What theorem is extended to a category of well-founded trees?",
@@ -2950,7 +3113,8 @@
       "bert_score": 0.9162684082984924,
       "f1_score": 0.5365853658536586,
       "rouge_score": 0.48936170212765956,
-      "bleurt_score": 0.3598371744155884
+      "bleurt_score": 0.3598371744155884,
+      "score": "4"
     },
     {
       "query": "At what location is a generalized density wave focused?",
@@ -2968,7 +3132,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7400415539741516
+      "bleurt_score": 0.7400415539741516,
+      "score": "5"
     },
     {
       "query": "What defines baryon operators?",
@@ -2986,7 +3151,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.75335294008255
+      "bleurt_score": 0.75335294008255,
+      "score": "5"
     },
     {
       "query": "What is a conditional logistic estimator?",
@@ -3004,7 +3170,8 @@
       "bert_score": 0.921623170375824,
       "f1_score": 0.5599999999999999,
       "rouge_score": 0.3953488372093023,
-      "bleurt_score": 0.12865574657917023
+      "bleurt_score": 0.12865574657917023,
+      "score": "5"
     },
     {
       "query": "How does orionis absorb light?",
@@ -3022,7 +3189,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9807729125022888
+      "bleurt_score": 0.9807729125022888,
+      "score": "5"
     },
     {
       "query": "Which theory explains that the ratchet speed depends on the size of the least loaded class?",
@@ -3040,7 +3208,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7874380946159363
+      "bleurt_score": 0.7874380946159363,
+      "score": "5"
     },
     {
       "query": "What type of radiation loss is most probable in a plasma accelerator?",
@@ -3058,7 +3227,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7676423788070679
+      "bleurt_score": 0.7676423788070679,
+      "score": "5"
     },
     {
       "query": "What does the term \"moduli space\" refer to?",
@@ -3076,7 +3246,8 @@
       "bert_score": 0.8939054012298584,
       "f1_score": 0.4,
       "rouge_score": 0.28571428571428575,
-      "bleurt_score": 0.05010230839252472
+      "bleurt_score": 0.05010230839252472,
+      "score": "5"
     },
     {
       "query": "What is the conceptual framework of DNA translocation?",
@@ -3094,7 +3265,8 @@
       "bert_score": 0.9019743800163269,
       "f1_score": 0.35384615384615387,
       "rouge_score": 0.26950354609929084,
-      "bleurt_score": 0.024921730160713196
+      "bleurt_score": 0.024921730160713196,
+      "score": "5"
     },
     {
       "query": "What expansion ensures galilean invariance?",
@@ -3112,7 +3284,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7938444018363953
+      "bleurt_score": 0.7938444018363953,
+      "score": "5"
     },
     {
       "query": "What does interaction-driven relaxation mean?",
@@ -3130,7 +3303,8 @@
       "bert_score": 0.9102640748023987,
       "f1_score": 0.3968253968253968,
       "rouge_score": 0.2615384615384615,
-      "bleurt_score": 0.2067239135503769
+      "bleurt_score": 0.2067239135503769,
+      "score": "5"
     },
     {
       "query": "What are the BCFW recursion relations?",
@@ -3148,7 +3322,8 @@
       "bert_score": 0.8799809813499451,
       "f1_score": 0.34825870646766166,
       "rouge_score": 0.29565217391304344,
-      "bleurt_score": -0.03275485336780548
+      "bleurt_score": -0.03275485336780548,
+      "score": "5"
     },
     {
       "query": "What is Mqmas simulation?",
@@ -3166,7 +3341,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7519686222076416
+      "bleurt_score": 0.7519686222076416,
+      "score": "5"
     },
     {
       "query": "At what frequency does spin excitation occur in Fe?",
@@ -3184,7 +3360,8 @@
       "bert_score": 0.8972568511962891,
       "f1_score": 0.4158415841584159,
       "rouge_score": 0.27586206896551724,
-      "bleurt_score": -0.15842701494693756
+      "bleurt_score": -0.15842701494693756,
+      "score": "5"
     },
     {
       "query": "What causes visibility bias?",
@@ -3202,7 +3379,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.868464469909668
+      "bleurt_score": 0.868464469909668,
+      "score": "5"
     },
     {
       "query": "What cosmological constant results from rising vacuum energy?",
@@ -3220,7 +3398,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7034683227539062
+      "bleurt_score": 0.7034683227539062,
+      "score": "5"
     },
     {
       "query": "What does the Schr\u00f6dinger equation describe?",
@@ -3238,7 +3417,8 @@
       "bert_score": 0.9203304052352905,
       "f1_score": 0.38,
       "rouge_score": 0.3548387096774194,
-      "bleurt_score": 0.05501152575016022
+      "bleurt_score": 0.05501152575016022,
+      "score": "5"
     },
     {
       "query": "What is the accuracy of decorrelation in qmc?",
@@ -3256,7 +3436,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8417694568634033
+      "bleurt_score": 0.8417694568634033,
+      "score": "5"
     },
     {
       "query": "What kind of symmetry characterizes a gauge transformation?",
@@ -3274,7 +3455,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9398714303970337
+      "bleurt_score": 0.9398714303970337,
+      "score": "5"
     },
     {
       "query": "What are odd quarks?",
@@ -3292,7 +3474,8 @@
       "bert_score": 0.8437480330467224,
       "f1_score": 0.22797927461139897,
       "rouge_score": 0.1826923076923077,
-      "bleurt_score": -1.0520082712173462
+      "bleurt_score": -1.0520082712173462,
+      "score": "4"
     },
     {
       "query": "How is Shannon's entropy defined?",
@@ -3310,7 +3493,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8497265577316284
+      "bleurt_score": 0.8497265577316284,
+      "score": "5"
     },
     {
       "query": "What is the definition of binary integrators?",
@@ -3328,7 +3512,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7458928823471069
+      "bleurt_score": 0.7458928823471069,
+      "score": "5"
     },
     {
       "query": "What is the mass of a pseudoscalar glueball?",
@@ -3346,7 +3531,8 @@
       "bert_score": 0.8096919655799866,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.642067790031433
+      "bleurt_score": -1.642067790031433,
+      "score": "1"
     },
     {
       "query": "What particles result from electron-electron scattering?",
@@ -3364,7 +3550,8 @@
       "bert_score": 0.8900109529495239,
       "f1_score": 0.2891566265060241,
       "rouge_score": 0.22916666666666663,
-      "bleurt_score": -0.21662257611751556
+      "bleurt_score": -0.21662257611751556,
+      "score": "3"
     },
     {
       "query": "What are the amplitude of the mode and the nonradial mode?",
@@ -3382,7 +3569,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6976069211959839
+      "bleurt_score": 0.6976069211959839,
+      "score": "3"
     },
     {
       "query": "Is the coarse moduli space of genus 5 curves unirational?",
@@ -3400,7 +3588,8 @@
       "bert_score": 0.8983296155929565,
       "f1_score": 0.4070796460176992,
       "rouge_score": 0.4153846153846154,
-      "bleurt_score": -0.5653879046440125
+      "bleurt_score": -0.5653879046440125,
+      "score": "4"
     },
     {
       "query": "What does mott scattering refer to?",
@@ -3418,7 +3607,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7849874496459961
+      "bleurt_score": 0.7849874496459961,
+      "score": "5"
     },
     {
       "query": "In what way is atomic transport regulated at extremely low temperatures?",
@@ -3436,7 +3626,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6942974328994751
+      "bleurt_score": 0.6942974328994751,
+      "score": "5"
     },
     {
       "query": "Which stretch has a low number of spanning trees?",
@@ -3454,7 +3645,8 @@
       "bert_score": 0.8388944864273071,
       "f1_score": 0.21052631578947364,
       "rouge_score": 0.1791044776119403,
-      "bleurt_score": -0.8703506588935852
+      "bleurt_score": -0.8703506588935852,
+      "score": "1"
     },
     {
       "query": "How are cp and fsi related?",
@@ -3472,7 +3664,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7274869680404663
+      "bleurt_score": 0.7274869680404663,
+      "score": "5"
     },
     {
       "query": "What phase does the QCD exhibit?",
@@ -3490,7 +3683,8 @@
       "bert_score": 0.8581863641738892,
       "f1_score": 0.15950920245398773,
       "rouge_score": 0.12972972972972974,
-      "bleurt_score": -0.6848952174186707
+      "bleurt_score": -0.6848952174186707,
+      "score": "3"
     },
     {
       "query": "How is the order of a coulomb crystal defined?",
@@ -3508,7 +3702,8 @@
       "bert_score": 0.8753705024719238,
       "f1_score": 0.2937062937062937,
       "rouge_score": 0.20359281437125748,
-      "bleurt_score": -0.182015523314476
+      "bleurt_score": -0.182015523314476,
+      "score": "4"
     },
     {
       "query": "What does community information technologies (ci) refer to?",
@@ -3526,7 +3721,8 @@
       "bert_score": 0.9241359233856201,
       "f1_score": 0.5421686746987953,
       "rouge_score": 0.39548022598870053,
-      "bleurt_score": 0.30737972259521484
+      "bleurt_score": 0.30737972259521484,
+      "score": "5"
     },
     {
       "query": "What phase change happens exclusively with a smooth potential and weak noise?",
@@ -3544,7 +3740,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7998064756393433
+      "bleurt_score": 0.7998064756393433,
+      "score": "5"
     },
     {
       "query": "How does the quantum phase transition occur from Higgs to Coulomb?",
@@ -3562,7 +3759,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6649893522262573
+      "bleurt_score": 0.6649893522262573,
+      "score": "5"
     },
     {
       "query": "What type of condition is cardiac tachycardia?",
@@ -3580,7 +3778,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9385789632797241
+      "bleurt_score": 0.9385789632797241,
+      "score": "5"
     },
     {
       "query": "Why does the Fermi wavelength exceed the quantum limit?",
@@ -3598,7 +3797,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8337986469268799
+      "bleurt_score": 0.8337986469268799,
+      "score": "5"
     },
     {
       "query": "How is the flow of a hypersurface determined?",
@@ -3616,7 +3816,8 @@
       "bert_score": 0.9200747013092041,
       "f1_score": 0.47500000000000003,
       "rouge_score": 0.4158415841584158,
-      "bleurt_score": -0.18323718011379242
+      "bleurt_score": -0.18323718011379242,
+      "score": "5"
     },
     {
       "query": "Which aromatic amino acids are protonated?",
@@ -3634,7 +3835,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9716930985450745
+      "bleurt_score": 0.9716930985450745,
+      "score": "5"
     },
     {
       "query": "Which stars are linked to accretion?",
@@ -3652,7 +3854,8 @@
       "bert_score": 0.8735020160675049,
       "f1_score": 0.2459016393442623,
       "rouge_score": 0.15267175572519082,
-      "bleurt_score": -0.11987049877643585
+      "bleurt_score": -0.11987049877643585,
+      "score": "4"
     },
     {
       "query": "What does circular magnetization mean?",
@@ -3670,7 +3873,8 @@
       "bert_score": 0.913534939289093,
       "f1_score": 0.6111111111111112,
       "rouge_score": 0.4177215189873418,
-      "bleurt_score": 0.27873125672340393
+      "bleurt_score": 0.27873125672340393,
+      "score": "5"
     },
     {
       "query": "What does QED correction mean?",
@@ -3688,7 +3892,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7676035165786743
+      "bleurt_score": 0.7676035165786743,
+      "score": "5"
     },
     {
       "query": "What defines fuchsian systems?",
@@ -3706,7 +3911,8 @@
       "bert_score": 0.8766095042228699,
       "f1_score": 0.25766871165644173,
       "rouge_score": 0.2433862433862434,
-      "bleurt_score": -0.22478146851062775
+      "bleurt_score": -0.22478146851062775,
+      "score": "4"
     },
     {
       "query": "Which plasmas eliminate harmful gases from the atmosphere?",
@@ -3724,7 +3930,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8097786903381348
+      "bleurt_score": 0.8097786903381348,
+      "score": "5"
     },
     {
       "query": "What does the coboundary operator refer to in physics?",
@@ -3742,7 +3949,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7379698753356934
+      "bleurt_score": 0.7379698753356934,
+      "score": "5"
     },
     {
       "query": "Does doping influence anisotropy?",
@@ -3760,7 +3968,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8239626884460449
+      "bleurt_score": 0.8239626884460449,
+      "score": "5"
     },
     {
       "query": "Which cnmssm is applied in physics?",
@@ -3778,7 +3987,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8302584886550903
+      "bleurt_score": 0.8302584886550903,
+      "score": "5"
     },
     {
       "query": "What does the term d=4 signify in physics?",
@@ -3796,7 +4006,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9041587114334106
+      "bleurt_score": 0.9041587114334106,
+      "score": "5"
     },
     {
       "query": "Which pulsating stars are classified as dwarfs?",
@@ -3814,7 +4025,8 @@
       "bert_score": 0.8729281425476074,
       "f1_score": 0.3551401869158879,
       "rouge_score": 0.29565217391304344,
-      "bleurt_score": -0.23344765603542328
+      "bleurt_score": -0.23344765603542328,
+      "score": "1"
     },
     {
       "query": "Where can knotted holomorphic embeddings of the unit disc within the unit disc be correctly located?",
@@ -3832,7 +4044,8 @@
       "bert_score": 0.8337236642837524,
       "f1_score": 0.3225806451612903,
       "rouge_score": 0.27848101265822783,
-      "bleurt_score": -0.43056797981262207
+      "bleurt_score": -0.43056797981262207,
+      "score": "1"
     },
     {
       "query": "What is the Yang-Mills theory in lattice gauge theory?",
@@ -3850,7 +4063,8 @@
       "bert_score": 0.8563714027404785,
       "f1_score": 0.18666666666666665,
       "rouge_score": 0.17037037037037037,
-      "bleurt_score": -0.7758203744888306
+      "bleurt_score": -0.7758203744888306,
+      "score": "2"
     },
     {
       "query": "What types of lenses are found in galaxies?",
@@ -3868,7 +4082,8 @@
       "bert_score": 0.8692476749420166,
       "f1_score": 0.28099173553719003,
       "rouge_score": 0.19548872180451127,
-      "bleurt_score": -0.12600566446781158
+      "bleurt_score": -0.12600566446781158,
+      "score": "2"
     },
     {
       "query": "How is the p_trans distribution characterized in diphoton production?",
@@ -3886,7 +4101,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8482285737991333
+      "bleurt_score": 0.8482285737991333,
+      "score": "5"
     },
     {
       "query": "When was a protostar's radio emission first observed?",
@@ -3904,7 +4120,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8201749324798584
+      "bleurt_score": 0.8201749324798584,
+      "score": "5"
     },
     {
       "query": "What impact does the color-singlet transition have on upsilon polarization?",
@@ -3922,7 +4139,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7411651015281677
+      "bleurt_score": 0.7411651015281677,
+      "score": "5"
     },
     {
       "query": "How does fidelity handle gaussian transitions?",
@@ -3940,7 +4158,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8126634359359741
+      "bleurt_score": 0.8126634359359741,
+      "score": "5"
     },
     {
       "query": "In what context do Paley-Wiener theorems arise?",
@@ -3958,7 +4177,8 @@
       "bert_score": 0.8969860076904297,
       "f1_score": 0.3859649122807018,
       "rouge_score": 0.3464566929133858,
-      "bleurt_score": 0.061983153223991394
+      "bleurt_score": 0.061983153223991394,
+      "score": "5"
     },
     {
       "query": "How is the radial structure of a galaxy cluster defined?",
@@ -3976,7 +4196,8 @@
       "bert_score": 0.8732067942619324,
       "f1_score": 0.27419354838709675,
       "rouge_score": 0.2206896551724138,
-      "bleurt_score": -0.14433307945728302
+      "bleurt_score": -0.14433307945728302,
+      "score": "2"
     },
     {
       "query": "What is the fine structure constant related to Hubble expansion?",
@@ -3994,7 +4215,8 @@
       "bert_score": 0.8740740418434143,
       "f1_score": 0.3595505617977528,
       "rouge_score": 0.3518518518518518,
-      "bleurt_score": -0.46683380007743835
+      "bleurt_score": -0.46683380007743835,
+      "score": "2"
     },
     {
       "query": "What does quantum field theory entail?",
@@ -4012,7 +4234,8 @@
       "bert_score": 0.8990666270256042,
       "f1_score": 0.43165467625899284,
       "rouge_score": 0.3741935483870968,
-      "bleurt_score": 0.1031726747751236
+      "bleurt_score": 0.1031726747751236,
+      "score": "5"
     },
     {
       "query": "What does Weierstrass's theory of shear entail?",
@@ -4030,7 +4253,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8284801244735718
+      "bleurt_score": 0.8284801244735718,
+      "score": "5"
     },
     {
       "query": "What causes scientists to be atheists?",
@@ -4048,7 +4272,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7413655519485474
+      "bleurt_score": 0.7413655519485474,
+      "score": "5"
     },
     {
       "query": "How does mimicry enhance survival?",
@@ -4066,7 +4291,8 @@
       "bert_score": 0.8909690380096436,
       "f1_score": 0.3333333333333333,
       "rouge_score": 0.24418604651162792,
-      "bleurt_score": 0.11514143645763397
+      "bleurt_score": 0.11514143645763397,
+      "score": "5"
     },
     {
       "query": "What are Sobol indices?",
@@ -4084,7 +4310,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.725316047668457
+      "bleurt_score": 0.725316047668457,
+      "score": "5"
     },
     {
       "query": "What causes truck drivers to behave rudely?",
@@ -4102,7 +4329,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.661322832107544
+      "bleurt_score": 0.661322832107544,
+      "score": "5"
     },
     {
       "query": "What is the wso telescope's focal plane?",
@@ -4120,7 +4348,8 @@
       "bert_score": 0.90294349193573,
       "f1_score": 0.43589743589743596,
       "rouge_score": 0.3863636363636363,
-      "bleurt_score": -0.06504471600055695
+      "bleurt_score": -0.06504471600055695,
+      "score": "4"
     },
     {
       "query": "How can the temporal parameter of a biphoton pulse be determined?",
@@ -4138,7 +4367,8 @@
       "bert_score": 0.8825151920318604,
       "f1_score": 0.3174603174603175,
       "rouge_score": 0.27027027027027023,
-      "bleurt_score": -0.31136757135391235
+      "bleurt_score": -0.31136757135391235,
+      "score": "4"
     },
     {
       "query": "What are the asteroseismic age and radius of Kepler?",
@@ -4156,7 +4386,8 @@
       "bert_score": 0.8446838855743408,
       "f1_score": 0.15384615384615385,
       "rouge_score": 0.14285714285714285,
-      "bleurt_score": -0.8257061243057251
+      "bleurt_score": -0.8257061243057251,
+      "score": "4"
     },
     {
       "query": "What is the definition of a Hilbert scheme?",
@@ -4174,7 +4405,8 @@
       "bert_score": 0.8436585664749146,
       "f1_score": 0.17391304347826086,
       "rouge_score": 0.16981132075471697,
-      "bleurt_score": -0.6618605852127075
+      "bleurt_score": -0.6618605852127075,
+      "score": "1"
     },
     {
       "query": "How do you calculate the self-energy of neutrinos?",
@@ -4192,7 +4424,8 @@
       "bert_score": 0.8765508532524109,
       "f1_score": 0.302158273381295,
       "rouge_score": 0.19354838709677416,
-      "bleurt_score": -0.09258608520030975
+      "bleurt_score": -0.09258608520030975,
+      "score": "4"
     },
     {
       "query": "Is it possible for a qw to become formless?",
@@ -4210,7 +4443,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.028197169303894
+      "bleurt_score": 1.028197169303894,
+      "score": "5"
     },
     {
       "query": "Which option indicates the initial observation of the hadronic transition gamma(y) to etay(1s)?",
@@ -4228,7 +4462,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.024634838104248
+      "bleurt_score": 1.024634838104248,
+      "score": "5"
     },
     {
       "query": "Which element is most probably iridium?",
@@ -4246,7 +4481,8 @@
       "bert_score": 0.8358137011528015,
       "f1_score": 0.09259259259259259,
       "rouge_score": 0.06837606837606838,
-      "bleurt_score": -0.4679156541824341
+      "bleurt_score": -0.4679156541824341,
+      "score": "1"
     },
     {
       "query": "How does coarsening lattice spacing affect outcomes?",
@@ -4264,7 +4500,8 @@
       "bert_score": 0.8792411684989929,
       "f1_score": 0.3012048192771084,
       "rouge_score": 0.15789473684210525,
-      "bleurt_score": -0.13085754215717316
+      "bleurt_score": -0.13085754215717316,
+      "score": "4"
     },
     {
       "query": "What makes scientists such skilled writers?",
@@ -4282,7 +4519,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7672967910766602
+      "bleurt_score": 0.7672967910766602,
+      "score": "5"
     },
     {
       "query": "Which phase is crucial in a b shaped model?",
@@ -4300,7 +4538,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7237714529037476
+      "bleurt_score": 0.7237714529037476,
+      "score": "5"
     },
     {
       "query": "What is the frequency spectrum of a compact radio source?",
@@ -4318,7 +4557,8 @@
       "bert_score": 0.8484578132629395,
       "f1_score": 0.2888888888888889,
       "rouge_score": 0.1764705882352941,
-      "bleurt_score": -0.22715680301189423
+      "bleurt_score": -0.22715680301189423,
+      "score": "1"
     },
     {
       "query": "What defines Schwarzschild spacetime?",
@@ -4336,7 +4576,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7557598948478699
+      "bleurt_score": 0.7557598948478699,
+      "score": "5"
     },
     {
       "query": "What does n k theory refer to?",
@@ -4354,7 +4595,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7869949340820312
+      "bleurt_score": 0.7869949340820312,
+      "score": "5"
     },
     {
       "query": "What type of radiation do black holes emit?",
@@ -4372,7 +4614,8 @@
       "bert_score": 0.9284690618515015,
       "f1_score": 0.4761904761904761,
       "rouge_score": 0.42372881355932207,
-      "bleurt_score": 0.2231229990720749
+      "bleurt_score": 0.2231229990720749,
+      "score": "5"
     },
     {
       "query": "What category does spin transfer torque belong to?",
@@ -4390,7 +4633,8 @@
       "bert_score": 0.895007312297821,
       "f1_score": 0.4957264957264957,
       "rouge_score": 0.28125,
-      "bleurt_score": 0.18356184661388397
+      "bleurt_score": 0.18356184661388397,
+      "score": "5"
     },
     {
       "query": "What is the purpose of the tool building process?",
@@ -4408,7 +4652,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.757084846496582
+      "bleurt_score": 0.757084846496582,
+      "score": "5"
     },
     {
       "query": "Which graph possesses a choosable choice number?",
@@ -4426,7 +4671,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6798315048217773
+      "bleurt_score": 0.6798315048217773,
+      "score": "5"
     },
     {
       "query": "How does vibrational interaction occur in nma?",
@@ -4444,7 +4690,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7557187080383301
+      "bleurt_score": 0.7557187080383301,
+      "score": "5"
     },
     {
       "query": "What is the Higgs unparticle?",
@@ -4462,7 +4709,8 @@
       "bert_score": 0.8677533268928528,
       "f1_score": 0.3684210526315789,
       "rouge_score": 0.2681564245810056,
-      "bleurt_score": -0.6891329288482666
+      "bleurt_score": -0.6891329288482666,
+      "score": "1"
     },
     {
       "query": "In which location do massive galaxies primarily merge?",
@@ -4480,7 +4728,8 @@
       "bert_score": 0.8894272446632385,
       "f1_score": 0.22429906542056077,
       "rouge_score": 0.17543859649122806,
-      "bleurt_score": -0.48955240845680237
+      "bleurt_score": -0.48955240845680237,
+      "score": "4"
     },
     {
       "query": "How are circumstellar disks identified?",
@@ -4498,7 +4747,8 @@
       "bert_score": 0.8934933543205261,
       "f1_score": 0.38636363636363635,
       "rouge_score": 0.25252525252525254,
-      "bleurt_score": 0.0661865621805191
+      "bleurt_score": 0.0661865621805191,
+      "score": "5"
     },
     {
       "query": "What is the maximum magnetic field a superconductor can withstand?",
@@ -4516,7 +4766,8 @@
       "bert_score": 0.873853325843811,
       "f1_score": 0.3469387755102041,
       "rouge_score": 0.2522522522522523,
-      "bleurt_score": -0.17867736518383026
+      "bleurt_score": -0.17867736518383026,
+      "score": "4"
     },
     {
       "query": "What is the formula for iron arsenide?",
@@ -4534,7 +4785,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.935126006603241
+      "bleurt_score": 0.935126006603241,
+      "score": "5"
     },
     {
       "query": "What are the reflections observed in graphene?",
@@ -4552,7 +4804,8 @@
       "bert_score": 0.8599427342414856,
       "f1_score": 0.2692307692307693,
       "rouge_score": 0.17167381974248927,
-      "bleurt_score": -0.0935114175081253
+      "bleurt_score": -0.0935114175081253,
+      "score": "2"
     },
     {
       "query": "What principle enables the estimation of on-diagonal transition probabilities in random walks?",
@@ -4570,7 +4823,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8457444310188293
+      "bleurt_score": 0.8457444310188293,
+      "score": "5"
     },
     {
       "query": "What does generalized parton correlation refer to?",
@@ -4588,7 +4842,8 @@
       "bert_score": 0.8864542841911316,
       "f1_score": 0.3431952662721894,
       "rouge_score": 0.18181818181818185,
-      "bleurt_score": -0.16551901400089264
+      "bleurt_score": -0.16551901400089264,
+      "score": "4"
     },
     {
       "query": "What does Peierls coupling refer to?",
@@ -4606,7 +4861,8 @@
       "bert_score": 0.8834097981452942,
       "f1_score": 0.3106796116504854,
       "rouge_score": 0.21848739495798322,
-      "bleurt_score": 0.18507887423038483
+      "bleurt_score": 0.18507887423038483,
+      "score": "4"
     },
     {
       "query": "How do you calculate the area of a rectangle?",
@@ -4624,7 +4880,8 @@
       "bert_score": 0.8493911027908325,
       "f1_score": 0.21739130434782605,
       "rouge_score": 0.2181818181818182,
-      "bleurt_score": -0.9840788841247559
+      "bleurt_score": -0.9840788841247559,
+      "score": "5"
     },
     {
       "query": "What happens physically during a collision?",
@@ -4642,7 +4899,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.760269284248352
+      "bleurt_score": 0.760269284248352,
+      "score": "5"
     },
     {
       "query": "Where can the companion galaxy be found?",
@@ -4660,7 +4918,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9540951251983643
+      "bleurt_score": 0.9540951251983643,
+      "score": "5"
     },
     {
       "query": "Which elements are present in lead emulsion films?",
@@ -4678,7 +4937,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9533247947692871
+      "bleurt_score": 0.9533247947692871,
+      "score": "5"
     },
     {
       "query": "Can you provide an example of effective network encryption?",
@@ -4696,7 +4956,8 @@
       "bert_score": 0.9127575159072876,
       "f1_score": 0.48648648648648646,
       "rouge_score": 0.2782608695652174,
-      "bleurt_score": 0.4047119617462158
+      "bleurt_score": 0.4047119617462158,
+      "score": "5"
     },
     {
       "query": "How has the economy of Central Europe developed over time?",
@@ -4714,7 +4975,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.675560474395752
+      "bleurt_score": 0.675560474395752,
+      "score": "5"
     },
     {
       "query": "What is the background of dark energy?",
@@ -4732,7 +4994,8 @@
       "bert_score": 0.8703780770301819,
       "f1_score": 0.2788461538461538,
       "rouge_score": 0.180327868852459,
-      "bleurt_score": -0.19764967262744904
+      "bleurt_score": -0.19764967262744904,
+      "score": "4"
     },
     {
       "query": "What is the origin of the x-ray emissions in RCW 103?",
@@ -4750,7 +5013,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.760988712310791
+      "bleurt_score": 0.760988712310791,
+      "score": "5"
     },
     {
       "query": "What kind of neutrino detector might I encounter?",
@@ -4768,7 +5032,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8791199922561646
+      "bleurt_score": 0.8791199922561646,
+      "score": "5"
     },
     {
       "query": "How does electrostatic interaction contribute to hep b?",
@@ -4786,7 +5051,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7260489463806152
+      "bleurt_score": 0.7260489463806152,
+      "score": "5"
     },
     {
       "query": "How many inscription squares does a simple closed curve in the plane have?",
@@ -4804,7 +5070,8 @@
       "bert_score": 0.8879914879798889,
       "f1_score": 0.39814814814814814,
       "rouge_score": 0.3474903474903475,
-      "bleurt_score": -0.35729771852493286
+      "bleurt_score": -0.35729771852493286,
+      "score": "2"
     },
     {
       "query": "Which bind model is required for a BNF percolation model?",
@@ -4822,7 +5089,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0294939279556274
+      "bleurt_score": 1.0294939279556274,
+      "score": "5"
     },
     {
       "query": "Is the vacuum bubble non-uniform?",
@@ -4840,7 +5108,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8555660247802734
+      "bleurt_score": 0.8555660247802734,
+      "score": "5"
     },
     {
       "query": "Is the cosmological constant influenced by trace anomaly?",
@@ -4858,7 +5127,8 @@
       "bert_score": 0.8415822386741638,
       "f1_score": 0.125,
       "rouge_score": 0.11764705882352942,
-      "bleurt_score": -0.7585322856903076
+      "bleurt_score": -0.7585322856903076,
+      "score": "2"
     },
     {
       "query": "What is the diophantine equation formula?",
@@ -4876,7 +5146,8 @@
       "bert_score": 0.9015405178070068,
       "f1_score": 0.5309734513274336,
       "rouge_score": 0.42857142857142855,
-      "bleurt_score": 0.1389363557100296
+      "bleurt_score": 0.1389363557100296,
+      "score": "5"
     },
     {
       "query": "What is the bond order in antiferromagnets?",
@@ -4894,7 +5165,8 @@
       "bert_score": 0.8733586072921753,
       "f1_score": 0.323943661971831,
       "rouge_score": 0.1851851851851852,
-      "bleurt_score": -0.008277670480310917
+      "bleurt_score": -0.008277670480310917,
+      "score": "3"
     },
     {
       "query": "How can Ullman's theorem be reversed in computer vision?",
@@ -4912,7 +5184,8 @@
       "bert_score": 0.8846830129623413,
       "f1_score": 0.27672955974842767,
       "rouge_score": 0.23728813559322035,
-      "bleurt_score": -0.35947713255882263
+      "bleurt_score": -0.35947713255882263,
+      "score": "4"
     },
     {
       "query": "What is the definition of reduction dynamics?",
@@ -4930,7 +5203,8 @@
       "bert_score": 0.8904321789741516,
       "f1_score": 0.3902439024390244,
       "rouge_score": 0.24806201550387597,
-      "bleurt_score": 0.15690229833126068
+      "bleurt_score": 0.15690229833126068,
+      "score": "5"
     },
     {
       "query": "How is the dbar integral of y defined?",
@@ -4948,7 +5222,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6134889721870422
+      "bleurt_score": 0.6134889721870422,
+      "score": "5"
     },
     {
       "query": "What is the definition of an element's mass?",
@@ -4966,7 +5241,8 @@
       "bert_score": 0.9301804900169373,
       "f1_score": 0.5607476635514019,
       "rouge_score": 0.4793388429752066,
-      "bleurt_score": 0.537125825881958
+      "bleurt_score": 0.537125825881958,
+      "score": "5"
     },
     {
       "query": "What are the phenomenological dynamics of bubbles?",
@@ -4984,7 +5260,8 @@
       "bert_score": 0.8982780575752258,
       "f1_score": 0.4472843450479233,
       "rouge_score": 0.38123167155425225,
-      "bleurt_score": -0.4450673758983612
+      "bleurt_score": -0.4450673758983612,
+      "score": "5"
     },
     {
       "query": "What defines a non-local equation of motion?",
@@ -5002,7 +5279,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8582115173339844
+      "bleurt_score": 0.8582115173339844,
+      "score": "5"
     },
     {
       "query": "Why are satellites commonly used for international phone calls and data links?",
@@ -5020,7 +5298,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7006208896636963
+      "bleurt_score": 0.7006208896636963,
+      "score": "5"
     },
     {
       "query": "What does inductive logic programming mean?",
@@ -5038,7 +5317,8 @@
       "bert_score": 0.9089145660400391,
       "f1_score": 0.4083769633507853,
       "rouge_score": 0.3024390243902439,
-      "bleurt_score": -0.12775500118732452
+      "bleurt_score": -0.12775500118732452,
+      "score": "5"
     },
     {
       "query": "What model is suitable for chemical analysis?",
@@ -5056,7 +5336,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7464188933372498
+      "bleurt_score": 0.7464188933372498,
+      "score": "5"
     },
     {
       "query": "What is the decomposition of bias and variance?",
@@ -5074,7 +5355,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7179893255233765
+      "bleurt_score": 0.7179893255233765,
+      "score": "5"
     },
     {
       "query": "How do esdm and h-type halos differ?",
@@ -5092,7 +5374,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.702697217464447
+      "bleurt_score": 0.702697217464447,
+      "score": "5"
     },
     {
       "query": "What are strings that are semi shifted?",
@@ -5110,7 +5393,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8150274753570557
+      "bleurt_score": 0.8150274753570557,
+      "score": "5"
     },
     {
       "query": "Which torsion theory is symmetric?",
@@ -5128,7 +5412,8 @@
       "bert_score": 0.8488448858261108,
       "f1_score": 0.1095890410958904,
       "rouge_score": 0.11627906976744186,
-      "bleurt_score": -0.9028741717338562
+      "bleurt_score": -0.9028741717338562,
+      "score": "4"
     },
     {
       "query": "What is the multiprobe graphene conductance matrix?",
@@ -5146,7 +5431,8 @@
       "bert_score": 0.943106472492218,
       "f1_score": 0.5891472868217054,
       "rouge_score": 0.5443037974683544,
-      "bleurt_score": 0.10014306008815765
+      "bleurt_score": 0.10014306008815765,
+      "score": "5"
     },
     {
       "query": "How can scattering amplitudes be calculated?",
@@ -5164,7 +5450,8 @@
       "bert_score": 0.8906022310256958,
       "f1_score": 0.5363636363636364,
       "rouge_score": 0.32340425531914896,
-      "bleurt_score": -0.10698308050632477
+      "bleurt_score": -0.10698308050632477,
+      "score": "4"
     },
     {
       "query": "Which formalism necessitates the use of a Coulomb gauge?",
@@ -5182,7 +5469,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8740890026092529
+      "bleurt_score": 0.8740890026092529,
+      "score": "5"
     },
     {
       "query": "What is the ultrafast nonlinearity characteristic of carbon nanotubes?",
@@ -5200,7 +5488,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7643048763275146
+      "bleurt_score": 0.7643048763275146,
+      "score": "5"
     },
     {
       "query": "Which equation accurately represents the valley-lee-paul problem?",
@@ -5218,7 +5507,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8620818257331848
+      "bleurt_score": 0.8620818257331848,
+      "score": "5"
     },
     {
       "query": "When was the Lake Baikal Neutrino Experiment initiated?",
@@ -5236,7 +5526,8 @@
       "bert_score": 0.8813132047653198,
       "f1_score": 0.23529411764705885,
       "rouge_score": 0.27848101265822783,
-      "bleurt_score": -0.27376148104667664
+      "bleurt_score": -0.27376148104667664,
+      "score": "1"
     },
     {
       "query": "Where does the qcd collision occur?",
@@ -5254,7 +5545,8 @@
       "bert_score": 0.837546706199646,
       "f1_score": 0.16,
       "rouge_score": 0.1111111111111111,
-      "bleurt_score": 0.01428274717181921
+      "bleurt_score": 0.01428274717181921,
+      "score": "1"
     },
     {
       "query": "What is the definition of a magnetic dielectric?",
@@ -5272,7 +5564,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.771824836730957
+      "bleurt_score": 0.771824836730957,
+      "score": "5"
     },
     {
       "query": "What is the Chern-Simons gravitational theory?",
@@ -5290,7 +5583,8 @@
       "bert_score": 0.8939759731292725,
       "f1_score": 0.3857868020304568,
       "rouge_score": 0.3043478260869565,
-      "bleurt_score": 0.02256692945957184
+      "bleurt_score": 0.02256692945957184,
+      "score": "4"
     },
     {
       "query": "What is the significance of supersymmetry condenses?",
@@ -5308,7 +5602,8 @@
       "bert_score": 0.904650092124939,
       "f1_score": 0.4,
       "rouge_score": 0.2763157894736842,
-      "bleurt_score": 0.10105322301387787
+      "bleurt_score": 0.10105322301387787,
+      "score": "5"
     },
     {
       "query": "How can the uniform distribution be measured when sampling h-colourings of the path using a systematic scan?",
@@ -5326,7 +5621,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.736456573009491
+      "bleurt_score": 0.736456573009491,
+      "score": "5"
     },
     {
       "query": "How is ggm assessed in psychology?",
@@ -5344,7 +5640,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7887191772460938
+      "bleurt_score": 0.7887191772460938,
+      "score": "5"
     },
     {
       "query": "What does the theory of light scalars entail?",
@@ -5362,7 +5659,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.6906048059463501
+      "bleurt_score": 0.6906048059463501,
+      "score": "5"
     },
     {
       "query": "What is the purpose of using the Fourier spectrum in texture analysis?",
@@ -5380,7 +5678,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7052527070045471
+      "bleurt_score": 0.7052527070045471,
+      "score": "5"
     },
     {
       "query": "What defines the arc complex?",
@@ -5398,7 +5697,8 @@
       "bert_score": 0.8504224419593811,
       "f1_score": 0.42352941176470593,
       "rouge_score": 0.3333333333333333,
-      "bleurt_score": -0.49921900033950806
+      "bleurt_score": -0.49921900033950806,
+      "score": "3"
     }
   ]
 }

@@ -16,7 +16,8 @@
       "bert_score": 0.8396391868591309,
       "f1_score": 0.18181818181818182,
       "rouge_score": 0.15384615384615385,
-      "bleurt_score": -0.37254974246025085
+      "bleurt_score": -0.37254974246025085,
+      "score": "5"
     },
     {
       "query": "In kilometers, how long is the Staten Island Ferry route?",
@@ -34,7 +35,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9597485661506653
+      "bleurt_score": 0.9597485661506653,
+      "score": "5"
     },
     {
       "query": "What was the name of the miner's leader that was blamed for the strike?",
@@ -52,7 +54,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9373068809509277
+      "bleurt_score": 0.9373068809509277,
+      "score": "5"
     },
     {
       "query": "How much was allocated?",
@@ -70,7 +73,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0584653615951538
+      "bleurt_score": 1.0584653615951538,
+      "score": "5"
     },
     {
       "query": "When did Virginia adopt The Principle of Partus Sequitur Ventrem?",
@@ -88,7 +92,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8003727197647095
+      "bleurt_score": 0.8003727197647095,
+      "score": "5"
     },
     {
       "query": "When did the Borders Books open up in Ann Arbor?",
@@ -106,7 +111,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8586664795875549
+      "bleurt_score": 0.8586664795875549,
+      "score": "5"
     },
     {
       "query": "What has the research that has been conducted for the influence of genetics made many people think?",
@@ -124,7 +130,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0501559972763062
+      "bleurt_score": 1.0501559972763062,
+      "score": "5"
     },
     {
       "query": "How big was the crew of a bomber?",
@@ -142,7 +149,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1010231971740723
+      "bleurt_score": 1.1010231971740723,
+      "score": "5"
     },
     {
       "query": "What, typically, is the speed of the second movement in a classical piece?",
@@ -160,7 +168,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8838905096054077
+      "bleurt_score": 0.8838905096054077,
+      "score": "5"
     },
     {
       "query": "Along with the Marianas, where do typhoons that begin in the Marshalls sometimes terminate?",
@@ -178,7 +187,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9783362150192261
+      "bleurt_score": 0.9783362150192261,
+      "score": "5"
     },
     {
       "query": "How much of Nigeria's male population can read?",
@@ -196,7 +206,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0238531827926636
+      "bleurt_score": 1.0238531827926636,
+      "score": "5"
     },
     {
       "query": "The true diversity within the insect species remains what?",
@@ -214,7 +225,8 @@
       "bert_score": 1.0000008344650269,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9613901972770691
+      "bleurt_score": 0.9613901972770691,
+      "score": "5"
     },
     {
       "query": "What school does not include the Mahayava scriptures in its canon?",
@@ -232,7 +244,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9828547239303589
+      "bleurt_score": 0.9828547239303589,
+      "score": "5"
     },
     {
       "query": "How much rain does the Sahel savannah area get per year?",
@@ -250,7 +263,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1119412183761597
+      "bleurt_score": 1.1119412183761597,
+      "score": "5"
     },
     {
       "query": "What are the financial districts of London known as?",
@@ -268,7 +282,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0287798643112183
+      "bleurt_score": 1.0287798643112183,
+      "score": "5"
     },
     {
       "query": "Approximately how many old masters works are included in the V&A collection?",
@@ -286,7 +301,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0497397184371948
+      "bleurt_score": 1.0497397184371948,
+      "score": "5"
     },
     {
       "query": "By coping the Arsenal team kit exactly, what nickname was given to Sporting Clube de Braga?",
@@ -304,7 +320,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9606010913848877
+      "bleurt_score": 0.9606010913848877,
+      "score": "5"
     },
     {
       "query": "Which year was royal assent last withheld in the UK?",
@@ -322,7 +339,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7942100167274475
+      "bleurt_score": 0.7942100167274475,
+      "score": "5"
     },
     {
       "query": "Children who have experienced sever diarrhea are more likely to have what effect?",
@@ -340,7 +358,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0820969343185425
+      "bleurt_score": 1.0820969343185425,
+      "score": "5"
     },
     {
       "query": "How is the recognized official language of Burma displayed ? ",
@@ -358,7 +377,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0656276941299438
+      "bleurt_score": 1.0656276941299438,
+      "score": "5"
     },
     {
       "query": "What dis the new term, post-punk, cover?",
@@ -376,7 +396,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0577574968338013
+      "bleurt_score": 1.0577574968338013,
+      "score": "5"
     },
     {
       "query": "What did a study done by Elizabeth Loftus and John palmer show?",
@@ -394,7 +415,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0310109853744507
+      "bleurt_score": 1.0310109853744507,
+      "score": "5"
     },
     {
       "query": "What well-known archeologist believed the Amazon didn't have many inhabitants?",
@@ -412,7 +434,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9067932367324829
+      "bleurt_score": 0.9067932367324829,
+      "score": "5"
     },
     {
       "query": "What are there no longer limitations on since 1990?",
@@ -430,7 +453,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9806365966796875
+      "bleurt_score": 0.9806365966796875,
+      "score": "5"
     },
     {
       "query": "What happens if the mode is activated on the fire-recall floor?",
@@ -448,7 +472,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0705066919326782
+      "bleurt_score": 1.0705066919326782,
+      "score": "5"
     },
     {
       "query": "What does the Fermat primality test depend upon?",
@@ -466,7 +491,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9960482120513916
+      "bleurt_score": 0.9960482120513916,
+      "score": "5"
     },
     {
       "query": "What year was the PlayStation 3 released?",
@@ -484,7 +510,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8033151626586914
+      "bleurt_score": 0.8033151626586914,
+      "score": "5"
     },
     {
       "query": "Who is the current captian of the cricket team?",
@@ -502,7 +529,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9145548343658447
+      "bleurt_score": 0.9145548343658447,
+      "score": "5"
     },
     {
       "query": "Who helped with the Free Elections?",
@@ -520,7 +548,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.051126480102539
+      "bleurt_score": 1.051126480102539,
+      "score": "5"
     },
     {
       "query": "Where is the Fylde coast?",
@@ -538,7 +567,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0105761289596558
+      "bleurt_score": 1.0105761289596558,
+      "score": "5"
     },
     {
       "query": "Where is the Nea Moni Monastery located?",
@@ -556,7 +586,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8480039238929749
+      "bleurt_score": 0.8480039238929749,
+      "score": "5"
     },
     {
       "query": "What was the first carrier-launched airstrike?",
@@ -574,7 +605,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0573056936264038
+      "bleurt_score": 1.0573056936264038,
+      "score": "5"
     },
     {
       "query": "What is the county's payroll?",
@@ -592,7 +624,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0997694730758667
+      "bleurt_score": 1.0997694730758667,
+      "score": "5"
     },
     {
       "query": "What do forces have with regard to additive quantities?",
@@ -610,7 +643,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0465612411499023
+      "bleurt_score": 1.0465612411499023,
+      "score": "5"
     },
     {
       "query": "What percent decrease did audio CD sales experience?",
@@ -628,7 +662,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9902071952819824
+      "bleurt_score": 0.9902071952819824,
+      "score": "5"
     },
     {
       "query": "Who was influenced by Western European and Islamic tendencies?",
@@ -646,7 +681,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.057360053062439
+      "bleurt_score": 1.057360053062439,
+      "score": "5"
     },
     {
       "query": "Who said in 2012 that the fight would change from military to law enforcement?",
@@ -664,7 +700,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9000398516654968
+      "bleurt_score": 0.9000398516654968,
+      "score": "5"
     },
     {
       "query": "Which company made Spectre?",
@@ -682,7 +719,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8703005313873291
+      "bleurt_score": 0.8703005313873291,
+      "score": "5"
     },
     {
       "query": "What sports activity is featured in The Times on Mondays?",
@@ -700,7 +738,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8423523902893066
+      "bleurt_score": 0.8423523902893066,
+      "score": "5"
     },
     {
       "query": "What area differs from other areas in the United Kingdom regarding education?",
@@ -718,7 +757,8 @@
       "bert_score": 0.9999992251396179,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8903079032897949
+      "bleurt_score": 0.8903079032897949,
+      "score": "5"
     },
     {
       "query": "What type of paper is The Siasat Daily?",
@@ -736,7 +776,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0010067224502563
+      "bleurt_score": 1.0010067224502563,
+      "score": "5"
     },
     {
       "query": "Which Soviet countries did the RSFSR border on the west?",
@@ -754,7 +795,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0337799787521362
+      "bleurt_score": 1.0337799787521362,
+      "score": "5"
     },
     {
       "query": "This type of problem happens in any organization where the interests of the people who financially support it conflicts with what?",
@@ -772,7 +814,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0828161239624023
+      "bleurt_score": 1.0828161239624023,
+      "score": "5"
     },
     {
       "query": "What is the Windows 8 Pro price?",
@@ -790,7 +833,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0298289060592651
+      "bleurt_score": 1.0298289060592651,
+      "score": "5"
     },
     {
       "query": "What online service did the National Archives decide to use to showcase its photographic holdings?",
@@ -808,7 +852,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8906532526016235
+      "bleurt_score": 0.8906532526016235,
+      "score": "5"
     },
     {
       "query": "What is a broad, modern working definition of a gene?",
@@ -826,7 +871,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0265333652496338
+      "bleurt_score": 1.0265333652496338,
+      "score": "5"
     },
     {
       "query": "Why is tort law hard to standardize?",
@@ -844,7 +890,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0751700401306152
+      "bleurt_score": 1.0751700401306152,
+      "score": "5"
     },
     {
       "query": "What had a hold over social life in the Ottoman Empire as well as other cultures?",
@@ -862,7 +909,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.848621129989624
+      "bleurt_score": 0.848621129989624,
+      "score": "5"
     },
     {
       "query": "Who does the evaluations for drugs in the United Kingdom?",
@@ -880,7 +928,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0507718324661255
+      "bleurt_score": 1.0507718324661255,
+      "score": "5"
     },
     {
       "query": "In what year was the God's House Tower built?",
@@ -898,7 +947,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8043615818023682
+      "bleurt_score": 0.8043615818023682,
+      "score": "5"
     },
     {
       "query": "What is a PoP?",
@@ -916,7 +966,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0720758438110352
+      "bleurt_score": 1.0720758438110352,
+      "score": "5"
     },
     {
       "query": "What tree leaves did Androsthenes describe?",
@@ -934,7 +985,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8776722550392151
+      "bleurt_score": 0.8776722550392151,
+      "score": "5"
     },
     {
       "query": "Where is the North Hills Shopping center?",
@@ -952,7 +1004,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0296317338943481
+      "bleurt_score": 1.0296317338943481,
+      "score": "5"
     },
     {
       "query": "What does law enforcement in some countries use to profile suspects?",
@@ -970,7 +1023,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8122368454933167
+      "bleurt_score": 0.8122368454933167,
+      "score": "5"
     },
     {
       "query": "What is it easier to do regarding God?",
@@ -988,7 +1042,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0840314626693726
+      "bleurt_score": 1.0840314626693726,
+      "score": "5"
     },
     {
       "query": " What is the second most populous of Switzerland's cantons?",
@@ -1006,7 +1061,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.992042064666748
+      "bleurt_score": 0.992042064666748,
+      "score": "5"
     },
     {
       "query": "When did the Reconstruction Era end?",
@@ -1024,7 +1080,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8476759195327759
+      "bleurt_score": 0.8476759195327759,
+      "score": "5"
     },
     {
       "query": "808s & Heartbreak was released by what company? ",
@@ -1042,7 +1099,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9238510727882385
+      "bleurt_score": 0.9238510727882385,
+      "score": "5"
     },
     {
       "query": "What type of stimuli causes pain?",
@@ -1060,7 +1118,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0752239227294922
+      "bleurt_score": 1.0752239227294922,
+      "score": "5"
     },
     {
       "query": "When did season 14 premiere?",
@@ -1078,7 +1137,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1207845211029053
+      "bleurt_score": 1.1207845211029053,
+      "score": "5"
     },
     {
       "query": "Maududi was trained as a lawyer, but chose what professional for himself instead?",
@@ -1096,7 +1156,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8349429965019226
+      "bleurt_score": 0.8349429965019226,
+      "score": "5"
     },
     {
       "query": "Who is the professional head of the British Armed Forces?",
@@ -1114,7 +1175,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0919629335403442
+      "bleurt_score": 1.0919629335403442,
+      "score": "5"
     },
     {
       "query": "War was started with the Ottomans when?",
@@ -1132,7 +1194,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0445047616958618
+      "bleurt_score": 1.0445047616958618,
+      "score": "5"
     },
     {
       "query": "What was published the same years?",
@@ -1150,7 +1213,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9631952047348022
+      "bleurt_score": 0.9631952047348022,
+      "score": "5"
     },
     {
       "query": "What can tamers do in order to give their partners advantages?",
@@ -1168,7 +1232,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0654115676879883
+      "bleurt_score": 1.0654115676879883,
+      "score": "5"
     },
     {
       "query": "What does Stephen Jay Gould call philosophy that deals in the supernatural?",
@@ -1186,7 +1251,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.036368727684021
+      "bleurt_score": 1.036368727684021,
+      "score": "5"
     },
     {
       "query": "The path was important for the expansion of which road?",
@@ -1204,7 +1270,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9958230257034302
+      "bleurt_score": 0.9958230257034302,
+      "score": "5"
     },
     {
       "query": "What did Burke think a social hierarchy should be based on?",
@@ -1222,7 +1289,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9001156091690063
+      "bleurt_score": 0.9001156091690063,
+      "score": "5"
     },
     {
       "query": "What is the term given to 122nd Street by Wizard in Taxi Driver indicating the area is majority black?",
@@ -1240,7 +1308,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.011643886566162
+      "bleurt_score": 1.011643886566162,
+      "score": "5"
     },
     {
       "query": "What were the only proteins necessary to the circadian timekeeper experiment?",
@@ -1258,7 +1327,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9800236821174622
+      "bleurt_score": 0.9800236821174622,
+      "score": "5"
     },
     {
       "query": "How many delegates passed the motion?",
@@ -1276,7 +1346,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8013512492179871
+      "bleurt_score": 0.8013512492179871,
+      "score": "5"
     },
     {
       "query": "How are incomes distributed in Sweden?",
@@ -1294,7 +1365,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9076771140098572
+      "bleurt_score": 0.9076771140098572,
+      "score": "5"
     },
     {
       "query": "What group declared independence as Asawad?",
@@ -1312,7 +1384,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8234075307846069
+      "bleurt_score": 0.8234075307846069,
+      "score": "5"
     },
     {
       "query": "How high is Granite Peak?",
@@ -1330,7 +1403,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0630075931549072
+      "bleurt_score": 1.0630075931549072,
+      "score": "5"
     },
     {
       "query": "What was the name given to the land that North Carolina transferred to the federal government in 1790?",
@@ -1348,7 +1422,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.021000623703003
+      "bleurt_score": 1.021000623703003,
+      "score": "5"
     },
     {
       "query": "How many planes did the United States have in the Battle of Midway?",
@@ -1366,7 +1441,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8334561586380005
+      "bleurt_score": 0.8334561586380005,
+      "score": "5"
     },
     {
       "query": "What is another name for the Eastern Roman Empire?",
@@ -1384,7 +1460,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9485074281692505
+      "bleurt_score": 0.9485074281692505,
+      "score": "5"
     },
     {
       "query": "What pontifax maximus favored the Catholic church? ",
@@ -1402,7 +1479,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8883588910102844
+      "bleurt_score": 0.8883588910102844,
+      "score": "5"
     },
     {
       "query": "What is a brief description of Calvinism?",
@@ -1420,7 +1498,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.083367943763733
+      "bleurt_score": 1.083367943763733,
+      "score": "5"
     },
     {
       "query": "A non-deterministic Turing machine has the ability to capture what facet of useful analysis?",
@@ -1438,7 +1517,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9497608542442322
+      "bleurt_score": 0.9497608542442322,
+      "score": "5"
     },
     {
       "query": "The values of the bourgeois public sphere included holding reason to the supreme, considering everything open to criticism, and the opposition of what?",
@@ -1456,7 +1536,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0873037576675415
+      "bleurt_score": 1.0873037576675415,
+      "score": "5"
     },
     {
       "query": "What provided an incentive to western empires to colonize Africa?",
@@ -1474,7 +1555,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0563441514968872
+      "bleurt_score": 1.0563441514968872,
+      "score": "5"
     },
     {
       "query": "What year did the Blackstone Group express interest in acquiring Dell?",
@@ -1492,7 +1574,8 @@
       "bert_score": 1.0000009536743164,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8252943754196167
+      "bleurt_score": 0.8252943754196167,
+      "score": "5"
     },
     {
       "query": "What was Kerry's role in the Yale Political Union as a sophomore?",
@@ -1510,7 +1593,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0633039474487305
+      "bleurt_score": 1.0633039474487305,
+      "score": "5"
     },
     {
       "query": "What do bergschrunds resemble?",
@@ -1528,7 +1612,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9252892136573792
+      "bleurt_score": 0.9252892136573792,
+      "score": "5"
     },
     {
       "query": "To whom did Luther send a letter containing his 95 Theses?",
@@ -1546,7 +1631,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9447121024131775
+      "bleurt_score": 0.9447121024131775,
+      "score": "5"
     },
     {
       "query": "In what year did Lobund at Notre Dame become an Institute?",
@@ -1564,7 +1650,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7846388816833496
+      "bleurt_score": 0.7846388816833496,
+      "score": "5"
     },
     {
       "query": "What percentage of the European population consisted of monks?",
@@ -1582,7 +1669,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0894526243209839
+      "bleurt_score": 1.0894526243209839,
+      "score": "5"
     },
     {
       "query": "What advantage would taking St. John's have provided for the French?",
@@ -1600,7 +1688,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0396236181259155
+      "bleurt_score": 1.0396236181259155,
+      "score": "5"
     },
     {
       "query": "Where are most of these companies located in an airport?",
@@ -1618,7 +1707,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0583711862564087
+      "bleurt_score": 1.0583711862564087,
+      "score": "5"
     },
     {
       "query": "What is the earliest year the term \"redhead\" was used?",
@@ -1636,7 +1726,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7835979461669922
+      "bleurt_score": 0.7835979461669922,
+      "score": "5"
     },
     {
       "query": "Which nation did Kerry travel to during her student years?",
@@ -1654,7 +1745,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9241113662719727
+      "bleurt_score": 0.9241113662719727,
+      "score": "5"
     },
     {
       "query": "Where in Greenland do glaciers advance 20-30 meters daily?",
@@ -1672,7 +1764,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9309401512145996
+      "bleurt_score": 0.9309401512145996,
+      "score": "5"
     },
     {
       "query": "What is the purpose of these statutes?",
@@ -1690,7 +1783,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0812143087387085
+      "bleurt_score": 1.0812143087387085,
+      "score": "5"
     },
     {
       "query": "Which places on Egypt's northern coast are popular for recreational tourism?",
@@ -1708,7 +1802,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9877368211746216
+      "bleurt_score": 0.9877368211746216,
+      "score": "5"
     },
     {
       "query": "How did Whitehead suggest reality should be perceived?",
@@ -1726,7 +1821,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0307166576385498
+      "bleurt_score": 1.0307166576385498,
+      "score": "5"
     },
     {
       "query": "Which organization represents all cable companies in Washington?",
@@ -1744,7 +1840,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0473757982254028
+      "bleurt_score": 1.0473757982254028,
+      "score": "5"
     },
     {
       "query": "Who stepped down from their role in 1839?",
@@ -1762,7 +1859,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8353593349456787
+      "bleurt_score": 0.8353593349456787,
+      "score": "5"
     },
     {
       "query": "What can be accomplished without constructing tall structures or eliminating shared spaces?",
@@ -1780,7 +1878,8 @@
       "bert_score": 0.8316892981529236,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.0811744928359985
+      "bleurt_score": -1.0811744928359985,
+      "score": "1"
     },
     {
       "query": "What description was partially given to the minority leader?",
@@ -1798,7 +1897,8 @@
       "bert_score": 0.8671624660491943,
       "f1_score": 0.17777777777777776,
       "rouge_score": 0.11764705882352941,
-      "bleurt_score": -0.3058895766735077
+      "bleurt_score": -0.3058895766735077,
+      "score": "4"
     },
     {
       "query": "What position did France take as Prussia aimed to integrate various German kingdoms?",
@@ -1816,7 +1916,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0470067262649536
+      "bleurt_score": 1.0470067262649536,
+      "score": "5"
     },
     {
       "query": "In which location was the Indo-Greek Kingdom situated?",
@@ -1834,7 +1935,8 @@
       "bert_score": 0.9999995231628418,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9841454029083252
+      "bleurt_score": 0.9841454029083252,
+      "score": "5"
     },
     {
       "query": "What contributed to improved fuse setting?",
@@ -1852,7 +1954,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0036875009536743
+      "bleurt_score": 1.0036875009536743,
+      "score": "5"
     },
     {
       "query": "Which technique is employed to evaluate software performance under a particular load?",
@@ -1870,7 +1973,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9525935649871826
+      "bleurt_score": 0.9525935649871826,
+      "score": "5"
     },
     {
       "query": "What is the global volume of growing stock forest in cubic meters?",
@@ -1888,7 +1992,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9508146047592163
+      "bleurt_score": 0.9508146047592163,
+      "score": "5"
     },
     {
       "query": "What was the original Quantum theory?",
@@ -1906,7 +2011,8 @@
       "bert_score": 0.8366101384162903,
       "f1_score": 0.0823529411764706,
       "rouge_score": 0.05434782608695652,
-      "bleurt_score": -0.0006573358550667763
+      "bleurt_score": -0.0006573358550667763,
+      "score": "5"
     },
     {
       "query": "Who currently holds the position of administrator on Norfolk Island?",
@@ -1924,7 +2030,8 @@
       "bert_score": 0.7719206213951111,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.9926853179931641
+      "bleurt_score": -0.9926853179931641,
+      "score": "1"
     },
     {
       "query": "Which yearly sports event includes the Wanamaker Mile?",
@@ -1942,7 +2049,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8905800580978394
+      "bleurt_score": 0.8905800580978394,
+      "score": "5"
     },
     {
       "query": "Which significant battle took place in 731?",
@@ -1960,7 +2068,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0492271184921265
+      "bleurt_score": 1.0492271184921265,
+      "score": "5"
     },
     {
       "query": "Which device appeared ideal for Link's arrow shooting skill?",
@@ -1978,7 +2087,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9552720189094543
+      "bleurt_score": 0.9552720189094543,
+      "score": "5"
     },
     {
       "query": "In addition to Reims, which city in France is home to a famous Gothic cathedral?",
@@ -1996,7 +2106,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.915695071220398
+      "bleurt_score": 0.915695071220398,
+      "score": "5"
     },
     {
       "query": "Which state contributed land to Washington, D.C., but later had it returned?",
@@ -2014,7 +2125,8 @@
       "bert_score": 0.9999990463256836,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8640045523643494
+      "bleurt_score": 0.8640045523643494,
+      "score": "5"
     },
     {
       "query": "Why did Sting and other artists call off their planned shows in Kazakhstan?",
@@ -2032,7 +2144,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0685172080993652
+      "bleurt_score": 1.0685172080993652,
+      "score": "5"
     },
     {
       "query": "When did Britain complete repayment of the US loan?",
@@ -2050,7 +2163,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8033151626586914
+      "bleurt_score": 0.8033151626586914,
+      "score": "5"
     },
     {
       "query": "What information should users know when encoding music to prevent testing each track individually?",
@@ -2068,7 +2182,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0486217737197876
+      "bleurt_score": 1.0486217737197876,
+      "score": "5"
     },
     {
       "query": "What is the full form of CRA?",
@@ -2086,7 +2201,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0376451015472412
+      "bleurt_score": 1.0376451015472412,
+      "score": "5"
     },
     {
       "query": "Which annelid species differ significantly from the rest?",
@@ -2104,7 +2220,8 @@
       "bert_score": 0.8167312741279602,
       "f1_score": 0.10256410256410256,
       "rouge_score": 0.09523809523809523,
-      "bleurt_score": -0.4687322974205017
+      "bleurt_score": -0.4687322974205017,
+      "score": "4"
     },
     {
       "query": "Who was the owner of the building at 29 East 32nd Street from 1890 to 1917?",
@@ -2122,7 +2239,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9219409227371216
+      "bleurt_score": 0.9219409227371216,
+      "score": "5"
     },
     {
       "query": "What additions can Parliament make to the citizen-proposed amendment?",
@@ -2140,7 +2258,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0997300148010254
+      "bleurt_score": 1.0997300148010254,
+      "score": "5"
     },
     {
       "query": "What purposes have various technologies been developed to serve, as suggested by the phrase \"There's an app for that\"?",
@@ -2158,7 +2277,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1005691289901733
+      "bleurt_score": 1.1005691289901733,
+      "score": "5"
     },
     {
       "query": "How many cities in India have been chosen for smart city development?",
@@ -2176,7 +2296,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9251022338867188
+      "bleurt_score": 0.9251022338867188,
+      "score": "5"
     },
     {
       "query": "How is Liaoning categorized?",
@@ -2194,7 +2315,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0531569719314575
+      "bleurt_score": 1.0531569719314575,
+      "score": "5"
     },
     {
       "query": "How many proteins typically make up a flagellum?",
@@ -2212,7 +2334,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9217514991760254
+      "bleurt_score": 0.9217514991760254,
+      "score": "5"
     },
     {
       "query": "What are Universities of Technology called in French-speaking regions?",
@@ -2230,7 +2353,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.006797432899475
+      "bleurt_score": 1.006797432899475,
+      "score": "5"
     },
     {
       "query": "Who among Alexander's commanders was the first to reach Bahrain?",
@@ -2248,7 +2372,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8017319440841675
+      "bleurt_score": 0.8017319440841675,
+      "score": "5"
     },
     {
       "query": "Which under-construction building will exceed the height of Comcast Center?",
@@ -2266,7 +2391,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9811744689941406
+      "bleurt_score": 0.9811744689941406,
+      "score": "5"
     },
     {
       "query": "How do the actions of the God in Dvaita differ from those in Advaita?",
@@ -2284,7 +2410,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0939216613769531
+      "bleurt_score": 1.0939216613769531,
+      "score": "5"
     },
     {
       "query": "Who became the Prime Minister in 1999?",
@@ -2302,7 +2429,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9082248210906982
+      "bleurt_score": 0.9082248210906982,
+      "score": "5"
     },
     {
       "query": "Which UK company did Microsoft collaborate with to introduce IPTV to the 360?",
@@ -2320,7 +2448,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8395583629608154
+      "bleurt_score": 0.8395583629608154,
+      "score": "5"
     },
     {
       "query": "When did someone file a Title IX complaint against Yale?",
@@ -2338,7 +2467,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9811782836914062
+      "bleurt_score": 0.9811782836914062,
+      "score": "5"
     },
     {
       "query": "What type of entity is MundoFox?",
@@ -2356,7 +2486,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0543640851974487
+      "bleurt_score": 1.0543640851974487,
+      "score": "5"
     },
     {
       "query": "What is next to the abbey?",
@@ -2374,7 +2505,8 @@
       "bert_score": 0.815575897693634,
       "f1_score": 0.1621621621621622,
       "rouge_score": 0.15384615384615385,
-      "bleurt_score": -0.507394552230835
+      "bleurt_score": -0.507394552230835,
+      "score": "4"
     },
     {
       "query": "Who manufactured the Twin Famicom and the 19SC111 TV?",
@@ -2392,7 +2524,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9227376580238342
+      "bleurt_score": 0.9227376580238342,
+      "score": "5"
     },
     {
       "query": "What is an agreement made between multiple nations called?",
@@ -2410,7 +2543,8 @@
       "bert_score": 0.8502637147903442,
       "f1_score": 0.19999999999999998,
       "rouge_score": 0.18181818181818182,
-      "bleurt_score": 0.2849904000759125
+      "bleurt_score": 0.2849904000759125,
+      "score": "5"
     },
     {
       "query": "In what year did the Gallipoli Campaign occur?",
@@ -2428,7 +2562,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8537719249725342
+      "bleurt_score": 0.8537719249725342,
+      "score": "5"
     },
     {
       "query": "What is Alsace's historical flag called?",
@@ -2446,7 +2581,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0118333101272583
+      "bleurt_score": 1.0118333101272583,
+      "score": "5"
     },
     {
       "query": "What is the name of Israel's legislative body?",
@@ -2464,7 +2600,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9735682010650635
+      "bleurt_score": 0.9735682010650635,
+      "score": "5"
     },
     {
       "query": "What were the nomadic tribes called that hunted bison?",
@@ -2482,7 +2619,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8818092942237854
+      "bleurt_score": 0.8818092942237854,
+      "score": "5"
     },
     {
       "query": "In which scientific discipline did Wohler make a discovery?",
@@ -2500,7 +2638,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9222978949546814
+      "bleurt_score": 0.9222978949546814,
+      "score": "5"
     },
     {
       "query": "What is Oklahoma's ranking in crude oil reserves compared to other states?",
@@ -2518,7 +2657,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9879858493804932
+      "bleurt_score": 0.9879858493804932,
+      "score": "5"
     },
     {
       "query": "During which era did Queen Victoria rule?",
@@ -2536,7 +2676,8 @@
       "bert_score": 0.865507185459137,
       "f1_score": 0,
       "rouge_score": 0.2105263157894737,
-      "bleurt_score": -0.38488227128982544
+      "bleurt_score": -0.38488227128982544,
+      "score": "5"
     },
     {
       "query": "From where did many British colonists migrate to Florida?",
@@ -2554,7 +2695,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.019597053527832
+      "bleurt_score": 1.019597053527832,
+      "score": "5"
     },
     {
       "query": "When was an investigation conducted regarding school casualties?",
@@ -2572,7 +2714,8 @@
       "bert_score": 1.0000007152557373,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9750790596008301
+      "bleurt_score": 0.9750790596008301,
+      "score": "5"
     },
     {
       "query": "What term describes the competition among individuals of the more numerous sex for mating opportunities?",
@@ -2590,7 +2733,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9318580031394958
+      "bleurt_score": 0.9318580031394958,
+      "score": "5"
     },
     {
       "query": "What are the smaller streams used for?",
@@ -2608,7 +2752,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0916777849197388
+      "bleurt_score": 1.0916777849197388,
+      "score": "5"
     },
     {
       "query": "What is the length of Catalina Highway in miles?",
@@ -2626,7 +2771,8 @@
       "bert_score": 0.999999463558197,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8044775724411011
+      "bleurt_score": 0.8044775724411011,
+      "score": "5"
     },
     {
       "query": "Why are consulting pharmacists more frequently engaging directly with patients?",
@@ -2644,7 +2790,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.023844838142395
+      "bleurt_score": 1.023844838142395,
+      "score": "5"
     },
     {
       "query": "What did Romans prioritize over grave offerings in later times?",
@@ -2662,7 +2809,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0025385618209839
+      "bleurt_score": 1.0025385618209839,
+      "score": "5"
     },
     {
       "query": "Which song did Madonna face criticism for performing at the VMA?",
@@ -2680,7 +2828,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0594892501831055
+      "bleurt_score": 1.0594892501831055,
+      "score": "5"
     },
     {
       "query": "Which ores are most commonly used commercially?",
@@ -2698,7 +2847,8 @@
       "bert_score": 0.7644566893577576,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.22740890085697174
+      "bleurt_score": -0.22740890085697174,
+      "score": "4"
     },
     {
       "query": "How would you define solar energy?",
@@ -2716,7 +2866,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0563148260116577
+      "bleurt_score": 1.0563148260116577,
+      "score": "5"
     },
     {
       "query": "Who was the first king of the Sumerian dynasty?",
@@ -2734,7 +2885,8 @@
       "bert_score": 0.9999994039535522,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7926846742630005
+      "bleurt_score": 0.7926846742630005,
+      "score": "5"
     },
     {
       "query": "What kind of heritage is associated with Tyneside?",
@@ -2752,7 +2904,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9190163612365723
+      "bleurt_score": 0.9190163612365723,
+      "score": "5"
     },
     {
       "query": "How did Gautama dedicate his life following his enlightenment?",
@@ -2770,7 +2923,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0260281562805176
+      "bleurt_score": 1.0260281562805176,
+      "score": "5"
     },
     {
       "query": "During which era, alongside the Renaissance, were the Middle Ages criticized?",
@@ -2788,7 +2942,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.892325758934021
+      "bleurt_score": 0.892325758934021,
+      "score": "5"
     },
     {
       "query": "Who made up the bushi class?",
@@ -2806,7 +2961,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0583592653274536
+      "bleurt_score": 1.0583592653274536,
+      "score": "5"
     },
     {
       "query": "What primarily influences the state's climate?",
@@ -2824,7 +2980,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0602728128433228
+      "bleurt_score": 1.0602728128433228,
+      "score": "5"
     },
     {
       "query": "In which location can Al-Rashid Islamic Institute be found?",
@@ -2842,7 +2999,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9789361953735352
+      "bleurt_score": 0.9789361953735352,
+      "score": "5"
     },
     {
       "query": "Who stripped Japan's Buddhist monks of their weapons?",
@@ -2860,7 +3018,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.903240442276001
+      "bleurt_score": 0.903240442276001,
+      "score": "5"
     },
     {
       "query": "What sports facility was established in 1952?",
@@ -2878,7 +3037,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.960528552532196
+      "bleurt_score": 0.960528552532196,
+      "score": "5"
     },
     {
       "query": "Who were the Normans' allies in Anatolia?",
@@ -2896,7 +3056,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9800757169723511
+      "bleurt_score": 0.9800757169723511,
+      "score": "5"
     },
     {
       "query": "In which part of Florida is Miami situated?",
@@ -2914,7 +3075,8 @@
       "bert_score": 0.8037409782409668,
       "f1_score": 0.13333333333333333,
       "rouge_score": 0.11764705882352941,
-      "bleurt_score": -0.2304925173521042
+      "bleurt_score": -0.2304925173521042,
+      "score": "5"
     },
     {
       "query": "What was initially thought to be the cause of the Black Death?",
@@ -2932,7 +3094,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0002719163894653
+      "bleurt_score": 1.0002719163894653,
+      "score": "5"
     },
     {
       "query": "Which aspect of treaties frequently requires interpretation when unclear?",
@@ -2950,7 +3113,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9898022413253784
+      "bleurt_score": 0.9898022413253784,
+      "score": "5"
     },
     {
       "query": "What are churches filled with monuments to?",
@@ -2968,7 +3132,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0703485012054443
+      "bleurt_score": 1.0703485012054443,
+      "score": "5"
     },
     {
       "query": "What are yours?",
@@ -2986,7 +3151,8 @@
       "bert_score": 0.8146948218345642,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.1091994047164917
+      "bleurt_score": -1.1091994047164917,
+      "score": "1"
     },
     {
       "query": "Who was unaware of the initial potential revenue the program could generate?",
@@ -3004,7 +3170,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0246869325637817
+      "bleurt_score": 1.0246869325637817,
+      "score": "5"
     },
     {
       "query": "What tree, other than a palm, is featured on the crest?",
@@ -3022,7 +3189,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7769014239311218
+      "bleurt_score": 0.7769014239311218,
+      "score": "5"
     },
     {
       "query": "What is Mary Wollstonecraft's most famous work?",
@@ -3040,7 +3208,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.057505488395691
+      "bleurt_score": 1.057505488395691,
+      "score": "5"
     },
     {
       "query": "How does the capabilities approach view poverty?",
@@ -3058,7 +3227,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0638427734375
+      "bleurt_score": 1.0638427734375,
+      "score": "5"
     },
     {
       "query": "Which early architectural text originated in India?",
@@ -3076,7 +3246,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9498510956764221
+      "bleurt_score": 0.9498510956764221,
+      "score": "5"
     },
     {
       "query": "During which year did Fresno receive the highest amount of rainfall?",
@@ -3094,7 +3265,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8516998887062073
+      "bleurt_score": 0.8516998887062073,
+      "score": "5"
     },
     {
       "query": "What are some of the most frequent triggers?",
@@ -3112,7 +3284,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.047251582145691
+      "bleurt_score": 1.047251582145691,
+      "score": "5"
     },
     {
       "query": "What is the duration of the rebirth cycle mentioned in the Vedas?",
@@ -3130,7 +3303,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0581315755844116
+      "bleurt_score": 1.0581315755844116,
+      "score": "5"
     },
     {
       "query": "Which transformation maps a point in the square to its corresponding point under symmetry?",
@@ -3148,7 +3322,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9022408723831177
+      "bleurt_score": 0.9022408723831177,
+      "score": "5"
     },
     {
       "query": "What contributed to spreading Greek culture beyond its borders?",
@@ -3166,7 +3341,8 @@
       "bert_score": 0.8613507747650146,
       "f1_score": 0.14400000000000002,
       "rouge_score": 0.13138686131386862,
-      "bleurt_score": -0.079250767827034
+      "bleurt_score": -0.079250767827034,
+      "score": "5"
     },
     {
       "query": "How is man consistently perceived?",
@@ -3184,7 +3360,8 @@
       "bert_score": 0.8142093420028687,
       "f1_score": 0.028571428571428574,
       "rouge_score": 0.0273972602739726,
-      "bleurt_score": -0.75751793384552
+      "bleurt_score": -0.75751793384552,
+      "score": "1"
     },
     {
       "query": "In what ways do genetic alterations impact plants?",
@@ -3202,7 +3379,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0786851644515991
+      "bleurt_score": 1.0786851644515991,
+      "score": "5"
     },
     {
       "query": "What themes are commonly explored in a tragedy?",
@@ -3220,7 +3398,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0338842868804932
+      "bleurt_score": 1.0338842868804932,
+      "score": "5"
     },
     {
       "query": "How many Oscars did 'Jaws' receive?",
@@ -3238,7 +3417,8 @@
       "bert_score": 0.7856888175010681,
       "f1_score": 0.08333333333333333,
       "rouge_score": 0.07692307692307693,
-      "bleurt_score": -0.8773778676986694
+      "bleurt_score": -0.8773778676986694,
+      "score": "4"
     },
     {
       "query": "In which location in Oklahoma can you find a notable Egyptian art collection?",
@@ -3256,7 +3436,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0167642831802368
+      "bleurt_score": 1.0167642831802368,
+      "score": "5"
     },
     {
       "query": "Who provides financial support for these homeless shelters?",
@@ -3274,7 +3455,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9600675106048584
+      "bleurt_score": 0.9600675106048584,
+      "score": "5"
     },
     {
       "query": "What kind of group were the \"king's friends\"?",
@@ -3292,7 +3474,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0007683038711548
+      "bleurt_score": 1.0007683038711548,
+      "score": "5"
     },
     {
       "query": "What purpose did Luther believe God had for sending the Turks?",
@@ -3310,7 +3493,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0476640462875366
+      "bleurt_score": 1.0476640462875366,
+      "score": "5"
     },
     {
       "query": "For what purpose has pain occasionally been cited as a reason to grant terminally ill patients a right?",
@@ -3328,7 +3512,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.080140471458435
+      "bleurt_score": 1.080140471458435,
+      "score": "5"
     },
     {
       "query": "How is all waste from university landscaping utilized?",
@@ -3346,7 +3531,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9960067272186279
+      "bleurt_score": 0.9960067272186279,
+      "score": "5"
     },
     {
       "query": "Who was the Cubs' manager in 1969?",
@@ -3364,7 +3550,8 @@
       "bert_score": 0.9010416865348816,
       "f1_score": 0.4444444444444445,
       "rouge_score": 0.4,
-      "bleurt_score": -0.4192902147769928
+      "bleurt_score": -0.4192902147769928,
+      "score": "5"
     },
     {
       "query": "In which product did zinc compounds exhibit minimal differences in absorption?",
@@ -3382,7 +3569,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0125677585601807
+      "bleurt_score": 1.0125677585601807,
+      "score": "5"
     },
     {
       "query": "When might the dielectric's polarization fail to keep up with the voltage?",
@@ -3400,7 +3588,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0709419250488281
+      "bleurt_score": 1.0709419250488281,
+      "score": "5"
     },
     {
       "query": "What is the current name of the country formerly known as South-West Africa?",
@@ -3418,7 +3607,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8646789789199829
+      "bleurt_score": 0.8646789789199829,
+      "score": "5"
     },
     {
       "query": "What is the frequency of XPT departures to Sydney?",
@@ -3436,7 +3626,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0704240798950195
+      "bleurt_score": 1.0704240798950195,
+      "score": "5"
     },
     {
       "query": "Can antibiotics affect the effectiveness of birth control pills?",
@@ -3454,7 +3645,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0645235776901245
+      "bleurt_score": 1.0645235776901245,
+      "score": "5"
     },
     {
       "query": "What is the number of propositions that constitute the separationist stance on the Establishment Clause?",
@@ -3472,7 +3664,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7901197671890259
+      "bleurt_score": 0.7901197671890259,
+      "score": "5"
     },
     {
       "query": "Which area is referred to as Jhamel?",
@@ -3490,7 +3683,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8741967678070068
+      "bleurt_score": 0.8741967678070068,
+      "score": "5"
     },
     {
       "query": "What is the number of Methodist churches in Plymouth?",
@@ -3508,7 +3702,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0919932126998901
+      "bleurt_score": 1.0919932126998901,
+      "score": "5"
     },
     {
       "query": "From where did the next group of settlers on Norfolk Island originate?",
@@ -3526,7 +3721,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9747878313064575
+      "bleurt_score": 0.9747878313064575,
+      "score": "5"
     },
     {
       "query": "Which record company signed the season fourteen winner of American Idol?",
@@ -3544,7 +3740,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9588057398796082
+      "bleurt_score": 0.9588057398796082,
+      "score": "5"
     },
     {
       "query": "Who governed Egypt during the Suez Crisis?",
@@ -3562,7 +3759,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9351990222930908
+      "bleurt_score": 0.9351990222930908,
+      "score": "5"
     },
     {
       "query": "Which Doctor was initially called \"his secret\"?",
@@ -3580,7 +3778,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0153037309646606
+      "bleurt_score": 1.0153037309646606,
+      "score": "5"
     },
     {
       "query": "When did the last Greek resistance occur?",
@@ -3598,7 +3797,8 @@
       "bert_score": 0.7964677214622498,
       "f1_score": 0.04938271604938272,
       "rouge_score": 0.0449438202247191,
-      "bleurt_score": -0.1701565533876419
+      "bleurt_score": -0.1701565533876419,
+      "score": "4"
     },
     {
       "query": "What type of district does the San Bernardino - Riverside area have?",
@@ -3616,7 +3816,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8863682746887207
+      "bleurt_score": 0.8863682746887207,
+      "score": "5"
     },
     {
       "query": "Who are the heads of each house tasked with updating their group on the governor-general's actions?",
@@ -3634,7 +3835,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0583747625350952
+      "bleurt_score": 1.0583747625350952,
+      "score": "5"
     },
     {
       "query": "After the death of which religious figure did General Dupuy disclose Napoleon's reasons for religious tolerance?",
@@ -3652,7 +3854,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9734905362129211
+      "bleurt_score": 0.9734905362129211,
+      "score": "5"
     },
     {
       "query": "What appears on the Start Screen?",
@@ -3670,7 +3873,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0660301446914673
+      "bleurt_score": 1.0660301446914673,
+      "score": "5"
     },
     {
       "query": "What did Philo's opinions on the lack of instruments conflict with?",
@@ -3688,7 +3892,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9773221015930176
+      "bleurt_score": 0.9773221015930176,
+      "score": "5"
     },
     {
       "query": "When was A Study of High Definition Television Systems published?",
@@ -3706,7 +3911,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8253446817398071
+      "bleurt_score": 0.8253446817398071,
+      "score": "5"
     },
     {
       "query": "What was the intended equivalent value of one dollar?",
@@ -3724,7 +3930,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0727546215057373
+      "bleurt_score": 1.0727546215057373,
+      "score": "5"
     },
     {
       "query": "How much would disease incidence decrease with improved water and sanitation?",
@@ -3742,7 +3949,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0818818807601929
+      "bleurt_score": 1.0818818807601929,
+      "score": "5"
     },
     {
       "query": "What qualifications might the Government mandate for a teacher to begin teaching?",
@@ -3760,7 +3968,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0649981498718262
+      "bleurt_score": 1.0649981498718262,
+      "score": "5"
     },
     {
       "query": "By whom was Foot replaced?",
@@ -3778,7 +3987,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9083579778671265
+      "bleurt_score": 0.9083579778671265,
+      "score": "5"
     },
     {
       "query": "What is the distance to Canelones' neighboring capital?",
@@ -3796,7 +4006,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0099753141403198
+      "bleurt_score": 1.0099753141403198,
+      "score": "5"
     },
     {
       "query": "Against what was Jefferson's Statute of Religious Freedom drafted?",
@@ -3814,7 +4025,8 @@
       "bert_score": 1.0000005960464478,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0194571018218994
+      "bleurt_score": 1.0194571018218994,
+      "score": "5"
     },
     {
       "query": "Who are the artists that influenced Madonna?",
@@ -3832,7 +4044,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9176698923110962
+      "bleurt_score": 0.9176698923110962,
+      "score": "5"
     },
     {
       "query": "Which sector has the smallest workforce?",
@@ -3850,7 +4063,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0037364959716797
+      "bleurt_score": 1.0037364959716797,
+      "score": "5"
     },
     {
       "query": "Which Gran Turismo game was unveiled in 2007 but released later?",
@@ -3868,7 +4082,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.009635090827942
+      "bleurt_score": 1.009635090827942,
+      "score": "5"
     },
     {
       "query": "During which years was the civil war fought?",
@@ -3886,7 +4101,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0169957876205444
+      "bleurt_score": 1.0169957876205444,
+      "score": "5"
     },
     {
       "query": "What color, besides lemon yellow, is found in uranium glass?",
@@ -3904,7 +4120,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0518840551376343
+      "bleurt_score": 1.0518840551376343,
+      "score": "5"
     },
     {
       "query": "Which game, popular in both Britain and America, is gaining popularity in pubs?",
@@ -3922,7 +4139,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7722023725509644
+      "bleurt_score": 0.7722023725509644,
+      "score": "5"
     },
     {
       "query": "Which location in Miami was considered for hosting Super Bowl 50?",
@@ -3940,7 +4158,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9539350271224976
+      "bleurt_score": 0.9539350271224976,
+      "score": "5"
     },
     {
       "query": "What year did John pass away?",
@@ -3958,7 +4177,8 @@
       "bert_score": 0.8527535200119019,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -0.5701389908790588
+      "bleurt_score": -0.5701389908790588,
+      "score": "1"
     },
     {
       "query": "What did Popper claim to be objective and independent of its subject?",
@@ -3976,7 +4196,8 @@
       "bert_score": 0.7904849648475647,
       "f1_score": 0.04878048780487806,
       "rouge_score": 0.047619047619047616,
-      "bleurt_score": -0.19525106251239777
+      "bleurt_score": -0.19525106251239777,
+      "score": "1"
     },
     {
       "query": "Who is recognized for the belief that humanity holds the utmost importance in the world?",
@@ -3994,7 +4215,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9416054487228394
+      "bleurt_score": 0.9416054487228394,
+      "score": "5"
     },
     {
       "query": "What does ECCE mean in the context of Swazi education?",
@@ -4012,7 +4234,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.029485821723938
+      "bleurt_score": 1.029485821723938,
+      "score": "5"
     },
     {
       "query": "What became unpopular during this period?",
@@ -4030,7 +4253,8 @@
       "bert_score": 0.7925606369972229,
       "f1_score": 0,
       "rouge_score": 0.0,
-      "bleurt_score": -1.059760570526123
+      "bleurt_score": -1.059760570526123,
+      "score": "1"
     },
     {
       "query": "What type of art held significance in religious symbolism and decoration during the Ottoman Empire?",
@@ -4048,7 +4272,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9661898612976074
+      "bleurt_score": 0.9661898612976074,
+      "score": "5"
     },
     {
       "query": "In what year was the International Chopin Piano Competition founded?",
@@ -4066,7 +4291,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8661757707595825
+      "bleurt_score": 0.8661757707595825,
+      "score": "5"
     },
     {
       "query": "In what year did Seoul Semiconductor launch the first high DC voltage LED?",
@@ -4084,7 +4310,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.827873945236206
+      "bleurt_score": 0.827873945236206,
+      "score": "5"
     },
     {
       "query": "What led to the formation of different Protestant branches?",
@@ -4102,7 +4329,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0421985387802124
+      "bleurt_score": 1.0421985387802124,
+      "score": "5"
     },
     {
       "query": "What is a typical background for a Japanese wrestler?",
@@ -4120,7 +4348,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0100258588790894
+      "bleurt_score": 1.0100258588790894,
+      "score": "5"
     },
     {
       "query": "What enhancement did Germany make to the 20 mm to increase its effectiveness?",
@@ -4138,7 +4367,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1065832376480103
+      "bleurt_score": 1.1065832376480103,
+      "score": "5"
     },
     {
       "query": "How many RIAA certifications has Beyonc\u00e9 received?",
@@ -4156,7 +4386,8 @@
       "bert_score": 0.8150286674499512,
       "f1_score": 0.14285714285714288,
       "rouge_score": 0.13333333333333333,
-      "bleurt_score": -1.0007832050323486
+      "bleurt_score": -1.0007832050323486,
+      "score": "5"
     },
     {
       "query": "How did Lothar Wolfgang Nordheim characterize von Neumann?",
@@ -4174,7 +4405,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0544222593307495
+      "bleurt_score": 1.0544222593307495,
+      "score": "5"
     },
     {
       "query": "When was the importance of \"separation\" to the Constitution's Religion Clauses clearly stated?",
@@ -4192,7 +4424,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.826357364654541
+      "bleurt_score": 0.826357364654541,
+      "score": "5"
     },
     {
       "query": "How does bronchial thermoplasty impact patients?",
@@ -4210,7 +4443,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0987862348556519
+      "bleurt_score": 1.0987862348556519,
+      "score": "5"
     },
     {
       "query": "Randomly selected individuals from various groups might share more similarities with each other than with members of their own what?",
@@ -4228,7 +4462,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7862832546234131
+      "bleurt_score": 0.7862832546234131,
+      "score": "5"
     },
     {
       "query": "Who led the Puritans as their religious figure during their initial settlement?",
@@ -4246,7 +4481,8 @@
       "bert_score": 0.7833729386329651,
       "f1_score": 0.05128205128205128,
       "rouge_score": 0.046511627906976744,
-      "bleurt_score": -0.6239880323410034
+      "bleurt_score": -0.6239880323410034,
+      "score": "1"
     },
     {
       "query": "What occurred with Sky's contract in 2006?",
@@ -4264,7 +4500,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0342332124710083
+      "bleurt_score": 1.0342332124710083,
+      "score": "5"
     },
     {
       "query": "What relates mass to space-time?",
@@ -4282,7 +4519,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9292874336242676
+      "bleurt_score": 0.9292874336242676,
+      "score": "5"
     },
     {
       "query": "Which German coast did the RAF bomb?",
@@ -4300,7 +4538,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9161422252655029
+      "bleurt_score": 0.9161422252655029,
+      "score": "5"
     },
     {
       "query": "What are the three tiers of higher education in Estonia?",
@@ -4318,7 +4557,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.071853518486023
+      "bleurt_score": 1.071853518486023,
+      "score": "5"
     },
     {
       "query": "What class does the Sao Paulo aircraft carrier belong to?",
@@ -4336,7 +4576,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8548162579536438
+      "bleurt_score": 0.8548162579536438,
+      "score": "5"
     },
     {
       "query": "What is another name for abstract expressionism?",
@@ -4354,7 +4595,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9987560510635376
+      "bleurt_score": 0.9987560510635376,
+      "score": "5"
     },
     {
       "query": "What was the impact of the civil war on Afghanistan's economy?",
@@ -4372,7 +4614,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0825549364089966
+      "bleurt_score": 1.0825549364089966,
+      "score": "5"
     },
     {
       "query": "Who were the two other renowned artists in the Super Bowl 50 halftime show?",
@@ -4390,7 +4633,8 @@
       "bert_score": 0.8525693416595459,
       "f1_score": 0.0606060606060606,
       "rouge_score": 0.054054054054054064,
-      "bleurt_score": -0.3597567677497864
+      "bleurt_score": -0.3597567677497864,
+      "score": "1"
     },
     {
       "query": "Who was the top pick in the 1998 NFL draft?",
@@ -4408,7 +4652,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8551865816116333
+      "bleurt_score": 0.8551865816116333,
+      "score": "5"
     },
     {
       "query": "In which year was Tem\u00fcjin, later known as Genghis Khan, probably born?",
@@ -4426,7 +4671,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7924672961235046
+      "bleurt_score": 0.7924672961235046,
+      "score": "5"
     },
     {
       "query": "What is the third type of content available at Home besides free and won?",
@@ -4444,7 +4690,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9303838014602661
+      "bleurt_score": 0.9303838014602661,
+      "score": "5"
     },
     {
       "query": "Who held the Arena Football League championship title previously?",
@@ -4462,7 +4709,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9809756278991699
+      "bleurt_score": 0.9809756278991699,
+      "score": "5"
     },
     {
       "query": "To which civilization did the pottery belong?",
@@ -4480,7 +4728,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8536363244056702
+      "bleurt_score": 0.8536363244056702,
+      "score": "5"
     },
     {
       "query": "In which neighborhood is the Marriott Starr Pass Resort & Spa located?",
@@ -4498,7 +4747,8 @@
       "bert_score": 0.8320225477218628,
       "f1_score": 0.33333333333333337,
       "rouge_score": 0.2857142857142857,
-      "bleurt_score": -0.49849560856819153
+      "bleurt_score": -0.49849560856819153,
+      "score": "5"
     },
     {
       "query": "Besides obtaining money, what is another purpose of using bribes against others?",
@@ -4516,7 +4766,8 @@
       "bert_score": 0.9999998211860657,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9087929129600525
+      "bleurt_score": 0.9087929129600525,
+      "score": "5"
     },
     {
       "query": "For how long was a king elected in the Roman Kingdom?",
@@ -4534,7 +4785,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0329148769378662
+      "bleurt_score": 1.0329148769378662,
+      "score": "5"
     },
     {
       "query": "Who was the prominent political leader who criticized The Times in 1944 for not backing the British Army?",
@@ -4552,7 +4804,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9458638429641724
+      "bleurt_score": 0.9458638429641724,
+      "score": "5"
     },
     {
       "query": "In what year did The Russian Revolution occur?",
@@ -4570,7 +4823,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8707802295684814
+      "bleurt_score": 0.8707802295684814,
+      "score": "5"
     },
     {
       "query": "What was the number of Chinese troops participating in the rescue efforts?",
@@ -4588,7 +4842,8 @@
       "bert_score": 1.0000004768371582,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.01627516746521
+      "bleurt_score": 1.01627516746521,
+      "score": "5"
     },
     {
       "query": "What is the US's total area in miles, as stated by the Encyclopedia Britannica?",
@@ -4606,7 +4861,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1177921295166016
+      "bleurt_score": 1.1177921295166016,
+      "score": "5"
     },
     {
       "query": "Where in France was Cluny Abbey established?",
@@ -4624,7 +4880,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7814981341362
+      "bleurt_score": 0.7814981341362,
+      "score": "5"
     },
     {
       "query": "What did Josel request the city of Strasbourg to ban from being sold?",
@@ -4642,7 +4899,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0436159372329712
+      "bleurt_score": 1.0436159372329712,
+      "score": "5"
     },
     {
       "query": "Who moderated the initial debate between Bush and Kerry?",
@@ -4660,7 +4918,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9198075532913208
+      "bleurt_score": 0.9198075532913208,
+      "score": "5"
     },
     {
       "query": "What is the status of the Catalan Countries?",
@@ -4678,7 +4937,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.027785062789917
+      "bleurt_score": 1.027785062789917,
+      "score": "5"
     },
     {
       "query": "When did the Persian Gulf War hostilities start?",
@@ -4696,7 +4956,8 @@
       "bert_score": 0.8353108763694763,
       "f1_score": 0.13333333333333333,
       "rouge_score": 0.11764705882352941,
-      "bleurt_score": -0.510077178478241
+      "bleurt_score": -0.510077178478241,
+      "score": "5"
     },
     {
       "query": "What became the student body's objective?",
@@ -4714,7 +4975,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0807400941848755
+      "bleurt_score": 1.0807400941848755,
+      "score": "5"
     },
     {
       "query": "In what year was the Mann Act enacted?",
@@ -4732,7 +4994,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.11072838306427
+      "bleurt_score": 1.11072838306427,
+      "score": "5"
     },
     {
       "query": "What is the process for appointing judges?",
@@ -4750,7 +5013,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0817350149154663
+      "bleurt_score": 1.0817350149154663,
+      "score": "5"
     },
     {
       "query": "Who informed Mary that she would give birth to the Messiah?",
@@ -4768,7 +5032,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7661246061325073
+      "bleurt_score": 0.7661246061325073,
+      "score": "5"
     },
     {
       "query": "Who established groups such as the FA?",
@@ -4786,7 +5051,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0528662204742432
+      "bleurt_score": 1.0528662204742432,
+      "score": "5"
     },
     {
       "query": "Which British king or queen is depicted above the frame surrounding the arches and entrance?",
@@ -4804,7 +5070,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.957355260848999
+      "bleurt_score": 0.957355260848999,
+      "score": "5"
     },
     {
       "query": "What kind of philosopher was Hobbes?",
@@ -4822,7 +5089,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9779011011123657
+      "bleurt_score": 0.9779011011123657,
+      "score": "5"
     },
     {
       "query": "What is the current number of artworks housed in the National Museum?",
@@ -4840,7 +5108,8 @@
       "bert_score": 0.8277521729469299,
       "f1_score": 0.0689655172413793,
       "rouge_score": 0.1111111111111111,
-      "bleurt_score": -0.3094998896121979
+      "bleurt_score": -0.3094998896121979,
+      "score": "5"
     },
     {
       "query": "Where is the Holiday Festival of Lights held?",
@@ -4858,7 +5127,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9515003561973572
+      "bleurt_score": 0.9515003561973572,
+      "score": "5"
     },
     {
       "query": "During which war was Buckingham Palace left undamaged?",
@@ -4876,7 +5146,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.1058157682418823
+      "bleurt_score": 1.1058157682418823,
+      "score": "5"
     },
     {
       "query": "What was IBM's 2004 operating margin?",
@@ -4894,7 +5165,8 @@
       "bert_score": 0.9999997615814209,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0093518495559692
+      "bleurt_score": 1.0093518495559692,
+      "score": "5"
     },
     {
       "query": "Can you name a well-known restaurant in Little Havana?",
@@ -4912,7 +5184,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.7817168235778809
+      "bleurt_score": 0.7817168235778809,
+      "score": "5"
     },
     {
       "query": "In which year did the Tenth Doctor feature in the Sarah Jane series?",
@@ -4930,7 +5203,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.827873945236206
+      "bleurt_score": 0.827873945236206,
+      "score": "5"
     },
     {
       "query": "When did Blair declare his resignation?",
@@ -4948,7 +5222,8 @@
       "bert_score": 0.9999996423721313,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9681576490402222
+      "bleurt_score": 0.9681576490402222,
+      "score": "5"
     },
     {
       "query": "Who became famous for his poor rendition of \"She Bangs\" during an audition?",
@@ -4966,7 +5241,8 @@
       "bert_score": 0.8536311388015747,
       "f1_score": 0.2666666666666667,
       "rouge_score": 0.23529411764705882,
-      "bleurt_score": -1.0664958953857422
+      "bleurt_score": -1.0664958953857422,
+      "score": "5"
     },
     {
       "query": "What sustains the tree?",
@@ -4984,7 +5260,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0696970224380493
+      "bleurt_score": 1.0696970224380493,
+      "score": "5"
     },
     {
       "query": "What is the English translation of Zugunruhe?",
@@ -5002,7 +5279,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0424739122390747
+      "bleurt_score": 1.0424739122390747,
+      "score": "5"
     },
     {
       "query": "What occurred following Kanye's controversial remark?",
@@ -5020,7 +5298,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0608361959457397
+      "bleurt_score": 1.0608361959457397,
+      "score": "5"
     },
     {
       "query": "When did the Kievan state divide into twelve distinct principalities?",
@@ -5038,7 +5317,8 @@
       "bert_score": 0.9999997019767761,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.091225266456604
+      "bleurt_score": 1.091225266456604,
+      "score": "5"
     },
     {
       "query": "What are Nigeria's religions apart from the two most prominent ones?",
@@ -5056,7 +5336,8 @@
       "bert_score": 0.8626587986946106,
       "f1_score": 0.19047619047619047,
       "rouge_score": 0.13333333333333333,
-      "bleurt_score": -0.07754255831241608
+      "bleurt_score": -0.07754255831241608,
+      "score": "5"
     },
     {
       "query": "What does the government of Saint Helena produce independently?",
@@ -5074,7 +5355,8 @@
       "bert_score": 0.9999999403953552,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0320954322814941
+      "bleurt_score": 1.0320954322814941,
+      "score": "5"
     },
     {
       "query": "In which location can the lake in Atenco be found?",
@@ -5092,7 +5374,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9840481281280518
+      "bleurt_score": 0.9840481281280518,
+      "score": "5"
     },
     {
       "query": "To which other large agency's formation was the DHS likened?",
@@ -5110,7 +5393,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0317355394363403
+      "bleurt_score": 1.0317355394363403,
+      "score": "5"
     },
     {
       "query": "What is the function of the Sieve of Eratosthenes?",
@@ -5128,7 +5412,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0702271461486816
+      "bleurt_score": 1.0702271461486816,
+      "score": "5"
     },
     {
       "query": "Who is the creator of Minecraft?",
@@ -5146,7 +5431,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9775742292404175
+      "bleurt_score": 0.9775742292404175,
+      "score": "5"
     },
     {
       "query": "On whose likeness was the ship on wheels modeled?",
@@ -5164,7 +5450,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9856759309768677
+      "bleurt_score": 0.9856759309768677,
+      "score": "5"
     },
     {
       "query": "In which location do Eleonora's falcons nest?",
@@ -5182,7 +5469,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0079814195632935
+      "bleurt_score": 1.0079814195632935,
+      "score": "5"
     },
     {
       "query": "What features do certain dictionaries include?",
@@ -5200,7 +5488,8 @@
       "bert_score": 1.0,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9534413814544678
+      "bleurt_score": 0.9534413814544678,
+      "score": "5"
     },
     {
       "query": "How is designing defined in the context of built environments?",
@@ -5218,7 +5507,8 @@
       "bert_score": 1.0000003576278687,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.017285704612732
+      "bleurt_score": 1.017285704612732,
+      "score": "1"
     },
     {
       "query": "What is the name of the LGBT newspaper?",
@@ -5236,7 +5526,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9719201326370239
+      "bleurt_score": 0.9719201326370239,
+      "score": "5"
     },
     {
       "query": "What changes have occurred in the local dialects of French-speaking areas?",
@@ -5254,7 +5545,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0763576030731201
+      "bleurt_score": 1.0763576030731201,
+      "score": "5"
     },
     {
       "query": "What makes this specific rule contentious?",
@@ -5272,7 +5564,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0176934003829956
+      "bleurt_score": 1.0176934003829956,
+      "score": "5"
     },
     {
       "query": "In which four years did England exit the UEFA European Championship at the group stage?",
@@ -5290,7 +5583,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.0484496355056763
+      "bleurt_score": 1.0484496355056763,
+      "score": "5"
     },
     {
       "query": "Who was interred in the abbey on April 4, 1727?",
@@ -5308,7 +5602,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8779375553131104
+      "bleurt_score": 0.8779375553131104,
+      "score": "5"
     },
     {
       "query": "What vanished and was later reconstructed to play period music?",
@@ -5326,7 +5621,8 @@
       "bert_score": 1.0000007152557373,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9698896408081055
+      "bleurt_score": 0.9698896408081055,
+      "score": "5"
     },
     {
       "query": "Which is one of the most challenging derbies held in Egypt?",
@@ -5344,7 +5640,8 @@
       "bert_score": 1.000000238418579,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9872046709060669
+      "bleurt_score": 0.9872046709060669,
+      "score": "5"
     },
     {
       "query": "In which article by Donnelly and Embrechts did warnings and research on CDOs first appear?",
@@ -5362,7 +5659,8 @@
       "bert_score": 0.9999998807907104,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.8033155798912048
+      "bleurt_score": 0.8033155798912048,
+      "score": "1"
     },
     {
       "query": "Who is the focal point of all mystical experiences?",
@@ -5380,7 +5678,8 @@
       "bert_score": 0.9999995827674866,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 0.9097690582275391
+      "bleurt_score": 0.9097690582275391,
+      "score": "5"
     },
     {
       "query": "What are the components of gastric juice?",
@@ -5398,7 +5697,8 @@
       "bert_score": 1.0000001192092896,
       "f1_score": 1.0,
       "rouge_score": 1.0,
-      "bleurt_score": 1.002150535583496
+      "bleurt_score": 1.002150535583496,
+      "score": "5"
     }
   ]
 }

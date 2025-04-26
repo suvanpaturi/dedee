@@ -3,45 +3,15 @@ import json
 from tqdm import tqdm
 from pathlib import Path
 import numpy as np
-import importlib.util
 import string
 import re
 import time
 from collections import Counter
 from evaluate import load
-#from questeval.questeval_metric import QuestEval
 
 bert = load("bertscore")
 rouge = load("rouge")
 bleurt = load("bleurt", "bleurt-large-512")
-#questeval = QuestEval(no_cuda=True)
-
-spec = importlib.util.spec_from_file_location('helper_llm', './experiment/helper_llm.py')
-helper_llm = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(helper_llm)
-    
-prompt = """
-    You are an evaluator whos job is to see if a given answer is a suitable response to a given question.
-    You will evaluate based on:
-    - relevancy
-    - correctness
-    - similarity to actual answer
-    Give a rating from 1 to 5.
-    5 = answer is relevant, answers the given query, and extends actual answer. It is a good quality answer.
-    3 = answer is relevant and somewhat answers query, but is not a good quality answer.
-    1 = answer is not relevant and does not answer the given query.
-    - 2 and 4 are in between.
-    
-    Provide ONLY the rating.
-    
-    Given question: {question}
-    Given answer: {answer}
-    
-    Actual answer: {actual_answer}
-"""
-
-llm = helper_llm.HelperLLM()
-llm.set_prompt(prompt=prompt, type="evaluation")
 
 def get_bert_scores(predictions, actual):
     bert_scores = bert.compute(predictions=predictions, references=actual, lang="en")
@@ -57,19 +27,6 @@ def get_rouge_scores(predictions, actual):
 def get_bleurt_scores(predictions, actual):
     bleurt_scores = bleurt.compute(predictions=predictions, references=actual)
     return bleurt_scores["scores"]
-
-'''
-def get_questeval_scores(predictions, actual, questions):
-    scores = []
-    for question, answer in zip(questions, predictions, actual):
-        result = questeval.compute_all(
-            hypothesis=answer,
-            references=[answer],
-            sources=[question]
-        )
-    scores.append(result['fscore'])
-    return scores
-'''
 
 def normalize_answer(s):
     def remove_articles(text):
@@ -175,17 +132,8 @@ def evaluate(file_path: str):
         })
     pbar.update(1)
     
-    #NEED TO FIX
-    '''
-    rating_results = llm.process_batch(data=eval_results)
-    if len(rating_results) == len(eval_results):
-        for i, result in enumerate(rating_results):
-            eval_results[i]["score"] = result["score"]
-    '''
-    
     predictions = [item["predicted_response"] for item in eval_results]
     references = [item["actual_response"] for item in eval_results]
-    questions = [item["query"] for item in eval_results]
     
     pbar.set_description("Calculating BERT")
     bert_scores = get_bert_scores(predictions, references)["f1"]
@@ -198,7 +146,6 @@ def evaluate(file_path: str):
     pbar.set_description("Calculating BLEURT")
     bleurt_scores = get_bleurt_scores(predictions, references)
     pbar.update(1)
-    #questeval_scores = get_questeval_scores(predictions, references, questions)
     
     # Token-overlap F1
     pbar.set_description("Calculating F1")
@@ -210,7 +157,6 @@ def evaluate(file_path: str):
     print("F1 Scores: ", len(f1_scores))
     print("Rouge Scores: ", len(rouge_scores))
     print("BLEURT Scores: ", len(bleurt_scores))
-    #print("QuestEval Scores: ", len(questeval_scores))
     
     pbar.set_description("Writing scores to file")
 
@@ -219,7 +165,6 @@ def evaluate(file_path: str):
         eval_results[i]["f1_score"] = f1_scores[i]
         eval_results[i]["rouge_score"] = rouge_scores[i]
         eval_results[i]["bleurt_score"] = bleurt_scores[i]
-        #eval_results[i]["questeval_score"] = questeval_scores[i]
                
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"results": eval_results}, f, indent=2)
@@ -230,7 +175,9 @@ def evaluate(file_path: str):
 #gemma2b 
 path_finqa_gemma = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/gemma:2b/finqa/20250418_102834/all_results.json"
 #phi3:3b
-path_finqa_phi3 = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/finqa/20250418_123737/all_results.json"
+path_finqa_phi3 = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/finqa/20250424_234434/all_results.json"
+#"/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/phi3:3.8b/finqa/20250418_123737/all_results.json"
+
 #qwen2.5:3b
 path_finqa_qwen = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan.paturi@gmail.com/My Drive/Research/dedee/experiment/response/qwen2.5:3b/finqa/20250418_144247/all_results.json"
 
@@ -264,7 +211,7 @@ path_scienceqa_qwen = "/Users/suvanpaturi/Library/CloudStorage/GoogleDrive-suvan
 
 if __name__ == "__main__":
     #evaluate(path_finqa_gemma)
-    #evaluate(path_finqa_phi3)
+    evaluate(path_finqa_phi3)
     #evaluate(path_finqa_qwen)
     
     #evaluate(path_hotpota_gemma)
@@ -277,4 +224,4 @@ if __name__ == "__main__":
     
     #evaluate(path_scienceqa_gemma)
     #evaluate(path_scienceqa_phi3)
-    evaluate(path_scienceqa_qwen)
+    #evaluate(path_scienceqa_qwen)
